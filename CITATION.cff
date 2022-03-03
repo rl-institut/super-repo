@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it using these metadata."
 authors:
   - family-names: "Hülk"
     given-names: "Ludwig"
@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-4655-2321"
 title: "Super Repo"
 type: software
+license: MIT
 version: 0.0.0
 doi: 
 date-released: 2022-03-03
