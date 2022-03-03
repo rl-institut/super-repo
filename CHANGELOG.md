@@ -26,7 +26,7 @@ Template:
 - CONTRIBUTING.md [(#2)](https://github.com/rl-institut/super-repo/pull/2)
 - USERS.cff [(#2)](https://github.com/rl-institut/super-repo/pull/2)
 - CODE_OF_CONDUCT.md [(#3)](https://github.com/rl-institut/super-repo/pull/3)
-- CHANGELOG.md [(#5)](https://github.com/rl-institut/super-repo/pull/5)
+- CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
 
 
 ## [0.0.1] Initial Release - Hello Super-Repo - 2022-03-03
