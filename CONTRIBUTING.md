@@ -163,4 +163,14 @@ Follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull
 
 Follow the GitHub guide [deleting a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#deleting-a-branch).
 
- 
+#### 5. Close the issue
+
+Document the result in a few sentences and close the issue.
+Check that all steps have been documented:
+
+- Issue title describes the problem you solved?
+- All commit messages are linked in the issue?
+- The branch was deleted?
+- Entry in CHANGELOG.md?
+- PR is closed?
+- Issue is closed?
