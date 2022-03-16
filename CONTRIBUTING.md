@@ -67,7 +67,7 @@ git checkout -b feature-1314-my-feature
 
 **type**
 
-* master / main / stable - includes the current stable version
+* main / stable / (master) - includes the current stable version
 * develop - includes all current developments
 * feature - includes the feature that will be implemented
 * hotfix - includes small improvements before an release, should be branched from a release branch
