@@ -116,7 +116,8 @@ Edit the commit message of your latest commit:
 git commit --amend
 ```
 
-### 3. Push your `local` branch on the remote server `origin`
+### 3. Push your commits
+Push your `local` branch on the remote server `origin`. <br>
 If your branch does not exist on the remote server yet, use:
 
 ```bash
