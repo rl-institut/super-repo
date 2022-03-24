@@ -5,7 +5,7 @@
 - [GitHub](https://github.com/)
 
 ## Types of interaction
-This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repo/blob/main/CODE_OF_CONDUCT.md). 
+This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repo/blob/main/CODE_OF_CONDUCT.md). <br>
 Please be self-reflective and always maintain a good culture of discussion and active participation.
 
 ### A. Use
@@ -34,9 +34,9 @@ The workflow for contributing to this project has been inspired by the workflow 
 ### 1. Describe the issue on GitHub
 Create [an issue](https://help.github.com/en/articles/creating-an-issue)
 in the GitHub repository. 
-The `issue title` describes the problem you will address. 
+The `issue title` describes the problem you will address.  <br>
 This is an important step as it forces one to think about the "issue".
-Make a checklist for all needed steps.
+Make a checklist for all needed steps if possible.
 
 ### 2. Solve the issue locally
 
@@ -109,7 +109,7 @@ Examples of commit message: `Added function with some method #42` or `Update doc
 
 #### 2.4 Fix your latest commit message
 You want to improve your latest commit message? 
-Your latest commit is not pushed yet? 
+Your latest commit is not pushed yet? <br>
 Edit the commit message of your latest commit:
 
 ```bash
@@ -131,11 +131,9 @@ git push
 
 ### 4. Submit a pull request (PR)
 Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request).
-The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`.
-
+The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`. <br>
 Add the line `Close #<issue-number>` in the description of your PR.
-When it is merged, it [automatically closes](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the issue.
-
+When it is merged, it [automatically closes](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the issue. <br>
 Assign a reviewer and get in contact.
 
 #### 4.0. Review the PR
@@ -149,7 +147,7 @@ Follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull
 Follow the GitHub guide [deleting a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#deleting-a-branch).
 
 ### 5. Close the issue
-Document the result in a few sentences and close the issue.
+Document the result in a few sentences and close the issue. <br>
 Check that all steps have been documented:
 
 - Issue title describes the problem you solved?
