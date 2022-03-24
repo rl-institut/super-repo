@@ -5,6 +5,8 @@
 - [GitHub](https://github.com/)
 
 ## Types of interaction
+This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repo/blob/main/CODE_OF_CONDUCT.md). 
+Please be self-reflective and always maintain a good culture of discussion and active participation.
 
 ### A. Use
 Since the open license allows free use, no notification is required. 
