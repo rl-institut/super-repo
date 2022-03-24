@@ -58,7 +58,7 @@ git checkout -b feature-1314-my-feature
 
 Naming convention for branches: `type`-`issue-nr`-`short-description`
 
-##### type
+##### `type`
 * main / stable / (master) - includes the current stable version
 * develop - includes all current developments
 * feature - includes the feature that will be implemented
@@ -67,14 +67,14 @@ Naming convention for branches: `type`-`issue-nr`-`short-description`
 
 The majority of the development will be done in `feature` branches.
 
-##### issue-nr
+##### `issue-nr`
 The `issueNumber` should be taken from Step 1. Do not use the "#". 
 
-##### short-description
+##### `short-description`
 Describe shortly what the branch is about. 
 Avoid long and short descriptive names for branches, 2-4 words are optimal.
 
-Other hints:
+##### Other hints
 - Separate words with `-` (minus)
 - Avoid using capital letters
 - Do not put your name to the branch name, it's a collaborative project
