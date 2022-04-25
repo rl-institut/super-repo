@@ -91,7 +91,13 @@ Examples of branch names: `feature-42-add-new-ontology-class` or `feature-911-br
 On first commit to the repo:
 - Add your name and details to CITATION.cff
 
-#### 2.3. Commit your changes 
+#### 2.3. Commit your changes
+If the file does not exist on the remote server yet, use:
+```bash
+git add filename.md
+``` 
+
+Then commit regularly with:
 ```bash
 git commit filename.md
 ``` 
