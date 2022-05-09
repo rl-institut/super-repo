@@ -2,15 +2,7 @@
 super-repo
 ==========
 
-** A template repo to test and document elements and features for research software.
-
-
-Badges
-======
-
-
-Contents
-========
+**A template repo to test and document elements and features for research software.**
 
 .. contents::
     :depth: 2
@@ -18,6 +10,12 @@ Contents
     :backlinks: top
 
 .. section-numbering::
+
+
+Badges
+======
+|badge_license|
+
 
 
 Introduction
@@ -34,4 +32,8 @@ Collaboration
 
 License and Citing
 ==================
+
+.. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
+    target: LICENSE
+    :alt: License
 
