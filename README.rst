@@ -30,7 +30,8 @@ Collaboration
 License and Citing
 ==================
 
-.. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo/
-    target: LICENSE
+.. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
+
+    target: LICENSE.txt
     :alt: License
 
