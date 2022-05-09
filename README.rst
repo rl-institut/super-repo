@@ -11,9 +11,6 @@ super-repo
     :local:
     :backlinks: top
 
-.. section-numbering::
-
-
 
 Introduction
 ============
