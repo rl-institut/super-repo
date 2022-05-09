@@ -5,7 +5,9 @@ super-repo
 **A template repo to test and document elements and features for research software.**
 
 -----
+
 |badge_license|
+
 -----
 
 .. contents::
