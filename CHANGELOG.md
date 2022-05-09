@@ -29,6 +29,10 @@ Template:
 - CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
 
 
-## [0.0.1] Initial Release - Hello Super-Repo - 2022-03-03
+## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
 
 ### Added
+- GitHub repository
+- .gitignore
+- LICENSE (MIT License)
+- GitHub projects for software versioning
