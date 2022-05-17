@@ -54,8 +54,12 @@ Update with the latest version:
 git pull
 ```
 
+##### Permanent branches
+* production - includes the current stable version
+* develop - includes all current developments
+
 #### 2.1. Create a new (local) branch
-Create a new branch:
+Create a new feature branch:
 ```bash
 git checkout -b feature-1314-my-feature
 ```
@@ -63,8 +67,6 @@ git checkout -b feature-1314-my-feature
 Naming convention for branches: `type`-`issue-nr`-`short-description`
 
 ##### `type`
-* main / stable / (master) - includes the current stable version
-* develop - includes all current developments
 * feature - includes the feature that will be implemented
 * hotfix - includes small improvements before an release, should be branched from a release branch
 * release - includes the current version to be released
@@ -84,7 +86,7 @@ Avoid long and short descriptive names for branches, 2-4 words are optimal.
 - Do not put your name to the branch name, it's a collaborative project
 - Branch names should be precise and informative
 
-Examples of branch names: `feature-42-add-new-ontology-class` or `feature-911-branch-naming-convention`
+Examples of branch names: `feature-42-add-new-ontology-class`, `feature-911-branch-naming-convention`, `hotfix-404-update-api`, `release-v0.10.0`
 
 #### 2.2. Start editing the files
 - Divide your feature into small logical units
