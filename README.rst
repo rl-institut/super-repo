@@ -15,7 +15,7 @@ super-repo
    * - Publication
      - Todo (Zenodo)
    * - Community
-     - Todo (Zenodo)
+     - |badge_contributing|
 
 .. contents::
     :depth: 2
@@ -46,5 +46,6 @@ License and Citation
     :target: LICENSE.txt
     :alt: License
 .. |badge_contributing| iamge:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-    :alt: contributions welcome
-
+    :alt: contributions
+.. |badge_repo_counts| iamge:: http://hits.dwyl.com/rl-institut/super-repo.svg
+    :alt: counter
