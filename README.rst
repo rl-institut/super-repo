@@ -32,6 +32,6 @@ License and Citation
 ====================
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
-    target: LICENSE.txt
+    :target: LICENSE.txt
     :alt: License
 
