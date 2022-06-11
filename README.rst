@@ -14,6 +14,8 @@ super-repo
      - 
    * - Publication
      - 
+   * - Development
+     - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
      - |badge_contributing| |badge_contributors| |badge_repo_counts|
 
@@ -57,3 +59,16 @@ License and Citation
 
 .. |badge_contributors| image:: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
     :alt: contributors
+
+.. |badge_issue_open| image:: /github/issues-raw/rl-institut/super-repo
+    :alt: open issues
+
+.. |badge_issue_closes| image:: /github/issues-closed-raw/rl-institut/super-repo
+    :alt: closes issues
+
+.. |badge_pr_open| image:: /github/issues-pr-raw/rl-institut/super-repo
+    :alt: closes issues
+
+.. |badge_pr_closes| image:: /github/issues-pr-closed-raw/rl-institut/super-repo
+    :alt: closes issues
+    
