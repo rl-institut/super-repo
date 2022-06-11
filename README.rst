@@ -1,4 +1,3 @@
-|badge_license|
 
 ==========
 super-repo
@@ -6,19 +5,13 @@ super-repo
 
 **A template repo to test and document elements and features for research software.**
 
-.. list-table:: Title
+.. list-table:: Badges:
    :widths: auto
-   :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+   * - License
+     - |badge_license|
+   * - Documentation
+     - 
 
 .. contents::
     :depth: 2
