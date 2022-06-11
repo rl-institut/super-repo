@@ -15,7 +15,7 @@ super-repo
    * - Publication
      - Todo (Zenodo)
    * - Community
-     - |badge_contributing|
+     - |badge_contributing| |badge_repo_counts|
 
 .. contents::
     :depth: 2
@@ -41,6 +41,9 @@ Collaboration
 
 License and Citation
 ====================
+
+| See LICENSE.txt
+
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
     :target: LICENSE.txt
