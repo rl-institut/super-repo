@@ -7,14 +7,14 @@ super-repo
 
 .. list-table::
    :widths: auto
-
    * - License
      - |badge_license|
    * - Documentation
-     - 
-     
-Contents
-========
+     - Todo
+   * - Publication
+     - Todo (Zenodo)
+   * - Community
+     - Todo (Zenodo)
 
 .. contents::
     :depth: 2
@@ -44,4 +44,6 @@ License and Citation
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
     :target: LICENSE.txt
     :alt: License
+.. |badge_contributing| iamge:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
+    :alt: contributions welcome
 
