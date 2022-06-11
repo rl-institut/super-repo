@@ -11,11 +11,11 @@ super-repo
    * - License
      - |badge_license|
    * - Documentation
-     - Todo
+     - 
    * - Publication
-     - Todo (Zenodo)
+     - 
    * - Community
-     - |badge_contributing| |badge_repo_counts|
+     - |badge_contributing| |badge_contributors| |badge_repo_counts|
 
 .. contents::
     :depth: 2
