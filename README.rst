@@ -5,13 +5,16 @@ super-repo
 
 **A template repo to test and document elements and features for research software.**
 
-.. list-table:: Badges:
+.. list-table::
    :widths: auto
 
    * - License
      - |badge_license|
    * - Documentation
      - 
+     
+Contents
+========
 
 .. contents::
     :depth: 2
