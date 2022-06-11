@@ -7,6 +7,7 @@ super-repo
 
 .. list-table::
    :widths: auto
+
    * - License
      - |badge_license|
    * - Documentation
