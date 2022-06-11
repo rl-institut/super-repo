@@ -54,3 +54,6 @@ License and Citation
 
 .. |badge_repo_counts| image:: http://hits.dwyl.com/rl-institut/super-repo.svg
     :alt: counter
+
+.. |badge_contributors| image:: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
+    :alt: contributors
