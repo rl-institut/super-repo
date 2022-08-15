@@ -26,7 +26,7 @@ super-repo
 
 Introduction
 ============
-| A template repo to test and document elements and features for research software.. 
+| A template repo to test and document elements and features for research software.
 | It implements the collection of repository elements collected in this `Etherpad <https://etherpad.wikimedia.org/p/super-repo>`_.
 | The goal is to simplify and standardise the creation of software in GitHub repositories.
 
