@@ -26,11 +26,12 @@ super-repo
 
 Introduction
 ============
-
+| A template repo to test and document elements and features for research software.. 
+| It implements the collection of repository elements collected in this `Etherpad <https://etherpad.wikimedia.org/p/super-repo>`_.
+| The goal is to simplify and standardise the creation of software in GitHub repositories.
 
 Documentation
 =============
-
 Documentation is in `sphinx
 <http://www.sphinx-doc.org/en/stable/>`_ reStructuredText format 
 in the ``doc`` sub-folder of the repository.
@@ -43,8 +44,9 @@ Collaboration
 
 License and Citation
 ====================
-
-| See LICENSE.txt
+| The code is licensed under the **MIT License** (MIT).
+| See `LICENSE.txt <LICENSE.txt>`_ for further information.
+| Copyright: `© Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
