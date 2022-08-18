@@ -1,17 +1,15 @@
+
 .. figure:: https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg
     :align: left
     :width: 100px
     :target: https://github.com/rl-institut/super-repo/
     :alt: Repo logo
 
-
 ==========
 super-repo
 ==========
 
 **A template repo to test and document elements and features for research software.**
-
-
 
 .. list-table::
    :widths: auto
@@ -52,17 +50,16 @@ Collaboration
 
 License and Citation
 ====================
+| The code of this repository is licensed under the **MIT License** (MIT).
+| See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
+| See the *Cite this repository* function or `CITATION.cff <CITATION.cff>`_ for citation of this repository.
+| Copyright: `super-repo <https://github.com/rl-institut/super-repo/>`_ © `Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
 
 .. figure:: https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png
     :align: left
     :width: 100px
     :target: https://reiner-lemoine-institut.de/
     :alt: Repo logo
-
-| The code of this repository is licensed under the **MIT License** (MIT).
-| See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
-| See the *Cite this repository* function or `CITATION.cff <CITATION.cff>`_ for citation of this repository.
-| Copyright: `super-repo <https://github.com/rl-institut/super-repo/>`_ © `Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
