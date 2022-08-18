@@ -27,14 +27,14 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Add a meaningful Description
 * Track project progress
 
-❗ It gives an overview of open and finished issues and PR
+▶️ It gives an overview of open and finished issues and PR
 
 ### 2. 🐙 Create a `GitHub Issue`
 * Named `Release Patch 0.5.1`
-* Use ISSUE_TEMPLATE_RELEASE (ToDo!)
+* Use `ISSUE_TEMPLATE_RELEASE` (❗ToDo❗)
 * Discuss a good and suitable name of the release
 
-❗ This documents the status of the release
+▶️ This documents the status of the release
 
 ### 3. 🐙 Finish all open developments
 * Some days before the release, inform all developers
@@ -44,23 +44,23 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 
 ### 4. 💠 Create a `release` branch
 * Checkout `develop` and branch with `git checkout -b release-v0.5.1`
-* Push branch with `git push --set-upstream origin ..`
+* Push branch with `git push --set-upstream origin release-v0.5.1`
 
 ### 5. 📝 Update the version files
-* CHANGELOG.md
+* `CHANGELOG.md`
     * All Pull Request are included
     * Add a new section with correct version number
     * Give the suitable name to the release
-* CITATION.cff
+* `CITATION.cff`
     * Update the version number
-* setup.py
+* `setup.py`
     * Update `version`
     * Update `download_url` (.../v0.5.1.tar.gz)
-* CI
+* **CI**
     * Update `download_url`
 
 ### 6. 🐙 Create a `Release Pull Request` on `production` branch
-* Use PR_TEMPLATE_RELEASE (ToDo!)
+* Use `PR_TEMPLATE_RELEASE` (❗ToDo❗)
 * Assign two reviewers to check the release
 * Run all test
 * Execute the software locally
@@ -87,21 +87,21 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Check on PyPi if release arrived
 * Breath three times and smile
 
-❗ Publish the package 📦
+▶️ Publish the Package 📦
 
 ### 9. 🐙 Create a `GitHub Release`
 * https://github.com/GROUP/REPO/releases/new
 * Choose the correct git `tag`
 * Enter the version number as title
 * Summarize key changes in the description
-    * Add a link to the CHANGELOG.md section
+    * Add a link to the `CHANGELOG.md` section
         * `A comprehensive list of additions, changes and deletions can be found at [**CHANGELOG.md**](https://github.com/GROUP/REPO/blob/production/CHANGELOG.md)`
     * Add a link to compare versions
         * `**Compare versions:** [v0.5.0 - v0.5.1](https://github.com/OpenEnergyPlatform/open-MaStR/compare/v0.5.0...v0.5.1)`
 * `Save draft`
 * Publish release
-    * ❓ There is a reason to first make a draft, but I don't know why (ToDo)
-    * ❓ Move this section before the PyPi upload???
+    * ❓ There is a reason to first make a draft, but I don't know why (❗ToDo❗)
+    * ❓ Move this section before the PyPi upload? (❗ToDo❗)
 
 ### 10. 🐙 Setup new release
 * Create a Pull request from `production` to `develop`
