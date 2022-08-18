@@ -21,12 +21,13 @@ Template:
 ## [Unreleased]
 
 ### Added
-- [LICENSE](https://github.com/rl-institut/super-repo/blob/main/LICENSE)
+- [LICENSE.txt](https://github.com/rl-institut/super-repo/blob/main/LICENSE.txt)
 - CITATION.cff [(#2)](https://github.com/rl-institut/super-repo/pull/2)
 - CONTRIBUTING.md [(#2)](https://github.com/rl-institut/super-repo/pull/2)
 - USERS.cff [(#2)](https://github.com/rl-institut/super-repo/pull/2)
 - CODE_OF_CONDUCT.md [(#3)](https://github.com/rl-institut/super-repo/pull/3)
 - CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
+- README.rst [(#10)](https://github.com/rl-institut/super-repo/pull/10)
 
 
 ## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
@@ -35,4 +36,4 @@ Template:
 - GitHub repository
 - .gitignore
 - LICENSE (MIT License)
-- GitHub projects for software versioning
+- [GitHub Projects](https://github.com/rl-institut/super-repo/projects?type=classic) for software versioning
