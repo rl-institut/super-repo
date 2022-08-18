@@ -44,9 +44,10 @@ Collaboration
 
 License and Citation
 ====================
-| The code is licensed under the **MIT License** (MIT).
-| See `LICENSE.txt <LICENSE.txt>`_ for further information.
-| Copyright: `© Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_
+| The code of this repository is licensed under the **MIT License** (MIT).
+| See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
+| See the *Cite this repository* function or `CITATION.cff <CITATION.cff>`_ for citation of this repository.
+| Copyright: `super-repo <https://github.com/rl-institut/super-repo/>`_`© Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
