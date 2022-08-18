@@ -5,6 +5,9 @@ super-repo
 
 **A template repo to test and document elements and features for research software.**
 
+.. image:: https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png
+    :align: center
+
 .. list-table::
    :widths: auto
 
