@@ -3,11 +3,9 @@
     :width: 100px
     :alt: Repo logo
 
-.. figure:: https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png
-    :align: right
-    :width: 100px
-    :alt: Institut logo
+.. raw:: html
 
+   <img src="https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png" align="right" width="100px" alt="Institut logo">
 
 ==========
 super-repo
