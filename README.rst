@@ -5,7 +5,7 @@
 
 .. raw:: html
 
-   <img src="https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png" align="right" style="vertical-align: text-top;" width="100px" alt="Institut logo">
+   <img src="https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png" align="middle" width="100px" alt="Institut logo">
 
 ==========
 super-repo
