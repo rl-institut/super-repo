@@ -106,7 +106,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 
 ### 10. 🐙 Setup new release
 * Create a Pull request from *production* to *develop*
-* Create a new *unreleased section* in the 📝**CHANGELOG.md** 📝`CHANGELOG.md`
+* Create a new *unreleased section* in the 📝**CHANGELOG.md** 📝`CHANGELOG.md` `📝CHANGELOG.md`
 
 
 ## Documentation on Read the Docs (RTD)
