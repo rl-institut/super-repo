@@ -1,3 +1,13 @@
+.. figure:: https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg
+    :align: left
+    :width: 100px
+    :alt: Repo logo
+
+.. figure:: https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png
+    :align: right
+    :width: 100px
+    :alt: Institut logo
+
 
 ==========
 super-repo
@@ -5,8 +15,7 @@ super-repo
 
 **A template repo to test and document elements and features for research software.**
 
-.. image:: https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png
-    :align: center
+
 
 .. list-table::
    :widths: auto
