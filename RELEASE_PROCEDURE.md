@@ -20,7 +20,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 
 ## GitHub and PyPI release
 
-1. 🐙 Create a **GitHub Project**
+### 1. 🐙 Create a **GitHub Project**
 * https://github.com/GROUP/REPO/projects?type=classic
 * Use the project template 'Automated kanban with reviews'
 * Named 'Release v0.5.1'
@@ -29,23 +29,23 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 
 -> It gives an overview of open and finished issues and PR
 
-2. 🐙 Create a **GitHub Issue**
+### 2. 🐙 Create a **GitHub Issue**
 * Named 'Release Patch 0.5.1'
 * Use ISSUE_TEMPLATE_RELEASE (ToDo!)
 * Discuss a good and suitable name of the release
 
 -> This documents the status of the release
 
-3. 🐙 Finish all open developments and merge the open Pull Requests
+### 3. 🐙 Finish all open developments and merge the open Pull Requests
 * Some days before the release, inform all developers
 * On release day, start the release early to ensure sufficient time for reviews
 * Merge everything on the 'develop' branch
 
-4. 💠 Create a **release branch**
+### 4. 💠 Create a **release branch**
 * Checkout 'develop' and branch with 'git checkout -b release-v0.5.1'
 * Push branch with 'git push --set-upstream origin ..'
 
-5. 📝 Update the version files
+### 5. 📝 Update the version files
 * CHANGELOG.md
     * All Pull Request are included
     * Add a new section with correct version number
@@ -58,7 +58,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * CI
     * Update 'download_url'
 
-6. 🐙 Create a **Release Pull Request** on 'production' branch
+### 6. 🐙 Create a **Release Pull Request** on 'production' branch
 * Use PR_TEMPLATE_RELEASE (ToDo!)
 * Assign two reviewers to check the release
 * Run all test
@@ -66,7 +66,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Wait for reviews and tests
 * Merge PR but do not delete release branch
     
-7. 💠 Set the **git Tag**
+### 7. 💠 Set the **git Tag**
 * Checkout 'production' branch and pull
 * Check existing tags 'git tag -n'
 * Create new tag: 'git tag -a v0.5.1 -m "super-repo Patch Release v0.5.1 with PyPi"
@@ -76,7 +76,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
     * Delete local tag: 'git tag -d v0.5.1'
     * Delete remote tag: 'git push --delete origin v0.5.1'
 
-8. 💻 Create and publish package on PyPi
+### 8. 💻 Create and publish package on PyPi
 * Navigate to git folder 'cd D:\git\github\GROUP\REPO'
 * Create package using 'python setup.py sdist'
 * Check that file has been created in folder 'dist'
@@ -86,7 +86,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Check on PyPi if release arrived
 * Breath three times and smile
 
-9. 🐙 Create a **GitHub Release**
+### 9. 🐙 Create a **GitHub Release**
 * https://github.com/GROUP/REPO/releases/new
 * Choose the correct git 'tag'
 * Enter the version number as title
@@ -96,9 +96,11 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
     * Add a link to compare versions
         * '**Compare versions:** [v0.5.0 - v0.5.1](https://github.com/OpenEnergyPlatform/open-MaStR/compare/v0.5.0...v0.5.1)'
 * 'Save draft'
-* 
+* Publish release
+    * There is a reason to first make a draft, but I don't know why (ToDo)
+    * Move this section before the PyPi upload???
 
-10. 🐙 Setup new release
+### 10. 🐙 Setup new release
 * Create a Pull request from 'production' to 'develop'
 * Create a new 'unreleased section' in the CHANGELOG.md
 
