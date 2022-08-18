@@ -1,11 +1,15 @@
+.. figure:: https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg
+    :align: left
+    :width: 100px
+    :alt: Repo logo
 
 .. raw:: html
 
-   <img src="https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg" align="left" style="vertical-align: top;" width="100px" alt="Repo logo">
+   <img src="https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg" align="left" style="vertical-align: text-top;" width="100px" alt="Repo logo">
 
 .. raw:: html
 
-   <img src="https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png" align="right" style="vertical-align: top;" width="100px" alt="Institut logo">
+   <img src="https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png" align="top" style="vertical-align: top;" width="100px" alt="Institut logo">
 
 ==========
 super-repo
