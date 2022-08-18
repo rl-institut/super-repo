@@ -1,7 +1,7 @@
-.. figure:: https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg
-    :align: left
-    :width: 100px
-    :alt: Repo logo
+
+.. raw:: html
+
+   <img src="https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg" align="left" width="100px" alt="Repo logo">
 
 .. raw:: html
 
