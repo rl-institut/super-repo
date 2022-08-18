@@ -1,11 +1,9 @@
 .. figure:: https://user-images.githubusercontent.com/14353512/185414840-9143c813-c65c-4889-b838-e08085a85382.svg
     :align: left
     :width: 100px
+    :target: https://github.com/rl-institut/super-repo/
     :alt: Repo logo
 
-.. raw:: html
-
-   <img src="https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png" align="middle" width="100px" alt="Institut logo">
 
 ==========
 super-repo
@@ -54,6 +52,13 @@ Collaboration
 
 License and Citation
 ====================
+
+.. figure:: https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png
+    :align: left
+    :width: 100px
+    :target: https://reiner-lemoine-institut.de/
+    :alt: Repo logo
+
 | The code of this repository is licensed under the **MIT License** (MIT).
 | See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
 | See the *Cite this repository* function or `CITATION.cff <CITATION.cff>`_ for citation of this repository.
