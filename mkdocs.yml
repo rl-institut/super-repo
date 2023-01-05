@@ -4,8 +4,10 @@ repo_url: https://github.com/rl-institut/super-repo
 repo_name: Super-Repo
 nav:
   - Home: index.md
-  - Super-Repo: field_git.md
-  - Developer: field_collaboration.md
+  - Collaboration: field_collaboration.md
+  - Git: field_git.md
+  - Documentation: field_documentation.md
+
 theme:
   name: material
   logo: img/logo_rli_small.png
@@ -26,9 +28,5 @@ theme:
 extra:
   generator: false
 
-
-
 extra_css:
   - css/extra.css
-    
-    # primary: "#1F567D"

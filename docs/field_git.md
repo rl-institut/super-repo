@@ -1,7 +1,7 @@
-# Super-repo developement
+# GIT
 
-## Publish
-
-Publish mkdocs project on github pages (requires permissions on repository)
-
-* `mkdocs gh-deploy` manually deploy the local docs files to github pages
+- .gitignore
+- .github
+- issue_template
+- pull_request_template
+- workflows (testing)

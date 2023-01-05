@@ -1,14 +1,8 @@
-# Introduction
+# COLLABORATION
 
-We created the super-repo to collect all best-practice around repository
-management to improve the quality and reproducability on tasks and features
-like: 
-
-* present results 
-* create documentaion
-* link to other ressources
-* community communication
-* latest changes
-* discussions
-* blogs
-* ...
+- CONTRIBUTING.md
+- LICENSE.txt
+- CITATION.cff
+- USERS.cff
+- CODE_OF_CONDUCT.md
+- Community (forum, channel, meeting, SC)
