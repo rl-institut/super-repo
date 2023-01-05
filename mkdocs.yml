@@ -1,14 +1,14 @@
-site_name: RLI Super Docs
-docs_dir: super-docs/docs
+site_name: Super-Repo Documentation
+docs_dir: docs
 repo_url: https://github.com/rl-institut/super-repo
-repo_name: RLI/super-repo
+repo_name: Super-Repo
 nav:
   - Home: index.md
-  - Super-Repo: super-example-page.md
-  - Developer: super-developer.md
+  - Super-Repo: field_git.md
+  - Developer: field_collaboration.md
 theme:
   name: material
-  logo: img/rli-logo.png
+  logo: img/logo_rli_small.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -29,6 +29,6 @@ extra:
 
 
 extra_css:
-  - stylesheets/extra.css
+  - css/extra.css
     
     # primary: "#1F567D"
