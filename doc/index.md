@@ -1,7 +1,7 @@
 ---
 hide:
   - footer
-
+  - toc
 ---
 
 # Welcome to the Super-Repo Documentation

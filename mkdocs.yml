@@ -1,13 +1,14 @@
+# Project
 site_name: Super-Repo Documentation
-docs_dir: docs
-repo_url: https://github.com/rl-institut/super-repo
-repo_name: Super-Repo
-nav:
-  - Home: index.md
-  - Collaboration: field_collaboration.md
-  - Git: field_git.md
-  - Documentation: field_documentation.md
+site_url: 
+site_description: Write your documentation in Markdown and create a static page for your developer and user community
 
+# Repository
+repo_name: Super-Repo
+repo_url: https://github.com/rl-institut/super-repo
+docs_dir: doc
+
+# Configuration
 theme:
   name: material
   logo: img/logo_rli_small.png
@@ -24,9 +25,32 @@ theme:
         name: Switch to dark mode
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
 
+# Customization
 extra:
   generator: false
 
 extra_css:
   - css/extra.css
+
+# Navigation
+nav:
+  - Home: index.md
+  - Collaboration: 
+    - collaboration/index.md
+    - License: collaboration/license.md
+    - Citation: collaboration/citation.md
+    - Contributing: collaboration/contributing.md
+    - Users: collaboration/users.md
+    - Code of Conduct: collaboration/code_of_conduct.md
+  - Git: 
+    - git/index.md
+  - Documentation:
+    - documentation/index.md
