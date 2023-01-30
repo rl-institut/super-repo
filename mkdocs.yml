@@ -54,3 +54,5 @@ nav:
     - git/index.md
   - Documentation:
     - documentation/index.md
+  - Release:
+    - release/index.md
