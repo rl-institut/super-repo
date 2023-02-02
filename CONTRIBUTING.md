@@ -4,8 +4,8 @@
 # Collaborative Development
 
 ## Prerequisites
-- [Git](https://git-scm.com/)
-- [GitHub](https://github.com/)
+- [GitHub](https://github.com/) as a public repository. Please create an account.
+- [Git](https://git-scm.com/) for version control. [Git How To](https://githowto.com/) and [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf) provide an introduction into working with Git.
 
 ## Types of interaction
 This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repo/blob/main/CODE_OF_CONDUCT.md). <br>
