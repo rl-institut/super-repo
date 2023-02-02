@@ -6,7 +6,7 @@ site_description: Write your documentation in Markdown and create a static page 
 # Repository
 repo_name: Super-Repo
 repo_url: https://github.com/rl-institut/super-repo
-docs_dir: doc
+docs_dir: docs
 
 # Configuration
 theme:
@@ -26,6 +26,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.path
@@ -43,16 +45,20 @@ extra_css:
 # Navigation
 nav:
   - Home: index.md
-  - Collaboration: 
-    - collaboration/index.md
-    - License: collaboration/license.md
-    - Citation: collaboration/citation.md
-    - Contributing: collaboration/contributing.md
-    - Users: collaboration/users.md
-    - Code of Conduct: collaboration/code_of_conduct.md
-  - Git: 
-    - git/index.md
-  - Documentation:
-    - documentation/index.md
-  - Release:
-    - release/index.md
+  - Getting started:
+    - Collaboration:
+      - collaboration/index.md
+      - License: collaboration/license.md
+      - Citation: collaboration/citation.md
+      - Contributing: collaboration/contributing.md
+      - Users: collaboration/users.md
+      - Code of Conduct: collaboration/code_of_conduct.md
+    - Git:
+      - git/index.md
+    - Documentation:
+      - documentation/index.md
+    - Release:
+      - release/index.md
+  - Code Functions:
+    - Git:
+      - git/index.md
