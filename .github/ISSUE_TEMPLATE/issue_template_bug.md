@@ -11,6 +11,7 @@ assignees: ''
 
 Describe the problem in as much detail as possible.
 Focus on the expected and current behavior. 
+If necessary, create a screenshot and insert below.
 
 ## Steps to Reproduce
 1.
