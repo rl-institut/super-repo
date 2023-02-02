@@ -2,7 +2,7 @@
 
 - README.rst
 - CHANGELOG.md
-- doc/
+- docs/
 - MkDocs
 - mkdocstrings
 
