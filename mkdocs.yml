@@ -4,7 +4,7 @@ site_url:
 site_description: Write your documentation in Markdown and create a static page for your developer and user community
 
 # Repository
-repo_name: Super-Repo
+repo_name: rl-institut/super-repo
 repo_url: https://github.com/rl-institut/super-repo
 docs_dir: docs
 
@@ -61,4 +61,4 @@ nav:
       - release/index.md
   - Code Documentation:
     - Install:
-      - git/index.md
+      - install/index.md

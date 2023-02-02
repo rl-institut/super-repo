@@ -6,11 +6,11 @@ hide:
 
 # Welcome to the Super-Repo Documentation
 
-A template repo to test and document elements and features for research software.
-It implements the collection of repository elements.
+A template repo to test and document elements and features for research software. <br>
+It implements the collection of repository elements and files. <br>
 The goal is to simplify and standardise the creation of software in GitHub repositories.
 
-## Fields for repo elements:
+## Fields for development:
 
 - COLLABORATION
 - GIT

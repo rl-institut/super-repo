@@ -1,4 +1,4 @@
-# DOCUMENTATION 
+# Documentation
 
 - README.rst
 - CHANGELOG.md
