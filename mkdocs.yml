@@ -45,7 +45,7 @@ extra_css:
 # Navigation
 nav:
   - Home: index.md
-  - Getting started:
+  - Development:
     - Collaboration:
       - collaboration/index.md
       - License: collaboration/license.md
@@ -59,6 +59,6 @@ nav:
       - documentation/index.md
     - Release:
       - release/index.md
-  - Code Functions:
-    - Git:
+  - Code Documentation:
+    - Install:
       - git/index.md
