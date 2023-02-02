@@ -28,6 +28,7 @@ Template:
 - CODE_OF_CONDUCT.md [(#3)](https://github.com/rl-institut/super-repo/pull/3)
 - CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
 - README.rst [(#10)](https://github.com/rl-institut/super-repo/pull/10)
+- Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
 
 ### Changed
 - Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
