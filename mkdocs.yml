@@ -35,6 +35,13 @@ theme:
     - navigation.top
     - toc.follow
 
+# extensions 
+markdown_extensions:
+  - admonition
+
+plugins:
+- mkdocstrings:
+
 # Customization
 extra:
   generator: false
@@ -61,4 +68,10 @@ nav:
       - release/index.md
   - Code Documentation:
     - Install:
-      - install/index.md
+      - git/index.md
+    - Guidelines:
+      - git/code-guidelines.md
+    - Workflows:
+      - Test Driven Development: 
+        - git/test-driven-developement-workflow.md
+
