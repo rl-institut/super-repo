@@ -70,8 +70,8 @@ nav:
     - Install:
       - git/index.md
     - Guidelines:
-      - git/code-guidelines.md
+      - git/code-style.md
+      - git/code-documentation.md
     - Workflows:
-      - Test Driven Development: 
-        - git/test-driven-developement-workflow.md
+      - git/test-driven-developement-workflow.md
 
