@@ -35,6 +35,13 @@ theme:
     - navigation.top
     - toc.follow
 
+# extensions 
+markdown_extensions:
+  - admonition
+
+plugins:
+- mkdocstrings:
+
 # Customization
 extra:
   generator: false
@@ -62,3 +69,8 @@ nav:
   - Code Documentation:
     - Install:
       - install/index.md
+    - Code Style:
+        - style/index.md
+    - Functions:
+      - code/index.md
+      - code/code_example.md
