@@ -30,6 +30,10 @@ Template:
 - README.rst [(#10)](https://github.com/rl-institut/super-repo/pull/10)
 - Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
 
+### Changed
+- Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
+
+
 ## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
 
 ### Added
