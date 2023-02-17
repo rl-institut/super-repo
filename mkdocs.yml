@@ -62,6 +62,7 @@ nav:
       - Code of Conduct: collaboration/code_of_conduct.md
     - Git:
       - git/index.md
+      - Gitignore: git/gitignore.md
     - Documentation:
       - documentation/index.md
     - Release:
