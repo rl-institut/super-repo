@@ -68,10 +68,9 @@ nav:
       - release/index.md
   - Code Documentation:
     - Install:
-      - git/index.md
-    - Guidelines:
-      - git/code-style.md
-      - git/code-documentation.md
-    - Workflows:
-      - git/test-driven-developement-workflow.md
-
+      - install/index.md
+    - Code Style:
+        - style/index.md
+    - Functions:
+      - code/index.md
+      - code/code_example.md
