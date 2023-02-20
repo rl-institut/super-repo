@@ -38,6 +38,8 @@ theme:
 # extensions 
 markdown_extensions:
   - admonition
+  - toc:
+      permalink: 💙
 
 plugins:
 - mkdocstrings:
