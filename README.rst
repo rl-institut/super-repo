@@ -54,7 +54,9 @@ License and Citation
     :target: LICENSE.txt
     :alt: License
 
-.. |badge_documentation| ToDo!
+.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/gh-pages.yml?branch=production
+    :target: \docs
+    :alt: Documentation
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
     :alt: contributions
@@ -76,4 +78,3 @@ License and Citation
 
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :alt: closes issues
-    
