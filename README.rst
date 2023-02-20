@@ -11,7 +11,7 @@ super-repo
    * - License
      - |badge_license|
    * - Documentation
-     - 
+     - |badge_documentation|
    * - Publication
      - 
    * - Development
@@ -53,6 +53,8 @@ License and Citation
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
     :target: LICENSE.txt
     :alt: License
+
+.. |badge_documentation| ToDo!
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
     :alt: contributions
