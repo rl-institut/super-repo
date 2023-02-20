@@ -55,7 +55,7 @@ License and Citation
     :alt: License
 
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/gh-pages.yml?branch=production
-    :target: \docs
+    :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
