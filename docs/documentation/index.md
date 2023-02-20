@@ -10,19 +10,23 @@
 ## MkDocs
 
 ### Install
+Install the required packages. <br>
 `pip install mkdocs` install MkDocs <br>
-`pip install mkdocs-material` install the material theme <br>
+`pip install mkdocs-material` install the material theme
 
 ### Build
-`mkdocs serve` start the local live version of the documentation
-
-`mkdocs build` build the documentation
+Generate the documentation. <br>
+`mkdocs serve` start the local live version of the documentation <br>
+`mkdocs build` create a folder `site` with the documentation
 
 ### Publish
-Publish MkDocs project on **GitHub Pages** (requires permissions on repository) <br>
-`mkdocs gh-deploy` manually deploy the local docs files to github pages
 
-Deploy with **GitHub Actions** 
-The file `.github\workflows\gh-pages.yml` creates an automated GitHub workflow.
-It is configured that it is pushed to the branch `gh-page` and then deployed online.
+#### Manually
+Publish documentation on **GitHub Pages**. <br>
+`mkdocs gh-deploy` manually deploys the documentation files
+
+#### GitHub Action
+Deploy the documentation with **GitHub Actions**. <br>
+The file `.github\workflows\gh-pages.yml` creates an automated GitHub workflow. <br>
+It is configured to be pushed to the branch `gh-page` and then deployed online. <br>
 A commit on the `production` branch triggers the workflow. 
