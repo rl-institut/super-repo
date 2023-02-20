@@ -32,6 +32,7 @@ Template:
 - Add example code with google docstrings [(#20)](https://github.com/rl-institut/super-repo/pull/20)
 - Add `requirements.txt` for python environment dependencies [(#20)](https://github.com/rl-institut/super-repo/pull/20)
 - Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
+- Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repo/pull/25)
 
 ### Changed
 - Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
