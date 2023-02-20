@@ -38,6 +38,8 @@ theme:
 # extensions 
 markdown_extensions:
   - admonition
+  - toc:
+      permalink: 💙
 
 plugins:
 - mkdocstrings:
@@ -54,24 +56,24 @@ nav:
   - Home: index.md
   - Development:
     - Collaboration:
-      - collaboration/index.md
-      - License: collaboration/license.md
-      - Citation: collaboration/citation.md
-      - Contributing: collaboration/contributing.md
-      - Users: collaboration/users.md
-      - Code of Conduct: collaboration/code_of_conduct.md
+      - development/collaboration/index.md
+      - License: development/collaboration/license.md
+      - Citation: development/collaboration/citation.md
+      - Contributing: development/collaboration/contributing.md
+      - Users: development/collaboration/users.md
+      - Code of Conduct: development/collaboration/code_of_conduct.md
     - Git:
-      - git/index.md
-      - Gitignore: git/gitignore.md
+      - development/git/index.md
+      - Gitignore: development/git/gitignore.md
     - Documentation:
-      - documentation/index.md
+      - development/documentation/index.md
     - Release:
-      - release/index.md
+      - development/release/index.md
   - Code Documentation:
     - Install:
-      - install/index.md
+      - code/install/index.md
     - Code Style:
-        - style/index.md
+      - code/style/index.md
     - Functions:
       - code/index.md
       - code/code_example.md
