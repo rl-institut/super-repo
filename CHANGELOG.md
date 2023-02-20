@@ -37,6 +37,9 @@ Template:
 ### Changed
 - Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
 
+### Removed
+- Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
+
 
 ## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
 
