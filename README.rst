@@ -32,10 +32,10 @@ Introduction
 
 Documentation
 =============
-The documentation is created with Markdown using `MkDocs <https://www.mkdocs.org/>`_. <br>
-All files are stored in the ``docs`` folder of the repository. <br>
-A **GitHub Actions** deploys the ``production`` branch on a **GitHub Page**. <br>
-The page is `rl-institut.github.io/super-repo/ <https://rl-institut.github.io/super-repo/>`_
+| The documentation is created with Markdown using `MkDocs <https://www.mkdocs.org/>`_.
+| All files are stored in the ``docs`` folder of the repository.
+| A **GitHub Actions** deploys the ``production`` branch on a **GitHub Page**.
+| The documentation page is `rl-institut.github.io/super-repo/ <https://rl-institut.github.io/super-repo/>`_
 
 Collaboration
 =============
