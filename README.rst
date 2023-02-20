@@ -32,10 +32,10 @@ Introduction
 
 Documentation
 =============
-Documentation is in `sphinx
-<http://www.sphinx-doc.org/en/stable/>`_ reStructuredText format 
-in the ``doc`` sub-folder of the repository.
-
+The documentation is created with Markdown using `MkDocs <https://www.mkdocs.org/>`_. <br>
+All files are stored in the ``docs`` folder of the repository. <br>
+A **GitHub Actions** deploys the ``production`` branch on a **GitHub Page**. <br>
+The page is `rl-institut.github.io/super-repo/ <https://rl-institut.github.io/super-repo/>`_
 
 Collaboration
 =============
