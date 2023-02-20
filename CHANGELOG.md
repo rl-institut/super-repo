@@ -33,9 +33,11 @@ Template:
 - Add `requirements.txt` for python environment dependencies [(#20)](https://github.com/rl-institut/super-repo/pull/20)
 - Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
 - Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repo/pull/25)
+- Add permanent links for documentation sections [(#28)](https://github.com/rl-institut/super-repo/pull/28)
 
 ### Changed
 - Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
+- Update the documentation file structure [(#28)](https://github.com/rl-institut/super-repo/pull/28)
 
 ### Removed
 - Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
