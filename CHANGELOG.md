@@ -29,6 +29,20 @@ Template:
 - CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
 - README.rst [(#10)](https://github.com/rl-institut/super-repo/pull/10)
 - Add a logo to the README [(#18)](https://github.com/rl-institut/super-repo/pull/18)
+- Add mkdocstrings [(#20)](https://github.com/rl-institut/super-repo/pull/20)
+- Add example code with google docstrings [(#20)](https://github.com/rl-institut/super-repo/pull/20)
+- Add `requirements.txt` for python environment dependencies [(#20)](https://github.com/rl-institut/super-repo/pull/20)
+- Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
+- Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repo/pull/25)
+- Add permanent links for documentation sections [(#28)](https://github.com/rl-institut/super-repo/pull/28)
+
+### Changed
+- Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
+- Update the documentation file structure [(#28)](https://github.com/rl-institut/super-repo/pull/28)
+
+### Removed
+- Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
+
 
 ## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
 
