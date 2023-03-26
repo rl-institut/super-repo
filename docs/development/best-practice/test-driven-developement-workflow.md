@@ -7,16 +7,16 @@ When adding new functionality or features, write tests for them first before imp
 You can run test in django by running:
 `python manage.py test`
 
-1 First, make sure you have an empty Django app that you want to test.
+1 First, make sure you have an Django app that you want to test.
 
-2 Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. A possible test could look like this:
+2 Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. You also need a model to represent the database table object. A possible test could look like this:
 
 ``` python
 from django.test import TestCase
 from myapp.models import MyModel
 
 class MyModelViewTestCase(TestCase):
-    def test_my_model_view_returns_objects(self):
+    def test_list_view_displays_all_objects(self):
         MyModel.objects.create(name="object1")
         MyModel.objects.create(name="object2")
         response = self.client.get('/my-models/')
@@ -28,7 +28,22 @@ class MyModelViewTestCase(TestCase):
 
 3 Run the test to make sure it fails because the view has not been implemented yet.
 
-4 Implement the view to make the test pass.
+4 Implement the model and view to make the test pass.
+
+models.py
+
+``` python
+from django.db import models
+
+class MyModel(models.Model):
+    name = models.CharField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
+```
+
+views.py
 
 ``` python
 from django.views.generic import ListView
@@ -46,7 +61,7 @@ class MyModelListView(ListView):
 
 ``` python
 class MyModelViewTestCase(TestCase):
-    def test_my_model_view_returns_objects(self):
+    def test_list_view_displays_all_objects(self):
         MyModel.objects.create(name="object1")
         MyModel.objects.create(name="object2")
         response = self.client.get('/my-models/')
@@ -54,7 +69,7 @@ class MyModelViewTestCase(TestCase):
         self.assertContains(response, "object1")
         self.assertContains(response, "object2")
     
-    def test_my_model_view_empty(self):
+    def test_list_view_displays_empty_message(self):
         response = self.client.get('/my-models/')
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "No objects found.")
