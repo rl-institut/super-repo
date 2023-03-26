@@ -40,6 +40,9 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: 💙
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      use_pygments: true
 
 plugins:
 - mkdocstrings:
@@ -65,6 +68,9 @@ nav:
     - Git:
       - development/git/index.md
       - Gitignore: development/git/gitignore.md
+    - Best-Practice:
+      - development/best-practice/index.md
+      - Test-Driven-Developement: development/best-practice/test-driven-developement-workflow.md
     - Documentation:
       - development/documentation/index.md
     - Release:
