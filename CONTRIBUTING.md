@@ -1,7 +1,13 @@
-<!--SPDX-License-Identifier: MIT-->
-<!--Version: v1.0.0-->
+<!--
+SPDX-FileCopyrightText: 2023 Reiner Lemoine Institut
+SPDX-FileCopyrightText: @Ludee
+SPDX-License-Identifier: MIT
 
-# Collaborative Development
+Title: Contributing to Collaborative Development
+Version: super-repo v0.1.0
+-->
+
+# Contributing to Collaborative Development
 
 ## Prerequisites
 - [GitHub](https://github.com/) as a public repository. Please create an account.
@@ -26,7 +32,7 @@ If you wish, add your name and details to `CITATION.cff`.
 You add code and become an author of the repository. 
 You must follow the workflow!
 
-### D. Mantain and Release
+### D. Maintain and Release
 You contribute and take care of the repository. 
 You review and answer questions. 
 You coordinate and carry out the release.
@@ -147,11 +153,32 @@ git push
 ### 4. Submit a pull request (PR)
 Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request). <br>
 The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`. <br>
-Add the line `Close #<issue-number>` in the description of your PR.
-When it is merged, it [automatically closes](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the issue. <br>
-Assign a reviewer and get in contact.
+The `PR title` describes the problem you have solved.  <br>
+Fill the PR template:
+- Summary of the discussion
+- Type of change (CHANGELOG.md)
+- Workflow checklist
 
-#### 4.0. Let someone else review your PR
+Add `close #issueNumber` to [automatically close](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the corresponding issue. <br>
+Assign a `Reviewer` or GitHub team. <br>
+Assign yourself as `Assignee` <br>
+Add suitable GitHub `Labels` <br>
+Link the corresponding issue in `Development` <br>
+`Create draft pull request` <br>
+
+#### 4.1. Update the Changelog
+Update comment of PR with `#PullRequestNumber` <br>
+Add to the corresponding sections in `CHANGELOG.md` <br>
+Commit and push changelog <br>
+
+#### 4.2. Update the Documentation
+Update the documentation <br>
+Commit and push documentation <br>
+
+#### 4.3. Convert draft to Pull Request
+Check `Ready for review`
+
+#### 4.4. Let someone else review your PR
 Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews). <br>
 Assign one reviewer or a user group and get into contact.
 
