@@ -5,6 +5,7 @@ SPDX-License-Identifier: MIT
 
 Title: Contributing to Collaborative Development
 Version: super-repo v0.1.0
+ID: super-repo-contribute-v0.1.0
 -->
 
 # Contributing to Collaborative Development
@@ -63,6 +64,7 @@ git pull
 ##### Permanent branches
 * production - includes the current stable version
 * develop - includes all current developments
+* gh-pages - Contains the compiled documentation
 
 #### 2.1. Create a new (local) branch
 Create a new feature branch:
