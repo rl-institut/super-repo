@@ -6,7 +6,6 @@ These symbols help with orientation:
 * 💠 git (Bash)
 * 📝 File
 * 💻 Command Line (CMD)
-* 📦 Package
 
 
 ## Version Numbers
@@ -101,7 +100,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Check on PyPI if release arrived
 * Breath three times and smile
 
-▶️ Publish the Package 📦
+▶️ Publish the Package
 
 ### 10. 🐙 Publish `GitHub Release`
 * Summarize key changes in the description
@@ -117,9 +116,6 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Create a new **unreleased section** in the `📝CHANGELOG.md`
 
 ▶️ Continue the developments 🛠
-
-## Documentation on Read the Docs (RTD)
-ToDo
 
 
 ## Sources:
