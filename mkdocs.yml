@@ -1,0 +1,85 @@
+# Project
+site_name: Super-Repo Documentation
+site_url: 
+site_description: Write your documentation in Markdown and create a static page for your developer and user community
+
+# Repository
+repo_name: rl-institut/super-repo
+repo_url: https://github.com/rl-institut/super-repo
+docs_dir: docs
+
+# Configuration
+theme:
+  name: material
+  logo: img/logo_rli_small.png
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+
+# extensions 
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: 💙
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      use_pygments: true
+
+plugins:
+- mkdocstrings:
+
+# Customization
+extra:
+  generator: false
+
+extra_css:
+  - css/extra.css
+
+# Navigation
+nav:
+  - Home: index.md
+  - Development:
+    - Collaboration:
+      - development/collaboration/index.md
+      - License: development/collaboration/license.md
+      - Citation: development/collaboration/citation.md
+      - Contributing: development/collaboration/contributing.md
+      - Users: development/collaboration/users.md
+      - Code of Conduct: development/collaboration/code_of_conduct.md
+    - Git:
+      - development/git/index.md
+      - Gitignore: development/git/gitignore.md
+    - Best-Practice:
+      - development/best-practice/index.md
+      - Test-Driven-Developement: development/best-practice/test-driven-developement-workflow.md
+    - Documentation:
+      - development/documentation/index.md
+    - Release:
+      - development/release/index.md
+  - Code Documentation:
+    - Install:
+      - code/install/index.md
+    - Code Style:
+      - code/style/index.md
+    - Functions:
+      - code/index.md
+      - code/code_example.md

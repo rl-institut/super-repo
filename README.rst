@@ -1,4 +1,9 @@
 
+.. figure:: https://user-images.githubusercontent.com/14353512/185425447-85dbcde9-f3a2-4f06-a2db-0dee43af2f5f.png
+    :align: left
+    :target: https://github.com/rl-institut/super-repo/
+    :alt: Repo logo
+
 ==========
 super-repo
 ==========
@@ -11,7 +16,7 @@ super-repo
    * - License
      - |badge_license|
    * - Documentation
-     - 
+     - |badge_documentation|
    * - Publication
      - 
    * - Development
@@ -32,10 +37,10 @@ Introduction
 
 Documentation
 =============
-Documentation is in `sphinx
-<http://www.sphinx-doc.org/en/stable/>`_ reStructuredText format 
-in the ``doc`` sub-folder of the repository.
-
+| The documentation is created with Markdown using `MkDocs <https://www.mkdocs.org/>`_.
+| All files are stored in the ``docs`` folder of the repository.
+| A **GitHub Actions** deploys the ``production`` branch on a **GitHub Page**.
+| The documentation page is `rl-institut.github.io/super-repo/ <https://rl-institut.github.io/super-repo/>`_
 
 Collaboration
 =============
@@ -53,6 +58,10 @@ License and Citation
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
     :target: LICENSE.txt
     :alt: License
+
+.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/gh-pages.yml?branch=production
+    :target: https://rl-institut.github.io/super-repo/
+    :alt: Documentation
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
     :alt: contributions
@@ -74,4 +83,3 @@ License and Citation
 
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :alt: closes issues
-    
