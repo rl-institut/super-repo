@@ -35,7 +35,8 @@ Template:
 - Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
 - Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repo/pull/25)
 - Add permanent links for documentation sections [(#28)](https://github.com/rl-institut/super-repo/pull/28)
-- Add documentation on documentation files [(#35)](https://github.com/rl-institut/super-repo/pull/35)
+- Add documentation on documentation files [(#35)](https://github.com/rl-institut/super-repo/pull/35
+- Add `RELEASE_PROCEDURE.md` [(#37)](https://github.com/rl-institut/super-repo/pull/37)
 
 ### Changed
 - Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
