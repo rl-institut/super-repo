@@ -13,6 +13,7 @@ It is structured by each release and divided by additions, changes, and removals
 The source files are written in [Markdown](https://www.markdownguide.org/cheat-sheet/), and configured with `mkdocs.yml`. <br>
 [Material theme](https://squidfunk.github.io/mkdocs-material/) enables 
 additional features and an elegant design.
+The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning).
 
 ### Install
 Install the required packages in a python environment. <br>
