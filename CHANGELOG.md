@@ -28,7 +28,7 @@ Template:
 - CODE_OF_CONDUCT.md [(#3)](https://github.com/rl-institut/super-repo/pull/3)
 - CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
 - README.rst [(#10)](https://github.com/rl-institut/super-repo/pull/10)
-
+- Add RELEASE_PROCEDURE.md [(#37)](https://github.com/rl-institut/super-repo/pull/37)
 
 ## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
 
