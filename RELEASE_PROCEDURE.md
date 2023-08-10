@@ -78,7 +78,7 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
     * Update `date-released`
 * `📝setup.py`
     * Update `version`
-    * Update `download_url` (.../v0.11.7.tar.gz)
+    * Update `download_url` (.../v0.1.0.tar.gz)
 
 ▶️ Increase version numbers!
 
