@@ -53,10 +53,12 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 * [Draft a new release](https://github.com/rl-institut/super-repo/releases/new)
 * Enter the release version number `0.1.0` as title
 * Summarize key changes from changelog in the description
-    * `## [0.11.7] Minor Release - Name - Date`
-    * `### Added`
-    * `### Changed`
-    * `### Removed`
+```
+## [0.11.7] Minor Release - Name - Date
+### Added
+### Changed
+### Removed
+```
 * Add a link to the `📝CHANGELOG.md`
     * `Also see [**CHANGELOG.md**](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
 * Add a link to compare versions
