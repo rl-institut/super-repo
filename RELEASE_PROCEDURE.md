@@ -20,8 +20,8 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 ## GitHub Release
 
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
-releases are possible. 
-For Major and Minor releases, follow the complete workflow.
+releases are possible. <br>
+For Major and Minor releases, follow the complete workflow.<br>
 For a Patch release (Hotfix), start at section 4.
 
 ### 1. 🐙 Create a `GitHub Project`
