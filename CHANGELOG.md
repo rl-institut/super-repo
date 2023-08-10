@@ -10,10 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- [(#)]()
+- Add issue template for release `issue_template_release.md` [(#43)](https://github.com/rl-institut/super-repo/pull/43)
 
 ### Changed
-- [(#)]()
+- Update the release procedure [(#43)](https://github.com/rl-institut/super-repo/pull/43)
 
 ### Removed
 - [(#)]()
