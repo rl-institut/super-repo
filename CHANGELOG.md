@@ -1,24 +1,34 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. <br>
+For each version, important additions, changes and removals are listed here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-Template:
-```
-## [0.0.0] - Release - Name of Release - 20YY-MM-DD
+
+## [Unreleased]
 
 ### Added
 - [(#)]()
+
 ### Changed
 - [(#)]()
+
 ### Removed
 - [(#)]()
-```
 
 
-## [Unreleased]
+## [0.1.1] Patch Release - Emmy Hennings Day Patch - 2023-08-10
+
+### Added
+- Add issue template for release `issue_template_release.md` [(#43)](https://github.com/rl-institut/super-repo/pull/43)
+
+### Changed
+- Update the release procedure [(#43)](https://github.com/rl-institut/super-repo/pull/43)
+
+
+## [0.1.0] Minor Release - Emmy Hennings Day - 2023-08-10
 
 ### Added
 - [LICENSE.txt](https://github.com/rl-institut/super-repo/blob/main/LICENSE.txt)
@@ -35,7 +45,8 @@ Template:
 - Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
 - Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repo/pull/25)
 - Add permanent links for documentation sections [(#28)](https://github.com/rl-institut/super-repo/pull/28)
-- Add documentation on documentation files [(#35)](https://github.com/rl-institut/super-repo/pull/35)
+- Add documentation on documentation files [(#35)](https://github.com/rl-institut/super-repo/pull/35
+- Add `RELEASE_PROCEDURE.md` [(#37)](https://github.com/rl-institut/super-repo/pull/37)
 
 ### Changed
 - Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)

@@ -39,7 +39,7 @@ theme:
 markdown_extensions:
   - admonition
   - toc:
-      permalink: 💙
+      permalink: "#"
   - pymdownx.superfences
   - pymdownx.highlight:
       use_pygments: true

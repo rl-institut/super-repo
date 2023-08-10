@@ -7,7 +7,7 @@ Describe the findings of the discussion in the issue or meeting.
 ### Added
 - Add a new class [(#)](https://github.com/rl-institut/super-repo/pull/)
 
-### Updated
+### Changed
 - Update a definition [(#)](https://github.com/rl-institut/super-repo/pull/)
 
 ### Removed
