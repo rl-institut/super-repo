@@ -17,59 +17,70 @@ The data follows the [Calendar Versioning (CalVer)](https://calver.org/).<br>
 It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 
 
-## GitHub and PyPI Release
+## GitHub Release
 
-### 1. 🐙 Create a `GitHub Issue`
-* Named `Release Patch v0.11.7`
-* Use `📝ISSUE_TEMPLATE_RELEASE` (❗ToDo❗)
-* Discuss a good and suitable name of the release
-* Define a day for the release
+Following the Semantic Versioning, different workflows for Major, Minor, or Patch
+releases are possible. 
+For Major and Minor releases, follow the complete workflow.
+For a Patch release (Hotfix), start at section 4.
 
-▶️ This issue documents the status of the release!
-
-### 2. 🐙 Create a `GitHub Project`
+### 1. 🐙 Create a `GitHub Project`
 * Create [New classic project](https://github.com/rl-institut/super-repo/projects?type=classic)
 * Use the project template *Automated kanban with reviews*
-* Named `Release v0.11.7`
+* Named `super-repo-v0.1.0`
 * Add a meaningful description
 * Track project progress
 
-▶️ It gives an overview of open and finished issues and pull requests!
+▶️ It gives an overview of open and finished issues and Pull Requests!
 
-### 3. 🐙 Create a `Draft GitHub Release`
-* [Draft a new release](https://github.com/rl-institut/super-repo/releases/new)
-* Enter the release version number `v0.11.7` as title
-* Summarize key changes in the description
-    * `## [v0.11.7] Patch - Name - Date`
-    * `### Added`
-    * `### Changed`
-    * `### Removed`
-* Add a link to compare versions
-    * `**Compare versions:** [v0.11.6 - v0.11.7](https://github.com/rl-institut/super-repo/compare/v0.11.6...v0.11.7)`
-* Add a link to the `📝CHANGELOG.md`
-    * `Also see [**CHANGELOG.md**](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
-* Save draft
+### 2. 🐙 Create a `GitHub Issue`
+* Use `📝issue_template_release`
+* Name `Release - Minor Version - 0.1.0`
+* Complete the necessary details
 
-### 4. 🐙 Finish all planned Developments
+▶️ This issue documents the status of the release!
+
+### 3. 🐙 Finish all planned Developments
 * Some days before the release, inform all developers
-* Merge the open pull requests
+* Merge the open Pull Requests
 * On release day, start the release early to ensure sufficient time for reviews
 * Merge everything on the `develop` branch
 
+▶️ Completion of the preparation of the planned release!
+
+### 4. 🐙 Create a `Draft GitHub Release`
+* Start here for a **Patch Release** (Hotfix)
+* [Draft a new release](https://github.com/rl-institut/super-repo/releases/new)
+* Enter the release version number `0.1.0` as title
+* Summarize key changes from changelog in the description
+    * `## [0.11.7] Minor Release - Name - Date`
+    * `### Added`
+    * `### Changed`
+    * `### Removed`
+* Add a link to the `📝CHANGELOG.md`
+    * `Also see [**CHANGELOG.md**](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
+* Add a link to compare versions
+    * `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)`
+* **Save draft**
+
 ### 5. 💠 Create a `release` branch
-* Checkout `develop` and branch with `git checkout -b release-v0.11.7`
-* Push branch with `git push --set-upstream origin release-v0.11.7`
+* Checkout `develop` and branch with `git checkout -b release-v0.1.0`
+* Push branch with `git push --set-upstream origin release-v0.1.0`
+* Add bump2version (❗ToDo❗) 
 
 ### 6. 📝 Update the version files
 * `📝CHANGELOG.md`
-    * All Pull Request are included
-    * Add a new section with correct version number
-    * Give the suitable name to the release
+    * Check that all Pull Request are included
+    * Rename `Unreleased` section with release title from issue
+    * Follow `[0.0.0] Minor Release - Name of Release - 20YY-MM-DD`
 * `📝CITATION.cff`
-    * Update the version number
+    * Update `version`
+    * Update `date-released`
 * `📝setup.py`
     * Update `version`
     * Update `download_url` (.../v0.11.7.tar.gz)
+
+▶️ Increase version numbers!
 
 ### 7. 🐙 Create a `Release Pull Request`
 * Use `📝PR_TEMPLATE_RELEASE` (❗ToDo❗)
@@ -78,19 +89,64 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Run all test
 * Execute the software locally
 * Wait for reviews and tests
-* Merge PR but do not delete `release` branch
+* Merge Pull Request and delete `release` branch
+
+▶️ Merge code on `production` branch!
 
 ### 8. 💠 Set the `Git Tag`
 * Checkout `production` branch and pull
 * Check existing tags `git tag -n`
-* Create new tag: `git tag -a v0.11.7 -m "super-repo Patch Release v0.11.7 with PyPI"`
+* Create new tag: `git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
 * This commit will be the final version for the release, breath three times and check again
 * Push tag: `git push --tags`
-* If you messed up, remove tags and start again
-    * Delete local tag: `git tag -d v0.11.7`
-    * Delete remote tag: `git push --delete origin v0.11.7`
 
-### 9. 💻 Create and publish package on PyPI
+* If you messed up, remove tags and start again
+    * Delete local tag: `git tag -d v0.1.0`
+    * Delete remote tag: `git push --delete origin v0.1.0`
+
+▶️ Git Tag for GitHub Release!
+
+### 9. 🐙 Publish `GitHub Release`
+* Navigate to releases and open the draft release
+* Choose the correct `Git Tag`
+* Choose the `production` branch
+* Select `Set as the latest release`
+* Select `Create a discussion for this release` in category `Announcements`
+* **Publish release**
+
+▶️ Release on GitHub! 🚀
+
+### 10. 🐙 Set up new development
+* Create a Pull Request from `production` to `develop`
+* Create a new **Unreleased** section in the `📝CHANGELOG.md`
+```
+## [Unreleased]
+
+### Added
+- [(#)]()
+
+### Changed
+- [(#)]()
+
+### Removed
+- [(#)]()
+```
+
+▶️ Continue the developments 🛠
+
+
+## PyPi Release
+
+### 0. 💻 Check release on Test-PyPI
+* Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
+* With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
+  * Note: Pre-releases on Test-PyPI are only shown under `Release history` in the navigation bar.
+  * Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterwards.
+* Once testing on Test-PyPI is done, change the release version to the final desired version with `bump2version release`
+  * Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
+* Push commits to the `release-*` branch
+
+### 1. 💻 Create and publish package on PyPI
 * Navigate to git folder `cd D:\git\github\GROUP\REPO\`
 * Create package using `python setup.py sdist`
 * Check that file has been created in folder `dist`
@@ -101,22 +157,6 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 * Breath three times and smile
 
 ▶️ Publish the Package
-
-### 10. 🐙 Publish `GitHub Release`
-* Summarize key changes in the description
-* Choose the correct git `tag`
-* Choose the `production` branch
-* Publish release
-
-▶️ Release on GitHub!
-
-### 11. 🐙 Set up new development
-* Create a Pull request from `production` to `develop`
-* Delete the `release` branch
-* Create a new **unreleased section** in the `📝CHANGELOG.md`
-
-▶️ Continue the developments 🛠
-
 
 ## Sources:
 * https://raw.githubusercontent.com/folio-org/stripes/master/doc/release-procedure.md
