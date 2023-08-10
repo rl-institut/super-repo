@@ -18,7 +18,7 @@ Template:
 ```
 
 
-## [Unreleased]
+## [0.1.0] Minor Release - Emmy Hennings Day - 2023-08-10
 
 ### Added
 - [LICENSE.txt](https://github.com/rl-institut/super-repo/blob/main/LICENSE.txt)
