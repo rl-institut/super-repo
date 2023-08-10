@@ -3,7 +3,7 @@ name: Release Issue
 about: For new ideas, developments and features
 title: Release - Minor Version - 0.1.0
 labels: "enhancement"
-assignees: ''
+assignees: 'Ludee'
 
 ---
 
@@ -11,11 +11,11 @@ assignees: ''
 
 Describe the release in as much detail as possible. 
 
-## Name of release
+## Details of the release
 
-Find an appropriate and memorable name for the release that will help it be remembered.
-
+**Name:** Find an appropriate and memorable name for the release that will help it be remembered.
 **Git tag:** v0.1.0 "super-repo Minor Release v0.1.0"
+**Release Manager:** Choose a responsible person.
 
 ## Workflow checklist
 - I am aware of the workflow in RELEASE_PROCEDURE.md
