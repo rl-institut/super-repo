@@ -22,7 +22,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
 releases are possible. <br>
 For Major and Minor releases, follow the complete workflow.<br>
-For a Patch release (Hotfix), start at section 4.
+For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
 
 ### 1. 🐙 Create a `GitHub Project`
 * Create [New classic project](https://github.com/rl-institut/super-repo/projects?type=classic)
