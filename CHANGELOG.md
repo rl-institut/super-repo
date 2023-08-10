@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Template:
 ```
-## [0.0.0] - Release - Name of Release - 20YY-MM-DD
+## [0.0.0] Minor Release - Name of Release - 20YY-MM-DD
+## [Unreleased]
 
 ### Added
 - [(#)]()
@@ -16,6 +17,17 @@ Template:
 ### Removed
 - [(#)]()
 ```
+
+## [Unreleased]
+
+### Added
+- [(#)]()
+
+### Changed
+- [(#)]()
+
+### Removed
+- [(#)]()
 
 
 ## [0.1.0] Minor Release - Emmy Hennings Day - 2023-08-10
