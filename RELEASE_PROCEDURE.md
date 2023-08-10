@@ -120,6 +120,8 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 
 ### 10. 🐙 Set up new development
 * Create a Pull Request from `production` to `develop`
+* Named `Set up new development after release v0.1.0`
+* Checkout `develop` branch and pull
 * Create a new **Unreleased** section in the `📝CHANGELOG.md`
 ```
 ## [Unreleased]
