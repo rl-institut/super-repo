@@ -54,7 +54,7 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 * Enter the release version number `0.1.0` as title
 * Summarize key changes from changelog in the description
 ```
-## [0.11.7] Minor Release - Name - Date
+## [0.1.] Minor Release - Name - Date
 ### Added
 ### Changed
 ### Removed
