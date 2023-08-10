@@ -60,7 +60,7 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 ### Removed
 ```
 * Add a link to the `📝CHANGELOG.md`
-    * `Also see [**CHANGELOG.md**](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
+    * `**Complete Changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
 * Add a link to compare versions
     * `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)`
 * **Save draft**
