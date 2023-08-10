@@ -1,21 +1,22 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. <br>
+For each version, important additions, changes and removals are listed here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-Template:
-```
-## [0.0.0] - Release - Name of Release - 20YY-MM-DD
+
+## [Unreleased]
 
 ### Added
-- [(#)]()
+- Add issue template for release `issue_template_release.md` [(#43)](https://github.com/rl-institut/super-repo/pull/43)
+
 ### Changed
-- [(#)]()
+- Update the release procedure [(#43)](https://github.com/rl-institut/super-repo/pull/43)
+
 ### Removed
 - [(#)]()
-```
 
 
 ## [0.1.0] Minor Release - Emmy Hennings Day - 2023-08-10
