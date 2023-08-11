@@ -12,7 +12,7 @@ It is structured by each release and divided by additions, changes, and removals
 [MkDocs](https://www.mkdocs.org/) is a fast and simple static site generator that is used for documentation. <br>
 The source files are written in [Markdown](https://www.markdownguide.org/cheat-sheet/), and configured with `mkdocs.yml`. <br>
 [Material theme](https://squidfunk.github.io/mkdocs-material/) enables 
-additional features and an elegant design.
+additional features and an elegant design. <br>
 
 ### Install
 Install the required packages in a python environment. <br>
@@ -35,6 +35,11 @@ Publish documentation on **GitHub Pages**. <br>
 The file `.github\workflows\gh-pages.yml` creates an automated GitHub workflow. <br>
 It is configured to be pushed to the branch `gh-page` and then deployed online. <br>
 A commit on the `production` branch triggers the workflow. 
+
+### Mike
+The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.
+💻 `pip install mike` install mike <br>
+💻 `mike deploy --push --update-aliases 0.1.0 latest` deploys the latest version <br>
 
 ## mkdocstrings
 [mkdocstrings](https://mkdocstrings.github.io/) generates automatic 

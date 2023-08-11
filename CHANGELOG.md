@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [Unreleased]
+
+### Added
+- Add documentation version control with mike [(#47)](https://github.com/rl-institut/super-repo/pull/47)
+- Add Pull Request template for releases [(#47)](https://github.com/rl-institut/super-repo/pull/47)
+
+### Changed
+- Update issue templates and release procedure [(#47)](https://github.com/rl-institut/super-repo/pull/47)
+
+### Removed
+- [(#)]()
+
+
 ## [0.1.1] Patch Release - Emmy Hennings Day Patch - 2023-08-10
 
 ### Added
