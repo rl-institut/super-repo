@@ -19,11 +19,12 @@ Describe the release in as much detail as possible.
 **Date:** Arrange a convenient date
 
 ## Workflow checklist
-- I am aware of the workflow in RELEASE_PROCEDURE.md
-- Draft GitHub Release
-- Release Branch
-- Update the version files (CHANGELOG.md, CITATION.cff, setup.py)
-- Release Pull Request
-- Git Tag
-- GitHub Release
-- Set up new development
+- [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md)
+- [ ] 4. 🐙 Create a `Draft GitHub Release`
+- [ ] 5. 💠 Create a `release` branch
+- [ ] 6. 📝 Update the version files (CHANGELOG.md, CITATION.cff)
+- [ ] 7. 🐙 Create a Release Pull Request
+- [ ] 8. 💠 Set the `Git Tag`
+- [ ] 9. 🐙 Publish `GitHub Release`
+- [ ] 10. 💻 Update the documentation
+- [ ] 11. 🐙 Set up new development
