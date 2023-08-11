@@ -50,6 +50,8 @@ plugins:
 # Customization
 extra:
   generator: false
+  version:
+    provider: mike
 
 extra_css:
   - css/extra.css

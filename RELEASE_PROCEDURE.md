@@ -22,7 +22,7 @@ It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
 releases are possible. <br>
 For Major and Minor releases, follow the complete workflow.<br>
-For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
+For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
 
 ### 1. 🐙 Create a `GitHub Project`
 * Create [New classic project](https://github.com/rl-institut/super-repo/projects?type=classic)
@@ -33,20 +33,20 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 
 ▶️ It gives an overview of open and finished issues and Pull Requests!
 
-### 2. 🐙 Create a `GitHub Issue`
-* Use `📝issue_template_release`
-* Name `Release - Minor Version - 0.1.0`
-* Complete the necessary details
-
-▶️ This issue documents the status of the release!
-
-### 3. 🐙 Finish all planned Developments
+### 2. 🐙 Finish all planned Developments
 * Some days before the release, inform all developers
 * Merge the open Pull Requests
 * On release day, start the release early to ensure sufficient time for reviews
 * Merge everything on the `develop` branch
 
 ▶️ Completion of the preparation of the planned release!
+
+### 3. 🐙 Create a `GitHub Issue`
+* Use `📝issue_template_release`
+* Name `Release - Minor Version - 0.1.0`
+* Complete the necessary details
+
+▶️ This issue documents the status of the release!
 
 ### 4. 🐙 Create a `Draft GitHub Release`
 * Start here for a **Patch Release** (Hotfix)
@@ -84,7 +84,7 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 
 ▶️ Increase version numbers!
 
-### 7. 🐙 Create a `Release Pull Request`
+### 7. 🐙 Create a Release Pull Request
 * Use `📝PR_TEMPLATE_RELEASE` (❗ToDo❗)
 * Merge `release` into `production` branch
 * Assign two reviewers to check the release
@@ -102,9 +102,9 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 * This commit will be the final version for the release, breath three times and check again
 * Push tag: `git push --tags`
 
-* If you messed up, remove tags and start again
-    * Delete local tag: `git tag -d v0.1.0`
-    * Delete remote tag: `git push --delete origin v0.1.0`
+If you messed up, remove tags and start again
+* Delete local tag: `git tag -d v0.1.0`
+* Delete remote tag: `git push --delete origin v0.1.0`
 
 ▶️ Git Tag for GitHub Release!
 
@@ -118,7 +118,16 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 
 ▶️ Release on GitHub! 🚀
 
-### 10. 🐙 Set up new development
+### 10. 💻 Update the documentation
+* Checkout `production` branch and pull
+* Activate environment and enter repository
+* Test version with `mike serve`
+* Publish new minor version `mike deploy --push --update-aliases 0.1 latest`
+* Set new version as latest `mike set-default --push latest`
+
+▶️ Update the documentation!
+
+### 11. 🐙 Set up new development
 * Create a Pull Request from `production` to `develop`
 * Named `Set up new development after release v0.1.0`
 * Checkout `develop` branch and pull

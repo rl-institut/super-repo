@@ -7,10 +7,12 @@
 
 # Release Procedure
 
-The release consists of three tasks:
+The release has four goals:
 
-1. Create a [GitHub Release](https://github.com/rl-institut/super-repo/releases)
-2. Merge new features to the `production` branch
-3. Create a new version of the package at PyPI
+1. Merge the new features to the `production` branch
+2. Create a [GitHub Release](https://github.com/rl-institut/super-repo/releases)
+3. Update the documentation
+4. Publish a new version of the package at PyPI
 
-Follow the instructions in the [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/develop/RELEASE_PROCEDURE.md) carefully!
+The [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md)
+contain detailed instructions to do a release.
