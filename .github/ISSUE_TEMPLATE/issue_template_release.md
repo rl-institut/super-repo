@@ -1,6 +1,6 @@
 ---
 name: Release Issue
-about: For new ideas, developments and features
+about: For a new release
 title: Release - Minor Version - 0.1.0
 labels: "enhancement"
 assignees: 'Ludee'
