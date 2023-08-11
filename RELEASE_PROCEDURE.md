@@ -118,7 +118,16 @@ For a Patch release (Hotfix), start at [section 4](https://github.com/rl-institu
 
 ▶️ Release on GitHub! 🚀
 
-### 10. 🐙 Set up new development
+### 10. 💻 Update the documentation
+* Checkout `production` branch and pull
+* Activate environment and enter repository
+* Test version with `mike serve`
+* Publish new minor version `mike deploy --push --update-aliases 0.1 latest`
+* Set new version as latest `mike set-default --push latest`
+
+▶️ Update the documentation!
+
+### 11. 🐙 Set up new development
 * Create a Pull Request from `production` to `develop`
 * Named `Set up new development after release v0.1.0`
 * Checkout `develop` branch and pull
