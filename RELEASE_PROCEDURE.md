@@ -85,8 +85,8 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ▶️ Increase version numbers!
 
 ### 7. 🐙 Create a Release Pull Request
-* Use `📝PR_TEMPLATE_RELEASE` (❗ToDo❗)
 * Merge `release` into `production` branch
+* Remove details from template
 * Assign two reviewers to check the release
 * Run all test
 * Execute the software locally
