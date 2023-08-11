@@ -37,9 +37,10 @@ It is configured to be pushed to the branch `gh-page` and then deployed online. 
 A commit on the `production` branch triggers the workflow. 
 
 ### Mike
-The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.
+The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
 💻 `pip install mike` install mike <br>
 💻 `mike deploy --push --update-aliases 0.1.0 latest` deploys the latest version <br>
+💻 `mike set-default --push latest` Set the default version to latest
 
 ## mkdocstrings
 [mkdocstrings](https://mkdocstrings.github.io/) generates automatic 
