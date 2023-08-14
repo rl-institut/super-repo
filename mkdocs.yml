@@ -1,6 +1,6 @@
 # Project
 site_name: Super-Repo Documentation
-site_url: https://rl-institut.github.io/super-repo
+site_url:
 site_description: Write your documentation in Markdown and create a static page for your developer and user community
 
 # Repository
@@ -11,6 +11,7 @@ docs_dir: docs
 # Configuration
 theme:
   name: material
+  logo: img/logo_rli_small.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -20,8 +21,10 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -31,9 +34,8 @@ theme:
     - navigation.tracking
     - navigation.top
     - toc.follow
-  logo: img/logo_rli_small.png
 
-# extensions 
+# extensions
 markdown_extensions:
   - admonition
   - toc:
