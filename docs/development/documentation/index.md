@@ -53,10 +53,14 @@ The package [mike](https://github.com/jimporter/mike) is used to deploy [multipl
     It is recommended to use only the Minor Versions (e.g. 0.1) and exclude the patch number.
 
 Other useful commands are:
-💻 `mike serve` test mike on `http://localhost:8000` <br>
+error: gh-pages is unrelated to origin/gh-pages`mike serve` test mike on `http://localhost:8000` <br>
 💻 `mike list` list all versions <br>
 💻 `mike retitle 1.0.0 1.0.1 --push` list all versions <br>
 💻 `mike delete --all --push` deletes all versions
+
+When building mike locally, the branch `gh-pages` is modified locally.
+💻 `error: gh-pages is unrelated to origin/gh-pages` <br>
+💠 `git branch -D gh-pages` delete the local documentation branch
 
 ## mkdocstrings
 [mkdocstrings](https://mkdocstrings.github.io/) generates automatic 
