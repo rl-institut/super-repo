@@ -36,10 +36,10 @@ The file `.github\workflows\gh-pages.yml` creates an automated GitHub workflow. 
 It is configured to be pushed to the branch `gh-page` and then deployed online. <br>
 A commit on the `production` branch triggers the workflow. 
 
-!!! note "Common python styles"
+!!! warning "Using mike with GitHub Actions"
     This feature is not compatible with the versioning of the documentation with `mike`.
     The action overrides all manually deployed versions!
-git 
+
 🐙 To disable an existing `GitHub Action`, follow these instructions:<br>
 https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow
 
