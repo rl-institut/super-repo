@@ -37,8 +37,8 @@ It is configured to be pushed to the branch `gh-page` and then deployed online. 
 A commit on the `production` branch triggers the workflow. 
 
 !!! warning "Using mike with GitHub Actions"
-    This feature is not compatible with the versioning of the documentation with `mike`.<br>
-    The action overrides all manually deployed versions!
+    This feature is not compatible with the versioning of the documentation with `mike`. <br>
+    The action overrides all manually deployed versions! <br>
     🐙 To disable an existing `GitHub Action`, follow [these instructions](https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow).
 
 ### Mike
