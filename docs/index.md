@@ -13,7 +13,7 @@ The goal is to simplify and standardise the creation of software in GitHub repos
 ## Documentation Structure
 
 The documentation is separated into two main sections: 
-`development` and `code documentation`. <br>
+**Development** and **Code Documentation**. <br>
 
 ### Fields for development
 
