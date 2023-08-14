@@ -123,7 +123,6 @@ If you messed up, remove tags and start again
 * Activate environment and enter repository
 * Test version with `mike serve`
 * Publish new minor version `mike deploy --push --update-aliases 0.1 latest`
-* Set new version as latest `mike set-default --push latest`
 
 ▶️ Update the documentation!
 
@@ -136,13 +135,10 @@ If you messed up, remove tags and start again
 ## [Unreleased]
 
 ### Added
-- [(#)]()
 
 ### Changed
-- [(#)]()
 
 ### Removed
-- [(#)]()
 ```
 
 ▶️ Continue the developments 🛠
