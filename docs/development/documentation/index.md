@@ -39,7 +39,9 @@ A commit on the `production` branch triggers the workflow.
 !!! note "Common python styles"
     This feature is not compatible with the versioning of the documentation with `mike`.
     The action overrides all manually deployed versions!
-    `This workflow was disabled manually.`
+git 
+🐙 To disable an existing `GitHub Action`, follow these instructions:<br>
+https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow
 
 ### Mike
 The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
