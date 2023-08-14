@@ -34,6 +34,7 @@ theme:
     - navigation.tracking
     - navigation.top
     - toc.follow
+  favicon: img/favicon_super-repo.png
 
 # extensions
 markdown_extensions:
