@@ -963,8 +963,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#github-action" class="md-nav__link">
-    GitHub Action
+  <a href="#github-action-deprecated" class="md-nav__link">
+    GitHub Action (deprecated)
   </a>
   
 </li>
@@ -1036,15 +1036,38 @@ additional features and an elegant design. <br></p>
 <h4 id="manually">Manually<a class="headerlink" href="#manually" title="Permanent link">#</a></h4>
 <p>Publish documentation on <strong>GitHub Pages</strong>. <br>
 💻 <code>mkdocs gh-deploy</code> manually deploys the documentation files</p>
-<h4 id="github-action">GitHub Action<a class="headerlink" href="#github-action" title="Permanent link">#</a></h4>
+<h4 id="github-action-deprecated">GitHub Action (deprecated)<a class="headerlink" href="#github-action-deprecated" title="Permanent link">#</a></h4>
 <p>🐙 Deploy the documentation with <strong>GitHub Actions</strong>. <br>
 The file <code>.github\workflows\gh-pages.yml</code> creates an automated GitHub workflow. <br>
 It is configured to be pushed to the branch <code>gh-page</code> and then deployed online. <br>
 A commit on the <code>production</code> branch triggers the workflow. </p>
+<div class="admonition warning">
+<p class="admonition-title">Using mike with GitHub Actions</p>
+<p>This feature is not compatible with the versioning of the documentation with <code>mike</code>! <br>
+The action overrides all manually deployed versions. <br>
+🐙 To disable an existing <code>GitHub Action</code>, follow <a href="https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow">these instructions</a>.</p>
+</div>
 <h3 id="mike">Mike<a class="headerlink" href="#mike" title="Permanent link">#</a></h3>
-<p>The package <a href="https://github.com/jimporter/mike">mike</a> is used to deploy <a href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning">multiple versions</a> of the documentation.
+<p>The package <a href="https://github.com/jimporter/mike">mike</a> is used to deploy <a href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning">multiple versions</a> of the documentation.<br>
 💻 <code>pip install mike</code> install mike <br>
-💻 <code>mike deploy --push --update-aliases 0.1.0 latest</code> deploys the latest version <br></p>
+💻 <code>mike deploy --push --update-aliases 0.1 latest</code> deploys the latest version <br>
+💻 <code>mike set-default --push latest</code> Set the default version to latest</p>
+<div class="admonition note">
+<p class="admonition-title">Mike Versions</p>
+<p>It is recommended to use only the <strong>Minor Versions</strong> (e.g. 0.1) and exclude the <strong>Patch Version</strong> (e.g. 0.1.1)!</p>
+</div>
+<p>Other useful commands are: <br>
+💻 <code>mike serve</code> test mike on <a href="http://localhost:8000"><code>http://localhost:8000</code></a> <br>
+💻 <code>mike list</code> list all versions <br>
+💻 <code>mike retitle 1.0.0 1.0.1 --push</code> rename a version <br>
+💻 <code>mike delete 0.1 --push</code> deletes a specific versions <br>
+💻 <code>mike delete --all --push</code> deletes all versions</p>
+<p>When adding older versions, load the <code>Git Tags</code> used for the releases: <br>
+💠 <code>git checkout v0.1.1</code> <br>
+💻 <code>mike deploy --push --update-aliases 0.1 latest</code> deploys the old version</p>
+<p>When building mike locally, the branch <code>gh-pages</code> is modified locally. <br>
+💻 <code>error: gh-pages is unrelated to origin/gh-pages</code> <br>
+💠 <code>git branch -D gh-pages</code> delete the local documentation branch</p>
 <h2 id="mkdocstrings">mkdocstrings<a class="headerlink" href="#mkdocstrings" title="Permanent link">#</a></h2>
 <p><a href="https://mkdocstrings.github.io/">mkdocstrings</a> generates automatic 
 documentation (autodocs) from <a href="https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html">Google style docstrings</a>. <br>
