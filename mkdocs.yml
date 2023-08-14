@@ -54,6 +54,7 @@ extra:
   generator: false
   version:
     provider: mike
+    default: latest
 
 extra_css:
   - css/extra.css
