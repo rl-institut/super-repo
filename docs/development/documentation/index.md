@@ -39,9 +39,7 @@ A commit on the `production` branch triggers the workflow.
 !!! warning "Using mike with GitHub Actions"
     This feature is not compatible with the versioning of the documentation with `mike`.<br>
     The action overrides all manually deployed versions!
-
-🐙 To disable an existing `GitHub Action`, follow these instructions:<br>
-https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow
+    🐙 To disable an existing `GitHub Action`, follow [these instructions](https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow).
 
 ### Mike
 The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
@@ -52,13 +50,13 @@ The package [mike](https://github.com/jimporter/mike) is used to deploy [multipl
 !!! note "Mike Versions"
     It is recommended to use only the Minor Versions (e.g. 0.1) and exclude the patch number.
 
-Other useful commands are:
-error: gh-pages is unrelated to origin/gh-pages`mike serve` test mike on `http://localhost:8000` <br>
+Other useful commands are: <br>
+💻 `mike serve` test mike on `http://localhost:8000` <br>
 💻 `mike list` list all versions <br>
 💻 `mike retitle 1.0.0 1.0.1 --push` list all versions <br>
 💻 `mike delete --all --push` deletes all versions
 
-When building mike locally, the branch `gh-pages` is modified locally.
+When building mike locally, the branch `gh-pages` is modified locally. <br>
 💻 `error: gh-pages is unrelated to origin/gh-pages` <br>
 💠 `git branch -D gh-pages` delete the local documentation branch
 
