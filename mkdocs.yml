@@ -13,7 +13,6 @@ theme:
   name: material
   logo: img/logo_rli_small.png
   favicon: img/logo_rli_small.png
-  custom_dir: docs/overrides
   palette:
     # Palette toggle for dark mode
     - scheme: slate
