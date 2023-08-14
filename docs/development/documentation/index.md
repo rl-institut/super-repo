@@ -62,6 +62,10 @@ When building mike locally, the branch `gh-pages` is modified locally.
 💻 `error: gh-pages is unrelated to origin/gh-pages` <br>
 💠 `git branch -D gh-pages` delete the local documentation branch
 
+When adding older versions, load the `Git Tags` used for the releases:
+💠 `git checkout v0.1` 
+💻 `mike deploy --push --update-aliases 0.1 latest` deploys the old version <br>
+
 ## mkdocstrings
 [mkdocstrings](https://mkdocstrings.github.io/) generates automatic 
 documentation (autodocs) from [Google style docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html). <br>
