@@ -1,6 +1,6 @@
 # Project
 site_name: Super-Repo Documentation
-site_url: 
+site_url: https://rl-institut.github.io/super-repo/
 site_description: Write your documentation in Markdown and create a static page for your developer and user community
 
 # Repository
@@ -12,6 +12,7 @@ docs_dir: docs
 theme:
   name: material
   logo: img/logo_rli_small.png
+  favicon: img/favicon_super-repo.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
