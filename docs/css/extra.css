@@ -5,6 +5,3 @@
     /* --md-text-font-color:         #ffffff;  */
     /* --md-primary-fg-color--light: #ECB7B7; */
   }
-
-:not([data-md-state="blur"]) + nav {
-  display: none;
