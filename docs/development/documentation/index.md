@@ -37,7 +37,7 @@ It is configured to be pushed to the branch `gh-page` and then deployed online. 
 A commit on the `production` branch triggers the workflow. 
 
 !!! warning "Using mike with GitHub Actions"
-    This feature is not compatible with the versioning of the documentation with `mike`.
+    This feature is not compatible with the versioning of the documentation with `mike`.<br>
     The action overrides all manually deployed versions!
 
 🐙 To disable an existing `GitHub Action`, follow these instructions:<br>
@@ -46,8 +46,17 @@ https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disab
 ### Mike
 The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
 💻 `pip install mike` install mike <br>
-💻 `mike deploy --push --update-aliases 0.1.0 latest` deploys the latest version <br>
+💻 `mike deploy --push --update-aliases 0.1 latest` deploys the latest version <br>
 💻 `mike set-default --push latest` Set the default version to latest
+
+!!! note "Mike Versions"
+    It is recommended to use only the Minor Versions (e.g. 0.1) and exclude the patch number.
+
+Other useful commands are:
+💻 `mike serve` test mike on `http://localhost:8000` <br>
+💻 `mike list` list all versions <br>
+💻 `mike retitle 1.0.0 1.0.1 --push` list all versions <br>
+💻 `mike delete --all --push` deletes all versions
 
 ## mkdocstrings
 [mkdocstrings](https://mkdocstrings.github.io/) generates automatic 
