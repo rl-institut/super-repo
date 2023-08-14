@@ -30,11 +30,16 @@ Generate the documentation locally. <br>
 Publish documentation on **GitHub Pages**. <br>
 💻 `mkdocs gh-deploy` manually deploys the documentation files
 
-#### GitHub Action
+#### GitHub Action (deprecated)
 🐙 Deploy the documentation with **GitHub Actions**. <br>
 The file `.github\workflows\gh-pages.yml` creates an automated GitHub workflow. <br>
 It is configured to be pushed to the branch `gh-page` and then deployed online. <br>
 A commit on the `production` branch triggers the workflow. 
+
+!!! note "Common python styles"
+    This feature is not compatible with the versioning of the documentation with `mike`.
+    The action overrides all manually deployed versions!
+    `This workflow was disabled manually.`
 
 ### Mike
 The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
