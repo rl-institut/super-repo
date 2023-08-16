@@ -1,19 +1,20 @@
 # -*- coding: utf-8 -*-
 
-"""
+"""Example.
+
 Example implementation of test for the calculater functionality
 to demonstrate TDD.
 
 
 SPDX-FileCopyrightText: 2023 Jonas Huber <@jh-RLI>
 SPDX-FileCopyrightText: © Reiner Lemoine Institut
-
 SPDX-License-Identifier: MIT
 """
 
 
 def add(a, b):
-    """
+    """Add.
+
     Add two numbers.
 
     :param a: The first number.
@@ -24,7 +25,8 @@ def add(a, b):
 
 
 def subtract(a, b):
-    """
+    """Subtract.
+
     Subtract two numbers.
 
     :param a: The first number.
@@ -35,7 +37,8 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    """
+    """Multiply.
+
     Multiply two numbers.
 
     :param a: The first number.
@@ -46,7 +49,8 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    """
+    """Divide.
+
     Divide two numbers.
 
     :param a: The numerator.

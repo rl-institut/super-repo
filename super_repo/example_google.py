@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Example Google style docstrings.
+
+"""
+Example Google style docstrings.
 
 This module demonstrates documentation as specified by the `Google Python
 Style Guide`_. Docstrings may extend over multiple lines. Sections are created
 with a section header and a colon followed by a block of indented text.
 
 Example:
+
     Examples can be given using either the ``Example`` or ``Examples``
     sections. Sections support any reStructuredText formatting, including
     literal blocks::
@@ -16,6 +19,7 @@ Section breaks are created by resuming unindented text. Section breaks
 are also implicitly created anytime a new section starts.
 
 Attributes:
+
     module_level_variable1 (int): Module level variables may be documented in
         either the ``Attributes`` section of the module docstring, or in an
         inline docstring immediately following the variable.
@@ -25,10 +29,12 @@ Attributes:
         with it.
 
 Todo:
+
     * For module TODOs
     * You have to also use ``sphinx.ext.todo`` extension
 
 .. _Google Python Style Guide:
+
    http://google.github.io/styleguide/pyguide.html
 
 """
@@ -51,13 +57,16 @@ def function_with_types_in_docstring(param1, param2):
     included in the docstring:
 
     Args:
+
         param1 (int): The first parameter.
         param2 (str): The second parameter.
 
     Returns:
+
         bool: The return value. True for success, False otherwise.
 
     .. _PEP 484:
+
         https://www.python.org/dev/peps/pep-0484/
 
     """
@@ -67,10 +76,12 @@ def function_with_pep484_type_annotations(param1: int, param2: str) -> bool:
     """Example function with PEP 484 type annotations.
 
     Args:
+
         param1: The first parameter.
         param2: The second parameter.
 
     Returns:
+
         The return value. True for success, False otherwise.
 
     """
@@ -231,8 +242,9 @@ class ExampleClass(object):
 
     @property
     def readwrite_property(self):
-        """:obj:`list` of :obj:`str`: Properties with both a getter and setter
-        should only be documented in their getter method.
+        """:obj:`list` of :obj:`str`: Properties with both a getter and setter.
+
+        (should only be documented in their getter method)
 
         If the setter method contains notable behavior, it should be
         mentioned here.
@@ -244,7 +256,8 @@ class ExampleClass(object):
         value
 
     def example_method(self, param1, param2):
-        """Class methods are similar to regular functions.
+        """
+        Class methods are similar to regular functions.
 
         Note:
             Do not include the `self` parameter in the ``Args`` section.
