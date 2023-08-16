@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-""" Example implementation of common calculater functionality to demonstrate TDD. 
+""" Example implementation of common calculater functionality to
+demonstrate TDD.
 
 
 SPDX-FileCopyrightText: 2023 Jonas Huber <@jh-RLI>
@@ -13,20 +14,36 @@ from super_repo.example_calculator import add, subtract, multiply, divide
 
 
 def test_addition():
+    """
+    Test addition function.
+    """
+
     result = add(3, 4)
     assert result == 7
 
 
 def test_subtraction():
+    """
+    Test subtraction function.
+    """
+
     result = subtract(10, 5)
     assert result == 5
 
 
 def test_multiplication():
+    """
+    Test multiplication function.
+    """
+
     result = multiply(2, 6)
     assert result == 12
 
 
 def test_division():
+    """
+    Test division function.
+    """
+
     result = divide(15, 3)
     assert result == 5
