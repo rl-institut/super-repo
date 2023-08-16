@@ -9,14 +9,18 @@ SPDX-FileCopyrightText: © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 """
 
+
 def add(a, b):
     return a + b
+
 
 def subtract(a, b):
     return a - b
 
+
 def multiply(a, b):
     return a * b
+
 
 def divide(a, b):
     if b == 0:
