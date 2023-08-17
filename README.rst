@@ -18,7 +18,7 @@ super-repo
    * - Documentation
      - |badge_documentation|
    * - Publication
-     - 
+     -
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community

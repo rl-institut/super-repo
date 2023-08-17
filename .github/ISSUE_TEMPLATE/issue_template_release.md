@@ -3,13 +3,12 @@ name: Release Issue
 about: For a new release
 title: Release - Minor Version - 0.1.0
 labels: "enhancement"
-assignees: 'Ludee'
-
+assignees: "Ludee"
 ---
 
 ## Description of the release
 
-Describe the release in as much detail as possible. 
+Describe the release in as much detail as possible.
 
 ## Details of the release
 
@@ -19,6 +18,7 @@ Describe the release in as much detail as possible.
 **Date:** Arrange a convenient date
 
 ## Workflow checklist
+
 - [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md)
 - [ ] 4. 🐙 Create a `Draft GitHub Release`
 - [ ] 5. 💠 Create a `release` branch

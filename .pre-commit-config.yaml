@@ -1,0 +1,64 @@
+# exclude webdevelopement build artefacts
+exclude: ^.*(.min.js|.min.css)$
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+
+  # Python code style formatter
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+    - id: black
+
+  # Sort Python imports
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+    - id: isort
+      args: ["--profile", "black", "--filter-files"]
+
+  # Very fast python linter implemented useing Rust
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    # Ruff version.
+    rev: 'v0.0.277'
+    hooks:
+    - id: ruff
+
+  # Python linter
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.0.0
+    hooks:
+    - id: flake8
+      args: ["--max-line-length=88", "--ignore=E20,W503,W605"] # black compatible
+
+  # Added static types to Python (Python is dynamically typed)
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v0.991'
+    hooks:
+    - id: mypy
+      additional_dependencies:
+        - 'sqlalchemy'
+        - 'types-requests'
+
+  # Linter for JavaScript
+  # - repo: https://github.com/pre-commit/mirrors-eslint
+  #   rev: v8.38.0
+  #   hooks:
+  #     - id: eslint
+  #       additional_dependencies:
+  #       - eslint@8.14.0
+  #       - eslint-config-google@0.14.0
+  #       - eslint-plugin-jsdoc@39.2.9
+  #       args: ["--fix"]
+
+  # Formatting for other files then python scripts
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0-alpha.6
+    hooks:
+    - id: prettier
+      files: \.(css|less|md|json|sql)$
