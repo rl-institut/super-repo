@@ -70,6 +70,7 @@ nav:
       - Code of Conduct: development/collaboration/code_of_conduct.md
     - Git:
       - development/git/index.md
+      - Code-quality checks: development/git/pre-commit.md
       - Gitignore: development/git/gitignore.md
     - Best-Practice:
       - development/best-practice/index.md
