@@ -67,6 +67,8 @@ nav:
       - Contributing: development/collaboration/contributing.md
       - Users: development/collaboration/users.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
+    - Continous Integration:
+      - development/continuous-integration/index.md 
     - Git:
       - development/git/index.md
       - Gitignore: development/git/gitignore.md
