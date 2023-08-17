@@ -12,6 +12,7 @@ docs_dir: docs
 theme:
   name: material
   logo: img/logo_rli_small.png
+  favicon: img/favicon_super-repo.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
