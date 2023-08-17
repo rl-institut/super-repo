@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [Unreleased]
+
+### Added
+- Add a favicon for the documentation [(54#)](https://github.com/rl-institut/super-repo/pull/54)
+- Add a warning for older versions that links to latest [(#54)](https://github.com/rl-institut/super-repo/pull/54)
+
+### Changed
+- Update CSS to improve toc [(#54)](https://github.com/rl-institut/super-repo/pull/54)
+- Update documentation for mike [(#54)](https://github.com/rl-institut/super-repo/pull/54)
+
+### Removed
+- Disable GitHub Action for MkDocs Workflow [(#54)](https://github.com/rl-institut/super-repo/pull/54)
+
+
 ## [0.2.0] Minor Release - Oh Hi Mike - 2023-08-11
 
 ### Added
