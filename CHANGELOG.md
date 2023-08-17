@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Add documentation version control with mike [(#47)](https://github.com/rl-institut/super-repo/pull/47)
+- Add CI-based automated testing and linting on commit and pull requests to"production" and "develop" branch. [(#55)](https://github.com/rl-institut/super-repo/pull/55)
 
 ### Changed
 - Update issue templates and release procedure [(#47)](https://github.com/rl-institut/super-repo/pull/47)
