@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Update CSS to improve toc [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Update documentation for mike [(#54)](https://github.com/rl-institut/super-repo/pull/54)
+- Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repo/pull/58)
 
 ### Removed
 - Disable GitHub Action for MkDocs Workflow [(#54)](https://github.com/rl-institut/super-repo/pull/54)
