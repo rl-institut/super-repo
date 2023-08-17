@@ -54,8 +54,12 @@ If you dont want to run the hooks you can either deactevate them or use:
     git commit --no-verify -m "Your commit message"
 
 !!! Note
-   There can be problems with file line endings on Windows, CRLF is used on Windows and LF is used on Linux.
-   LF is also maintained on platforms like GitHub.
+    There can be problems with file line endings on Windows, CRLF is used on Windows and LF is used on Linux.
+    LF is also maintained on platforms like GitHub.
+
+    You can configure this in you git config
+
+        
 
 To runn the hooks on all files in your repository use:
 
