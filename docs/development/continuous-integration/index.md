@@ -4,7 +4,7 @@ Continuous integration is a crucial practice in software development that involv
 
 ## Setup
 
-### Configure Tox Automation
+### Configure Tox test-automation
 
 To streamline our test environment setup, we use `tox`, a powerful tool that automates testing across different environments. Begin by installing `tox`:
 
@@ -19,6 +19,9 @@ Configuring `tox` may involve some complexity. Start by defining what tests you 
 
 !!! Warning "Missing"
     Refer to our comprehensive guide on configuring `tox` for detailed instructions.
+
+!!! Info "Run test on multiple platforms"
+    Our Tox environments are executed on all major platofrms including windows, linux and macos.
 
 ### Configure Continuous Integration using GitHub Actions
 
