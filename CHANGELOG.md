@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add a favicon for the documentation [(54#)](https://github.com/rl-institut/super-repo/pull/54)
 - Add a warning for older versions that links to latest [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Add pre-commit and setup pre-commit-hooks [(#56)](https://github.com/rl-institut/super-repo/pull/56)
+- Add a community chat on Element [(#59)](https://github.com/rl-institut/super-repo/pull/59)
 
 ### Changed
 
