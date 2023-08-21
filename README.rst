@@ -84,6 +84,6 @@ License and Citation
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :alt: closes issues
 
-.. |badge_gitter| image:: https://img.shields.io/matrix/super-repo:matrix.org
+.. |badge_gitter| image:: https://img.shields.io/matrix/super-repo:matrix.org?label=matrix%20chat
     :target: https://app.element.io/#/room/#super-repo:matrix.org
     :alt: Matrix Chat
