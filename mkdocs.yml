@@ -67,6 +67,7 @@ nav:
       - Citation: development/collaboration/citation.md
       - Contributing: development/collaboration/contributing.md
       - Users: development/collaboration/users.md
+      - Chat: development/collaboration/chat.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
     - Git:
       - development/git/index.md
