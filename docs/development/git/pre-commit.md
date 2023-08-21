@@ -1,62 +1,52 @@
-# Check the code by using pre-commit
+# Pre-commit
 
+It is a tool to easily setup and run `pre-commit hooks` for your git repository.
+See the documentation of [pre-commit](https://pre-commit.com/) for further information.
+It is used to improve auto-format code, do linting and run tests before every commit.
 
-We use pre-commit hooks to check code quality on a regular basis. 
-We need to run the hooks at least once for each release.
+## Install
 
-## What code-quality checks do we use
-
-Python code style formatter
-    
-    https://github.com/psf/black
-
-Sort Python imports
-    
-    https://github.com/pycqa/isort
-
-Very fast python linter implemented useing Rust
-    
-    https://github.com/charliermarsh/ruff-pre-commit
-
-Python linter
-    
-    https://github.com/pycqa/flake8
-
-Added static types to Python (Python is dynamically typed)
-    
-    https://github.com/pre-commit/mirrors-mypy
+Install the required package in a python environment. <br>
+💻 `pip install pre-commit` install pre-commit <br>
+💻 `pre-commit install` install pre-commit
 
 ## Setup
 
-The hooks are configured in the `.pre-commit-config.yaml` file. 
+The hooks are configured in the `.pre-commit-config.yaml` file.
 
-!!! Warning
-    Add create config guide. 
+### List of useful hooks:
 
+Python code style formatter
 
-To run all checks you have to install pre-commit.
+    https://github.com/psf/black
 
-    pip install pre-commit
+Sort Python imports
 
-Then install all hook environments.
+    https://github.com/pycqa/isort
 
-    pre-commit install
+Very fast python linter implemented useing Rust
 
-!!! Info
-    This will take a wile but all environments will be reused.
+    https://github.com/charliermarsh/ruff-pre-commit
 
-Now all commits will trigger the hooks automatically. 
+Python linter
 
-    git commit -m "Commit" some-file
+    https://github.com/pycqa/flake8
 
-If you dont want to run the hooks you can either deactevate them or use:
+Added static types to Python (Python is dynamically typed)
 
-    git commit --no-verify -m "Your commit message"
+    https://github.com/pre-commit/mirrors-mypy
+
+## Run
+
+All commits will trigger the hooks automatically.
+💠 `git commit file` to commit
+
+If you don't want to run the hooks you can use
+💠 `git commit --no-verify file` to commit without hooks
 
 !!! Note
-   There can be problems with file line endings on Windows, CRLF is used on Windows and LF is used on Linux.
-   LF is also maintained on platforms like GitHub.
+There can be problems with file line endings on Windows, CRLF is used on Windows and LF is used on Linux.
+LF is also maintained on platforms like GitHub.
 
-To runn the hooks on all files in your repository use:
-
-    pre-commit run --all-files
+To run the hooks on all files in your repository use:
+💻 `pre-commit run --all-files`
