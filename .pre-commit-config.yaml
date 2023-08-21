@@ -2,6 +2,7 @@
 exclude: ^.*(.min.js|.min.css)$
 
 repos:
+  # Pre-commit-hooks - Out-of-the-box hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
