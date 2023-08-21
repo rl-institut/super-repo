@@ -35,7 +35,6 @@ theme:
     - navigation.tracking
     - navigation.top
     - toc.follow
-  favicon: img/favicon_super-repo.png
 
 # extensions
 markdown_extensions:
@@ -71,11 +70,11 @@ nav:
       - Code of Conduct: development/collaboration/code_of_conduct.md
     - Git:
       - development/git/index.md
-      - Code-quality checks: development/git/pre-commit.md
       - Gitignore: development/git/gitignore.md
+      - Pre-commit: development/git/pre-commit.md
     - Best-Practice:
       - development/best-practice/index.md
-      - Test-Driven-Developement: development/best-practice/test-driven-developement-workflow.md
+      - Test-Driven-Development: development/best-practice/test-driven-developement-workflow.md
     - Documentation:
       - development/documentation/index.md
     - Release:
