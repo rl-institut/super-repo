@@ -22,7 +22,7 @@ super-repo
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
-     - |badge_contributing| |badge_contributors| |badge_repo_counts| |badge_gitter|
+     - |badge_contributing| |badge_contributors| |badge_repo_counts| |badge_matrix|
 
 .. contents::
     :depth: 2
@@ -84,6 +84,6 @@ License and Citation
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :alt: closes issues
 
-.. |badge_gitter| image:: https://img.shields.io/matrix/super-repo:matrix.org?label=matrix%20chat
-    :target: https://app.element.io/#/room/#super-repo:matrix.org
-    :alt: Matrix Chat
+.. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
+    :target: https://img.shields.io/matrix/super-repo%3Amatrix.org
+    :alt: Matrix
