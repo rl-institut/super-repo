@@ -2,4 +2,7 @@ mkdocs
 mkdocs-material
 mkdocstrings
 mkdocstrings-python-legacy
+pre-commit
+pytest
+tox
 mike

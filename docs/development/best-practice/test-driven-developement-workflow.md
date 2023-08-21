@@ -11,7 +11,7 @@ You can run test in django by running:
 
 2 Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. You also need a model to represent the database table object. A possible test could look like this:
 
-``` python
+```python
 from django.test import TestCase
 from myapp.models import MyModel
 
@@ -32,7 +32,7 @@ class MyModelViewTestCase(TestCase):
 
 models.py
 
-``` python
+```python
 from django.db import models
 
 class MyModel(models.Model):
@@ -45,7 +45,7 @@ class MyModel(models.Model):
 
 views.py
 
-``` python
+```python
 from django.views.generic import ListView
 from myapp.models import MyModel
 
@@ -59,7 +59,7 @@ class MyModelListView(ListView):
 
 6 Write additional tests to make sure the view works as expected.
 
-``` python
+```python
 class MyModelViewTestCase(TestCase):
     def test_list_view_displays_all_objects(self):
         MyModel.objects.create(name="object1")
@@ -68,7 +68,7 @@ class MyModelViewTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "object1")
         self.assertContains(response, "object2")
-    
+
     def test_list_view_displays_empty_message(self):
         response = self.client.get('/my-models/')
         self.assertEqual(response.status_code, 200)
