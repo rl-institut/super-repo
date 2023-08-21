@@ -5,3 +5,4 @@ mkdocstrings-python-legacy
 pre-commit
 pytest
 tox
+mike
