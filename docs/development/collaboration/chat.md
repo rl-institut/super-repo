@@ -1,6 +1,6 @@
 # Chat
 
-For direct communication, this repo uses a public [Element](https://element.io/) room.
+For direct communication, this repo uses a public [Element](https://element.io/) room. <br>
 This messenger platform is based on the [[matrix]](https://en.wikipedia.org/wiki/Matrix_(protocol))
 communication protocol and can be accessed without a mobile phone.
 
