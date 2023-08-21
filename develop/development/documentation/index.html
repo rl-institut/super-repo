@@ -363,6 +363,10 @@
         
           
         
+          
+        
+          
+        
       
       
         
@@ -447,6 +451,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../collaboration/chat/" class="md-nav__link">
+        Chat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaboration/meeting/" class="md-nav__link">
+        Meetings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../collaboration/code_of_conduct/" class="md-nav__link">
         Code of Conduct
       </a>
@@ -484,6 +516,8 @@
         
           
         
+          
+        
       
       
         
@@ -514,6 +548,20 @@
     <li class="md-nav__item">
       <a href="../git/gitignore/" class="md-nav__link">
         Gitignore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git/pre-commit/" class="md-nav__link">
+        Pre-commit
       </a>
     </li>
   
@@ -578,7 +626,7 @@
   
     <li class="md-nav__item">
       <a href="../best-practice/test-driven-developement-workflow/" class="md-nav__link">
-        Test-Driven-Developement
+        Test-Driven-Development
       </a>
     </li>
   
@@ -1024,7 +1072,7 @@ It is structured by each release and divided by additions, changes, and removals
 <h2 id="mkdocs">MkDocs<a class="headerlink" href="#mkdocs" title="Permanent link">#</a></h2>
 <p><a href="https://www.mkdocs.org/">MkDocs</a> is a fast and simple static site generator that is used for documentation. <br>
 The source files are written in <a href="https://www.markdownguide.org/cheat-sheet/">Markdown</a>, and configured with <code>mkdocs.yml</code>. <br>
-<a href="https://squidfunk.github.io/mkdocs-material/">Material theme</a> enables 
+<a href="https://squidfunk.github.io/mkdocs-material/">Material theme</a> enables
 additional features and an elegant design. <br></p>
 <h3 id="install">Install<a class="headerlink" href="#install" title="Permanent link">#</a></h3>
 <p>Install the required packages in a python environment. <br>
@@ -1042,7 +1090,7 @@ additional features and an elegant design. <br></p>
 <p>🐙 Deploy the documentation with <strong>GitHub Actions</strong>. <br>
 The file <code>.github\workflows\gh-pages.yml</code> creates an automated GitHub workflow. <br>
 It is configured to be pushed to the branch <code>gh-page</code> and then deployed online. <br>
-A commit on the <code>production</code> branch triggers the workflow. </p>
+A commit on the <code>production</code> branch triggers the workflow.</p>
 <div class="admonition warning">
 <p class="admonition-title">Using mike with GitHub Actions</p>
 <p>This feature is not compatible with the versioning of the documentation with <code>mike</code>! <br>
@@ -1053,7 +1101,8 @@ The action overrides all manually deployed versions. <br>
 <p>The package <a href="https://github.com/jimporter/mike">mike</a> is used to deploy <a href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning">multiple versions</a> of the documentation.<br>
 💻 <code>pip install mike</code> install mike <br>
 💻 <code>mike deploy --push --update-aliases 0.1 latest</code> deploys the latest version <br>
-💻 <code>mike set-default --push latest</code> Set the default version to latest</p>
+💻 <code>mike set-default --push latest</code> Set the default version to latest
+💻 <code>mike deploy develop --push</code> deploys the develop branch</p>
 <div class="admonition note">
 <p class="admonition-title">Mike Versions</p>
 <p>It is recommended to use only the <strong>Minor Versions</strong> (e.g. 0.1) and exclude the <strong>Patch Version</strong> (e.g. 0.1.1)!</p>
@@ -1066,12 +1115,12 @@ The action overrides all manually deployed versions. <br>
 💻 <code>mike delete --all --push</code> deletes all versions</p>
 <p>When adding older versions, load the <code>Git Tags</code> used for the releases: <br>
 💠 <code>git checkout v0.1.1</code> <br>
-💻 <code>mike deploy --push --update-aliases 0.1 latest</code> deploys the old version</p>
+💻 <code>mike deploy 0.1 --push</code> deploys the old version 0.1</p>
 <p>When building mike locally, the branch <code>gh-pages</code> is modified locally. <br>
 💻 <code>error: gh-pages is unrelated to origin/gh-pages</code> <br>
 💠 <code>git branch -D gh-pages</code> delete the local documentation branch</p>
 <h2 id="mkdocstrings">mkdocstrings<a class="headerlink" href="#mkdocstrings" title="Permanent link">#</a></h2>
-<p><a href="https://mkdocstrings.github.io/">mkdocstrings</a> generates automatic 
+<p><a href="https://mkdocstrings.github.io/">mkdocstrings</a> generates automatic
 documentation (autodocs) from <a href="https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html">Google style docstrings</a>. <br>
 💻 <code>pip install mkdocstrings</code> install mkdocstrings</p>
 <div class="admonition note">

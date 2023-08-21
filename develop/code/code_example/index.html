@@ -359,6 +359,10 @@
         
           
         
+          
+        
+          
+        
       
       
         
@@ -443,6 +447,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../development/collaboration/chat/" class="md-nav__link">
+        Chat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/collaboration/meeting/" class="md-nav__link">
+        Meetings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../development/collaboration/code_of_conduct/" class="md-nav__link">
         Code of Conduct
       </a>
@@ -480,6 +512,8 @@
         
           
         
+          
+        
       
       
         
@@ -510,6 +544,20 @@
     <li class="md-nav__item">
       <a href="../../development/git/gitignore/" class="md-nav__link">
         Gitignore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/git/pre-commit/" class="md-nav__link">
+        Pre-commit
       </a>
     </li>
   
@@ -574,7 +622,7 @@
   
     <li class="md-nav__item">
       <a href="../../development/best-practice/test-driven-developement-workflow/" class="md-nav__link">
-        Test-Driven-Developement
+        Test-Driven-Development
       </a>
     </li>
   
@@ -1161,7 +1209,7 @@
 <h1 id="code-example">Code Example<a class="headerlink" href="#code-example" title="Permanent link">#</a></h1>
 <div class="admonition note">
 <p class="admonition-title">About the example</p>
-<p>Below you see the rendered version of the example module 
+<p>Below you see the rendered version of the example module
 <code>super_repo\example_google.py</code></p>
 </div>
 
@@ -1335,7 +1383,7 @@ in the property's getter method.</p>
         <span class="bp">self</span><span class="o">.</span><span class="n">attr3</span> <span class="o">=</span> <span class="n">param3</span>  <span class="c1">#: Doc comment *inline* with attribute</span>
 
         <span class="c1">#: list of str: Doc comment *before* attribute, with type specified</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">attr4</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;attr4&#39;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">attr4</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;attr4&quot;</span><span class="p">]</span>
 
         <span class="bp">self</span><span class="o">.</span><span class="n">attr5</span> <span class="o">=</span> <span class="kc">None</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;str: Docstring *after* attribute, with type specified.&quot;&quot;&quot;</span>
@@ -1343,7 +1391,7 @@ in the property's getter method.</p>
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">readonly_property</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;str: Properties should be documented in their getter method.&quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="s1">&#39;readonly_property&#39;</span>
+        <span class="k">return</span> <span class="s2">&quot;readonly_property&quot;</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">readwrite_property</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -1353,7 +1401,7 @@ in the property's getter method.</p>
 <span class="sd">        If the setter method contains notable behavior, it should be</span>
 <span class="sd">        mentioned here.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="p">[</span><span class="s1">&#39;readwrite_property&#39;</span><span class="p">]</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s2">&quot;readwrite_property&quot;</span><span class="p">]</span>
 
     <span class="nd">@readwrite_property</span><span class="o">.</span><span class="n">setter</span>
     <span class="k">def</span> <span class="nf">readwrite_property</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
@@ -1558,7 +1606,7 @@ lines are supported.</p></td>
     <span class="bp">self</span><span class="o">.</span><span class="n">attr3</span> <span class="o">=</span> <span class="n">param3</span>  <span class="c1">#: Doc comment *inline* with attribute</span>
 
     <span class="c1">#: list of str: Doc comment *before* attribute, with type specified</span>
-    <span class="bp">self</span><span class="o">.</span><span class="n">attr4</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;attr4&#39;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">attr4</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;attr4&quot;</span><span class="p">]</span>
 
     <span class="bp">self</span><span class="o">.</span><span class="n">attr5</span> <span class="o">=</span> <span class="kc">None</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;str: Docstring *after* attribute, with type specified.&quot;&quot;&quot;</span>
@@ -1991,6 +2039,7 @@ to use the function.</p>
 <span class="sd">        The return value. True for success, False otherwise.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="kc">True</span>
 </code></pre></div>
         </details>
     </div>
@@ -2249,7 +2298,7 @@ that are relevant to the interface.</p></td>
 
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">param1</span> <span class="o">==</span> <span class="n">param2</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;param1 may not be equal to param2&#39;</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;param1 may not be equal to param2&quot;</span><span class="p">)</span>
     <span class="k">return</span> <span class="kc">True</span>
 </code></pre></div>
         </details>
