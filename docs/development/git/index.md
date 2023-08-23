@@ -78,14 +78,12 @@ All commits will trigger the hooks automatically.<br>
 Commit without running the hooks.<br>
 💠 `git commit --no-verify file` to commit without hooks
 
-!!! Note
-
+!!! Note "file endings"
     There can be problems with file line endings on Windows, `CRLF` is used on Windows and `LF` is used on Linux.
 
 To run the hooks on all files in your repository use:<br>
 💻 `pre-commit run --all-files`
 
-!!! Warning
-
+!!! Warning "markdown files"
     If the hook is applied to markdown files that include special formatting,
     (e.g. `mkdocs.yml`), this can introduce incorrect changes.
