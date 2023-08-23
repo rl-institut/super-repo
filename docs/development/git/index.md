@@ -1,5 +1,23 @@
 # Git
 
+## Branches
+
+[Git Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+are used to structure the developments and improvements.
+
+### Permanent Branches
+
+- **production** - includes the current stable (latest) version
+- **develop** - includes all current developments
+
+### Temporary Branches
+
+- **feature** - includes the feature and improvements that will be implemented
+- **hotfix** - includes small improvements before a release, should be branched from a release branch
+- **release** - includes the current version to be released
+
+The majority of the development will be done in `feature` branches.
+
 ## Gitignore
 
 This file specifies intentionally untracked files to ignore.
@@ -61,11 +79,13 @@ Commit without running the hooks.<br>
 💠 `git commit --no-verify file` to commit without hooks
 
 !!! Note
+
     There can be problems with file line endings on Windows, `CRLF` is used on Windows and `LF` is used on Linux.
 
 To run the hooks on all files in your repository use:<br>
 💻 `pre-commit run --all-files`
 
 !!! Warning
+
     If the hook is applied to markdown files that include special formatting,
     (e.g. `mkdocs.yml`), this can introduce incorrect changes.
