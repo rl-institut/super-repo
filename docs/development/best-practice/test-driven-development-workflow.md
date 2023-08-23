@@ -1,15 +1,36 @@
 # Test-Driven Development
 
-The Test-Driven Development can be used for any code project. The following example shows how to implement the testing technique in a Django app.
+The Test-Driven Development can be used for any code project.
 
-When adding new functionality or features, write tests for them first before implementing them. This ensures that your changes don't affect existing functionality and that all functions work as expected.
+When adding new functionality or features, write tests for them first before implementing the new functionality. This ensures that your changes don't affect existing functionality and that all functions work as expected.
 
-You can run test in django by running:
-`python manage.py test`
+## Example: Implement a test case and functionality to test a django app
 
-1 First, make sure you have an Django app that you want to test.
+The following example shows how to implement the testing technique in a Django app.
 
-2 Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. You also need a model to represent the database table object. A possible test could look like this:
+!!! Info
+    You can run all test in django by running:
+
+    ```bash
+    python manage.py test
+    ```
+
+    To tun specific test cases you have to provide the app name followed by the name of the test case.
+    In the example below the command would look like this:
+
+    ```bash
+    python manage.py test app.MyModelViewTestCase
+    ```
+
+### 1. Step
+
+First, make sure you have an Django app that you want to test.
+
+### 2. Step
+
+Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. You also need a model to represent the database table object. A possible test could look like this:
+
+app/tests/my_test.py
 
 ```python
 from django.test import TestCase
@@ -26,9 +47,17 @@ class MyModelViewTestCase(TestCase):
 
 ```
 
-3 Run the test to make sure it fails because the view has not been implemented yet.
+### 3. Step
 
-4 Implement the model and view to make the test pass.
+Run the test to make sure it fails because the view has not been implemented yet.
+
+```bash
+python manage.py test
+```
+
+### 4. Step
+
+Implement the model and view to make the test pass.
 
 models.py
 
@@ -55,9 +84,17 @@ class MyModelListView(ListView):
 
 ```
 
-5 Run the test again to make sure it passes.
+### 5. Step
 
-6 Write additional tests to make sure the view works as expected.
+Run the test again to make sure it passes.
+
+```bash
+python manage.py test
+```
+
+### 6. Step
+
+Write additional tests to make sure the view works as expected.
 
 ```python
 class MyModelViewTestCase(TestCase):
@@ -77,4 +114,10 @@ class MyModelViewTestCase(TestCase):
 
 ```
 
-7 Run all the tests to make sure they all pass.
+### 7. Step
+
+Run all the tests to make sure they all pass.
+
+```bash
+python manage.py test
+```
