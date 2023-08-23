@@ -40,6 +40,7 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: "#"
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       use_pygments: true
@@ -67,14 +68,14 @@ nav:
       - Contributing: development/collaboration/contributing.md
       - Users: development/collaboration/users.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
-    - Continous Integration:
+    - Continuous Integration:
       - development/continuous-integration/index.md 
     - Git:
       - development/git/index.md
       - Gitignore: development/git/gitignore.md
     - Best-Practice:
       - development/best-practice/index.md
-      - Test-Driven-Developement: development/best-practice/test-driven-developement-workflow.md
+      - Test-Driven-Development: development/best-practice/test-driven-development-workflow.md
     - Documentation:
       - development/documentation/index.md
     - Release:

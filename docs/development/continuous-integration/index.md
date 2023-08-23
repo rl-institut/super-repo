@@ -15,13 +15,25 @@ pip install tox
 !!! Note
     [Tox](https://tox.wiki/en/4.9.0/) is a versatile tool that integrates comprehensive testing into your framework. Combined with a runner like GitHub Actions, it allows you to automate a wide range of tasks.
 
+    ??? Info "What is tox"
+        Tox is a popular open-source tool in the Python ecosystem that helps automate and manage the process of testing Python projects across multiple environments. It addresses the challenge of ensuring that a Python project works correctly and consistently across various versions of Python interpreters and dependencies.
+
+        In summary, Tox is a powerful tool that simplifies and automates the process of testing Python projects across different environments. It ensures that your code is reliable, functional, and compatible with various Python versions and dependencies, ultimately leading to higher code quality and more robust software.
+
+??? Info "Key features and functionalities"
+
+    Tox creates isolated virtual environments for each specified Python version. This is crucial because different projects might have different dependencies or require specific Python versions. Isolation prevents conflicts between packages used by different projects.
+
+
+
+
 Configuring `tox` may involve some complexity. Start by defining what tests you want to run and what dependencies (such as packages or external services) are required for the tests. Organize these test tasks into logical steps.
 
 !!! Warning "Missing"
     Refer to our comprehensive guide on configuring `tox` for detailed instructions.
 
 !!! Info "Run test on multiple platforms"
-    Our Tox environments are executed on all major platofrms including windows, linux and macos.
+    Our Tox environments are executed on all major platforms including windows, linux and macos.
 
 ### Configure Continuous Integration using GitHub Actions
 
@@ -64,7 +76,7 @@ These options allow you to closely monitor the progress and outcomes of your CI 
 
 ## Add new code test
 
-To add a new test for any new functuionality you have added or you plan to add you should add a test. The test is imply added to the tests/ 
+To add a new test for any new functionality you have added or you plan to add you should add a test. The test is imply added to the tests/ 
 directory. 
 
 See our examples ....
