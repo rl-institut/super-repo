@@ -73,6 +73,8 @@ nav:
       - Code of Conduct: development/collaboration/code_of_conduct.md
     - Continuous Integration:
       - development/continuous-integration/index.md
+      - Setup GitHub-Actions (CI): development/continuous-integration/setup_github_actions.md
+      - Setup Tox: development/continuous-integration/setup_tox.md
     - Git:
       - development/git/index.md
       - Gitignore: development/git/gitignore.md
