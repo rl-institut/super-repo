@@ -85,6 +85,7 @@ def function_with_pep484_type_annotations(param1: int, param2: str) -> bool:
         The return value. True for success, False otherwise.
 
     """
+    return True
 
 
 def module_level_function(param1, param2=None, *args, **kwargs):
