@@ -16,7 +16,7 @@
         <link rel="prev" href="../collaboration/code_of_conduct/">
       
       
-        <link rel="next" href="gitignore/">
+        <link rel="next" href="../best-practice/">
       
       <link rel="icon" href="../../img/favicon_super-repo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.1">
@@ -363,10 +363,6 @@
         
           
         
-          
-        
-          
-        
       
       
         
@@ -395,36 +391,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../collaboration/license/" class="md-nav__link">
-        License
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../collaboration/citation/" class="md-nav__link">
-        Citation
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../collaboration/contributing/" class="md-nav__link">
-        Contributing
+      <a href="../collaboration/license_and_citation/" class="md-nav__link">
+        License and Citation
       </a>
     </li>
   
@@ -548,7 +516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="gitignore/" class="md-nav__link">
+      <a href="gitignore.md" class="md-nav__link">
         Gitignore
       </a>
     </li>
@@ -562,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pre-commit/" class="md-nav__link">
+      <a href="pre-commit.md" class="md-nav__link">
         Pre-commit
       </a>
     </li>
@@ -955,6 +923,103 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#branches" class="md-nav__link">
+    Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permanent-branches" class="md-nav__link">
+    Permanent Branches
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temporary-branches" class="md-nav__link">
+    Temporary Branches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gitignore" class="md-nav__link">
+    Gitignore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issue-templates" class="md-nav__link">
+    Issue Templates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-pr-template" class="md-nav__link">
+    Pull Request (PR) Template
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-workflows-actions" class="md-nav__link">
+    GitHub Workflows (Actions)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-commit" class="md-nav__link">
+    Pre-commit
+  </a>
+  
+    <nav class="md-nav" aria-label="Pre-commit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    Install
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use" class="md-nav__link">
+    Use
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -973,16 +1038,78 @@
 
 
 <h1 id="git">Git<a class="headerlink" href="#git" title="Permanent link">#</a></h1>
+<h2 id="branches">Branches<a class="headerlink" href="#branches" title="Permanent link">#</a></h2>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches">Git Branches</a>
+are used to structure the developments and improvements.</p>
+<h3 id="permanent-branches">Permanent Branches<a class="headerlink" href="#permanent-branches" title="Permanent link">#</a></h3>
 <ul>
-<li>.gitignore</li>
+<li><strong>production</strong> - includes the current stable (latest) version</li>
+<li><strong>develop</strong> - includes all current developments</li>
 </ul>
-<p>Copied from (A collection of useful .gitignore templates)[https://github.com/github/gitignore]. <br>
-For more information about how <code>.gitignore</code> files work, and how to use them, see (Ignoring Files chapter)[https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring] of the Pro Git book.</p>
+<h3 id="temporary-branches">Temporary Branches<a class="headerlink" href="#temporary-branches" title="Permanent link">#</a></h3>
 <ul>
-<li>issue_template</li>
-<li>pull_request_template</li>
-<li>workflows (testing)</li>
+<li><strong>feature</strong> - includes the feature and improvements that will be implemented</li>
+<li><strong>hotfix</strong> - includes small improvements before a release, should be branched from a release branch</li>
+<li><strong>release</strong> - includes the current version to be released</li>
 </ul>
+<p>The majority of the development will be done in <code>feature</code> branches.</p>
+<h2 id="gitignore">Gitignore<a class="headerlink" href="#gitignore" title="Permanent link">#</a></h2>
+<p>This file specifies intentionally untracked files to ignore.
+It is copied from <a href="https://github.com/github/gitignore">a collection of .gitignore templates</a>. <br>
+For more information about how <code>.gitignore</code> files work, see the <a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring">Ignoring Files chapter</a> of the Pro Git book.</p>
+<h2 id="issue-templates">Issue Templates<a class="headerlink" href="#issue-templates" title="Permanent link">#</a></h2>
+<p><a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">Issue Templates</a>
+offer specific functions and default configurations for new issues.</p>
+<ul>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md">Feature Issue</a></li>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md">Bug Issue</a></li>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md">Release Issue</a></li>
+</ul>
+<h2 id="pull-request-pr-template">Pull Request (PR) Template<a class="headerlink" href="#pull-request-pr-template" title="Permanent link">#</a></h2>
+<p>The <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository">Pull Request Template</a>
+is used for all PR, because it is only possible to create a single one.
+It includes all needed information to merge branches and release new versions.</p>
+<h2 id="github-workflows-actions">GitHub Workflows (Actions)<a class="headerlink" href="#github-workflows-actions" title="Permanent link">#</a></h2>
+<p><a href="https://github.com/rl-institut/super-repo/actions">GitHub Actions</a>
+are used to automate processes of the repository. <br>
+Main use-cases are building and publishing the documentation and run automated tests.</p>
+<h2 id="pre-commit">Pre-commit<a class="headerlink" href="#pre-commit" title="Permanent link">#</a></h2>
+<p><strong>Pre-commit</strong> is a tool to easily setup and run <code>pre-commit hooks</code> for your git repository.<br>
+See the documentation of <a href="https://pre-commit.com/">pre-commit</a> for further information.<br>
+It is used to improve auto-format code, do linting and run tests before every commit.</p>
+<h3 id="install">Install<a class="headerlink" href="#install" title="Permanent link">#</a></h3>
+<p>Install the required package in a python environment. <br>
+💻 <code>pip install pre-commit</code> install pre-commit <br>
+💻 <code>pre-commit install</code> install pre-commit</p>
+<h3 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">#</a></h3>
+<p>The hooks are configured in the <code>.pre-commit-config.yaml</code> file.<br>
+List of implemented hooks:</p>
+<ul>
+<li><a href="https://github.com/pre-commit/pre-commit-hooks">Pre-commit-hooks</a> - Out-of-the-box hooks</li>
+<li><a href="https://github.com/psf/black">Black</a> - Python code formatter</li>
+<li><a href="https://github.com/pycqa/isort">isort</a> - Sort Python imports</li>
+<li><a href="https://github.com/astral-sh/ruff-pre-commit">Ruff</a> - Fast Python linter, written in Rust</li>
+<li><a href="https://github.com/pycqa/flake8">Flake8</a> - Python linter with PyFlakes and pycodestyle</li>
+<li><a href="https://github.com/pre-commit/mirrors-mypy">mypy mirror</a> - Added static types to Python</li>
+<li><a href="https://github.com/pre-commit/mirrors-prettier">mirrors-prettier</a> - Formatting for other files then python scripts</li>
+</ul>
+<h3 id="use">Use<a class="headerlink" href="#use" title="Permanent link">#</a></h3>
+<p>All commits will trigger the hooks automatically.<br>
+💠 <code>git commit file -m "Commit message #IssueNr"</code> to commit</p>
+<p>Commit without running the hooks.<br>
+💠 <code>git commit --no-verify file</code> to commit without hooks</p>
+<div class="admonition note">
+<p class="admonition-title">Line endings</p>
+<p>There can be problems with file line endings on Windows, <code>CRLF</code> is used on Windows and <code>LF</code> is used on Linux.</p>
+</div>
+<p>To run the hooks on all files in your repository use:<br>
+💻 <code>pre-commit run --all-files</code></p>
+<div class="admonition warning">
+<p class="admonition-title">Markdown files / Admonitions</p>
+<p>If the hook is applied to markdown files that include special formatting,
+(e.g. <code>mkdocs.yml</code>), this can introduce incorrect changes. <br>
+This effects <a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/">admonitions</a> boxes for MkDocs.</p>
+</div>
 
 
 
