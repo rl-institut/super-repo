@@ -21,10 +21,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update CSS to improve toc [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Update documentation for mike [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repo/pull/58)
+- Update the sections and merge subpages of the documentation [(#62)](https://github.com/rl-institut/super-repo/pull/62)
 
 ### Removed
 
 - Disable GitHub Action for MkDocs Workflow [(#54)](https://github.com/rl-institut/super-repo/pull/54)
+- Remove merged documentation files [(#62)](https://github.com/rl-institut/super-repo/pull/62)
 
 ## [0.2.0] Minor Release - Oh Hi Mike - 2023-08-11
 
