@@ -1,31 +1,98 @@
-# Continuous Integration with GitHub
+# Continuous Integration
 
-Continuous integration (CI) is a crucial practice in software development that involves testing your codebase, ensuring repository quality, reporting, automate deployments and more, to maintain the health of your software project. This guide outlines how to set up a continuous integration workflow for your GitHub-based repositories. The process involves the utilization of multiple technologies. Once the setup is complete, it's essential to be able to create new test and also to interpret the output of success or error messages as response from the test-execution. A brief summary of this process is also provided here for your reference.
+Continuous Integration (CI) is a good practice in software development that
+involves automated testing of code, ensuring repository quality, reporting, and
+automate deployments. <br>
+The process involves the utilization of multiple technologies.
+Once the setup is complete, it's possible to create new test and
+also to interpret the output of success or error messages as response from the
+test-execution. A brief summary of this process is also provided for reference.
 
-## Introduction
+## Automation
 
-!!! Warning
-    Missing
-### Testing the codebase & ensuring code quality
+The package [tox](https://github.com/tox-dev/tox) automates the process of testing
+Python projects. It provides support for creating and managing test environments
+across cross different environments, Python versions, and dependencies. <br>
+It ensures that the code is reliable, functional, and compatible on different
+computers leading to higher code quality and more robust software.
+Combined with GitHub Actions, it allows you to automate a wide range of tasks.
 
-In our projects, we utilize [`Tox`](https://tox.wiki/en/stable/) together with [`pytest`](https://docs.pytest.org/en/stable/) or [Django tests](https://docs.djangoproject.com/en/3.2/topics/testing/). In addition to configuring the testing software and crafting tests, we leverage GitHub's services. GitHub offers an integrated CI tool called Actions, which enables the definition of test workflows and events. These workflows can be executed, for instance, with every pull request or new commit on a specific branch. Follow the upcoming steps and instructions to navigate through the setup of the employed technologies.
+### Key features and functionalities
 
-!!! Info
-    Tox proves to be a powerful tool, providing comprehensive support for creating and managing test environments across various Python versions and dependencies. However, for smaller projects or those seeking a more straightforward approach, testing can also be effectively accomplished using `pytest` alone. This allows for efficient testing without the additional complexity of setting up and managing multiple environments through Tox. Choose the approach that best suits your project's requirements and size, ensuring an optimal testing experience.
+For each specified Python version, tox creates isolated virtual environments.
+This is important because different projects might have different dependencies
+or require specific Python versions and run on different platforms like Windows, Linux, or MacOS.
+Isolation prevents conflicts between packages used by different projects.
 
-### Building and deploying the documentation
+1. **Virtual Environments**: Tox creates isolated virtual environments for each specified Python version. This is crucial because different projects might have different dependencies or require specific Python versions. Isolation prevents conflicts between packages used by different projects.
+2. **Automated Testing**: Tox automates the entire testing process. It can be configured to run various types of tests, such as unit tests, integration tests, and even style checks. This ensures that the project is thoroughly tested in different environments without manual intervention.
+3. **Cross-Version and Cross-Platform Testing**: Tox enables you to test your code against multiple versions of Python, including Python 2 and Python 3. Additionally, it supports testing on various operating systems, allowing you to identify and address compatibility issues specific to different platforms.
+4. **Dependency Management**: Tox can help manage project dependencies by allowing you to specify different sets of dependencies for different testing environments. This helps ensure that your code works with different combinations of dependencies.
+5. **Configuration via tox.ini**: Tox uses a configuration file named `tox.ini` to define testing environments, dependencies, and testing commands. This file also allows you to set up various testing environments, customize test commands, and control other testing-related behaviors.
+6. **Consistency and Reproducibility**: Tox aids in maintaining consistency and reproducibility in your testing process. By setting up a standard testing workflow and environments, you reduce the risk of inconsistent results due to differences in developers' local setups.
+7. **Continuous Integration (CI)**: Tox is often used in conjunction with CI systems like Jenkins, Travis CI, CircleCI, and GitHub Actions. By incorporating Tox into your CI pipeline, you can ensure that your code is automatically tested in multiple environments whenever changes are pushed to the repository.
+8. **Plugin System**: Tox has a plugin system that allows for extensibility. This means you can add custom functionality to the testing process, such as additional test runners, code analysis tools, and more.
 
-Another use case that involves the GitHub-Actions is the automated deployment. By adding another GitHub service called Pages to the stack we can define a GitHub-Actions workflow that automatically builds&deploys our `mkdocs` based documentation. This ensures that our documentation is automatically updated if a new release or new commit is available.
+## Install
 
-!!! Warning
-    Link to `mkdocs` hosted on GH-Pages guide.
+Install the required package [`tox`](https://tox.wiki/en/stable/installation.html) in a python environment. <br>
+💻 `pip install tox` install tox <br>
 
 ## Setup
 
-We have to configure a runner that can listen for events that trigger test runs and also provides the infrastructure to execute the test automatically. GitHub-Actions provides us a hosted runner that we can use and configure using a configuration file like `.github/workflows/automated-testing.yml`.
+Configuring `tox` may involve some complexity. <br>
+See the official [tox user guide](https://tox.wiki/en/stable/user_guide.html) for further information.
 
-- [More information on how to setup GitHub-Action](setup_github_actions.md)
+All test stages are setup in the configuration file `tox.ini`.
+This file configures all test environments as well as the tools and configuration
+used to run tests and checks.
 
-To setup testing we also have to configure the automated test runs that are executed automatically via GitHub-Action. As we want to use `tox` we can setup all test stages in a single configuration file that is named `tox.ini`. This file configures all test environments as well as the tools and tool-configuration that we use to run tests and other code-quality checks.
+## Testing
 
-- [More information on how to setup `tox`](setup_tox.md)
+### pytest
+
+For smaller projects or a more straightforward approach,
+testing can also be effectively accomplished using [pytest](https://github.com/pytest-dev/pytest/).
+This allows for efficient testing without the additional complexity of setting
+up and managing multiple environments.
+
+### black
+
+Checking code syntax with `black`
+
+### flake8
+
+Verifying `docstrings` with `flake8`
+
+### isort
+
+Sorting imports with `isort`
+
+### Django tests
+
+Testing Django projects with [Django tests](https://docs.djangoproject.com/en/3.2/topics/testing/).
+
+## GitHub Actions
+
+GitHub offers an integrated CI called `GitHub Actions`,
+which enables the definition of test workflows and events.
+These workflows can be executed, for instance,
+with every pull request or new commit on a specific branch.
+To set up workflows for your repository, follow the [Guides for GitHub Actions](https://docs.github.com/en/actions/guides).
+
+### Automated Testing
+
+All tests are defined within the workflow file `.github/workflows/automated-testing.yml`.
+The workflow defines the tasks for a action, and a runner executes these tasks on a
+virtual machine provided by GitHub.
+
+The workflow is triggered whenever there's a pull request or a commit to the `develop` or `production` branches.
+The workflow prepares the Python environment and installs relevant dependencies before executing the `tox` automation suite.
+If any errors are detected, the workflow fails and generates a detailed report for developers to review.
+
+### Building and deploying the documentation
+
+Another use case that involves the GitHub-Actions is the automated deployment of the documentation.
+While all minor versions are manually deployed using [mike](https://rl-institut.github.io/super-repo/latest/development/documentation/#mike).
+GitHub-Actions workflow builds and deploys the `develop` branch.
+This ensures that the documentation is automatically updated if a new feature or update is available.
