@@ -73,9 +73,9 @@ nav:
       - development/git/index.md
       - Gitignore: development/git/gitignore.md
       - Pre-commit: development/git/pre-commit.md
-    - Best-Practice:
-      - development/best-practice/index.md
-      - Test-Driven-Development: development/best-practice/test-driven-developement-workflow.md
+    - Continuous Integration:
+      - development/continuous-integration/index.md
+      - Test-Driven-Development: development/best-practice/test-driven-development-workflow.md
     - Documentation:
       - development/documentation/index.md
     - Release:
