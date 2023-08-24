@@ -38,10 +38,11 @@ theme:
 
 # extensions
 markdown_extensions:
-  - admonition
   - toc:
       permalink: "#"
+  - admonition
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.highlight:
       use_pygments: true
 
