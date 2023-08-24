@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-# tox enviroments that run on both pull requests and merge to main
-name: ci
+# tox environments that run on both pull requests and merge to main
+name: automated-testing
 
 on:
   push:
