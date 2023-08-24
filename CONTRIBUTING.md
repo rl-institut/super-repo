@@ -31,7 +31,7 @@ If you wish, add your name and details to `CITATION.cff`.
 You add code and become an author of the repository.
 You must follow the workflow!
 
-### D. Mantain and Release
+### D. Maintain and Release
 
 You contribute and take care of the repository.
 You review and answer questions.
@@ -44,10 +44,12 @@ The workflow for contributing to this project has been inspired by the workflow 
 ### 1. Describe the issue on GitHub
 
 Create [an issue](https://help.github.com/en/articles/creating-an-issue)
-in the GitHub repository.
-The `issue title` describes the problem you will address. <br>
-This is an important step as it forces one to think about the "issue".
-Make a checklist for all needed steps if possible.
+in the GitHub repository. <br>
+Choose a suitable [issue template](https://rl-institut.github.io/super-repo/develop/development/git/)
+for a `feature` or a `bug` and fill in as much information as possible.
+Most important is the `issue title`, it describes the problem you will address. <br>
+Update the `GitHub Labels` and assign to a `GitHub Project` and `Milestone` <br>
+Creating the issue an important step as it forces one to think about the "issue".
 
 ### 2. Solve the issue locally
 
@@ -83,7 +85,7 @@ Naming convention for branches: `type`-`issue-nr`-`short-description`
 ##### `type`
 
 - feature - includes the feature that will be implemented
-- hotfix - includes small improvements before an release, should be branched from a release branch
+- hotfix - includes small improvements before a release, should be branched from a release branch
 - release - includes the current version to be released
 
 The majority of the development will be done in `feature` branches.
