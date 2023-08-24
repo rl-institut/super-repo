@@ -1,11 +1,13 @@
-# Usage 
+# Usage
 
 ## Add new code test
 
-To add a new test for any new functionality you have added or you plan to add you should add a test. The test is imply added to the tests/ 
-directory. 
+To add a new test for any new functionality you have added or you plan to add you should add a test.
+The test is imply added to the tests/
+directory.
 
 See our examples ....
+
 ## Debugging
 
 ### Local Debugging

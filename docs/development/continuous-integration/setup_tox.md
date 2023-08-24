@@ -1,9 +1,15 @@
 # Configure Tox test-automation
 
-To streamline our test environment setup, we use `tox`, a powerful tool that automates testing across different environments.
+To streamline our test environment setup, we use `tox`, a powerful tool that
+automates testing across different environments.
 
 !!! Note
-    [Tox](https://tox.wiki/en/stable/) is a powerful tool that simplifies and automates the process of testing Python projects across different environments. It ensures that your code is reliable, functional, and compatible with various Python versions and dependencies, ultimately leading to higher code quality and more robust software. Combined with a runner like GitHub Actions, it allows you to automate a wide range of tasks.
+    [Tox](https://tox.wiki/en/stable/) is a powerful tool that simplifies
+    and automates the process of testing Python projects across different environments.
+    It ensures that your code is reliable, functional, and compatible with various
+    Python versions and dependencies, ultimately leading to higher code quality
+    and more robust software. Combined with a runner like GitHub Actions,
+    it allows you to automate a wide range of tasks.
 
     ??? Info "Key features and functionalities"
 
@@ -50,7 +56,10 @@ pip install tox
 
 ## Setup
 
-Configuring `tox` may involve some complexity. Start by defining what tests you want to run and what dependencies (such as packages or external services) are required for the tests. Organize these test tasks into logical steps.
+Configuring `tox` may involve some complexity.
+Start by defining what tests you want to run and what dependencies
+(such as packages or external services) are required for the tests.
+Organize these test tasks into logical steps.
 
 !!! Info "Tox User Guide"
     The official [tox User Guide](https://tox.wiki/en/stable/user_guide.html)
