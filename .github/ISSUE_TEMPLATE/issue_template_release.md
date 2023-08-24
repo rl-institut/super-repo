@@ -2,7 +2,13 @@
 name: Release Issue
 about: For a new release
 title: Release - Minor Version - 0.1.0
-labels: "enhancement"
+labels:
+  [
+    "priority: critical :fire:",
+    "status: active :construction:",
+    "type: release :rocket:",
+    "part: github :octocat:",
+  ]
 assignees: "Ludee"
 ---
 

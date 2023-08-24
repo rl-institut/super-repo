@@ -38,10 +38,11 @@ theme:
 
 # extensions
 markdown_extensions:
-  - admonition
   - toc:
       permalink: "#"
+  - admonition
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.highlight:
       use_pygments: true
 
@@ -63,9 +64,7 @@ nav:
   - Development:
     - Collaboration:
       - development/collaboration/index.md
-      - License: development/collaboration/license.md
-      - Citation: development/collaboration/citation.md
-      - Contributing: development/collaboration/contributing.md
+      - License and Citation: development/collaboration/license_and_citation.md
       - Users: development/collaboration/users.md
       - Chat: development/collaboration/chat.md
       - Meetings: development/collaboration/meeting.md
