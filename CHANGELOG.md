@@ -1,11 +1,6 @@
 <!--
-SPDX-FileCopyrightText: 2023 Ludwig Hülk <@Ludee>
-SPDX-FileCopyrightText: © Reiner Lemoine Institut
-SPDX-License-Identifier: MIT
-
-Title: Changelog
-Version: super-repo v0.1.0
-ID: super-repo-changelog-v0.1.0
+SPDX-FileCopyrightText: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
+SPDX-License-Identifier: CC0-1.0
 -->
 
 # Changelog
