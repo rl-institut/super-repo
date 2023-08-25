@@ -2,12 +2,10 @@
 
 """Example.
 
-Example implementation of test for the calculater functionality
-to demonstrate TDD.
+Examples for the calculater functionality to demonstrate TDD.
 
-
-SPDX-FileCopyrightText: 2023 Jonas Huber <@jh-RLI>
-SPDX-FileCopyrightText: © Reiner Lemoine Institut
+SPDX-FileCopyrightText: Jonas Huber © Reiner Lemoine Institut <https://github.com/jh-RLI>
+SPDX-FileCopyrightText: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
 SPDX-License-Identifier: MIT
 """
 
