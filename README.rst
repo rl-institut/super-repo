@@ -14,7 +14,7 @@ super-repo
    :widths: auto
 
    * - License
-     - |badge_license|
+     - |badge_license| |badge_reuse|
    * - Documentation
      - |badge_documentation|
    * - Publication
@@ -56,8 +56,12 @@ License and Citation
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
-    :target: LICENSE.txt
+    :target: LICENSES/MIT.txt
     :alt: License
+
+.. |badge_reuse| image:: https://api.reuse.software/badge/github.com/rl-institut/super-repo
+    :target: https://api.reuse.software/info/github.com/rl-institut/super-repo
+    :alt: REUSE
 
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/gh-pages.yml?branch=production
     :target: https://rl-institut.github.io/super-repo/

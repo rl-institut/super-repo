@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+SPDX-License-Identifier: MIT
+
+[Homepage]: https://rl-institut.github.io/super-repo/
+[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
+-->
+
 # Release Procedure
 
 The release procedure is a process in which different parts of the repository are involved.<br>
