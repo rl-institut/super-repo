@@ -10,25 +10,23 @@
       
       
       
-        <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/">
+        <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/development/continuous-integration/setup_tox/">
       
       
       
-        <link rel="next" href="development/collaboration/">
-      
-      <link rel="icon" href="img/favicon_super-repo.png">
+      <link rel="icon" href="../../../img/favicon_super-repo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.1">
     
     
       
-        <title>Super-Repo Documentation</title>
+        <title>Configure Tox test-automation - Super-Repo Documentation</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.3bd4f189.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3bd4f189.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.2505c338.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.2505c338.min.css">
       
       
 
@@ -44,11 +42,11 @@
       
     
     
-      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="css/extra.css">
+      <link rel="stylesheet" href="../../../css/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-super-repo-documentation" class="md-skip">
+        <a href="#configure-tox-test-automation" class="md-skip">
           Skip to content
         </a>
       
@@ -97,9 +95,9 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Super-Repo Documentation" class="md-header__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
+    <a href="../../.." title="Super-Repo Documentation" class="md-header__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
       
-  <img src="img/logo_rli_small.png" alt="logo">
+  <img src="../../../img/logo_rli_small.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -115,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Configure Tox test-automation
             
           </span>
         </div>
@@ -168,12 +166,10 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="." class="md-tabs__link md-tabs__link--active">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -193,7 +189,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="development/collaboration/" class="md-tabs__link">
+      <a href="../../collaboration/" class="md-tabs__link">
         Development
       </a>
     </li>
@@ -216,7 +212,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="code/install/" class="md-tabs__link">
+      <a href="../../../code/install/" class="md-tabs__link">
         Code Documentation
       </a>
     </li>
@@ -242,8 +238,6 @@
           
             
               
-                
-              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -254,9 +248,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Super-Repo Documentation" class="md-nav__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
+    <a href="../../.." title="Super-Repo Documentation" class="md-nav__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
       
-  <img src="img/logo_rli_small.png" alt="logo">
+  <img src="../../../img/logo_rli_small.png" alt="logo">
 
     </a>
     Super-Repo Documentation
@@ -282,72 +276,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Home
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#documentation-structure" class="md-nav__link">
-    Documentation Structure
-  </a>
-  
-    <nav class="md-nav" aria-label="Documentation Structure">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fields-for-development" class="md-nav__link">
-    Fields for development
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fields-for-code-documentation" class="md-nav__link">
-    Fields for code documentation
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -427,7 +360,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="development/collaboration/">Collaboration</a>
+          <a href="../../collaboration/">Collaboration</a>
           
             <label for="__nav_2_1">
               <span class="md-nav__icon md-icon"></span>
@@ -450,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/collaboration/license_and_citation/" class="md-nav__link">
+      <a href="../../collaboration/license_and_citation/" class="md-nav__link">
         License and Citation
       </a>
     </li>
@@ -464,7 +397,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/collaboration/users/" class="md-nav__link">
+      <a href="../../collaboration/users/" class="md-nav__link">
         Users
       </a>
     </li>
@@ -478,7 +411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/collaboration/chat/" class="md-nav__link">
+      <a href="../../collaboration/chat/" class="md-nav__link">
         Chat
       </a>
     </li>
@@ -492,7 +425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/collaboration/meeting/" class="md-nav__link">
+      <a href="../../collaboration/meeting/" class="md-nav__link">
         Meetings
       </a>
     </li>
@@ -506,7 +439,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/collaboration/code_of_conduct/" class="md-nav__link">
+      <a href="../../collaboration/code_of_conduct/" class="md-nav__link">
         Code of Conduct
       </a>
     </li>
@@ -550,7 +483,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="development/git/">Git</a>
+          <a href="../../git/">Git</a>
           
             <label for="__nav_2_2">
               <span class="md-nav__icon md-icon"></span>
@@ -573,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/git/gitignore.md" class="md-nav__link">
+      <a href="../../git/gitignore.md" class="md-nav__link">
         Gitignore
       </a>
     </li>
@@ -587,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/git/pre-commit.md" class="md-nav__link">
+      <a href="../../git/pre-commit.md" class="md-nav__link">
         Pre-commit
       </a>
     </li>
@@ -629,7 +562,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="development/continuous-integration/">Continuous Integration</a>
+          <a href="../">Continuous Integration</a>
           
             <label for="__nav_2_3">
               <span class="md-nav__icon md-icon"></span>
@@ -652,7 +585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="development/best-practice/test-driven-development-workflow/" class="md-nav__link">
+      <a href="../../best-practice/test-driven-development-workflow/" class="md-nav__link">
         Test-Driven-Development
       </a>
     </li>
@@ -692,7 +625,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="development/documentation/">Documentation</a>
+          <a href="../../documentation/">Documentation</a>
           
         </div>
       
@@ -737,7 +670,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="development/release/">Release</a>
+          <a href="../../release/">Release</a>
           
         </div>
       
@@ -824,7 +757,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="code/install/">Install</a>
+          <a href="../../../code/install/">Install</a>
           
         </div>
       
@@ -869,7 +802,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="code/style/">Code Style</a>
+          <a href="../../../code/style/">Code Style</a>
           
         </div>
       
@@ -916,7 +849,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="code/">Functions</a>
+          <a href="../../../code/">Functions</a>
           
             <label for="__nav_3_3">
               <span class="md-nav__icon md-icon"></span>
@@ -939,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="code/code_example/" class="md-nav__link">
+      <a href="../../../code/code_example/" class="md-nav__link">
         Code Example
       </a>
     </li>
@@ -968,9 +901,7 @@
             
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -989,29 +920,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#documentation-structure" class="md-nav__link">
-    Documentation Structure
-  </a>
-  
-    <nav class="md-nav" aria-label="Documentation Structure">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fields-for-development" class="md-nav__link">
-    Fields for development
+  <a href="#what-is-included-in-the-tests" class="md-nav__link">
+    What is included in the tests?
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#fields-for-code-documentation" class="md-nav__link">
-    Fields for code documentation
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
   
 </li>
       
@@ -1034,34 +959,79 @@
 
 
 
-<h1 id="welcome-to-the-super-repo-documentation">Welcome to the Super-Repo Documentation<a class="headerlink" href="#welcome-to-the-super-repo-documentation" title="Permanent link">#</a></h1>
-<p>A template repo to test and document elements and features for research software. <br>
-It implements the collection of repository elements and files. <br>
-The goal is to simplify and standardise the creation of software in GitHub repositories.</p>
-<h2 id="documentation-structure">Documentation Structure<a class="headerlink" href="#documentation-structure" title="Permanent link">#</a></h2>
-<p>The documentation is separated into two main sections:
-<strong>Development</strong> and <strong>Code Documentation</strong>. <br></p>
-<h3 id="fields-for-development">Fields for development<a class="headerlink" href="#fields-for-development" title="Permanent link">#</a></h3>
-<p>Files and structures related to collaborative development, community processes,
-and documentation.</p>
+<h1 id="configure-tox-test-automation">Configure Tox test-automation<a class="headerlink" href="#configure-tox-test-automation" title="Permanent link">#</a></h1>
+<p>To streamline our test environment setup, we use <code>tox</code>, a powerful tool that
+automates testing across different environments.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a href="https://tox.wiki/en/stable/">Tox</a> is a powerful tool that simplifies
+and automates the process of testing Python projects across different environments.
+It ensures that your code is reliable, functional, and compatible with various
+Python versions and dependencies, ultimately leading to higher code quality
+and more robust software. Combined with a runner like GitHub Actions,
+it allows you to automate a wide range of tasks.</p>
+<details class="info">
+<summary>Key features and functionalities</summary>
+<p>Tox creates isolated virtual environments for each specified Python version. This is crucial because different projects might have different dependencies or require specific Python versions. Isolation prevents conflicts between packages used by different projects.</p>
+<ol>
+<li>
+<p><strong>Virtual Environments</strong>: Tox creates isolated virtual environments for each specified Python version. This is crucial because different projects might have different dependencies or require specific Python versions. Isolation prevents conflicts between packages used by different projects.</p>
+</li>
+<li>
+<p><strong>Automated Testing</strong>: Tox automates the entire testing process. It can be configured to run various types of tests, such as unit tests, integration tests, and even style checks. This ensures that the project is thoroughly tested in different environments without manual intervention.</p>
+</li>
+<li>
+<p><strong>Cross-Version and Cross-Platform Testing</strong>: Tox enables you to test your code against multiple versions of Python, including Python 2 and Python 3. Additionally, it supports testing on various operating systems, allowing you to identify and address compatibility issues specific to different platforms.</p>
+</li>
+<li>
+<p><strong>Dependency Management</strong>: Tox can help manage project dependencies by allowing you to specify different sets of dependencies for different testing environments. This helps ensure that your code works with different combinations of dependencies.</p>
+</li>
+<li>
+<p><strong>Configuration via tox.ini</strong>: Tox uses a configuration file named <code>tox.ini</code> to define testing environments, dependencies, and testing commands. This file also allows you to set up various testing environments, customize test commands, and control other testing-related behaviors.</p>
+</li>
+<li>
+<p><strong>Consistency and Reproducibility</strong>: Tox aids in maintaining consistency and reproducibility in your testing process. By setting up a standard testing workflow and environments, you reduce the risk of inconsistent results due to differences in developers' local setups.</p>
+</li>
+<li>
+<p><strong>Continuous Integration (CI) Integration</strong>: Tox is often used in conjunction with CI systems like Jenkins, Travis CI, CircleCI, and GitHub Actions. By incorporating Tox into your CI pipeline, you can ensure that your code is automatically tested in multiple environments whenever changes are pushed to the repository.</p>
+</li>
+<li>
+<p><strong>Plugin System</strong>: Tox has a plugin system that allows for extensibility. This means you can add custom functionality to the testing process, such as additional test runners, code analysis tools, and more.</p>
+</li>
+</ol>
+</details>
+</div>
+<h2 id="what-is-included-in-the-tests">What is included in the tests?<a class="headerlink" href="#what-is-included-in-the-tests" title="Permanent link">#</a></h2>
+<p>Here's an overview of the testing-tasks involved:</p>
 <ul>
-<li>COLLABORATION</li>
-<li>GIT</li>
-<li>DOCUMENTATION</li>
-<li>RELEASE</li>
+<li>Running <code>pytest</code></li>
+<li>Checking code syntax with <code>black</code></li>
+<li>Verifying <code>docstrings</code> with <code>flake8</code></li>
+<li>Sorting imports with <code>isort</code></li>
 </ul>
-<h3 id="fields-for-code-documentation">Fields for code documentation<a class="headerlink" href="#fields-for-code-documentation" title="Permanent link">#</a></h3>
-<p>Methods and standards of the module.</p>
-<ul>
-<li>INSTALL</li>
-<li>CODE-STYLE</li>
-<li>TESTS</li>
-<li>LOGGING</li>
-</ul>
+<div class="admonition info">
+<p class="admonition-title">Run test on multiple platforms</p>
+<p>Our Tox environments are executed on all major platforms including windows, linux and macos.</p>
+</div>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">#</a></h2>
+<p>Begin by installing <a href="https://tox.wiki/en/stable/installation.html"><code>tox</code></a>:</p>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>tox
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Setup and activate a <a href="https://docs.python.org/3/library/venv.html">python environment</a> first.</p>
+</div>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">#</a></h2>
+<p>Configuring <code>tox</code> may involve some complexity.
+Start by defining what tests you want to run and what dependencies
+(such as packages or external services) are required for the tests.
+Organize these test tasks into logical steps.</p>
+<div class="admonition info">
+<p class="admonition-title">Tox User Guide</p>
+<p>The official <a href="https://tox.wiki/en/stable/user_guide.html">tox User Guide</a></p>
+</div>
 
 
-
-  
 
 
 
@@ -1097,10 +1067,10 @@ and documentation.</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.tracking", "navigation.top", "toc.follow"], "search": "assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.tracking", "navigation.top", "toc.follow"], "search": "../../../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="assets/javascripts/bundle.5cf534bf.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.5cf534bf.min.js"></script>
       
     
   </body>

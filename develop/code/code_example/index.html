@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Write your documentation in Markdown and create a static page for your developer and user community">
+        <meta name="description" content="Documentation of the Super-Repo for scientific software">
       
       
       
@@ -566,7 +566,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../development/best-practice/">Best-Practice</a>
+          <a href="../../development/continuous-integration/">Continuous Integration</a>
           
             <label for="__nav_2_3">
               <span class="md-nav__icon md-icon"></span>
@@ -574,10 +574,10 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Best-Practice" data-md-level="2">
+      <nav class="md-nav" aria-label="Continuous Integration" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Best-Practice
+          Continuous Integration
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -589,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/best-practice/test-driven-developement-workflow/" class="md-nav__link">
+      <a href="../../development/best-practice/test-driven-development-workflow/" class="md-nav__link">
         Test-Driven-Development
       </a>
     </li>
@@ -1188,6 +1188,9 @@
     <div class="doc doc-contents first">
 
       <p>Example Google style docstrings.</p>
+<p>SPDX-FileCopyrightText: Copyright (c) 2007-2023 by the Sphinx team
+SPDX-License-Identifier: BSD-2-Clause</p>
+<p>https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html</p>
 <p>This module demonstrates documentation as specified by the <code>Google Python
 Style Guide</code>_. Docstrings may extend over multiple lines. Sections are created
 with a section header and a colon followed by a block of indented text.</p>
@@ -1222,15 +1225,12 @@ one convention to document module level variables and be consistent
 with it.</p></td>
       </tr>
   </tbody>
-</table>      <div class="admonition todo">
-<p class="admonition-title">Todo</p>
-<ul>
-<li>For module TODOs</li>
-<li>You have to also use <code>sphinx.ext.todo</code> extension</li>
-</ul>
-</div>
-<p>.. _Google Python Style Guide:
-   http://google.github.io/styleguide/pyguide.html</p>
+</table>      <p>Todo:</p>
+<div class="highlight"><pre><span></span><code>* For module TODOs
+* You have to also use ``sphinx.ext.todo`` extension
+</code></pre></div>
+<p>.. _Google Python Style Guide:</p>
+<p>http://google.github.io/styleguide/pyguide.html</p>
 
 
 
@@ -1363,8 +1363,9 @@ in the property's getter method.</p>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">readwrite_property</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;:obj:`list` of :obj:`str`: Properties with both a getter and setter</span>
-<span class="sd">        should only be documented in their getter method.</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;:obj:`list` of :obj:`str`: Properties with both a getter and setter.</span>
+
+<span class="sd">        (should only be documented in their getter method)</span>
 
 <span class="sd">        If the setter method contains notable behavior, it should be</span>
 <span class="sd">        mentioned here.</span>
@@ -1376,7 +1377,8 @@ in the property's getter method.</p>
         <span class="n">value</span>
 
     <span class="k">def</span> <span class="nf">example_method</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">param1</span><span class="p">,</span> <span class="n">param2</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;Class methods are similar to regular functions.</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Class methods are similar to regular functions.</span>
 
 <span class="sd">        Note:</span>
 <span class="sd">            Do not include the `self` parameter in the ``Args`` section.</span>
@@ -1478,8 +1480,8 @@ in the property's getter method.</p>
 
     <div class="doc doc-contents ">
 
-      <p>:obj:<code>list</code> of :obj:<code>str</code>: Properties with both a getter and setter
-should only be documented in their getter method.</p>
+      <p>:obj:<code>list</code> of :obj:<code>str</code>: Properties with both a getter and setter.</p>
+<p>(should only be documented in their getter method)</p>
 <p>If the setter method contains notable behavior, it should be
 mentioned here.</p>
     </div>
@@ -1698,7 +1700,8 @@ Sphinx's conf.py::</p>
         <details class="quote">
           <summary>Source code in <code>super_repo\example_google.py</code></summary>
           <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">example_method</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">param1</span><span class="p">,</span> <span class="n">param2</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Class methods are similar to regular functions.</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Class methods are similar to regular functions.</span>
 
 <span class="sd">    Note:</span>
 <span class="sd">        Do not include the `self` parameter in the ``Args`` section.</span>
@@ -2000,10 +2003,12 @@ to use the function.</p>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Example function with PEP 484 type annotations.</span>
 
 <span class="sd">    Args:</span>
+
 <span class="sd">        param1: The first parameter.</span>
 <span class="sd">        param2: The second parameter.</span>
 
 <span class="sd">    Returns:</span>
+
 <span class="sd">        The return value. True for success, False otherwise.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -2072,8 +2077,9 @@ included in the docstring:</p>
       <td><p>The return value. True for success, False otherwise.</p></td>
     </tr>
   </tbody>
-</table>      <p>.. _PEP 484:
-    https://www.python.org/dev/peps/pep-0484/</p>
+</table>      <p>.. _PEP 484:</p>
+<div class="highlight"><pre><span></span><code>https://www.python.org/dev/peps/pep-0484/
+</code></pre></div>
 
         <details class="quote">
           <summary>Source code in <code>super_repo\example_google.py</code></summary>
@@ -2085,13 +2091,16 @@ included in the docstring:</p>
 <span class="sd">    included in the docstring:</span>
 
 <span class="sd">    Args:</span>
+
 <span class="sd">        param1 (int): The first parameter.</span>
 <span class="sd">        param2 (str): The second parameter.</span>
 
 <span class="sd">    Returns:</span>
+
 <span class="sd">        bool: The return value. True for success, False otherwise.</span>
 
 <span class="sd">    .. _PEP 484:</span>
+
 <span class="sd">        https://www.python.org/dev/peps/pep-0484/</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -2119,7 +2128,7 @@ included in the docstring:</p>
 <p>Function parameters should be documented in the <code>Args</code> section. The name
 of each parameter is required. The type and description of each parameter
 is optional, but should be included if not obvious.</p>
-<p>If *args or **kwargs are accepted,
+<p>If *args or **kwargs are accepted, # noqa
 they should be listed as <code>*args</code> and <code>**kwargs</code>.</p>
 <p>The format for a parameter is::</p>
 <div class="highlight"><pre><span></span><code>name (type): description
@@ -2223,7 +2232,7 @@ that are relevant to the interface.</p></td>
 <span class="sd">    of each parameter is required. The type and description of each parameter</span>
 <span class="sd">    is optional, but should be included if not obvious.</span>
 
-<span class="sd">    If \*args or \*\*kwargs are accepted,</span>
+<span class="sd">    If \*args or \*\*kwargs are accepted, # noqa</span>
 <span class="sd">    they should be listed as ``*args`` and ``**kwargs``.</span>
 
 <span class="sd">    The format for a parameter is::</span>

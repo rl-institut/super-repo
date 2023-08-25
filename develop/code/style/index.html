@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Write your documentation in Markdown and create a static page for your developer and user community">
+        <meta name="description" content="Documentation of the Super-Repo for scientific software">
       
       
       
@@ -568,7 +568,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../development/best-practice/">Best-Practice</a>
+          <a href="../../development/continuous-integration/">Continuous Integration</a>
           
             <label for="__nav_2_3">
               <span class="md-nav__icon md-icon"></span>
@@ -576,10 +576,10 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Best-Practice" data-md-level="2">
+      <nav class="md-nav" aria-label="Continuous Integration" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Best-Practice
+          Continuous Integration
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -591,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/best-practice/test-driven-developement-workflow/" class="md-nav__link">
+      <a href="../../development/best-practice/test-driven-development-workflow/" class="md-nav__link">
         Test-Driven-Development
       </a>
     </li>
@@ -923,6 +923,63 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-installation" class="md-nav__link">
+    1. Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-code-formatting" class="md-nav__link">
+    2. Code Formatting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-naming-conventions" class="md-nav__link">
+    3. Naming Conventions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-indentation-and-whitespace" class="md-nav__link">
+    4. Indentation and Whitespace
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-comments-and-documentation" class="md-nav__link">
+    5. Comments and Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-imports" class="md-nav__link">
+    6. Imports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-code-structure-and-organization" class="md-nav__link">
+    7. Code Structure and Organization
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -941,8 +998,48 @@
 
 
 <h1 id="code-style">Code Style<a class="headerlink" href="#code-style" title="Permanent link">#</a></h1>
-<p>!!! note "Common python styles" - Pep8 - https://google.github.io/styleguide/pyguide.html</p>
-<p>TBD</p>
+<p>This document aims to provide clear instructions on how to write clean,
+readable, and maintainable Python code.
+Adhering to these guidelines will ensure consistency across the codebase and
+foster collaboration among contributors.
+Maintaining a consistent code style is crucial for the readability and
+maintainability of a Python project.</p>
+<p>We enforce most of the following guidelines in our
+<a href="../../development/continuous-integration/">Continuous-Integration pipeline</a>
+that check the code automatically.</p>
+<h2 id="1-installation">1. Installation<a class="headerlink" href="#1-installation" title="Permanent link">#</a></h2>
+<p>Before contributing to the project, make sure you have the necessary tools
+installed for code style enforcement.
+We utilize <a href="https://github.com/pre-commit/pre-commit-hooks">pre-commit</a>
+to automate code checks before committing changes.
+To install and setup pre-commit, see <a href="../../development/git/#pre-commit">Continuous-Integration pipeline</a></p>
+<h2 id="2-code-formatting">2. Code Formatting<a class="headerlink" href="#2-code-formatting" title="Permanent link">#</a></h2>
+<p>Consistent code formatting enhances readability and reduces unnecessary
+debates about style.
+We use <a href="https://github.com/psf/black">Black</a> as our Python code formatter.
+It automatically formats your code to adhere to the project's style guidelines.</p>
+<h2 id="3-naming-conventions">3. Naming Conventions<a class="headerlink" href="#3-naming-conventions" title="Permanent link">#</a></h2>
+<p>While we don't enforce strict naming conventions, we encourage compliance with
+<a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> and the
+<a href="https://google.github.io/styleguide/pyguide.html">Google Python Style Guide</a>
+for consistency. Descriptive names and adherence to conventions improve code clarity.</p>
+<h2 id="4-indentation-and-whitespace">4. Indentation and Whitespace<a class="headerlink" href="#4-indentation-and-whitespace" title="Permanent link">#</a></h2>
+<p>We follow the Python standard of using 4 spaces for tab indentation.
+Do not include any trailing whitespace at the end of lines.</p>
+<h2 id="5-comments-and-documentation">5. Comments and Documentation<a class="headerlink" href="#5-comments-and-documentation" title="Permanent link">#</a></h2>
+<p>Effective comments and docstrings are vital for code understanding.
+Use comments to explain complex logic and docstrings to describe functions,
+classes, and modules.
+Following good documentation practices ensures code is understandable to others.</p>
+<h2 id="6-imports">6. Imports<a class="headerlink" href="#6-imports" title="Permanent link">#</a></h2>
+<p>Our imports are automatically checked and sorted using
+<a href="https://github.com/pycqa/isort">isort</a>.
+This tool organizes imports based on the Black code style and optimizes import
+statements for readability.</p>
+<h2 id="7-code-structure-and-organization">7. Code Structure and Organization<a class="headerlink" href="#7-code-structure-and-organization" title="Permanent link">#</a></h2>
+<p>Maintain a logical structure within files, grouping related functions and
+classes. Consider the readability of your code and strive for modular,
+well-organized files.</p>
 
 
 

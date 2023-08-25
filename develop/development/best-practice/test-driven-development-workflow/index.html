@@ -6,14 +6,14 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Write your documentation in Markdown and create a static page for your developer and user community">
+        <meta name="description" content="Documentation of the Super-Repo for scientific software">
       
       
       
-        <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/development/best-practice/test-driven-developement-workflow/">
+        <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/development/best-practice/test-driven-development-workflow/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../../continuous-integration/">
       
       
         <link rel="next" href="../../documentation/">
@@ -572,7 +572,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../">Best-Practice</a>
+          <a href="../../continuous-integration/">Continuous Integration</a>
           
             <label for="__nav_2_3">
               <span class="md-nav__icon md-icon"></span>
@@ -580,10 +580,10 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Best-Practice" data-md-level="2">
+      <nav class="md-nav" aria-label="Continuous Integration" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Best-Practice
+          Continuous Integration
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -604,9 +604,95 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Test-Driven-Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Test-Driven-Development
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-implement-a-test-case-and-functionality-to-test-a-django-app" class="md-nav__link">
+    Example: Implement a test case and functionality to test a django app
+  </a>
+  
+    <nav class="md-nav" aria-label="Example: Implement a test case and functionality to test a django app">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-step" class="md-nav__link">
+    1. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-step" class="md-nav__link">
+    2. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-step" class="md-nav__link">
+    3. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-step" class="md-nav__link">
+    4. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-step" class="md-nav__link">
+    5. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-step" class="md-nav__link">
+    6. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-step" class="md-nav__link">
+    7. Step
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -933,6 +1019,76 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-implement-a-test-case-and-functionality-to-test-a-django-app" class="md-nav__link">
+    Example: Implement a test case and functionality to test a django app
+  </a>
+  
+    <nav class="md-nav" aria-label="Example: Implement a test case and functionality to test a django app">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-step" class="md-nav__link">
+    1. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-step" class="md-nav__link">
+    2. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-step" class="md-nav__link">
+    3. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-step" class="md-nav__link">
+    4. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-step" class="md-nav__link">
+    5. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-step" class="md-nav__link">
+    6. Step
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-step" class="md-nav__link">
+    7. Step
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -951,12 +1107,25 @@
 
 
 <h1 id="test-driven-development">Test-Driven Development<a class="headerlink" href="#test-driven-development" title="Permanent link">#</a></h1>
-<p>The Test-Driven Development can be used for any code project. The following example shows how to implement the testing technique in a Djnago app.</p>
-<p>When adding new functionality or features, write tests for them first before implementing them. This ensures that your changes don't affect existing functionality and that all functions work as expected.</p>
-<p>You can run test in django by running:
-<code>python manage.py test</code></p>
-<p>1 First, make sure you have an Django app that you want to test.</p>
-<p>2 Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. You also need a model to represent the database table object. A possible test could look like this:</p>
+<p>The Test-Driven Development can be used for any code project.</p>
+<p>When adding new functionality or features, write tests for them first before implementing the new functionality. This ensures that your changes don't affect existing functionality and that all functions work as expected.</p>
+<h2 id="example-implement-a-test-case-and-functionality-to-test-a-django-app">Example: Implement a test case and functionality to test a django app<a class="headerlink" href="#example-implement-a-test-case-and-functionality-to-test-a-django-app" title="Permanent link">#</a></h2>
+<p>The following example shows how to implement the testing technique in a Django app.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>You can run all test in django by running:</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span><span class="nb">test</span>
+</code></pre></div>
+<p>To tun specific test cases you have to provide the app name followed by the name of the test case.
+In the example below the command would look like this:</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span><span class="nb">test</span><span class="w"> </span>app.MyModelViewTestCase
+</code></pre></div>
+</div>
+<h3 id="1-step">1. Step<a class="headerlink" href="#1-step" title="Permanent link">#</a></h3>
+<p>First, make sure you have an Django app that you want to test.</p>
+<h3 id="2-step">2. Step<a class="headerlink" href="#2-step" title="Permanent link">#</a></h3>
+<p>Next, write a test for a function or feature you want to implement. Let's say you want to implement a view that returns a list of objects from the database. You also need a model to represent the database table object. A possible test could look like this:</p>
+<p>app/tests/my_test.py</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">django.test</span> <span class="kn">import</span> <span class="n">TestCase</span>
 <span class="kn">from</span> <span class="nn">myapp.models</span> <span class="kn">import</span> <span class="n">MyModel</span>
 
@@ -969,8 +1138,12 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">assertContains</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s2">&quot;object1&quot;</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">assertContains</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s2">&quot;object2&quot;</span><span class="p">)</span>
 </code></pre></div>
-<p>3 Run the test to make sure it fails because the view has not been implemented yet.</p>
-<p>4 Implement the model and view to make the test pass.</p>
+<h3 id="3-step">3. Step<a class="headerlink" href="#3-step" title="Permanent link">#</a></h3>
+<p>Run the test to make sure it fails because the view has not been implemented yet.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span><span class="nb">test</span>
+</code></pre></div>
+<h3 id="4-step">4. Step<a class="headerlink" href="#4-step" title="Permanent link">#</a></h3>
+<p>Implement the model and view to make the test pass.</p>
 <p>models.py</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
 
@@ -989,8 +1162,12 @@
     <span class="n">model</span> <span class="o">=</span> <span class="n">MyModel</span>
     <span class="n">template_name</span> <span class="o">=</span> <span class="s2">&quot;myapp/my_model_list.html&quot;</span>
 </code></pre></div>
-<p>5 Run the test again to make sure it passes.</p>
-<p>6 Write additional tests to make sure the view works as expected.</p>
+<h3 id="5-step">5. Step<a class="headerlink" href="#5-step" title="Permanent link">#</a></h3>
+<p>Run the test again to make sure it passes.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span><span class="nb">test</span>
+</code></pre></div>
+<h3 id="6-step">6. Step<a class="headerlink" href="#6-step" title="Permanent link">#</a></h3>
+<p>Write additional tests to make sure the view works as expected.</p>
 <div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">MyModelViewTestCase</span><span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">test_list_view_displays_all_objects</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">MyModel</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;object1&quot;</span><span class="p">)</span>
@@ -1005,7 +1182,10 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">assertContains</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="s2">&quot;No objects found.&quot;</span><span class="p">)</span>
 </code></pre></div>
-<p>7 Run all the tests to make sure they all pass.</p>
+<h3 id="7-step">7. Step<a class="headerlink" href="#7-step" title="Permanent link">#</a></h3>
+<p>Run all the tests to make sure they all pass.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>manage.py<span class="w"> </span><span class="nb">test</span>
+</code></pre></div>
 
 
 
