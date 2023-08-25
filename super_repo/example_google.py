@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Example Google style docstrings.
+
+"""
+Example Google style docstrings.
 
 SPDX-FileCopyrightText: Copyright (c) 2007-2023 by the Sphinx team
 SPDX-License-Identifier: BSD-2-Clause
@@ -10,6 +12,7 @@ Style Guide`_. Docstrings may extend over multiple lines. Sections are created
 with a section header and a colon followed by a block of indented text.
 
 Example:
+
     Examples can be given using either the ``Example`` or ``Examples``
     sections. Sections support any reStructuredText formatting, including
     literal blocks::
@@ -20,6 +23,7 @@ Section breaks are created by resuming unindented text. Section breaks
 are also implicitly created anytime a new section starts.
 
 Attributes:
+
     module_level_variable1 (int): Module level variables may be documented in
         either the ``Attributes`` section of the module docstring, or in an
         inline docstring immediately following the variable.
@@ -29,10 +33,12 @@ Attributes:
         with it.
 
 Todo:
+
     * For module TODOs
     * You have to also use ``sphinx.ext.todo`` extension
 
 .. _Google Python Style Guide:
+
    http://google.github.io/styleguide/pyguide.html
 
 """
@@ -55,13 +61,16 @@ def function_with_types_in_docstring(param1, param2):
     included in the docstring:
 
     Args:
+
         param1 (int): The first parameter.
         param2 (str): The second parameter.
 
     Returns:
+
         bool: The return value. True for success, False otherwise.
 
     .. _PEP 484:
+
         https://www.python.org/dev/peps/pep-0484/
 
     """
@@ -71,13 +80,16 @@ def function_with_pep484_type_annotations(param1: int, param2: str) -> bool:
     """Example function with PEP 484 type annotations.
 
     Args:
+
         param1: The first parameter.
         param2: The second parameter.
 
     Returns:
+
         The return value. True for success, False otherwise.
 
     """
+    return True
 
 
 def module_level_function(param1, param2=None, *args, **kwargs):
@@ -87,7 +99,7 @@ def module_level_function(param1, param2=None, *args, **kwargs):
     of each parameter is required. The type and description of each parameter
     is optional, but should be included if not obvious.
 
-    If \*args or \*\*kwargs are accepted,
+    If \*args or \*\*kwargs are accepted, # noqa
     they should be listed as ``*args`` and ``**kwargs``.
 
     The format for a parameter is::
@@ -130,7 +142,7 @@ def module_level_function(param1, param2=None, *args, **kwargs):
 
     """
     if param1 == param2:
-        raise ValueError('param1 may not be equal to param2')
+        raise ValueError("param1 may not be equal to param2")
     return True
 
 
@@ -223,7 +235,7 @@ class ExampleClass(object):
         self.attr3 = param3  #: Doc comment *inline* with attribute
 
         #: list of str: Doc comment *before* attribute, with type specified
-        self.attr4 = ['attr4']
+        self.attr4 = ["attr4"]
 
         self.attr5 = None
         """str: Docstring *after* attribute, with type specified."""
@@ -231,24 +243,26 @@ class ExampleClass(object):
     @property
     def readonly_property(self):
         """str: Properties should be documented in their getter method."""
-        return 'readonly_property'
+        return "readonly_property"
 
     @property
     def readwrite_property(self):
-        """:obj:`list` of :obj:`str`: Properties with both a getter and setter
-        should only be documented in their getter method.
+        """:obj:`list` of :obj:`str`: Properties with both a getter and setter.
+
+        (should only be documented in their getter method)
 
         If the setter method contains notable behavior, it should be
         mentioned here.
         """
-        return ['readwrite_property']
+        return ["readwrite_property"]
 
     @readwrite_property.setter
     def readwrite_property(self, value):
         value
 
     def example_method(self, param1, param2):
-        """Class methods are similar to regular functions.
+        """
+        Class methods are similar to regular functions.
 
         Note:
             Do not include the `self` parameter in the ``Args`` section.

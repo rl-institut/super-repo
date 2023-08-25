@@ -1,8 +1,8 @@
-name: gh-pages
+name: gh-pages (develop branch)
 on:
   push:
     branches:
-      - production
+      - develop
 permissions:
   contents: write
 jobs:
@@ -18,4 +18,4 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install --upgrade -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      - run: mike deploy develop --push

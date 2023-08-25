@@ -4,7 +4,7 @@
 
 # Project
 site_name: Super-Repo Documentation
-site_url: 
+site_url: https://rl-institut.github.io/super-repo/
 site_description: Write your documentation in Markdown and create a static page for your developer and user community
 
 # Repository
@@ -16,6 +16,7 @@ docs_dir: docs
 theme:
   name: material
   logo: img/logo_rli_small.png
+  favicon: img/favicon_super-repo.png
   palette:
     # Palette toggle for dark mode
     - scheme: slate
@@ -25,7 +26,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
   icon:
     repo: fontawesome/brands/github
@@ -39,12 +40,13 @@ theme:
     - navigation.top
     - toc.follow
 
-# extensions 
+# extensions
 markdown_extensions:
-  - admonition
   - toc:
-      permalink: 💙
+      permalink: "#"
+  - admonition
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.highlight:
       use_pygments: true
 
@@ -54,6 +56,8 @@ plugins:
 # Customization
 extra:
   generator: false
+  version:
+    provider: mike
 
 extra_css:
   - css/extra.css
@@ -64,17 +68,18 @@ nav:
   - Development:
     - Collaboration:
       - development/collaboration/index.md
-      - License: development/collaboration/license.md
-      - Citation: development/collaboration/citation.md
-      - Contributing: development/collaboration/contributing.md
+      - License and Citation: development/collaboration/license_and_citation.md
       - Users: development/collaboration/users.md
+      - Chat: development/collaboration/chat.md
+      - Meetings: development/collaboration/meeting.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
     - Git:
       - development/git/index.md
       - Gitignore: development/git/gitignore.md
-    - Best-Practice:
-      - development/best-practice/index.md
-      - Test-Driven-Developement: development/best-practice/test-driven-developement-workflow.md
+      - Pre-commit: development/git/pre-commit.md
+    - Continuous Integration:
+      - development/continuous-integration/index.md
+      - Test-Driven-Development: development/best-practice/test-driven-development-workflow.md
     - Documentation:
       - development/documentation/index.md
     - Release:

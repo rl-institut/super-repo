@@ -18,11 +18,11 @@ super-repo
    * - Documentation
      - |badge_documentation|
    * - Publication
-     - 
+     -
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
-     - |badge_contributing| |badge_contributors| |badge_repo_counts|
+     - |badge_contributing| |badge_contributors| |badge_repo_counts| |badge_matrix|
 
 .. contents::
     :depth: 2
@@ -33,7 +33,7 @@ Introduction
 ============
 | A template repo to test and document elements and features for research software.
 | It implements the collection of repository elements collected in this `Etherpad <https://etherpad.wikimedia.org/p/super-repo>`_.
-| The goal is to simplify and standardise the creation of software in GitHub repositories.
+| The goal is to simplify and standardize the creation of software in GitHub repositories.
 
 Documentation
 =============
@@ -87,3 +87,7 @@ License and Citation
 
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :alt: closes issues
+
+.. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
+    :target: https://img.shields.io/matrix/super-repo%3Amatrix.org
+    :alt: Matrix
