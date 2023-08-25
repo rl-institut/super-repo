@@ -60,6 +60,12 @@ repos:
     - id: prettier
       files: \.(css|less|md|json|sql)$
 
+  # REUSE Software - Make licensing easy for humans and machines alike
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: v1.0.0
+    hooks:
+    - id: reuse
+
   # Linter for JavaScript
   # - repo: https://github.com/pre-commit/mirrors-eslint
   #   rev: v8.38.0
