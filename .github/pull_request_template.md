@@ -1,13 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2023 Ludwig Hülk <@Ludee>
-SPDX-FileCopyrightText: © Reiner Lemoine Institut
-SPDX-License-Identifier: CC0-1.0
-
-Title: Pull Request Template
-Version: super-repo v0.1.0
-ID: super-repo-github-template-pr-v0.1.0
--->
-
 ## Summary of the discussion
 
 Describe the findings of the discussion in the issue or meeting.
@@ -27,7 +17,7 @@ Describe the findings of the discussion in the issue or meeting.
 ## Workflow checklist
 
 ### Automation
-Closes #
+Part of / Closes #
 
 ### PR-Assignee
 - [ ] 🐙 Follow the workflow in [CONTRIBUTING.md](https://github.com/rl-institut/super-repo/blob/develop/CONTRIBUTING.md)
