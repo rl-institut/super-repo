@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add a community chat on Element [(#59)](https://github.com/rl-institut/super-repo/pull/59)
 - Add documentation on the regular community meetings [(#60)](https://github.com/rl-institut/super-repo/pull/60)
 - Add CI-based automated testing and linting on commit and pull requests [(#55)](https://github.com/rl-institut/super-repo/pull/55)
+- Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
 
 ### Changed
 
