@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add pre-commit hook for REUSE [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add copyright notice to all files [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repo/pull/64)
+- Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
 
 ### Changed
 
