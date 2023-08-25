@@ -1,11 +1,9 @@
 <!--
-SPDX-FileCopyrightText: 2023 Ludwig Hülk <@Ludee>
-SPDX-FileCopyrightText: © Reiner Lemoine Institut
+SPDX-FileCopyrightText: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
 SPDX-License-Identifier: MIT
 
-Title: Contributing to Collaborative Development
-Version: super-repo v0.1.0
-ID: super-repo-contribute-v0.1.0
+[Homepage]: https://rl-institut.github.io/super-repo/
+[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
 -->
 
 # Contributing to Collaborative Development
@@ -131,6 +129,9 @@ Write a good `commit message`:
 - Allways end the commit message with the `issueNumber` including the "#"
 
 Examples of commit message: `Added function with some method #42` or `Update documentation for commit messages #1`
+
+Install and setup `pre-commit` for git.
+See the [documentation for further information and setup](https://rl-institut.github.io/super-repo/latest/development/git/#pre-commit).
 
 #### 2.4 Fix your latest commit message
 Do you want to improve your latest commit message? <br>
