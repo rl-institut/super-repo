@@ -16,3 +16,7 @@ License: CC-BY-4.0
 Files: README.rst
 Copyright: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
 License: MIT
+
+Files: pyproject.toml
+Copyright: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+License: CC0-1.0
