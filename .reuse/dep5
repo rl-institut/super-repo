@@ -4,15 +4,15 @@ Upstream-Contact: Ludwig Hülk <https://github.com/Ludee>
 Source: https://github.com/rl-institut/super-repo
 
 Files: .github/*
-Copyright: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
-           Jonas Huber © Reiner Lemoine Institut <https://github.com/jh-RLI>
+Copyright: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+           Jonas Huber (jh-RLI) © Reiner Lemoine Institut
 License: CC0-1.0
 
 Files: docs/*
-Copyright: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
-           Jonas Huber © Reiner Lemoine Institut <https://github.com/jh-RLI>
+Copyright: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+           Jonas Huber (jh-RLI) © Reiner Lemoine Institut
 License: CC-BY-4.0
 
 Files: README.rst
-Copyright: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
+Copyright: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
 License: MIT

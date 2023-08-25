@@ -5,7 +5,8 @@ Example Google style docstrings.
 
 SPDX-FileCopyrightText: Copyright (c) 2007-2023 by the Sphinx team
 SPDX-License-Identifier: BSD-2-Clause
-Source: https://github.com/sphinx-doc/sphinx/blob/master/doc/usage/extensions/example_google.py
+
+https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html
 
 This module demonstrates documentation as specified by the `Google Python
 Style Guide`_. Docstrings may extend over multiple lines. Sections are created

@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
+SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 
 [Homepage]: https://rl-institut.github.io/super-repo/

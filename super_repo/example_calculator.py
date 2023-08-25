@@ -4,8 +4,8 @@
 
 Examples for the calculater functionality to demonstrate TDD.
 
-SPDX-FileCopyrightText: Jonas Huber © Reiner Lemoine Institut <https://github.com/jh-RLI>
-SPDX-FileCopyrightText: Ludwig Hülk © Reiner Lemoine Institut <https://github.com/Ludee>
+SPDX-FileCopyrightText: Jonas Huber (jh-RLI) © Reiner Lemoine Institut
+SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 """
 
