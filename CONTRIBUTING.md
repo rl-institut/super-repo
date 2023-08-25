@@ -1,5 +1,10 @@
-<!--SPDX-License-Identifier: MIT-->
-<!--Version: v1.0.0-->
+<!--
+SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+SPDX-License-Identifier: MIT
+
+[Homepage]: https://rl-institut.github.io/super-repo/
+[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
+-->
 
 # Collaborative Development
 
@@ -71,6 +76,7 @@ git pull
 
 - production - includes the current stable version
 - develop - includes all current developments
+- gh-pages - Contains the compiled documentation
 
 #### 2.1. Create a new (local) branch
 

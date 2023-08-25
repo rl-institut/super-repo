@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Changelog
 
 All notable changes to this project will be documented in this file. <br>
@@ -16,6 +21,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add a community chat on Element [(#59)](https://github.com/rl-institut/super-repo/pull/59)
 - Add documentation on the regular community meetings [(#60)](https://github.com/rl-institut/super-repo/pull/60)
 - Add CI-based automated testing and linting on commit and pull requests [(#55)](https://github.com/rl-institut/super-repo/pull/55)
+- Add license files to folder LICENSES [(#64)](https://github.com/rl-institut/super-repo/pull/64)
+- Add dep5 file for copyright notices [(#64)](https://github.com/rl-institut/super-repo/pull/64)
+- Add pre-commit hook for REUSE [(#64)](https://github.com/rl-institut/super-repo/pull/64)
+- Add copyright notice to all files [(#64)](https://github.com/rl-institut/super-repo/pull/64)
+- Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
 
 ### Changed
@@ -29,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Disable GitHub Action for MkDocs Workflow [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Remove merged documentation files [(#62)](https://github.com/rl-institut/super-repo/pull/62)
+- Remove the LICENSE.txt file [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 
 ## [0.2.0] Minor Release - Oh Hi Mike - 2023-08-11
 

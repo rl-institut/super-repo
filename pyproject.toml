@@ -1,0 +1,25 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.8.0,<4"]
+
+[project]
+name = "super-repo"
+version = "0.2.0"
+authors = [
+    {name = "Ludwig Hülk", email = "datenzentrum@rl-institut.de"},
+]
+description = "A template repo for research software."
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "stringcase ~=1.2.0",
+]

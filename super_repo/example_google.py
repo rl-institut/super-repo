@@ -3,6 +3,11 @@
 """
 Example Google style docstrings.
 
+SPDX-FileCopyrightText: Copyright (c) 2007-2023 by the Sphinx team
+SPDX-License-Identifier: BSD-2-Clause
+
+https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html
+
 This module demonstrates documentation as specified by the `Google Python
 Style Guide`_. Docstrings may extend over multiple lines. Sections are created
 with a section header and a colon followed by a block of indented text.

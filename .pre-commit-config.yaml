@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: : Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+# SPDX-License-Identifier: CC0-1.0
+
 # exclude webdevelopement build artefacts
 exclude: ^.*(.min.js|.min.css)$
 
@@ -59,6 +62,12 @@ repos:
     hooks:
     - id: prettier
       files: \.(css|less|md|json|sql)$
+
+  # REUSE Software - Make licensing easy for humans and machines alike
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: v1.0.0
+    hooks:
+    - id: reuse
 
   # Linter for JavaScript
   # - repo: https://github.com/pre-commit/mirrors-eslint

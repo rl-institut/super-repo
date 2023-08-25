@@ -1,7 +1,11 @@
+# SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: Jonas Huber (jh-RLI) © Reiner Lemoine Institut
+# SPDX-License-Identifier: CC0-1.0
+
 # Project
 site_name: Super-Repo Documentation
 site_url: https://rl-institut.github.io/super-repo/
-site_description: Write your documentation in Markdown and create a static page for your developer and user community
+site_description: Documentation of the Super-Repo for scientific software
 
 # Repository
 repo_name: rl-institut/super-repo
