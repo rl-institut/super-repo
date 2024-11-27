@@ -10,7 +10,7 @@ SPDX-License-Identifier: MIT
 """
 
 from super_repo.example_calculator import add, divide, multiply, subtract
-
+from pytest import raises
 
 def test_addition():
     """Test addition.
@@ -47,16 +47,11 @@ def test_division():
     result = divide(15, 3)
     assert result == 5
 
+
 def test_division_zero(self):
     """Test division with zero.
 
     Test division function fail.
     """
-    try:
+    with raises(ValueError, match=r"Cannot divide by zero"):
         divide(15, 0)
-    except ValueError:
-        pass
-    except Exception:
-        self.fail('unexpected exception raised')
-    else:
-        self.fail('ExpectedException not raised')
