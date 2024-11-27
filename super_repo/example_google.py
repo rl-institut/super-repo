@@ -1,4 +1,3 @@
-
 """
 Example Google style docstrings.
 

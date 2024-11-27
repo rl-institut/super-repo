@@ -1,4 +1,3 @@
-
 """Example.
 
 Examples test for the calculater functionality to demonstrate TDD.

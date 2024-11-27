@@ -1,4 +1,3 @@
-
 """Exampl.
 
 Example implementation of common calculater functionality to
