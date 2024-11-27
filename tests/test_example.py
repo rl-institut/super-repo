@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*- #noqa
 
 """Exampl.
 
@@ -10,6 +9,7 @@ SPDX-License-Identifier: MIT
 """
 
 from pytest import raises
+
 from super_repo.example_calculator import add, divide, multiply, subtract
 
 

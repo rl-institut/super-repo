@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 """
 Example Google style docstrings.
@@ -165,7 +164,7 @@ def example_generator(n):
 
     """
     for i in range(n):
-        yield i
+        yield i*i
 
 
 class ExampleError(Exception):
@@ -195,7 +194,7 @@ class ExampleError(Exception):
         self.code = code
 
 
-class ExampleClass(object):
+class ExampleClass:
     """The summary line for a class docstring should fit on one line.
 
     If the class has public attributes, they may be documented here
