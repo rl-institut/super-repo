@@ -163,7 +163,7 @@ def example_generator(n):
 
     """
     for i in range(n):
-        yield i*i
+        yield i * i
 
 
 class ExampleError(Exception):
