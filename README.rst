@@ -71,7 +71,8 @@ License and Citation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
-.. |badge_codecov| image:: https://img.shields.io/codecov/c/github/rl-institut/super-repo
+.. |badge_codecov| image:: https://img.shields.io/codecov/c/github/rl-institut/super-repo/feature-61-codecov
+    :target: https://app.codecov.io/gh/rl-institut/super-repo/
     :alt: Codecov
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
