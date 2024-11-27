@@ -11,3 +11,4 @@ pytest
 pytest-cov
 tox
 mike
+ruff
