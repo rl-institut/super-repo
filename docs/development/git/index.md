@@ -32,7 +32,7 @@ offer specific functions and default configurations for new issues.
 - [Feature Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
 - [Bug Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
 - [Release Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
-- [Users Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
+- [User Kudos Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
 
 ## Pull Request (PR) Template
 
