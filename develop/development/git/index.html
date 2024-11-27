@@ -581,10 +581,6 @@
           
         
       
-        
-      
-        
-      
     
     
       
@@ -615,11 +611,6 @@
 
             </a>
             
-              
-              <label class="md-nav__link md-nav__link--active" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
           </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
@@ -629,48 +620,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="gitignore.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gitignore
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="pre-commit.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Pre-commit
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
           </ul>
@@ -692,8 +641,6 @@
       
         
           
-        
-      
         
       
     
@@ -726,11 +673,6 @@
 
             </a>
             
-              
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
           </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
@@ -740,27 +682,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../best-practice/test-driven-development-workflow/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Test-Driven-Development
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
           </ul>
@@ -1343,7 +1264,7 @@ are used to structure the developments and improvements.</p>
 </ul>
 <p>The majority of the development will be done in <code>feature</code> branches.</p>
 <h2 id="gitignore">Gitignore<a class="headerlink" href="#gitignore" title="Permanent link">#</a></h2>
-<p>This file specifies intentionally untracked files to ignore.
+<p>This file specifies intentionally untracked files to ignore. <br>
 It is copied from <a href="https://github.com/github/gitignore">a collection of .gitignore templates</a>. <br>
 For more information about how <code>.gitignore</code> files work, see the <a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring">Ignoring Files chapter</a> of the Pro Git book.</p>
 <h2 id="issue-templates">Issue Templates<a class="headerlink" href="#issue-templates" title="Permanent link">#</a></h2>
@@ -1362,38 +1283,52 @@ It includes all needed information to merge branches and release new versions.</
 <h2 id="github-labels">GitHub Labels<a class="headerlink" href="#github-labels" title="Permanent link">#</a></h2>
 <p>GitHub Labels are used to organize Issues and PR. <br>
 Colours and emoticons improve presentation.</p>
-<p>Categories:
-- <strong>type</strong>:
-    - bug :bug: "Something isn't working" [default] #FEF1C7
-    - feature :hammer_and_wrench: "New feature or request" #FEF1C7
-    - enhancement :gear: "Improvement of an existing feature" [default] #FEF1C7
-    - question :question: "Further information is requested" [default] #FEF1C7
-    - release :rocket: "Release procedure" #FEF1C7
-- <strong>part</strong>:
-    - backend :bricks: "Backend component" #A7F3D5
-    - frontend :desktop_computer: "Improvement of design or content" #A7F3D5
-    - docu :book: "Improvements or additions to documentation" [default] #A7F3D5
-    - github :octocat: "Improvement of the organisation or repo" #A7F3D5
-    - community :earth_africa: "Concerns the community" #A7F3D5
-- <strong>status</strong>:
-    - active :construction: "Work in progress" #93C5FD
-    - discussion :speech_balloon: "Discussion is ongoing" #93C5FD
-    - blocked :stop_sign: "Blocked or impeded progress" #F9A8D4v
-    - decision wanted :ballot_box: "Decision is needed" #F9A8D4
-    - completed :heavy_check_mark: "Task has been completed" #6EE7B7
-- <strong>priority</strong>:
-    - low :sloth: "Low priority" #FCD34D
-    - high :zap: "High priority" #FDBA74
-    - critical :fire: "Critical priority" #FCA5A5
-- resolution:
-    - released :tada: "Resolved and released" #ECDCF8
-    - wontfix :no_entry: "This will not be worked on" [default] #ECDCF8
-    - invalid :x: "Issue is invalid" [default] #ECDCF8
-    - duplicate :feet: "This issue or pull request already exists" [default] #ECDCF8
-- other:
-    - good first issue :seedling: "Good for newcomers" [default] #EBF0F3
-    - help wanted :raising_hand: "Help or assistance is needed" [default] #EBF0F3
-    - example :triangular_ruler: "Provides an example" #EBF0F3</p>
+<p>Categories:</p>
+<ul>
+<li><strong>type</strong>:<ul>
+<li>bug :bug: "Something isn't working" [default] #FEF1C7</li>
+<li>feature :hammer_and_wrench: "New feature or request" #FEF1C7</li>
+<li>enhancement :gear: "Improvement of an existing feature" [default] #FEF1C7</li>
+<li>question :question: "Further information is requested" [default] #FEF1C7</li>
+<li>release :rocket: "Release procedure" #FEF1C7</li>
+</ul>
+</li>
+<li><strong>part</strong>:<ul>
+<li>backend :bricks: "Backend component" #A7F3D5</li>
+<li>frontend :desktop_computer: "Improvement of design or content" #A7F3D5</li>
+<li>docu :book: "Improvements or additions to documentation" [default] #A7F3D5</li>
+<li>github :octocat: "Improvement of the organisation or repo" #A7F3D5</li>
+<li>community :earth_africa: "Concerns the community" #A7F3D5</li>
+</ul>
+</li>
+<li><strong>status</strong>:<ul>
+<li>active :construction: "Work in progress" #93C5FD</li>
+<li>discussion :speech_balloon: "Discussion is ongoing" #93C5FD</li>
+<li>blocked :stop_sign: "Blocked or impeded progress" #F9A8D4v</li>
+<li>decision wanted :ballot_box: "Decision is needed" #F9A8D4</li>
+<li>completed :heavy_check_mark: "Task has been completed" #6EE7B7</li>
+</ul>
+</li>
+<li><strong>priority</strong>:<ul>
+<li>low :sloth: "Low priority" #FCD34D</li>
+<li>high :zap: "High priority" #FDBA74</li>
+<li>critical :fire: "Critical priority" #FCA5A5</li>
+</ul>
+</li>
+<li>resolution:<ul>
+<li>released :tada: "Resolved and released" #ECDCF8</li>
+<li>wontfix :no_entry: "This will not be worked on" [default] #ECDCF8</li>
+<li>invalid :x: "Issue is invalid" [default] #ECDCF8</li>
+<li>duplicate :feet: "This issue or pull request already exists" [default] #ECDCF8</li>
+</ul>
+</li>
+<li>other:<ul>
+<li>good first issue :seedling: "Good for newcomers" [default] #EBF0F3</li>
+<li>help wanted :raising_hand: "Help or assistance is needed" [default] #EBF0F3</li>
+<li>example :triangular_ruler: "Provides an example" #EBF0F3</li>
+</ul>
+</li>
+</ul>
 <h2 id="github-workflows-actions">GitHub Workflows (Actions)<a class="headerlink" href="#github-workflows-actions" title="Permanent link">#</a></h2>
 <p><a href="https://github.com/rl-institut/super-repo/actions">GitHub Actions</a>
 are used to automate processes of the repository. <br>

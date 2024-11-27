@@ -569,10 +569,6 @@
           
         
       
-        
-      
-        
-      
     
     
       
@@ -600,11 +596,6 @@
 
             </a>
             
-              
-              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
           </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
@@ -614,48 +605,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../development/git/gitignore.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gitignore
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../development/git/pre-commit.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Pre-commit
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
           </ul>
@@ -677,8 +626,6 @@
       
         
           
-        
-      
         
       
     
@@ -708,11 +655,6 @@
 
             </a>
             
-              
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
           </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
@@ -722,27 +664,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../development/best-practice/test-driven-development-workflow/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Test-Driven-Development
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
           </ul>
@@ -1620,7 +1541,7 @@ in the property's getter method.</p>
 </table>
         <details class="quote">
           <summary>Source code in <code>super_repo/example_google.py</code></summary>
-          <div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">ExampleClass</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+          <div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">ExampleClass</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;The summary line for a class docstring should fit on one line.</span>
 
 <span class="sd">    If the class has public attributes, they may be documented here</span>
@@ -2244,7 +2165,7 @@ to use the function.</p>
 
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-        <span class="k">yield</span> <span class="n">i</span>
+        <span class="k">yield</span> <span class="n">i</span> <span class="o">*</span> <span class="n">i</span>
 </code></pre></div>
         </details>
     </div>
@@ -2438,7 +2359,7 @@ included in the docstring:</p>
 <p>Function parameters should be documented in the <code>Args</code> section. The name
 of each parameter is required. The type and description of each parameter
 is optional, but should be included if not obvious.</p>
-<p>If *args or **kwargs are accepted, # noqa
+<p>If <em>args or </em>*kwargs are accepted, # noqa
 they should be listed as <code>*args</code> and <code>**kwargs</code>.</p>
 <p>The format for a parameter is::</p>
 <div class="highlight"><pre><span></span><code>name (type): description
@@ -2542,7 +2463,7 @@ that are relevant to the interface.</p></td>
 <span class="sd">    of each parameter is required. The type and description of each parameter</span>
 <span class="sd">    is optional, but should be included if not obvious.</span>
 
-<span class="sd">    If \*args or \*\*kwargs are accepted, # noqa</span>
+<span class="sd">    If *args or **kwargs are accepted, # noqa</span>
 <span class="sd">    they should be listed as ``*args`` and ``**kwargs``.</span>
 
 <span class="sd">    The format for a parameter is::</span>

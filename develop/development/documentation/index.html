@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/development/documentation/">
       
       
-        <link rel="prev" href="../best-practice/test-driven-development-workflow/">
+        <link rel="prev" href="../continuous-integration/">
       
       
         <link rel="next" href="../release/">
@@ -579,10 +579,6 @@
           
         
       
-        
-      
-        
-      
     
     
       
@@ -613,11 +609,6 @@
 
             </a>
             
-              
-              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
           </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
@@ -627,48 +618,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../git/gitignore.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gitignore
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../git/pre-commit.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Pre-commit
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
           </ul>
@@ -690,8 +639,6 @@
       
         
           
-        
-      
         
       
     
@@ -724,11 +671,6 @@
 
             </a>
             
-              
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
           </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
@@ -738,27 +680,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../best-practice/test-driven-development-workflow/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Test-Driven-Development
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
           </ul>
@@ -1254,16 +1175,11 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#github-action-deprecated" class="md-nav__link">
+  <a href="#github-action" class="md-nav__link">
     <span class="md-ellipsis">
-      GitHub Action (deprecated)
+      GitHub Action
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1273,6 +1189,11 @@
       Mike
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1332,18 +1253,16 @@ additional features and an elegant design. <br></p>
 <h4 id="manually">Manually<a class="headerlink" href="#manually" title="Permanent link">#</a></h4>
 <p>Publish documentation on <strong>GitHub Pages</strong>. <br>
 💻 <code>mkdocs gh-deploy</code> manually deploys the documentation files</p>
-<h4 id="github-action-deprecated">GitHub Action (deprecated)<a class="headerlink" href="#github-action-deprecated" title="Permanent link">#</a></h4>
-<p>🐙 Deploy the documentation with <strong>GitHub Actions</strong>. <br>
-The file <code>.github\workflows\gh-pages.yml</code> creates an automated GitHub workflow. <br>
-It is configured to be pushed to the branch <code>gh-page</code> and then deployed online. <br>
-A commit on the <code>production</code> branch triggers the workflow.</p>
 <div class="admonition warning">
-<p class="admonition-title">Using mike with GitHub Actions</p>
-<p>This feature is not compatible with the versioning of the documentation with <code>mike</code>! <br>
-The action overrides all manually deployed versions. <br>
-🐙 To disable an existing <code>GitHub Action</code>, follow <a href="https://docs.github.com/de/enterprise-cloud@latest/actions/using-workflows/disabling-and-enabling-a-workflow">these instructions</a>.</p>
+<p class="admonition-title">Manually deploy documentation</p>
+<p>This command overrides all manually deployed versions (mike). <br></p>
 </div>
-<h3 id="mike">Mike<a class="headerlink" href="#mike" title="Permanent link">#</a></h3>
+<h4 id="github-action">GitHub Action<a class="headerlink" href="#github-action" title="Permanent link">#</a></h4>
+<p>🐙 Deploy the documentation with <strong>GitHub Actions</strong>. <br>
+The file <code>.github\workflows\documentation.yml</code> creates an automated GitHub workflow. <br>
+It is configured to be pushed to the branch <code>gh-page</code> and then deployed online. <br>
+A commit on the <code>develop</code> branch starts the workflow.</p>
+<h4 id="mike">Mike<a class="headerlink" href="#mike" title="Permanent link">#</a></h4>
 <p>The package <a href="https://github.com/jimporter/mike">mike</a> is used to deploy <a href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning">multiple versions</a> of the documentation.<br>
 💻 <code>pip install mike</code> install mike <br>
 💻 <code>mike deploy --push --update-aliases 0.1 latest</code> deploys the latest version <br>
