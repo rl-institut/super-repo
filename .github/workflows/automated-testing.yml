@@ -17,10 +17,8 @@ jobs:
       matrix:
         platform: [ubuntu-latest, windows-latest]
         python-version: 
-          - "3.10"
+          - '3.10'
         tox-envs: [lint, test]
-        # workaround to ignore 'pr' when merging to main
-        # see: https://github.community/t/how-to-conditionally-include-exclude-items-in-matrix-eg-based-on-branch/16853/6
         isMerge:
             - ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         exclude:
