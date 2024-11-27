@@ -97,5 +97,5 @@ License and Citation
     :alt: closes issues
 
 .. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
-    :target: https://img.shields.io/matrix/super-repo%3Amatrix.org
+    :target: https://app.element.io/#/room/#super-repo:matrix.org
     :alt: Matrix

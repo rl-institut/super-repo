@@ -22,14 +22,15 @@ and documentation.
 
 - COLLABORATION
 - GIT
+- CODE-STYLE
 - DOCUMENTATION
 - RELEASE
 
 ### Fields for code documentation
 
-Methods and standards of the module.
+Methods and functions of the module.
 
 - INSTALL
-- CODE-STYLE
+- FUNCTIONS
 - TESTS
 - LOGGING
