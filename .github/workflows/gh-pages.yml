@@ -25,4 +25,6 @@ jobs:
           git config --global user.name Documentation
           git config --global user.email docs@example.com
       - run: pip install --upgrade -r requirements.txt
-      - run: mike deploy --push --update-aliases develop
+      - run: |
+          git fetch origin gh-pages --verbose
+          mike deploy --push --update-aliases develop
