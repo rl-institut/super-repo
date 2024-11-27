@@ -8,5 +8,6 @@ mkdocstrings
 mkdocstrings-python-legacy
 pre-commit
 pytest
+pytest-cov
 tox
 mike
