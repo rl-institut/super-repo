@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk (Ludee) © Reiner Lemoine Institut
+SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add copyright notice to all files [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
+- Update REUSE [(#66)](https://github.com/rl-institut/super-repo/pull/66)
 
 ### Changed
 

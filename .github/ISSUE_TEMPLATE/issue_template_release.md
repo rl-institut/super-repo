@@ -9,7 +9,7 @@ labels:
     "type: release :rocket:",
     "part: github :octocat:",
   ]
-assignees: "Ludee"
+assignees: 'Ludee'
 ---
 
 ## Description of the release
