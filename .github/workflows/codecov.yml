@@ -24,6 +24,8 @@ jobs:
         run: pip install pytest pytest-cov
 
       - name: Run tests
+        env:
+          DB_URL: /home/runner/work/super-repo/tests/test_db.hdf5
         run: pytest --cov --cov-report=xml
 
       - name: Upload results to Codecov

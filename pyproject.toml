@@ -10,8 +10,7 @@ requires = ["flit_core >=3.8.0,<4"]
 name = "super-repo"
 version = "0.2.0"
 authors = [
-    {name = "Ludwig Hülk", email = "datenzentrum@rl-institut.de"},
-]
+    {name = "Ludwig Hülk", email = "datenzentrum@rl-institut.de"}]
 description = "A template repo for research software."
 readme = "README.rst"
 requires-python = ">=3.10"
