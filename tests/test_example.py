@@ -12,6 +12,7 @@ SPDX-License-Identifier: MIT
 from super_repo.example_calculator import add, divide, multiply, subtract
 from pytest import raises
 
+
 def test_addition():
     """Test addition.
 
