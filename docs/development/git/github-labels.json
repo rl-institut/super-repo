@@ -1,0 +1,127 @@
+[
+    {
+        "name": "other: example 📐",
+        "description": "Provides an example",
+        "color": "EBF0F3"
+    },
+    {
+        "name": "other: good first issue 🌱",
+        "description": "Good for newcomers",
+        "color": "EBF0F3"
+    },
+    {
+        "name": "other: help wanted 🙋",
+        "description": "Help or assistance is needed",
+        "color": "EBF0F3"
+    },
+    {
+        "name": "part: backend 🧱",
+        "description": "Backend component",
+        "color": "A7F3D5"
+    },
+    {
+        "name": "part: community 🌍",
+        "description": "Concerns the community",
+        "color": "A7F3D5"
+    },
+    {
+        "name": "part: docu 📖",
+        "description": "Improvements or additions to documentation",
+        "color": "A7F3D5"
+    },
+    {
+        "name": "part: frontend 🖥️",
+        "description": "Improvement of design or content",
+        "color": "A7F3D5"
+    },
+    {
+        "name": "part: github",
+        "description": "Improvement of the organisation or repo",
+        "color": "A7F3D5"
+    },
+    {
+        "name": "priority: critical 🔥",
+        "description": "Critical priority",
+        "color": "FCA5A5"
+    },
+    {
+        "name": "priority: high ⚡",
+        "description": "High priority",
+        "color": "FDBA74"
+    },
+    {
+        "name": "priority: low 🦥",
+        "description": "Low priority",
+        "color": "FCD34D"
+    },
+    {
+        "name": "resolution: duplicate 🐾",
+        "description": "This issue or pull request already exists",
+        "color": "ECDCF8"
+    },
+    {
+        "name": "resolution: invalid ❌",
+        "description": "Issue is invalid",
+        "color": "ECDCF8"
+    },
+    {
+        "name": "resolution: released 🎉",
+        "description": "Resolved and released",
+        "color": "ECDCF8"
+    },
+    {
+        "name": "resolution: wontfix ⛔",
+        "description": "This will not be worked on",
+        "color": "ECDCF8"
+    },
+    {
+        "name": "status: active 🚧",
+        "description": "Work in progress",
+        "color": "93C5FD"
+    },
+    {
+        "name": "status: blocked 🛑",
+        "description": "Blocked or impeded progress",
+        "color": "F9A8D4"
+    },
+    {
+        "name": "status: completed ✔️",
+        "description": "Task has been completed",
+        "color": "6EE7B7"
+    },
+    {
+        "name": "status: decision wanted 🗳️",
+        "description": "Decision is needed",
+        "color": "F9A8D4"
+    },
+    {
+        "name": "status: discussion 💬",
+        "description": "Discussion is ongoing",
+        "color": "93C5FD"
+    },
+    {
+        "name": "type: bug 🐛",
+        "description": "Something isn't working",
+        "color": "FEF1C7"
+    },
+    {
+        "name": "type: enhancement ⚙️",
+        "description": "Improvement of an existing feature",
+        "color": "FEF1C7"
+    },
+    {
+        "name": "type: feature 🛠️",
+        "description": "New feature or request",
+        "color": "FEF1C7"
+    },
+    {
+        "name": "type: question ❓",
+        "description": "Further information is requested",
+        "color": "FEF1C7"
+    },
+    {
+        "name": "type: release 🚀",
+        "description": "Release procedure",
+        "color": "FEF1C7"
+    }
+]
