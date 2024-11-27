@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
-name: Codecov
+name: codecov
 
 on: 
   push:

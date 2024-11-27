@@ -47,10 +47,16 @@ def test_division():
     result = divide(15, 3)
     assert result == 5
 
-def test_division_zero():
+def test_division_zero(self):
     """Test division with zero.
 
     Test division function fail.
     """
-    result = divide(15, 0)
-    assert result == ValueError
+    try:
+        divide(15, 0)
+    except ValueError:
+        pass
+    except Exception:
+        self.fail('unexpected exception raised')
+    else:
+        self.fail('ExpectedException not raised')
