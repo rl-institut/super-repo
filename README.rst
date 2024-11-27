@@ -20,7 +20,7 @@ super-repo
    * - License
      - |badge_license| |badge_reuse|
    * - Documentation
-     - |badge_documentation|
+     - |badge_documentation| |badge_codecov|
    * - Publication
      -
    * - Development
@@ -70,6 +70,9 @@ License and Citation
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/gh-pages.yml?branch=production
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
+
+.. |badge_codecov| image:: https://img.shields.io/codecov/c/github/rl-institut/super-repo
+    :alt: Codecov
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
     :alt: contributions
