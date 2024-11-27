@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    name: Run tests and collect coverage
+    name: Run tests and create codecov
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

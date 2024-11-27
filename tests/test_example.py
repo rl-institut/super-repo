@@ -48,7 +48,7 @@ def test_division():
     assert result == 5
 
 
-def test_division_zero(self):
+def test_division_zero():
     """Test division with zero.
 
     Test division function fail.
