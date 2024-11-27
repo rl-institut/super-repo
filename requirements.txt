@@ -1,4 +1,12 @@
+# SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
+# SPDX-License-Identifier: MIT
+
 mkdocs
 mkdocs-material
 mkdocstrings
 mkdocstrings-python-legacy
+pre-commit
+pytest
+tox
+mike

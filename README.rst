@@ -1,3 +1,7 @@
+..
+  SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+
+  SPDX-License-Identifier: MIT
 
 .. figure:: https://user-images.githubusercontent.com/14353512/185425447-85dbcde9-f3a2-4f06-a2db-0dee43af2f5f.png
     :align: left
@@ -14,15 +18,15 @@ super-repo
    :widths: auto
 
    * - License
-     - |badge_license|
+     - |badge_license| |badge_reuse|
    * - Documentation
      - |badge_documentation|
    * - Publication
-     - 
+     -
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
-     - |badge_contributing| |badge_contributors| |badge_repo_counts|
+     - |badge_contributing| |badge_contributors| |badge_repo_counts| |badge_matrix|
 
 .. contents::
     :depth: 2
@@ -33,7 +37,7 @@ Introduction
 ============
 | A template repo to test and document elements and features for research software.
 | It implements the collection of repository elements collected in this `Etherpad <https://etherpad.wikimedia.org/p/super-repo>`_.
-| The goal is to simplify and standardise the creation of software in GitHub repositories.
+| The goal is to simplify and standardize the creation of software in GitHub repositories.
 
 Documentation
 =============
@@ -56,8 +60,12 @@ License and Citation
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
-    :target: LICENSE.txt
+    :target: LICENSES/MIT.txt
     :alt: License
+
+.. |badge_reuse| image:: https://api.reuse.software/badge/github.com/rl-institut/super-repo
+    :target: https://api.reuse.software/info/github.com/rl-institut/super-repo
+    :alt: REUSE
 
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/gh-pages.yml?branch=production
     :target: https://rl-institut.github.io/super-repo/
@@ -83,3 +91,7 @@ License and Citation
 
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :alt: closes issues
+
+.. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
+    :target: https://img.shields.io/matrix/super-repo%3Amatrix.org
+    :alt: Matrix
