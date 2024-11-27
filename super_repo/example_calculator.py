@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Example.
 
 Examples for the calculater functionality to demonstrate TDD.

@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
-name: REUSE Compliance Check
+name: REUSE compliance check
 
 on: [push, pull_request]
 

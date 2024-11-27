@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*- #noqa
-
 """Exampl.
 
 Example implementation of common calculater functionality to
@@ -8,6 +6,8 @@ demonstrate TDD.
 SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 """
+
+from pytest import raises
 
 from super_repo.example_calculator import add, divide, multiply, subtract
 
@@ -46,3 +46,12 @@ def test_division():
     """
     result = divide(15, 3)
     assert result == 5
+
+
+def test_division_zero():
+    """Test division with zero.
+
+    Test division function fail.
+    """
+    with raises(ValueError, match=r"Cannot divide by zero"):
+        divide(15, 0)

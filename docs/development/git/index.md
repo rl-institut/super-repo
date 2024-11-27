@@ -20,7 +20,7 @@ The majority of the development will be done in `feature` branches.
 
 ## Gitignore
 
-This file specifies intentionally untracked files to ignore.
+This file specifies intentionally untracked files to ignore. <br>
 It is copied from [a collection of .gitignore templates](https://github.com/github/gitignore). <br>
 For more information about how `.gitignore` files work, see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the Pro Git book.
 
@@ -46,6 +46,7 @@ GitHub Labels are used to organize Issues and PR. <br>
 Colours and emoticons improve presentation.
 
 Categories:
+
 - **type**:
     - bug :bug: "Something isn't working" [default] #FEF1C7
     - feature :hammer_and_wrench: "New feature or request" #FEF1C7

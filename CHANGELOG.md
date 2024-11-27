@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
 - Update REUSE [(#66)](https://github.com/rl-institut/super-repo/pull/66)
+- Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repo/pull/68)
 
 ### Changed
 
