@@ -9,8 +9,8 @@ SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 """
 
-from super_repo.example_calculator import add, divide, multiply, subtract
 from pytest import raises
+from super_repo.example_calculator import add, divide, multiply, subtract
 
 
 def test_addition():
