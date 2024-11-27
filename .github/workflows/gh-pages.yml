@@ -20,5 +20,9 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
+      - name: Setup git
+        run: |
+          git config --global user.name Documentation
+          git config --global user.email docs@example.com
       - run: pip install --upgrade -r requirements.txt
       - run: mike deploy develop --push
