@@ -29,6 +29,13 @@ classifiers = [
 dependencies = [
     "stringcase ~=1.2.0",
 ]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/rl-institut/super-repo"
+Documentation = "https://rl-institut.github.io/super-repo/latest/"
+Changelog = "https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md"
+"Issue Tracker" = "https://github.com/rl-institut/super-repo/issues"
 
 lint = [
   "ruff",

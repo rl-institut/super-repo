@@ -19,7 +19,6 @@ Describe the findings of the discussion in the issue or meeting.
 ## Workflow checklist
 
 ### Automation
-
 Part of # / Closes #
 
 ### PR-Assignee
@@ -27,6 +26,7 @@ Part of # / Closes #
 - [ ] 🐙 Follow the workflow in [CONTRIBUTING.md](https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md)
 - [ ] 📝 Update the [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/develop/CHANGELOG.md)
 - [ ] 📙 Update the documentation
+- [ ] 🐙 Assign a reviewer to the PR
 
 ### Reviewer
 
