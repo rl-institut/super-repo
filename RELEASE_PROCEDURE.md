@@ -93,7 +93,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 - `📝CITATION.cff`
   - Update `version`
   - Update `date-released`
-- `📝setup.py`
+- `📝pyproject.toml`
   - Update `version`
   - Update `download_url` (.../v0.1.0.tar.gz)
 
@@ -194,6 +194,7 @@ If you messed up, remove tags and start again
 ## Sources:
 
 - https://raw.githubusercontent.com/folio-org/stripes/master/doc/release-procedure.md
+
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line
