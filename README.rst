@@ -51,6 +51,7 @@ Collaboration
 | Everyone is invited to develop this repository with good intentions.
 | Please follow the workflow described in the `CONTRIBUTING.md <https://rl-institut.github.io/super-repo/latest/development/collaboration/>`_.
 
+Contributors:
 .. figure:: https://contrib.rocks/image?repo=rl-institut/super-repo
     :align: left
     :target: https://github.com/rl-institut/super-repo/graphs/contributors
