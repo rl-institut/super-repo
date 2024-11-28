@@ -20,7 +20,7 @@ super-repo
    * - License
      - |badge_license| |badge_reuse|
    * - Documentation
-     - |badge_documentation| |badge_codecov|
+     - |badge_documentation| |badge_tests| |badge_codecov|
    * - Publication
      - |badge_pypi| |badge_python| |badge_pypi_downloads|
    * - Development
@@ -52,6 +52,7 @@ Collaboration
 | Please follow the workflow described in the `CONTRIBUTING.md <https://rl-institut.github.io/super-repo/latest/development/collaboration/>`_.
 
 Contributors:
+
 .. figure:: https://contrib.rocks/image?repo=rl-institut/super-repo
     :align: left
     :target: https://github.com/rl-institut/super-repo/graphs/contributors
