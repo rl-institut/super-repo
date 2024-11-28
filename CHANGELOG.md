@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
 - Update REUSE [(#66)](https://github.com/rl-institut/super-repo/pull/66)
 - Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repo/pull/68)
+- Add badges for publication section [(#69)](https://github.com/rl-institut/super-repo/pull/69)
 
 ### Changed
 
@@ -36,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update documentation for mike [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repo/pull/58)
 - Update the sections and merge subpages of the documentation [(#62)](https://github.com/rl-institut/super-repo/pull/62)
+- Update documentation for release [(#69)](https://github.com/rl-institut/super-repo/pull/69)
 
 ### Removed
 
