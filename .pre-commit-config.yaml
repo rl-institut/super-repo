@@ -51,6 +51,13 @@ repos:
     - id: prettier
       files: \.(css|less|md|json|sql)$
 
+  # Numpy's Sphinx extensions
+  - repo: https://github.com/numpy/numpydoc
+    rev: v1.8.0
+    hooks:
+      - id: numpydoc-validation
+        exclude: (tests|docs)/.*
+
   # REUSE Software - Make licensing easy for humans and machines alike
   - repo: https://github.com/fsfe/reuse-tool
     rev: v5.0.2
