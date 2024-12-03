@@ -16,6 +16,7 @@ repos:
       - id: check-xml
       - id: end-of-file-fixer
       - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
       - id: pretty-format-json
         args:
           [
@@ -26,22 +27,9 @@ repos:
       - id: check-docstring-first
       - id: detect-private-key
 
-  # Black - Python code formatter
-  - repo: https://github.com/psf/black
-    rev: 24.10.0
-    hooks:
-    - id: black
-
-  # isort - Sort Python imports
-  - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
-    hooks:
-    - id: isort
-      args: ["--profile", "black", "--filter-files"]
-
   # Ruff - Fast Python linter, written in Rust
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: 'v0.8.0'
+    rev: 'v0.8.1'
     hooks:
     - id: ruff
       args: [--fix, --exit-non-zero-on-fix]
