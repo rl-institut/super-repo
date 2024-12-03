@@ -32,7 +32,7 @@ repos:
     rev: 'v0.8.1'
     hooks:
     - id: ruff
-      args: [--fix, --exit-non-zero-on-fix]
+      args: [--fix, --exit-non-zero-on-fix, --show-fixes]
     - id: ruff-format
 
   # mypy mirror - Added static types to Python (Python is dynamically typed)
