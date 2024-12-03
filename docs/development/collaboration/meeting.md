@@ -3,7 +3,7 @@
 In order to develop a program collaboratively, it is helpful to regularly
 exchange information about the current status and to discuss open questions
 and make decisions. <br>
-If you want to join the meetings, please use the 
+If you want to join the meetings, please use the
 [GitHub Discussions](https://github.com/rl-institut/super-repo/discussions).
 
 ## Developer Meetings

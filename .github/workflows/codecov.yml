@@ -3,7 +3,7 @@
 
 name: codecov
 
-on: 
+on:
   push:
     branches: [ production, develop ]
 

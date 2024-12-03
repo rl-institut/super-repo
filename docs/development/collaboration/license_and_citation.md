@@ -1,6 +1,5 @@
 # License
 
-
 ## Software License
 
 This software is developed under an
@@ -8,9 +7,9 @@ This software is developed under an
 The selected license can be read in the
 [LICENSE.txt](https://github.com/rl-institut/super-repo/blob/production/LICENSE.txt).
 
-This repository follows the [REUSE SOFTWARE](https://reuse.software/) 
-specification. 
-All files are explicitly stating the corresponding license and copyright information. 
+This repository follows the [REUSE SOFTWARE](https://reuse.software/)
+specification.
+All files are explicitly stating the corresponding license and copyright information.
 It is implemented as GitHub workflow and pre-commit hook:
 
 - GitHub workflow: [reuse.yml](https://github.com/rl-institut/super-repo/blob/feature-7-REUSE/.github/workflows/reuse.yml)

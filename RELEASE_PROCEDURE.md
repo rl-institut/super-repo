@@ -195,6 +195,5 @@ If you messed up, remove tags and start again
 
 - https://raw.githubusercontent.com/folio-org/stripes/master/doc/release-procedure.md
 
-
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

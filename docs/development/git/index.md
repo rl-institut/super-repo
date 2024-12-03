@@ -48,36 +48,36 @@ Colours and emoticons improve presentation.
 Categories:
 
 - **type**:
-    - bug :bug: "Something isn't working" [default] #FEF1C7
-    - feature :hammer_and_wrench: "New feature or request" #FEF1C7
-    - enhancement :gear: "Improvement of an existing feature" [default] #FEF1C7
-    - question :question: "Further information is requested" [default] #FEF1C7
-    - release :rocket: "Release procedure" #FEF1C7
+  - bug :bug: "Something isn't working" [default] #FEF1C7
+  - feature :hammer_and_wrench: "New feature or request" #FEF1C7
+  - enhancement :gear: "Improvement of an existing feature" [default] #FEF1C7
+  - question :question: "Further information is requested" [default] #FEF1C7
+  - release :rocket: "Release procedure" #FEF1C7
 - **part**:
-    - backend :bricks: "Backend component" #A7F3D5
-    - frontend :desktop_computer: "Improvement of design or content" #A7F3D5
-    - docu :book: "Improvements or additions to documentation" [default] #A7F3D5
-    - github :octocat: "Improvement of the organisation or repo" #A7F3D5
-    - community :earth_africa: "Concerns the community" #A7F3D5
+  - backend :bricks: "Backend component" #A7F3D5
+  - frontend :desktop_computer: "Improvement of design or content" #A7F3D5
+  - docu :book: "Improvements or additions to documentation" [default] #A7F3D5
+  - github :octocat: "Improvement of the organisation or repo" #A7F3D5
+  - community :earth_africa: "Concerns the community" #A7F3D5
 - **status**:
-    - active :construction: "Work in progress" #93C5FD
-    - discussion :speech_balloon: "Discussion is ongoing" #93C5FD
-    - blocked :stop_sign: "Blocked or impeded progress" #F9A8D4v
-    - decision wanted :ballot_box: "Decision is needed" #F9A8D4
-    - completed :heavy_check_mark: "Task has been completed" #6EE7B7
+  - active :construction: "Work in progress" #93C5FD
+  - discussion :speech_balloon: "Discussion is ongoing" #93C5FD
+  - blocked :stop_sign: "Blocked or impeded progress" #F9A8D4v
+  - decision wanted :ballot_box: "Decision is needed" #F9A8D4
+  - completed :heavy_check_mark: "Task has been completed" #6EE7B7
 - **priority**:
-    - low :sloth: "Low priority" #FCD34D
-    - high :zap: "High priority" #FDBA74
-    - critical :fire: "Critical priority" #FCA5A5
+  - low :sloth: "Low priority" #FCD34D
+  - high :zap: "High priority" #FDBA74
+  - critical :fire: "Critical priority" #FCA5A5
 - resolution:
-    - released :tada: "Resolved and released" #ECDCF8
-    - wontfix :no_entry: "This will not be worked on" [default] #ECDCF8
-    - invalid :x: "Issue is invalid" [default] #ECDCF8
-    - duplicate :feet: "This issue or pull request already exists" [default] #ECDCF8
+  - released :tada: "Resolved and released" #ECDCF8
+  - wontfix :no_entry: "This will not be worked on" [default] #ECDCF8
+  - invalid :x: "Issue is invalid" [default] #ECDCF8
+  - duplicate :feet: "This issue or pull request already exists" [default] #ECDCF8
 - other:
-    - good first issue :seedling: "Good for newcomers" [default] #EBF0F3
-    - help wanted :raising_hand: "Help or assistance is needed" [default] #EBF0F3
-    - example :triangular_ruler: "Provides an example" #EBF0F3
+  - good first issue :seedling: "Good for newcomers" [default] #EBF0F3
+  - help wanted :raising_hand: "Help or assistance is needed" [default] #EBF0F3
+  - example :triangular_ruler: "Provides an example" #EBF0F3
 
 ## GitHub Workflows (Actions)
 

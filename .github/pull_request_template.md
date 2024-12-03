@@ -19,6 +19,7 @@ Describe the findings of the discussion in the issue or meeting.
 ## Workflow checklist
 
 ### Automation
+
 Part of # / Closes #
 
 ### PR-Assignee
