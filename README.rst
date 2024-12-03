@@ -78,8 +78,8 @@ License and Citation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
-.. |badge_tests| image:: https://github.com/rl-institut/super-repo/actions/workflows/automated-testing.yaml/badge.svg
-    :target: https://github.com/rl-institut/super-repo/actions/workflows/automated-testing.yaml
+.. |badge_tests| image:: https://github.com/rl-institut/super-repo/actions/workflows/automated-testing.yml/badge.svg
+    :target: https://github.com/rl-institut/super-repo/actions/workflows/automated-testing.yml
     :alt: Documentation
 
 .. |badge_codecov| image:: https://codecov.io/gh/rl-institut/super-repo/graph/badge.svg?token=YYCJI3D5G5
