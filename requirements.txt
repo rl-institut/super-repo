@@ -6,9 +6,9 @@ mkdocs
 mkdocs-material
 mkdocstrings
 mkdocstrings-python-legacy
+mike
 pre-commit
 pytest
 pytest-cov
 tox
-mike
 ruff

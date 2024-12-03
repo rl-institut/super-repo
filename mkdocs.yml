@@ -77,6 +77,8 @@ nav:
       - development/git/index.md
     - Continuous Integration:
       - development/continuous-integration/index.md
+    - Code Style:
+      - code/style/index.md
     - Documentation:
       - development/documentation/index.md
     - Release:
@@ -84,8 +86,6 @@ nav:
   - Code Documentation:
     - Install:
       - code/install/index.md
-    - Code Style:
-      - code/style/index.md
     - Functions:
       - code/index.md
       - code/code_example.md

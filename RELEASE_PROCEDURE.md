@@ -93,7 +93,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 - `📝CITATION.cff`
   - Update `version`
   - Update `date-released`
-- `📝setup.py`
+- `📝pyproject.toml`
   - Update `version`
   - Update `download_url` (.../v0.1.0.tar.gz)
 
@@ -179,17 +179,22 @@ If you messed up, remove tags and start again
 
 ### 1. 💻 Create and publish package on PyPI
 
-- Navigate to git folder `cd D:\git\github\GROUP\REPO\`
-- Create package using `python setup.py sdist`
-- Check that file has been created in folder `dist`
-- Activate python environment `activate release_py38`
-- Upload to PyPI using `twine upload dist/NAME_0.5.1.tar.gz`
-- Enter `name` and `password`
-- Check on PyPI if release arrived
-- Breath three times and smile
+💻 `cd D:\git\github\USER\REPO\` Navigate to git folder <br>
+💻 `activate py310` Activate conda environment <br>
+💻 `python -m build` Create package using <br>
+📝 `dist` Check that files have been created in folder <br>
+💻 `twine check dist/*` Check build <br>
+💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz` Upload to Test PyPI using <br>
+💻 `twine upload dist/NAME_0.2.0.tar.gz` Upload to PyPI using <br>
+💻 Enter `name` and `password` <br>
+🎉 Check on PyPI if release arrived, breath three times and smile!
 
 ▶️ Publish the Package
 
 ## Sources:
 
 - https://raw.githubusercontent.com/folio-org/stripes/master/doc/release-procedure.md
+
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

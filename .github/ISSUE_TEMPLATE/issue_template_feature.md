@@ -3,7 +3,7 @@ name: Feature Issue
 about: For new ideas, developments and features
 title: Your title should make sense if said after "The issue is <your issue title>"
 labels: ["status: active :construction:", "type: feature :hammer_and_wrench:"]
-assignees: ""
+assignees: ''
 ---
 
 ## Description of the issue
