@@ -7,14 +7,6 @@ This software is developed under an
 The selected license can be read in the
 [LICENSE.txt](https://github.com/rl-institut/super-repo/blob/production/LICENSE.txt).
 
-This repository follows the [REUSE SOFTWARE](https://reuse.software/)
-specification.
-All files are explicitly stating the corresponding license and copyright information.
-It is implemented as GitHub workflow and pre-commit hook:
-
-- GitHub workflow: [reuse.yml](https://github.com/rl-institut/super-repo/blob/feature-7-REUSE/.github/workflows/reuse.yml)
-- [Pre-commit hook](https://github.com/rl-institut/super-repo/blob/feature-7-REUSE/.pre-commit-config.yaml#L66)
-
 The users have permission to
 [run and use, modify, distribute the program, and release the improvements](https://www.gnu.de/free-software/index.de.html)
 as long as you follow the license obligations to give a proper attribution and
@@ -23,6 +15,25 @@ include the license text.
 Please attribute as:
 
 **"Super-Repo" © Reiner Lemoine Institut | MIT License**
+
+### REUSE
+
+This repository follows the [REUSE SOFTWARE](https://reuse.software/)
+specification.
+All files are explicitly stating the corresponding license and copyright information.
+It is implemented as GitHub workflow and pre-commit hook:
+
+- GitHub workflow: [reuse.yml](https://github.com/rl-institut/super-repo/blob/feature-7-REUSE/.github/workflows/reuse.yml)
+- [Pre-commit hook](https://github.com/rl-institut/super-repo/blob/feature-7-REUSE/.pre-commit-config.yaml#L66)
+
+All copyright information should follow this example:
+
+```
+SPDX-FileCopyrightText: {$year_of_file_creation} {$name_of_author} <{contact}> © {$name_of_copyright_holder}
+SPDX-FileCopyrightText: {$year_of_file_creation} {$name_of_author2} <{contact2}> © {$name_of_copyright_holder2}
+
+SPDX-License-Identifier: {$SPDX_license_name}
+```
 
 ## Citation
 

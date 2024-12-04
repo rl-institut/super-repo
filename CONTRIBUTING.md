@@ -1,9 +1,9 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 
-[Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
+[Homepage]: https://rl-institut.github.io/super-repository/
+[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repository/releases)
 -->
 
 # Collaborative Development
@@ -15,7 +15,7 @@ SPDX-License-Identifier: MIT
 
 ## Types of interaction
 
-This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repo/blob/main/CODE_OF_CONDUCT.md). <br>
+This repository is following the [Contributor Covenant Code of Conduct](https://github.com/rl-institut/super-repository/blob/main/CODE_OF_CONDUCT.md). <br>
 Please be self-reflective and always maintain a good culture of discussion and active participation.
 
 ### A. Use
@@ -50,7 +50,7 @@ The workflow for contributing to this project has been inspired by the workflow 
 
 Create [an issue](https://help.github.com/en/articles/creating-an-issue)
 in the GitHub repository. <br>
-Choose a suitable [issue template](https://rl-institut.github.io/super-repo/develop/development/git/)
+Choose a suitable [issue template](https://rl-institut.github.io/super-repository/develop/development/git/)
 for a `feature` or a `bug` and fill in as much information as possible.
 Most important is the `issue title`, it describes the problem you will address. <br>
 Update the `GitHub Labels` and assign to a `GitHub Project` and `Milestone` <br>
@@ -121,7 +121,7 @@ Examples of branch names: `feature-42-add-new-ontology-class`, `feature-911-bran
 - Don't rush, have the commit messages in mind
 - Add your changes to the CHANGELOG.md
 
-On first commit to the repo:
+On first commit to the repository:
 
 - Add your name and details to CITATION.cff
 
