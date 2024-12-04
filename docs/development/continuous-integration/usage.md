@@ -3,7 +3,7 @@
 ## Add new code test
 
 To add a new test for any new functionality you have added or you plan to add you should add a test.
-The test is imply added to the tests/
+The test is implied added to the tests/
 directory.
 
 See our examples ....
@@ -25,6 +25,6 @@ Running this command will generate a comprehensive report, which may require som
 For remote debugging, you can monitor the status of your automation jobs in two ways:
 
 1. Create a pull request and view the CI status integration there.
-2. Visit the [Actions tab of your repository](https://github.com/rl-institut/super-repo/actions) to see all available job executions.
+2. Visit the [Actions tab of your repository](https://github.com/rl-institut/super-repository/actions) to see all available job executions.
 
 These options allow you to closely monitor the progress and outcomes of your CI workflow, ensuring the reliability and quality of your codebase.

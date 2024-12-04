@@ -66,6 +66,8 @@ extra_css:
 nav:
   - Home: index.md
   - Development:
+    - Documentation:
+      - development/documentation/index.md
     - Collaboration:
       - development/collaboration/index.md
       - License and Citation: development/collaboration/license_and_citation.md
@@ -79,8 +81,7 @@ nav:
       - development/continuous-integration/index.md
     - Code Style:
       - code/style/index.md
-    - Documentation:
-      - development/documentation/index.md
+
     - Release:
       - development/release/index.md
   - Code Documentation:
