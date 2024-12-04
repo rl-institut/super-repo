@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -15,91 +15,91 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Add a favicon for the documentation [(54#)](https://github.com/rl-institut/super-repo/pull/54)
-- Add a warning for older versions that links to latest [(#54)](https://github.com/rl-institut/super-repo/pull/54)
-- Add pre-commit and setup pre-commit-hooks [(#56)](https://github.com/rl-institut/super-repo/pull/56)
-- Add a community chat on Element [(#59)](https://github.com/rl-institut/super-repo/pull/59)
-- Add documentation on the regular community meetings [(#60)](https://github.com/rl-institut/super-repo/pull/60)
-- Add CI-based automated testing and linting on commit and pull requests [(#55)](https://github.com/rl-institut/super-repo/pull/55)
-- Add license files to folder LICENSES [(#64)](https://github.com/rl-institut/super-repo/pull/64)
-- Add dep5 file for copyright notices [(#64)](https://github.com/rl-institut/super-repo/pull/64)
-- Add pre-commit hook for REUSE [(#64)](https://github.com/rl-institut/super-repo/pull/64)
-- Add copyright notice to all files [(#64)](https://github.com/rl-institut/super-repo/pull/64)
-- Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repo/pull/64)
-- Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
-- Update REUSE [(#66)](https://github.com/rl-institut/super-repo/pull/66)
-- Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repo/pull/68)
-- Add badges for publication section [(#69)](https://github.com/rl-institut/super-repo/pull/69)
+- Add a favicon for the documentation [(54#)](https://github.com/rl-institut/super-repository/pull/54)
+- Add a warning for older versions that links to latest [(#54)](https://github.com/rl-institut/super-repository/pull/54)
+- Add pre-commit and setup pre-commit-hooks [(#56)](https://github.com/rl-institut/super-repository/pull/56)
+- Add a community chat on Element [(#59)](https://github.com/rl-institut/super-repository/pull/59)
+- Add documentation on the regular community meetings [(#60)](https://github.com/rl-institut/super-repository/pull/60)
+- Add CI-based automated testing and linting on commit and pull requests [(#55)](https://github.com/rl-institut/super-repository/pull/55)
+- Add license files to folder LICENSES [(#64)](https://github.com/rl-institut/super-repository/pull/64)
+- Add dep5 file for copyright notices [(#64)](https://github.com/rl-institut/super-repository/pull/64)
+- Add pre-commit hook for REUSE [(#64)](https://github.com/rl-institut/super-repository/pull/64)
+- Add copyright notice to all files [(#64)](https://github.com/rl-institut/super-repository/pull/64)
+- Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repository/pull/64)
+- Add documentation for code style [(#63)](https://github.com/rl-institut/super-repository/pull/63)
+- Update REUSE [(#66)](https://github.com/rl-institut/super-repository/pull/66)
+- Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repository/pull/68)
+- Add badges for publication section [(#69)](https://github.com/rl-institut/super-repository/pull/69)
 
 ### Changed
 
-- Update CSS to improve toc [(#54)](https://github.com/rl-institut/super-repo/pull/54)
-- Update documentation for mike [(#54)](https://github.com/rl-institut/super-repo/pull/54)
-- Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repo/pull/58)
-- Update the sections and merge subpages of the documentation [(#62)](https://github.com/rl-institut/super-repo/pull/62)
-- Update documentation for release [(#69)](https://github.com/rl-institut/super-repo/pull/69)
+- Update CSS to improve toc [(#54)](https://github.com/rl-institut/super-repository/pull/54)
+- Update documentation for mike [(#54)](https://github.com/rl-institut/super-repository/pull/54)
+- Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repository/pull/58)
+- Update the sections and merge subpages of the documentation [(#62)](https://github.com/rl-institut/super-repository/pull/62)
+- Update documentation for release [(#69)](https://github.com/rl-institut/super-repository/pull/69)
 
 ### Removed
 
-- Disable GitHub Action for MkDocs Workflow [(#54)](https://github.com/rl-institut/super-repo/pull/54)
-- Remove merged documentation files [(#62)](https://github.com/rl-institut/super-repo/pull/62)
-- Remove the LICENSE.txt file [(#64)](https://github.com/rl-institut/super-repo/pull/64)
+- Disable GitHub Action for MkDocs Workflow [(#54)](https://github.com/rl-institut/super-repository/pull/54)
+- Remove merged documentation files [(#62)](https://github.com/rl-institut/super-repository/pull/62)
+- Remove the LICENSE.txt file [(#64)](https://github.com/rl-institut/super-repository/pull/64)
 
 ## [0.2.0] Minor Release - Oh Hi Mike - 2023-08-11
 
 ### Added
 
-- Add documentation version control with mike [(#47)](https://github.com/rl-institut/super-repo/pull/47)
+- Add documentation version control with mike [(#47)](https://github.com/rl-institut/super-repository/pull/47)
 
 ### Changed
 
-- Update issue templates and release procedure [(#47)](https://github.com/rl-institut/super-repo/pull/47)
+- Update issue templates and release procedure [(#47)](https://github.com/rl-institut/super-repository/pull/47)
 
 ## [0.1.1] Patch Release - Emmy Hennings Day Patch - 2023-08-10
 
 ### Added
 
-- Add issue template for release `issue_template_release.md` [(#43)](https://github.com/rl-institut/super-repo/pull/43)
+- Add issue template for release `issue_template_release.md` [(#43)](https://github.com/rl-institut/super-repository/pull/43)
 
 ### Changed
 
-- Update the release procedure [(#43)](https://github.com/rl-institut/super-repo/pull/43)
+- Update the release procedure [(#43)](https://github.com/rl-institut/super-repository/pull/43)
 
 ## [0.1.0] Minor Release - Emmy Hennings Day - 2023-08-10
 
 ### Added
 
-- [LICENSE.txt](https://github.com/rl-institut/super-repo/blob/main/LICENSE.txt)
-- CITATION.cff [(#2)](https://github.com/rl-institut/super-repo/pull/2)
-- CONTRIBUTING.md [(#2)](https://github.com/rl-institut/super-repo/pull/2)
-- USERS.cff [(#2)](https://github.com/rl-institut/super-repo/pull/2)
-- CODE_OF_CONDUCT.md [(#3)](https://github.com/rl-institut/super-repo/pull/3)
-- CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repo/pull/6)
-- README.rst [(#10)](https://github.com/rl-institut/super-repo/pull/10)
-- Add a logo to the README [(#18)](https://github.com/rl-institut/super-repo/pull/18)
-- Add mkdocstrings [(#20)](https://github.com/rl-institut/super-repo/pull/20)
-- Add example code with google docstrings [(#20)](https://github.com/rl-institut/super-repo/pull/20)
-- Add `requirements.txt` for python environment dependencies [(#20)](https://github.com/rl-institut/super-repo/pull/20)
-- Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repo/pull/15)
-- Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repo/pull/25)
-- Add permanent links for documentation sections [(#28)](https://github.com/rl-institut/super-repo/pull/28)
-- Add documentation on documentation files [(#35)](https://github.com/rl-institut/super-repo/pull/35
-- Add `RELEASE_PROCEDURE.md` [(#37)](https://github.com/rl-institut/super-repo/pull/37)
+- [LICENSE.txt](https://github.com/rl-institut/super-repository/blob/main/LICENSE.txt)
+- CITATION.cff [(#2)](https://github.com/rl-institut/super-repository/pull/2)
+- CONTRIBUTING.md [(#2)](https://github.com/rl-institut/super-repository/pull/2)
+- USERS.cff [(#2)](https://github.com/rl-institut/super-repository/pull/2)
+- CODE_OF_CONDUCT.md [(#3)](https://github.com/rl-institut/super-repository/pull/3)
+- CHANGELOG.md [(#6)](https://github.com/rl-institut/super-repository/pull/6)
+- README.rst [(#10)](https://github.com/rl-institut/super-repository/pull/10)
+- Add a logo to the README [(#18)](https://github.com/rl-institut/super-repository/pull/18)
+- Add mkdocstrings [(#20)](https://github.com/rl-institut/super-repository/pull/20)
+- Add example code with google docstrings [(#20)](https://github.com/rl-institut/super-repository/pull/20)
+- Add `requirements.txt` for python environment dependencies [(#20)](https://github.com/rl-institut/super-repository/pull/20)
+- Add templates for issues and PR [(#15)](https://github.com/rl-institut/super-repository/pull/15)
+- Add a GitHub workflow to deploy documentation [(#25)](https://github.com/rl-institut/super-repository/pull/25)
+- Add permanent links for documentation sections [(#28)](https://github.com/rl-institut/super-repository/pull/28)
+- Add documentation on documentation files [(#35)](https://github.com/rl-institut/super-repository/pull/35
+- Add `RELEASE_PROCEDURE.md` [(#37)](https://github.com/rl-institut/super-repository/pull/37)
 
 ### Changed
 
-- Update the .gitignore [(#19)](https://github.com/rl-institut/super-repo/pull/19)
-- Update the documentation file structure [(#28)](https://github.com/rl-institut/super-repo/pull/28)
+- Update the .gitignore [(#19)](https://github.com/rl-institut/super-repository/pull/19)
+- Update the documentation file structure [(#28)](https://github.com/rl-institut/super-repository/pull/28)
 
 ### Removed
 
-- Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
+- Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repository/pull/26)
 
-## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
+## [0.0.0] Initial Release - Hello Super-Repository - 2022-03-03
 
 ### Added
 
 - GitHub repository
 - .gitignore
 - LICENSE (MIT License)
-- [GitHub Projects](https://github.com/rl-institut/super-repo/projects?type=classic) for software versioning
+- [GitHub Projects](https://github.com/rl-institut/super-repository/projects?type=classic) for software versioning

@@ -1,9 +1,9 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 
-[Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
+[Homepage]: https://rl-institut.github.io/super-repository/
+[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repository/releases)
 -->
 
 # Release Procedure
@@ -19,23 +19,23 @@ These symbols help with orientation:
 ## Version Numbers
 
 This software follows the [Semantic Versioning (SemVer)](https://semver.org/).<br>
-It always has the format `MAJOR.MINOR.PATCH`, e.g. `1.5.0`.
+It always has the format `MAJOR.MINOR.PATCH`, for example `1.5.0`.
 
 The data follows the [Calendar Versioning (CalVer)](https://calver.org/).<br>
-It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
+It always has the format `YYYY-MM-DD`, for example `2022-05-16`.
 
 ## GitHub Release
 
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
 releases are possible. <br>
 For Major and Minor releases, follow the complete workflow.<br>
-For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
+For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-institut/super-repository/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
 
 ### 1. 🐙 Create a `GitHub Project`
 
-- Create [New classic project](https://github.com/rl-institut/super-repo/projects?type=classic)
+- Create [New classic project](https://github.com/rl-institut/super-repository/projects?type=classic)
 - Use the project template _Automated kanban with reviews_
-- Named `super-repo-v0.1.0`
+- Named `super-repository-v0.1.0`
 - Add a meaningful description
 - Track project progress
 
@@ -61,7 +61,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ### 4. 🐙 Create a `Draft GitHub Release`
 
 - Start here for a **Patch Release** (Hotfix)
-- [Draft a new release](https://github.com/rl-institut/super-repo/releases/new)
+- [Draft a new release](https://github.com/rl-institut/super-repository/releases/new)
 - Enter the release version number `0.1.0` as title
 - Summarize key changes from changelog in the description
 
@@ -73,9 +73,9 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ```
 
 - Add a link to the `📝CHANGELOG.md`
-  - `**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
+  - `**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repository/blob/production/CHANGELOG.md)`
 - Add a link to compare versions
-  - `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)`
+  - `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repository/compare/v0.1.0...v0.2.0)`
 - **Save draft**
 
 ### 5. 💠 Create a `release` branch
@@ -115,7 +115,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 - Checkout `production` branch and pull
 - Check existing tags `git tag -n`
-- Create new tag: `git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
+- Create new tag: `git tag -a v0.1.0 -m "super-repository Minor Release v0.1.0"`
 - This commit will be the final version for the release, breath three times and check again
 - Push tag: `git push --tags`
 
@@ -172,14 +172,14 @@ If you messed up, remove tags and start again
 - Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
 - With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
   - Note: Pre-releases on Test-PyPI are only shown under `Release history` in the navigation bar.
-  - Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterwards.
+  - Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterward.
 - Once testing on Test-PyPI is done, change the release version to the final desired version with `bump2version release`
   - Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
 - Push commits to the `release-*` branch
 
 ### 1. 💻 Create and publish package on PyPI
 
-💻 `cd D:\git\github\USER\REPO\` Navigate to git folder <br>
+💻 `cd D:\git\github\USER\Repository\` Navigate to git folder <br>
 💻 `activate py310` Activate conda environment <br>
 💻 `python -m build` Create package using <br>
 📝 `dist` Check that files have been created in folder <br>

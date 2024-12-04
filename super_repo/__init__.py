@@ -1,8 +1,8 @@
-"""Example.
+"""Example functions
 
-Examples for the calculater functionality to demonstrate TDD.
+Examples calculater functionality.
 
-SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 """
