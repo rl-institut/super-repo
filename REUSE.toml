@@ -26,3 +26,10 @@ path = ".github/ISSUE_TEMPLATE/*.md"
 precedence = "override"
 SPDX-FileCopyrightText = "2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut"
 SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "super_repo/example.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileComment = "OEMetadata-2.0.1 licensed CC0-1.0"
