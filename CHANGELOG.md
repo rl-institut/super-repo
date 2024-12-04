@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update REUSE [(#66)](https://github.com/rl-institut/super-repository/pull/66)
 - Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repository/pull/68)
 - Add badges for publication section [(#69)](https://github.com/rl-institut/super-repository/pull/69)
+- Add year of creation to copyright info [(#71)](https://github.com/rl-institut/super-repository/pull/71)
 
 ### Changed
 
