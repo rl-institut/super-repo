@@ -26,6 +26,7 @@ jobs:
         python -m
         pip install
         build
+        uv
         --user
     - name: Build a binary wheel and a source tarball
       run: >-
