@@ -20,15 +20,15 @@ The documentation is separated into two main sections:
 Files and structures related to collaborative development, community processes,
 and documentation.
 
-- [Collaboration](https://rl-institut.github.io/super-repository/develop/development/collaboration/)
-- [Best-Practices](https://rl-institut.github.io/super-repository/develop/development/best-practice/)
-- [Documentation](https://rl-institut.github.io/super-repository/develop/development/documentation/)
-- [Release](https://rl-institut.github.io/super-repository/develop/development/release/)
+- [Collaboration](https://rl-institut.github.io/super-repo/develop/development/collaboration/)
+- [Best-Practices](https://rl-institut.github.io/super-repo/develop/development/best-practice/)
+- [Documentation](https://rl-institut.github.io/super-repo/develop/development/documentation/)
+- [Release](https://rl-institut.github.io/super-repo/develop/development/release/)
 
 ### Fields for code documentation
 
 Methods and functions of the module.
 
-- [Install](https://rl-institut.github.io/super-repository/develop/user_documentation/install/)
-- [Functions](https://rl-institut.github.io/super-repository/develop/user_documentation/)
-- [Code Example](https://rl-institut.github.io/super-repository/develop/user_documentation/code_example/)
+- [Install](https://rl-institut.github.io/super-repo/develop/user_documentation/install/)
+- [Functions](https://rl-institut.github.io/super-repo/develop/user_documentation/)
+- [Code Example](https://rl-institut.github.io/super-repo/develop/user_documentation/code_example/)

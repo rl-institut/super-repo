@@ -5,16 +5,16 @@ maintains consistency, and ensures reliability. <br>
 This section focuses on three key methodologies essential for maintaining
 high standards in a collaborative scientific software environment:
 
-- [**Continuous Integration (CI)**](https://rl-institut.github.io/super-repository/develop/development/continuous-integration/): <br>
+- [**Continuous Integration (CI)**](https://rl-institut.github.io/super-repo/develop/development/continuous-integration/): <br>
   Automating the integration of code changes to catch errors early and maintain a stable codebase.
   CI ensures that all contributions are rigorously tested and integrated seamlessly into the project.
 
-- [**Test-Driven Development (TDD)**](https://rl-institut.github.io/super-repository/develop/development/continuous-integration/): <br>
+- [**Test-Driven Development (TDD)**](https://rl-institut.github.io/super-repo/develop/development/continuous-integration/): <br>
   A methodology where tests are written before the actual code implementation. <br>
   TDD promotes robust and well-designed code by enforcing that each feature is accompanied by
   thorough testing from the outset.
 
-- [**Pre-commit Hooks (PCH)**](https://rl-institut.github.io/super-repository/develop/development/continuous-integration/): <br>
+- [**Pre-commit Hooks (PCH)**](https://rl-institut.github.io/super-repo/develop/development/continuous-integration/): <br>
   Tools to enforce code
   quality and consistency by running checks or scripts before changes are committed. <br>
   These hooks help identify issues early, improving code hygiene and reducing technical debt.

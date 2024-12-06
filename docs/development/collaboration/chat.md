@@ -9,7 +9,7 @@ To engage with the developer and user community, <br>
 login with an existing account (for example GitHub) or register a new account.
 
 The room name is:
-[Super-Repository:matrix.org](https://app.element.io/#/room/#super-repository:matrix.org). <br>
+[Super-Repository:matrix.org](https://app.element.io/#/room/#super-repo:matrix.org). <br>
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

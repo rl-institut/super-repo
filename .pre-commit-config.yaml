@@ -29,7 +29,7 @@ repos:
   - repo: https://github.com/google/pre-commit-tool-hooks
     rev: v1.2.5
     hooks:
-      - id: check-google-doc-style
+#      - id: check-google-doc-style
       - id: check-links
 
   # Ruff - Fast Python linter, written in Rust

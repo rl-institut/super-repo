@@ -4,7 +4,7 @@ In order to develop a program collaboratively, it is helpful to regularly
 exchange information about the current status and to discuss open questions
 and make decisions. <br>
 If you want to join the meetings, please use the
-[GitHub Discussions](https://github.com/rl-institut/super-repository/discussions).
+[GitHub Discussions](https://github.com/rl-institut/super-repo/discussions).
 
 ## Developer Meetings
 
@@ -14,7 +14,7 @@ the general vision of software development.
 
 The regular developer meeting takes place on <br>
 **the first Wednesday of the month between 9 and 9:30 am**. <br>
-The meeting room is: [meet.jit.si/super-repository-dev](https://meet.jit.si/super-repository-dev)
+The meeting room is: [meet.jit.si/super-repo-dev](https://meet.jit.si/super-repo-dev)
 
 ## User Meetings
 
