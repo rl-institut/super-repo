@@ -10,5 +10,6 @@ mike
 pre-commit
 pytest
 pytest-cov
-tox
 ruff
+tox
+uv
