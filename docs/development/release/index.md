@@ -27,7 +27,7 @@ Test bumpversion: <br>
 
 Use bumpversion: <br>
     💻 `bump-my-version bump --current-version 0.2.0 minor` <br> Run bumpversion
-    💠 `git commit file -am "Bumpversion #IssueNr"` Commit bumpversion changes
+    💠 `git push` Push bumpversion changes
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line
