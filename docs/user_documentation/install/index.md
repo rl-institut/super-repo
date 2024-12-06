@@ -11,6 +11,10 @@ You can also share an environment file and import from 📝 `requirements.txt`.
 💻 `activate py310` Activate environment <br>
 💻 `python --version` Check python version
 
+Delete existing environment: <br>
+    💻 `conda deactivate` <br>
+    💻 `conda remove --name py310 --all`
+
 ## Requirements
 
 In Python the 📝 `requirements.txt` file helps manage dependencies.
