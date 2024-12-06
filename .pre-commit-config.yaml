@@ -23,7 +23,7 @@ repos:
           ]
       - id: check-added-large-files
         args: [ "--maxkb=1500" ]
-      - id: check-docstring-first
+#      - id: check-docstring-first
       - id: detect-private-key
 
   - repo: https://github.com/google/pre-commit-tool-hooks

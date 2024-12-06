@@ -1,5 +1,4 @@
-"""
-Example Google style docstrings.
+"""Example Google style docstrings.
 
 SPDX-FileCopyrightText: Copyright (c) 2007-2023 by the Sphinx team
 SPDX-License-Identifier: BSD-2-Clause
