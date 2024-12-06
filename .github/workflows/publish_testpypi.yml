@@ -32,7 +32,6 @@ jobs:
       run: >-
         python -m
         uv build
-        ls dist/
     - name: Publish distribution to Test PyPI
       run: >-
         uv publish
