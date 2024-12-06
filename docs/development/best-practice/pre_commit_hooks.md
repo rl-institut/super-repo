@@ -21,6 +21,5 @@ Now, every time you commit changes, the pre-commit hooks will automatically <br>
 run the checks defined in your configuration file, ensuring code quality before
 committing.
 
-
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

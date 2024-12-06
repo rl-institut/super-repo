@@ -39,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repository/pull/58)
 - Update the sections and merge subpages of the documentation [(#62)](https://github.com/rl-institut/super-repository/pull/62)
 - Update documentation for release [(#69)](https://github.com/rl-institut/super-repository/pull/69)
+- Update documentation best-practices [(#72)](https://github.com/rl-institut/super-repository/pull/72)
 
 ### Removed
 
