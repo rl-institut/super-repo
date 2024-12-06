@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# Welcome to the Super-Repo Documentation
+# Welcome to the Super-Repository Documentation
 
-A template repo to test and document elements and features for research software. <br>
+A template repository to test and document elements and features for research software. <br>
 It implements the collection of repository elements and files. <br>
 The goal is to simplify and standardise the creation of software in GitHub repositories.
 
@@ -20,17 +20,15 @@ The documentation is separated into two main sections:
 Files and structures related to collaborative development, community processes,
 and documentation.
 
-- COLLABORATION
-- GIT
-- CODE-STYLE
-- DOCUMENTATION
-- RELEASE
+- [Collaboration](https://rl-institut.github.io/super-repository/develop/development/collaboration/)
+- [Best-Practices](https://rl-institut.github.io/super-repository/develop/development/best-practice/)
+- [Documentation](https://rl-institut.github.io/super-repository/develop/development/documentation/)
+- [Release](https://rl-institut.github.io/super-repository/develop/development/release/)
 
 ### Fields for code documentation
 
 Methods and functions of the module.
 
-- INSTALL
-- FUNCTIONS
-- TESTS
-- LOGGING
+- [Install](https://rl-institut.github.io/super-repository/develop/user_documentation/install/)
+- [Functions](https://rl-institut.github.io/super-repository/develop/user_documentation/)
+- [Code Example](https://rl-institut.github.io/super-repository/develop/user_documentation/code_example/)

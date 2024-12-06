@@ -45,8 +45,8 @@ for testing:
 ### Install
 
 Install the required package in a python environment. <br>
-💻 `pip install tox` install tox <br>
-💻 `tox` run tox locally
+   💻 `pip install tox` Install tox <br>
+   💻 `tox` Run tox locally
 
 
 ## Adding and Managing Tests

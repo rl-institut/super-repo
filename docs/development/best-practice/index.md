@@ -21,3 +21,6 @@ high standards in a collaborative scientific software environment:
 
 Following these practices will streamline development, reduce bugs, and foster a
 productive, collaborative coding environment.
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

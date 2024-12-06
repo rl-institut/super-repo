@@ -7,26 +7,27 @@ The software release has four main goals:
 3. Update the documentation
 4. Publish a new version of the package at PyPI
 
-The [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repository/blob/production/RELEASE_PROCEDURE.md)
+The 📝 [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repository/blob/production/RELEASE_PROCEDURE.md)
 contain detailed instructions to do a release.
 
 ## Automated Versioning with Bumpversion
 
 **Bumpversion** is a tool for automated version management in software projects. <br>
-It ensures consistent version updates across files and documentation. <br>
-By specifying a part to increment (major, minor, or patch), Bumpversion updates
-the version number and creates a Git commit or tag automatically.
-This streamlines release workflows, reduces human error, and keeps project versioning synchronized.  
+It ensures consistent version updates across files and documentation <br>
+by specifying a part to increment (major, minor, or patch). <br>
+This streamlines release workflows and keeps project versioning synchronized.
 
 Install package:  
-💻 `pip install --upgrade bump-my-version`
-
-For configuration, create a `.bumpversion.toml` file to specify versioning rules and affected files.
+    💻 `pip install --upgrade bump-my-version` <br>
+    📝 `.bumpversion.toml` Configuration file for versioning rules and affected files
 
 Test bumpversion: <br>
-💻 `bump-my-version show-bump` Preview next possible versions <br>
-💻 `bump-my-version bump minor --dry-run -vv` Sandbox bump
+    💻 `bump-my-version show-bump` Preview next possible versions <br>
+    💻 `bump-my-version bump minor --dry-run -vv` Sandbox bump
 
 Use bumpversion: <br>
-💻 `bump-my-version --current-version 0.2.0 mino`
-💠 `git commit file -am "Bumpversion #IssueNr"` to commit bump
+    💻 `bump-my-version --current-version 0.2.0 mino` <br> Run bumpversion
+    💠 `git commit file -am "Bumpversion #IssueNr"` Commit bumpversion changes
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

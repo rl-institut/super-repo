@@ -49,3 +49,6 @@ Following good documentation practices ensures code is understandable to others.
 Maintain a logical structure within files, grouping related functions and
 classes. Consider the readability of your code and strive for modular,
 well-organized files.
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

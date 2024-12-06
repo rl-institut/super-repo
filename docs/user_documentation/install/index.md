@@ -7,9 +7,9 @@ that have different versions of Python and/or packages installed in them. <br>
 Switching or moving between environments is called activating the environment.
 You can also share an environment file and import from 📝 `requirements.txt`.
 
-💻 `conda env create -f environment.yaml` Create conda environment <br>
-💻 `conda activate py310` Activate environment <br>
-💻 `python --version` Check python version
+    💻 `conda env create -f environment.yaml` Create conda environment <br>
+    💻 `conda activate py310` Activate environment <br>
+    💻 `python --version` Check python version
 
 Delete existing environment: <br>
     💻 `conda deactivate` <br>
@@ -48,17 +48,17 @@ Its key features include:
 - **Integration with CI/CD Pipelines**: Tailored for seamless integration into automated workflows.
 
 Install: <br>
-💻 `pip install uv` install package
-💻 `uv` check package
+    💻 `pip install uv` Install package
+    💻 `uv` Check package
 
 Use: <br>
-💻 `uv python list` view available Python versions
-💻 `uv run` run a command in the project environment
+    💻 `uv python list` View available Python versions
+    💻 `uv run` Run a command in the project environment
 
 Build and publish: <br>
-💻 `uv build` build the project into distribution archives
-💻 `ls dist/` view created distribution
-💻 `uv publish` build the project into distribution archives
+    💻 `uv build` Build the project into distribution archives
+    💻 `ls dist/` View created distribution
+    💻 `uv publish` Build the project into distribution archives
 
 
 See the official documentation at [astral.sh](https://docs.astral.sh/uv/getting-started/features/#features)

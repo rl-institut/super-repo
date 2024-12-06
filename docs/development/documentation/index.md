@@ -20,21 +20,21 @@ additional features and an elegant design. <br>
 ### Install
 
 Install the required packages in a python environment. <br>
-💻 `pip install mkdocs` install MkDocs <br>
-💻 `pip install mkdocs-material` install the material theme
+    💻 `pip install mkdocs` Install MkDocs <br>
+    💻 `pip install mkdocs-material` Install the material theme
 
 ### Build
 
 Generate the documentation locally. <br>
-💻 `mkdocs serve` start the local live version of the documentation <br>
-💻 `mkdocs build` create a folder `site` with the documentation
+    💻 `mkdocs serve` Start the local live version of the documentation <br>
+    💻 `mkdocs build` Create a folder `site` with the documentation
 
 ### Publish
 
 #### Manually
 
 Publish documentation on **GitHub Pages**. <br>
-💻 `mkdocs gh-deploy` manually deploys the documentation files
+    💻 `mkdocs gh-deploy` Manually deploys the documentation files
 
 !!! warning "Manually deploy documentation"
     This command overrides all manually deployed versions (mike). <br>
@@ -49,34 +49,34 @@ A commit on the `develop` branch starts the workflow.
 #### Mike
 
 The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
-💻 `pip install mike` install mike <br>
-💻 `mike deploy --push --update-aliases 0.1 latest` deploys the latest version <br>
-💻 `mike set-default --push latest` Set the default version to latest <br>
-💻 `mike deploy develop --push` deploys the develop branch
+    💻 `pip install mike` Install mike <br>
+    💻 `mike deploy --push --update-aliases 0.1 latest` Deploys the latest version <br>
+    💻 `mike set-default --push latest` Set the default version to latest <br>
+    💻 `mike deploy develop --push` Deploys the develop branch
 
 !!! note "Mike Versions"
     It is recommended to use only the **Minor Versions** (for example 0.1) and exclude the **Patch Version** (for example 0.1.1)!
 
 Other useful commands are: <br>
-💻 `mike serve` test mike on [`http://localhost:8000`](http://localhost:8000) <br>
-💻 `mike list` list all versions <br>
-💻 `mike retitle 1.0.0 1.0.1 --push` rename a version <br>
-💻 `mike delete 0.1 --push` deletes a specific versions <br>
-💻 `mike delete --all --push` deletes all versions
+    💻 `mike serve` Test mike on [`http://localhost:8000`](http://localhost:8000) <br>
+    💻 `mike list` List all versions <br>
+    💻 `mike retitle 1.0.0 1.0.1 --push` Rename a version <br>
+    💻 `mike delete 0.1 --push` Deletes a specific versions <br>
+    💻 `mike delete --all --push` Deletes all versions
 
 When adding older versions, load the `Git Tags` used for the releases: <br>
-💠 `git checkout v0.1.1` <br>
-💻 `mike deploy 0.1 --push` deploys the old version 0.1
+    💠 `git checkout v0.1.1` <br>
+    💻 `mike deploy 0.1 --push` Deploys the old version 0.1
 
 When building mike locally, the branch `gh-pages` is modified locally. <br>
-💻 `error: gh-pages is unrelated to origin/gh-pages` <br>
-💠 `git branch -D gh-pages` delete the local documentation branch
+    💻 `error: gh-pages is unrelated to origin/gh-pages` <br>
+    💠 `git branch -D gh-pages` Delete the local documentation branch
 
 ## mkdocstrings
 
 [mkdocstrings](https://mkdocstrings.github.io/) generates automatic
 documentation (autodocs) from [Google style docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html). <br>
-💻 `pip install mkdocstrings` install mkdocstrings
+    💻 `pip install mkdocstrings` Install mkdocstrings
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line
