@@ -28,5 +28,5 @@ Test bumpversion: <br>
 💻 `bump-my-version bump minor --dry-run -vv` Sandbox bump
 
 Use bumpversion: <br>
-💻 `rbump-my-version --current-version 0.2.0 mino`
+💻 `bump-my-version --current-version 0.2.0 mino`
 💠 `git commit file -am "Bumpversion #IssueNr"` to commit bump
