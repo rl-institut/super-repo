@@ -60,32 +60,32 @@ extra:
     provider: mike
 
 extra_css:
-  - css/extra.css
+  - extra.css
 
 # Navigation
 nav:
   - Home: index.md
   - Development:
+    - Documentation:
+      - development/documentation/index.md
     - Collaboration:
       - development/collaboration/index.md
       - License and Citation: development/collaboration/license_and_citation.md
+      - Git: development/git/index.md
       - Users: development/collaboration/users.md
       - Chat: development/collaboration/chat.md
       - Meetings: development/collaboration/meeting.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
-    - Git:
-      - development/git/index.md
-    - Continuous Integration:
-      - development/continuous-integration/index.md
-    - Code Style:
-      - code/style/index.md
-    - Documentation:
-      - development/documentation/index.md
+    - Best Practices:
+      - Continuous Integration: development/best-practice/continuous-integration.md
+      - Test-Driven Development: development/best-practice/test_driven_development.md
+      - Pre-commit Hooks: development/best-practice/pre_commit_hooks.md
+      - Code Style: development/best-practice/code_style.md
     - Release:
       - development/release/index.md
-  - Code Documentation:
+  - User Documentation:
     - Install:
-      - code/install/index.md
+      - user_documentation/install/index.md
     - Functions:
-      - code/index.md
-      - code/code_example.md
+      - user_documentation/index.md
+      - user_documentation/code_example.md
