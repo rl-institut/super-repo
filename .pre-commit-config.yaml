@@ -54,7 +54,7 @@ repos:
 #    rev: v1.8.0
 #    hooks:
 #      - id: numpydoc-validation
-#        exclude: (tests|docs)/.*
+#        exclude: (test|docs)/.*
 
   # REUSE Software - Make licensing easy for humans and machines alike
   - repo: https://github.com/fsfe/reuse-tool

@@ -1,4 +1,4 @@
-"""Example tests
+"""Example test
 
 Examples test for the calculater functionality.
 

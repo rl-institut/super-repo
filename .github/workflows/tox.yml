@@ -38,5 +38,5 @@ jobs:
         python -m pip install --upgrade pip setuptools wheel
         pip install tox tox-gh-actions
 
-    - name: Run tox unit tests
+    - name: Run tox unit test
       run: tox -e ${{ matrix.tox-envs }}

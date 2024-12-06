@@ -103,7 +103,7 @@ reproducible, and scalable testing workflows.
 ### Examples
 
 The file 📝 `tests/test_example.py` contains basic examples for the functions in <br>
-📝 `src/test_calculator.py`.
+📝 `super_repo/test_calculator.py`.
 
 In Python, the `assert` statement is used to test if a condition is true. <br>
 If the condition is false, an AssertionError is raised, indicating the test failed.

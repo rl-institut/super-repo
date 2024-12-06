@@ -28,7 +28,7 @@ SPDX-FileCopyrightText = "2023 Ludwig Hülk <https://github.com/Ludee> © Reiner
 SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
-path = "src/example.json"
+path = "super_repo/example.json"
 precedence = "override"
 SPDX-FileCopyrightText = "2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut"
 SPDX-License-Identifier = "CC0-1.0"

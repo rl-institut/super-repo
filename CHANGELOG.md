@@ -96,7 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-- Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
+- Remove the `super_repo` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
 
 ## [0.0.0] Initial Release - Hello Super-Repository - 2022-03-03
 
