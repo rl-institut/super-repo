@@ -7,7 +7,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - anaconda
   - pip
   - pip:
-    - -r file:requirements.txt
+    - -r requirements.txt
