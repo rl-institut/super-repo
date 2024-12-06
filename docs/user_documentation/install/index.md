@@ -7,7 +7,7 @@ that have different versions of Python and/or packages installed in them. <br>
 Switching or moving between environments is called activating the environment.
 You can also share an environment file and import from 📝 `requirements.txt`.
 
-💻 `conda env create -f environment.yml` Create conda environment <br>
+💻 `conda env create -f environment.yaml` Create conda environment <br>
 💻 `activate py310` Activate environment <br>
 💻 `python --version` Check python version
 
