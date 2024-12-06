@@ -8,7 +8,7 @@ Switching or moving between environments is called activating the environment.
 You can also share an environment file and import from 📝 `requirements.txt`.
 
 💻 `conda env create -f environment.yaml` Create conda environment <br>
-💻 `activate py310` Activate environment <br>
+💻 `conda activate py310` Activate environment <br>
 💻 `python --version` Check python version
 
 Delete existing environment: <br>
@@ -17,8 +17,9 @@ Delete existing environment: <br>
 
 ## Requirements
 
-In Python the 📝 `requirements.txt` file helps manage dependencies.
-It's a text file that lists the packages that the Python project depends on.
+In Python the 📝 `requirements.txt` file helps manage dependencies. <br>
+It's a text file that lists the packages that the Python project depends on. <br>
+All listed packages will be installed in the conda environment.
 
 💻 `pip install -r requirements.txt` Install from file
 
