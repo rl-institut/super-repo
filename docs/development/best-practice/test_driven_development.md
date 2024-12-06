@@ -75,7 +75,7 @@ Begin by writing a test for the functionality you intend to implement.
 For example, if you need to create a view that returns a list of objects from
 the database, and a corresponding model to represent the database table,
 your test might look like this: <br>
-    📝 `app/tests/my_test.py`:
+    📝 `app/test/my_test.py`:
 
 ```python
 from django.test import TestCase
