@@ -1,5 +1,11 @@
 # Users
 
 Known user of this software can be added to
-[USERS.cff](https://github.com/rl-institut/super-repo/blob/production/USERS.cff)
-for reference.
+📝 [USERS.cff](https://github.com/rl-institut/super-repository/blob/production/USERS.cff)
+for reference. <br>
+Please use the 📝 `issue_template_user_kudos.md`.
+
+
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

@@ -71,13 +71,14 @@ nav:
     - Collaboration:
       - development/collaboration/index.md
       - License and Citation: development/collaboration/license_and_citation.md
-      - Git: development/git/index.md
+      - Git: development/collaboration/git.md
       - Users: development/collaboration/users.md
       - Chat: development/collaboration/chat.md
       - Meetings: development/collaboration/meeting.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
     - Best Practices:
-      - Continuous Integration: development/best-practice/continuous-integration.md
+      - development/best-practice/index.md
+      - Continuous Integration: development/best-practice/continuous_integration.md
       - Test-Driven Development: development/best-practice/test_driven_development.md
       - Pre-commit Hooks: development/best-practice/pre_commit_hooks.md
       - Code Style: development/best-practice/code_style.md

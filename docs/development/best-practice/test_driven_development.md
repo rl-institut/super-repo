@@ -1,14 +1,14 @@
 # Test-Driven Development
 
 Test-Driven Development (TDD) is a software development methodology that
-emphasizes writing tests before implementing the corresponding functionality. <br>
+emphasizes writing tests before implementing the corresponding functionality.
 This approach ensures that new changes do not unintentionally break existing
 features and that all functions perform as expected.
 
 ## Code Coverage
 
 Code coverage is a metric used in software testing that helps determine
-the percentage of code that is exercised by tests. <br>
+the percentage of code that is exercised by tests.
 It is an essential tool for assessing the effectiveness of your test suite.
 High code coverage generally indicates that most of your code has been tested,
 while lower coverage can suggest that some parts of the application may be
@@ -23,23 +23,23 @@ coverage gaps, and areas that require further testing.
 To integrate Codecov with your project, follow these steps:
 
 1. Install pytest <br>
-    💻 `pip install pytest pytest-cov` install pytest
+    💻 `pip install pytest pytest-cov`
 
 2. Add GitHub Action <br>
    📝 `.github/workflows/codecov.yml`
 
-3. Create an account
+3. Create an account <br>
 Create a Codecov account at [Codecov.io](https://about.codecov.io/) and link your repository.
 
-4. Upload the Coverage Report
+4. Upload the Coverage Report <br>
 After running your tests with coverage, upload the results to Codecov. <br>
 This is  done automatically through the CI configuration.
 
-5. View Coverage Reports
+5. View Coverage Reports <br>
 Once your coverage report is uploaded, you can view detailed insights and trends
 on the Codecov dashboard.
 
-6. Code Coverage Badge
+6. Code Coverage Badge <br>
 A coverage badge provides a visual indication of the test coverage for the
 📝 `README.rst` page. It is updated automatically as new reports are uploaded to Codecov.
 
