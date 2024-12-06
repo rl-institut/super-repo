@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2023 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
-name: automated-testing
+name: tox
 
 on:
   push:
@@ -13,7 +13,6 @@ on:
 jobs:
   test:
     strategy:
-      # fail-fast: false
       matrix:
         platform: [ubuntu-latest, windows-latest]
         python-version: ['3.10']
@@ -39,5 +38,5 @@ jobs:
         python -m pip install --upgrade pip setuptools wheel
         pip install tox tox-gh-actions
 
-    - name: tox unit tests
+    - name: Run tox unit tests
       run: tox -e ${{ matrix.tox-envs }}

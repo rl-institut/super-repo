@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    name: Run tests and create codecov
+    name: Run coverage test and create codecov
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install pytest pytest-cov
 
-      - name: Run tests
+      - name: Run coverage test
         run: pytest --cov --cov-report=xml
 
       - name: Upload results to Codecov

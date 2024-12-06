@@ -118,6 +118,7 @@ Examples of branch names: `feature-42-add-new-ontology-class`, `feature-911-bran
 
 - Divide your feature into small logical units
 - Start to write the documentation or a docstring
+- Write a unit test that covers the desired outputs and possible errors
 - Don't rush, have the commit messages in mind
 - Add your changes to the CHANGELOG.md
 
