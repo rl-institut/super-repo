@@ -19,9 +19,14 @@ the version number and creates a Git commit or tag automatically.
 This streamlines release workflows, reduces human error, and keeps project versioning synchronized.  
 
 Install package:  
-💻 `pip install --upgrade bumpversion`
+💻 `pip install --upgrade bump-my-version`
 
 For configuration, create a `.bumpversion.toml` file to specify versioning rules and affected files.
 
-Use bumpversion:  
-💻 `bumpversion --current-version 0.2.0 minor`
+Test bumpversion: <br>
+💻 `bump-my-version show-bump` Preview next possible versions <br>
+💻 `bump-my-version bump minor --dry-run -vv` Sandbox bump
+
+Use bumpversion: <br>
+💻 `rbump-my-version --current-version 0.2.0 mino`
+💠 `git commit file -am "Bumpversion #IssueNr"` to commit bump
