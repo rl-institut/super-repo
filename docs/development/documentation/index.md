@@ -2,18 +2,18 @@
 
 ## README
 
-The repository contains a `README.rst` file with basic information. <br>
+The repository contains a 📝 `README.rst` file with basic information. <br>
 It gives a short introduction to the project and links to other relevant files.
 
 ## Changelog
 
-The `CHANGELOG.md` is a record of all notable changes made to a project. <br>
+The 📝 `CHANGELOG.md` is a record of all notable changes made to a project. <br>
 It is structured by each release and divided by additions, changes, and removals. <br>
 
 ## MkDocs
 
 [MkDocs](https://www.mkdocs.org/) is a fast and simple static site generator that is used for documentation. <br>
-The source files are written in [Markdown](https://www.markdownguide.org/cheat-sheet/), and configured with `mkdocs.yml`. <br>
+The source files are written in [Markdown](https://www.markdownguide.org/cheat-sheet/), and configured with 📝 `mkdocs.yml`. <br>
 [Material theme](https://squidfunk.github.io/mkdocs-material/) enables
 additional features and an elegant design. <br>
 
@@ -42,7 +42,7 @@ Publish documentation on **GitHub Pages**. <br>
 #### GitHub Action
 
 🐙 Deploy the documentation with **GitHub Actions**. <br>
-The file `.github\workflows\documentation.yml` creates an automated GitHub workflow. <br>
+The file 📝 `.github\workflows\documentation.yml` creates an automated GitHub workflow. <br>
 It is configured to be pushed to the branch `gh-page` and then deployed online. <br>
 A commit on the `develop` branch starts the workflow.
 
@@ -51,11 +51,11 @@ A commit on the `develop` branch starts the workflow.
 The package [mike](https://github.com/jimporter/mike) is used to deploy [multiple versions](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning) of the documentation.<br>
 💻 `pip install mike` install mike <br>
 💻 `mike deploy --push --update-aliases 0.1 latest` deploys the latest version <br>
-💻 `mike set-default --push latest` Set the default version to latest
+💻 `mike set-default --push latest` Set the default version to latest <br>
 💻 `mike deploy develop --push` deploys the develop branch
 
 !!! note "Mike Versions"
-    It is recommended to use only the **Minor Versions** (e.g. 0.1) and exclude the **Patch Version** (e.g. 0.1.1)!
+    It is recommended to use only the **Minor Versions** (for example 0.1) and exclude the **Patch Version** (for example 0.1.1)!
 
 Other useful commands are: <br>
 💻 `mike serve` test mike on [`http://localhost:8000`](http://localhost:8000) <br>

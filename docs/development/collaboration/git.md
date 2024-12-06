@@ -22,7 +22,7 @@ The majority of the development will be done in `feature` branches.
 
 This file specifies intentionally untracked files to ignore. <br>
 It is copied from [a collection of .gitignore templates](https://github.com/github/gitignore). <br>
-For more information about how `.gitignore` files work, see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the Pro Git book.
+For more information about how 📝 `.gitignore` files work, see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the Pro Git book.
 
 ## Issue Templates
 
@@ -55,7 +55,8 @@ Main use-cases are building and publishing the documentation and run automated t
 ## Pre-commit
 
 **Pre-commit** is a tool to easily setup and run `pre-commit hooks` for your git repository.<br>
-See the documentation of [pre-commit](https://pre-commit.com/) for further information.<br>
+See the best-practice documentation of [pre-commit]() or the
+[official documentation](https://pre-commit.com/) for further information.<br>
 It is used to improve auto-format code, do linting and run tests before every commit.
 
 ### Install
@@ -66,7 +67,7 @@ Install the required package in a python environment. <br>
 
 ### Setup
 
-The hooks are configured in the `.pre-commit-config.yaml` file.<br>
+The hooks are configured in the file 📝 `.pre-commit-config.yaml`.<br>
 List of implemented hooks:
 
 - [Pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks) - Out-of-the-box hooks
@@ -94,7 +95,7 @@ To run the hooks on all files in your repository use:<br>
 
 !!! warning "Markdown files / Admonitions"
     If the hook is applied to markdown files that include special formatting,
-    (for example `mkdocs.yml`), this can introduce incorrect changes.
+    (for example 📝 `mkdocs.yml`), this can introduce incorrect changes.
     This effects [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) boxes for MkDocs.
 
 !!! note "Used Icons"
