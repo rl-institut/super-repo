@@ -22,3 +22,6 @@ Install package:
 💻 `pip install --upgrade bumpversion`
 
 For configuration, create a `.bumpversion.toml` file to specify versioning rules and affected files.
+
+Use bumpversion:  
+💻 `bumpversion --current-version 0.2.0 minor`
