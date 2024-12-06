@@ -16,20 +16,19 @@ jobs:
     environment: pypi-publish
     steps:
     - uses: actions/checkout@master
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
         python-version: "3.10"
-
     - name: Install pypa/build
       run: >-
-        python -m
+        python3 -m
         pip install
         build
         --user
     - name: Build binary wheel and source tarball
       run: >-
-        python -m
+        python3 -m
         build
         --sdist
         --wheel
@@ -38,5 +37,5 @@ jobs:
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
         password: ${{ secrets.PYPI_TEST }}
-        repository-url:
+        repository-url: https://test.pypi.org/legacy/
         verbose: true
