@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/development/best-practice/test_driven_development/">
       
       
-        <link rel="prev" href="../../collaboration/code_of_conduct/">
+        <link rel="prev" href="../continuous_integration/">
       
       
         <link rel="next" href="../pre_commit_hooks/">
@@ -543,7 +543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/index.md" class="md-nav__link">
+      <a href="../../collaboration/git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -661,6 +661,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -686,16 +690,24 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Best Practices
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
@@ -705,13 +717,15 @@
           <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
                 
   
   
   
   
     <li class="md-nav__item">
-      <a href="../continuous-integration.md" class="md-nav__link">
+      <a href="../continuous_integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1342,12 +1356,12 @@
 
 <h1 id="test-driven-development">Test-Driven Development<a class="headerlink" href="#test-driven-development" title="Permanent link">#</a></h1>
 <p>Test-Driven Development (TDD) is a software development methodology that
-emphasizes writing tests before implementing the corresponding functionality. <br>
+emphasizes writing tests before implementing the corresponding functionality.
 This approach ensures that new changes do not unintentionally break existing
 features and that all functions perform as expected.</p>
 <h2 id="code-coverage">Code Coverage<a class="headerlink" href="#code-coverage" title="Permanent link">#</a></h2>
 <p>Code coverage is a metric used in software testing that helps determine
-the percentage of code that is exercised by tests. <br>
+the percentage of code that is exercised by tests.
 It is an essential tool for assessing the effectiveness of your test suite.
 High code coverage generally indicates that most of your code has been tested,
 while lower coverage can suggest that some parts of the application may be
@@ -1361,28 +1375,28 @@ coverage gaps, and areas that require further testing.</p>
 <ol>
 <li>
 <p>Install pytest <br>
-    💻 <code>pip install pytest pytest-cov</code> install pytest</p>
+    💻 <code>pip install pytest pytest-cov</code></p>
 </li>
 <li>
 <p>Add GitHub Action <br>
    📝 <code>.github/workflows/codecov.yml</code></p>
 </li>
 <li>
-<p>Create an account
+<p>Create an account <br>
 Create a Codecov account at <a href="https://about.codecov.io/">Codecov.io</a> and link your repository.</p>
 </li>
 <li>
-<p>Upload the Coverage Report
+<p>Upload the Coverage Report <br>
 After running your tests with coverage, upload the results to Codecov. <br>
 This is  done automatically through the CI configuration.</p>
 </li>
 <li>
-<p>View Coverage Reports
+<p>View Coverage Reports <br>
 Once your coverage report is uploaded, you can view detailed insights and trends
 on the Codecov dashboard.</p>
 </li>
 <li>
-<p>Code Coverage Badge
+<p>Code Coverage Badge <br>
 A coverage badge provides a visual indication of the test coverage for the
 📝 <code>README.rst</code> page. It is updated automatically as new reports are uploaded to Codecov.</p>
 </li>
