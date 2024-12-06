@@ -2,15 +2,18 @@
 # SPDX-FileCopyrightText: 2023 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
+build
 bump-my-version
+mike
 mkdocs
 mkdocs-material
 mkdocstrings
 mkdocstrings-python-legacy
-mike
 pre-commit
 pytest
 pytest-cov
 ruff
 tox
+twine
 uv
+wheel
