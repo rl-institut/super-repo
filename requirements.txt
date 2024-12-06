@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2023 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
-bumpversion
+bump-my-version
 mkdocs
 mkdocs-material
 mkdocstrings
