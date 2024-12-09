@@ -45,13 +45,13 @@ for testing:
 ### Install
 
 Install the required package in a python environment. <br>
-💻 `pip install tox` install tox <br>
-💻 `tox` run tox locally
+   💻 `pip install tox` Install tox <br>
+   💻 `tox` Run tox locally
 
 
 ## Adding and Managing Tests
 
-New tests should be placed in the 📝 `tests/` directory. For example:  
+New tests should be placed in the 📝 `test/` directory. For example:  
 - Add a test to validate new functionality.  
 - Use `pytest` for unit tests, or extend 📝 `tox.ini` for additional test configurations.  
 
@@ -102,7 +102,7 @@ reproducible, and scalable testing workflows.
 
 ### Examples
 
-The file 📝 `tests/test_example.py` contains basic examples for the functions in <br>
+The file 📝 `test/test_example.py` contains basic examples for the functions in <br>
 📝 `super_repo/test_calculator.py`.
 
 In Python, the `assert` statement is used to test if a condition is true. <br>

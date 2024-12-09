@@ -25,3 +25,6 @@ or give general feedback.
 The regular user meeting takes place after the developer meeting in the same
 room on the <br>
 **first Wednesday of the month between 9:30 and 10 am**.
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

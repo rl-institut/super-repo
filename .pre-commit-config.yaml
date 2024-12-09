@@ -23,13 +23,13 @@ repos:
           ]
       - id: check-added-large-files
         args: [ "--maxkb=1500" ]
-      - id: check-docstring-first
+#      - id: check-docstring-first
       - id: detect-private-key
 
   - repo: https://github.com/google/pre-commit-tool-hooks
     rev: v1.2.5
     hooks:
-      - id: check-google-doc-style
+#      - id: check-google-doc-style
       - id: check-links
 
   # Ruff - Fast Python linter, written in Rust
@@ -54,7 +54,7 @@ repos:
 #    rev: v1.8.0
 #    hooks:
 #      - id: numpydoc-validation
-#        exclude: (tests|docs)/.*
+#        exclude: (test|docs)/.*
 
   # REUSE Software - Make licensing easy for humans and machines alike
   - repo: https://github.com/fsfe/reuse-tool

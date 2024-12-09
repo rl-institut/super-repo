@@ -57,11 +57,11 @@ of testing, such as edge cases and integration scenarios.
 This example demonstrates the TDD approach within a Django app. <br>
 You can run all tests in Django using the following command:
 
-💻 `python manage.py test`
+    💻 `python manage.py test`
 
 To run specific test cases, you can provide the app name and the test case:
 
-💻 `python manage.py test app.MyModelViewTestCase`
+    💻 `python manage.py test app.MyModelViewTestCase`
 
 This is a Step-by-Step Guide to TDD in Django:
 
@@ -75,7 +75,7 @@ Begin by writing a test for the functionality you intend to implement.
 For example, if you need to create a view that returns a list of objects from
 the database, and a corresponding model to represent the database table,
 your test might look like this: <br>
-    📝 `app/tests/my_test.py`:
+    📝 `app/test/my_test.py`:
 
 ```python
 from django.test import TestCase

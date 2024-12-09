@@ -29,10 +29,10 @@ For more information about how 📝 `.gitignore` files work, see the [Ignoring F
 [Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 offer specific functions and default configurations for new issues.
 
-- [Feature Issue](https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
-- [Bug Issue](https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
-- [Release Issue](https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
-- [User Kudos Issue](https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
+- [Feature Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
+- [Bug Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
+- [Release Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
+- [User Kudos Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
 
 ## Pull Request (PR) Template
 
@@ -44,11 +44,11 @@ It includes all needed information to merge branches and release new versions.
 
 GitHub Labels are used to organize Issues and PR. <br>
 Colours and emoticons improve presentation, see: <br>
-📝 [github-labels.json](https://github.com/rl-institut/super-repository/blob/develop/docs/development/git/github-labels.json)
+    📝 [github-labels.json](https://github.com/rl-institut/super-repo/blob/develop/docs/development/git/github-labels.json)
 
 ## GitHub Workflows (Actions)
 
-[GitHub Actions](https://github.com/rl-institut/super-repository/actions)
+[GitHub Actions](https://github.com/rl-institut/super-repo/actions)
 are used to automate processes of the repository. <br>
 Main use-cases are building and publishing the documentation and run automated tests.
 
@@ -62,8 +62,8 @@ It is used to improve auto-format code, do linting and run tests before every co
 ### Install
 
 Install the required package in a python environment. <br>
-💻 `pip install pre-commit` install pre-commit <br>
-💻 `pre-commit install` install pre-commit
+    💻 `pip install pre-commit` Install pre-commit <br>
+    💻 `pre-commit install` Install pre-commit
 
 ### Setup
 
@@ -81,17 +81,17 @@ List of implemented hooks:
 
 ### Use
 
-All commits will trigger the hooks automatically.<br>
-💠 `git commit file -m "Commit message #IssueNr"` to commit
+All commits will trigger the hooks automatically. <br>
+    💠 `git commit file -m "Commit message #IssueNr"` Commit with message
 
-Commit without running the hooks.<br>
-💠 `git commit --no-verify file` to commit without hooks
+Commit without running the hooks. <br>
+    💠 `git commit --no-verify file` Commit without hooks
 
 !!! note "Line endings"
     There can be problems with file line endings on Windows, `CRLF` is used on Windows and `LF` is used on Linux.
 
-To run the hooks on all files in your repository use:<br>
-💻 `pre-commit run --all-files`
+To run the hooks on all files in your repository use: <br>
+    💻 `pre-commit run --all-files` Run pre-commit hooks
 
 !!! warning "Markdown files / Admonitions"
     If the hook is applied to markdown files that include special formatting,

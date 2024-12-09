@@ -14,7 +14,7 @@ include the license text.
 
 Please attribute as:
 
-**"Super-Repo" © Reiner Lemoine Institut | MIT License**
+**"Super-Repository" © Reiner Lemoine Institut | MIT License**
 
 ### REUSE
 
@@ -47,3 +47,6 @@ Since this software is under an open source license and can be downloaded,
 run and modified, you are invited to comment, improve and develop the program as you wish. <br>
 To contribute to the **collaborative development** follow the workflow described in
 [CONTRIBUTING.md](https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md).
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

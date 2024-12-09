@@ -8,14 +8,14 @@ Maintaining a consistent code style is crucial for the readability and
 maintainability of a Python project.
 
 We enforce most of the following guidelines in our
-[Continuous-Integration pipeline](https://rl-institut.github.io/super-repository/develop/development/continuous-integration/)
+[Continuous-Integration pipeline](https://rl-institut.github.io/super-repo/develop/development/continuous-integration/)
 that check the code automatically.
 
 ## 1. Installation
 
 Before contributing to the project, make sure you have the necessary tools
 installed for code style enforcement.
-We utilize [pre-commit](https://rl-institut.github.io/super-repository/develop/development/continuous-integration/)
+We utilize [pre-commit](https://rl-institut.github.io/super-repo/develop/development/continuous-integration/)
 to automate code checks before committing changes.
 
 ## 2. Code Formatting
@@ -49,3 +49,6 @@ Following good documentation practices ensures code is understandable to others.
 Maintain a logical structure within files, grouping related functions and
 classes. Consider the readability of your code and strive for modular,
 well-organized files.
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

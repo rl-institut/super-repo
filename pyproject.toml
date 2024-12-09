@@ -8,19 +8,16 @@ requires = ["flit_core >=3.8.0,<4"]
 
 [project]
 name = "super-repo"
-version = "0.2.0"
+version = "0.3.0"
 authors = [
     {name = "Ludwig Hülk", email = "datenzentrum@rl-institut.de"}]
 description = "A template repo for research software."
 readme = "README.rst"
+license = {file = "LICENSE.txt"}
 requires-python = ">=3.10"
 classifiers = [
     "Development Status :: 4 - Beta",
     "License :: OSI Approved :: MIT License",
-    "Topic :: Scientific/Engineering",
-    "Topic :: Software Development",
-    "Intended Audience :: Science/Research",
-    "Intended Audience :: Developers",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
@@ -29,17 +26,12 @@ classifiers = [
 dependencies = [
     "stringcase ~=1.2.0",
 ]
-license = {text = "MIT"}
+
 
 [project.urls]
 Homepage = "https://github.com/rl-institut/super-repo"
+Source = "https://github.com/rl-institut/super-repo"
 Documentation = "https://rl-institut.github.io/super-repo/latest/"
-Changelog = "https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md"
-"Issue Tracker" = "https://github.com/rl-institut/super-repo/issues"
-
-lint = [
-  "ruff",
-]
 
 [tool.ruff]
 builtins = ["ellipsis"]
