@@ -82,7 +82,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 - Checkout `develop` and branch with `git checkout -b release-v0.1.0`
 - Push branch with `git push --set-upstream origin release-v0.1.0`
-- Add bump2version (❗ToDo❗)
+- Run bumpversion 💻 `bump-my-version bump --current-version 0.1.0 minor`
 
 ### 6. 📝 Update the version files
 
