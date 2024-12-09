@@ -33,10 +33,6 @@ Homepage = "https://github.com/rl-institut/super-repo"
 Source = "https://github.com/rl-institut/super-repo"
 Documentation = "https://rl-institut.github.io/super-repo/latest/"
 
-lint = [
-  "ruff",
-]
-
 [tool.ruff]
 builtins = ["ellipsis"]
 target-version = "py38"
