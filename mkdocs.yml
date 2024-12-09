@@ -51,7 +51,9 @@ markdown_extensions:
       use_pygments: true
 
 plugins:
-- mkdocstrings:
+- mkdocstrings
+- search:
+    separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
 # Customization
 extra:
