@@ -27,7 +27,6 @@ dependencies = [
     "stringcase ~=1.2.0",
 ]
 
-
 [project.urls]
 Homepage = "https://github.com/rl-institut/super-repo"
 Source = "https://github.com/rl-institut/super-repo"

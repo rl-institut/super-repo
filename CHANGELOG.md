@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repo/pull/68)
 - Add badges for publication section [(#69)](https://github.com/rl-institut/super-repo/pull/69)
 - Add year of creation to copyright info [(#71)](https://github.com/rl-institut/super-repo/pull/71)
+- Add workflow to publish releases on PyPI [(#75)](https://github.com/rl-institut/super-repo/pull/75)
 
 ### Changed
 

@@ -48,18 +48,17 @@ Its key features include:
 - **Integration with CI/CD Pipelines**: Tailored for seamless integration into automated workflows.
 
 Install: <br>
-    💻 `pip install uv` Install package
+    💻 `pip install uv` Install package <br>
     💻 `uv` Check package
 
 Use: <br>
-    💻 `uv python list` View available Python versions
+    💻 `uv python list` View available Python versions <br>
     💻 `uv run` Run a command in the project environment
 
-Build and publish: <br>
-    💻 `uv build` Build the project into distribution archives
-    💻 `ls dist/` View created distribution
+Build and publish (not implemented yet): <br>
+    💻 `uv build` Build the project into distribution archives <br>
+    💻 `ls dist/` View created distribution <br>
     💻 `uv publish` Build the project into distribution archives
-
 
 See the official documentation at [astral.sh](https://docs.astral.sh/uv/getting-started/features/#features)
 
