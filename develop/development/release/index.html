@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../img/favicon_super-repo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -1098,6 +1098,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#automated-versioning-with-bumpversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automated Versioning with Bumpversion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1118,12 +1135,30 @@
 <p>The software release has four main goals:</p>
 <ol>
 <li>Merge the new features to the <code>production</code> branch</li>
-<li>Create a <a href="https://github.com/rl-institut/super-repository/releases">GitHub Release</a></li>
+<li>Create a <a href="https://github.com/rl-institut/super-repo/releases">GitHub Release</a></li>
 <li>Update the documentation</li>
 <li>Publish a new version of the package at PyPI</li>
 </ol>
-<p>The <a href="https://github.com/rl-institut/super-repository/blob/production/RELEASE_PROCEDURE.md">RELEASE_PROCEDURE.md</a>
+<p>The 📝 <a href="https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md">RELEASE_PROCEDURE.md</a>
 contain detailed instructions to do a release.</p>
+<h2 id="automated-versioning-with-bumpversion">Automated Versioning with Bumpversion<a class="headerlink" href="#automated-versioning-with-bumpversion" title="Permanent link">#</a></h2>
+<p><strong>Bumpversion</strong> is a tool for automated version management in software projects. <br>
+It ensures consistent version updates across files and documentation <br>
+by specifying a part to increment (major, minor, or patch). <br>
+This streamlines release workflows and keeps project versioning synchronized.</p>
+<p>Install package:<br />
+    💻 <code>pip install --upgrade bump-my-version</code> <br>
+    📝 <code>.bumpversion.toml</code> Configuration file for versioning rules and affected files</p>
+<p>Test bumpversion: <br>
+    💻 <code>bump-my-version show-bump</code> Preview next possible versions <br>
+    💻 <code>bump-my-version bump minor --dry-run -vv</code> Sandbox bump</p>
+<p>Use bumpversion: <br>
+    💻 <code>bump-my-version bump --current-version 0.2.0 minor</code> <br> Run bumpversion
+    💠 <code>git push</code> Push bumpversion changes</p>
+<div class="admonition note">
+<p class="admonition-title">Used Icons</p>
+<p>🐙 GitHub | 💠 git | 📝 File | 💻 Command Line</p>
+</div>
 
 
 

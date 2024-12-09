@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../img/favicon_super-repo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -1412,9 +1412,11 @@ of testing, such as edge cases and integration scenarios.</p>
 <h2 id="example-implementing-test-cases-for-a-django-app">Example: Implementing Test Cases for a Django App<a class="headerlink" href="#example-implementing-test-cases-for-a-django-app" title="Permanent link">#</a></h2>
 <p>This example demonstrates the TDD approach within a Django app. <br>
 You can run all tests in Django using the following command:</p>
-<p>💻 <code>python manage.py test</code></p>
+<div class="highlight"><pre><span></span><code>💻 `python manage.py test`
+</code></pre></div>
 <p>To run specific test cases, you can provide the app name and the test case:</p>
-<p>💻 <code>python manage.py test app.MyModelViewTestCase</code></p>
+<div class="highlight"><pre><span></span><code>💻 `python manage.py test app.MyModelViewTestCase`
+</code></pre></div>
 <p>This is a Step-by-Step Guide to TDD in Django:</p>
 <h3 id="1-set-up-the-django-app">1. Set Up the Django App<a class="headerlink" href="#1-set-up-the-django-app" title="Permanent link">#</a></h3>
 <p>Ensure that you have a Django app in place that you wish to test.</p>
@@ -1423,7 +1425,7 @@ You can run all tests in Django using the following command:</p>
 For example, if you need to create a view that returns a list of objects from
 the database, and a corresponding model to represent the database table,
 your test might look like this: <br>
-    📝 <code>app/tests/my_test.py</code>:</p>
+    📝 <code>app/test/my_test.py</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">django.test</span> <span class="kn">import</span> <span class="n">TestCase</span>
 <span class="kn">from</span> <span class="nn">myapp.models</span> <span class="kn">import</span> <span class="n">MyModel</span>
 

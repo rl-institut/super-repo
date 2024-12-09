@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../img/favicon_super-repo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -1119,7 +1119,16 @@
         <li class="md-nav__item">
   <a href="#pyproject" class="md-nav__link">
     <span class="md-ellipsis">
-      Pyproject
+      PyProject
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#astral-uv" class="md-nav__link">
+    <span class="md-ellipsis">
+      astral-uv
     </span>
   </a>
   
@@ -1148,20 +1157,50 @@
 <p>With conda, you can create, export, list, remove, and update environments
 that have different versions of Python and/or packages installed in them. <br>
 Switching or moving between environments is called activating the environment.
-You can also share an environment file and import from <code>requirements.txt</code>.</p>
-<p>💻 <code>conda env create -f environment.yml</code> Create conda environment <br>
-💻 <code>activate py310</code> Activate environment <br>
-💻 <code>python --version</code> Check python version</p>
+You can also share an environment file and import from 📝 <code>requirements.txt</code>.</p>
+<div class="highlight"><pre><span></span><code>💻 `conda env create -f environment.yaml` Create conda environment &lt;br&gt;
+💻 `conda activate py310` Activate environment &lt;br&gt;
+💻 `python --version` Check python version
+</code></pre></div>
+<p>Delete existing environment: <br>
+    💻 <code>conda deactivate</code> <br>
+    💻 <code>conda remove --name py310 --all</code></p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">#</a></h2>
-<p>In Python the <code>requirements.txt</code> file helps manage dependencies.
-It's a text file that lists the packages that the Python project depends on.</p>
+<p>In Python the 📝 <code>requirements.txt</code> file helps manage dependencies. <br>
+It's a text file that lists the packages that the Python project depends on. <br>
+All listed packages will be installed in the conda environment.</p>
 <p>💻 <code>pip install -r requirements.txt</code> Install from file</p>
-<h2 id="pyproject">Pyproject<a class="headerlink" href="#pyproject" title="Permanent link">#</a></h2>
+<h2 id="pyproject">PyProject<a class="headerlink" href="#pyproject" title="Permanent link">#</a></h2>
 <p>This python package contains a <code>pyproject.toml</code> file that contains
 build system requirements and information, which are
 <a href="https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/">used by pip</a>
 to build the package.
 It contains the metadata of the software project.</p>
+<h2 id="astral-uv">astral-uv<a class="headerlink" href="#astral-uv" title="Permanent link">#</a></h2>
+<p>Astral UV is a modern Python package manager designed for flexibility and speed.
+Efficient package management is crucial for maintaining consistency and
+compatibility in Python projects.
+Tools like <code>pip</code> and <code>virtual environments</code> help manage dependencies,
+while advanced tools like <code>astral-uv</code> streamline package management workflows further.
+It focuses on optimizing dependency resolution, improving installation times,
+and ensuring reproducible builds.</p>
+<p>Its key features include:</p>
+<ul>
+<li><strong>Fast Dependency Resolution</strong>: Reduces conflicts and speeds up package resolution.</li>
+<li><strong>Reproducibility</strong>: Ensures consistent environments across different machines or deployments.</li>
+<li><strong>Integration with CI/CD Pipelines</strong>: Tailored for seamless integration into automated workflows.</li>
+</ul>
+<p>Install: <br>
+    💻 <code>pip install uv</code> Install package
+    💻 <code>uv</code> Check package</p>
+<p>Use: <br>
+    💻 <code>uv python list</code> View available Python versions
+    💻 <code>uv run</code> Run a command in the project environment</p>
+<p>Build and publish: <br>
+    💻 <code>uv build</code> Build the project into distribution archives
+    💻 <code>ls dist/</code> View created distribution
+    💻 <code>uv publish</code> Build the project into distribution archives</p>
+<p>See the official documentation at <a href="https://docs.astral.sh/uv/getting-started/features/#features">astral.sh</a></p>
 <div class="admonition note">
 <p class="admonition-title">Used Icons</p>
 <p>🐙 GitHub | 💠 git | 📝 File | 💻 Command Line</p>

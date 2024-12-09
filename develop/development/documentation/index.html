@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../img/favicon_super-repo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -1238,16 +1238,16 @@ The source files are written in <a href="https://www.markdownguide.org/cheat-she
 additional features and an elegant design. <br></p>
 <h3 id="install">Install<a class="headerlink" href="#install" title="Permanent link">#</a></h3>
 <p>Install the required packages in a python environment. <br>
-💻 <code>pip install mkdocs</code> install MkDocs <br>
-💻 <code>pip install mkdocs-material</code> install the material theme</p>
+    💻 <code>pip install mkdocs</code> Install MkDocs <br>
+    💻 <code>pip install mkdocs-material</code> Install the material theme</p>
 <h3 id="build">Build<a class="headerlink" href="#build" title="Permanent link">#</a></h3>
 <p>Generate the documentation locally. <br>
-💻 <code>mkdocs serve</code> start the local live version of the documentation <br>
-💻 <code>mkdocs build</code> create a folder <code>site</code> with the documentation</p>
+    💻 <code>mkdocs serve</code> Start the local live version of the documentation <br>
+    💻 <code>mkdocs build</code> Create a folder <code>site</code> with the documentation</p>
 <h3 id="publish">Publish<a class="headerlink" href="#publish" title="Permanent link">#</a></h3>
 <h4 id="manually">Manually<a class="headerlink" href="#manually" title="Permanent link">#</a></h4>
 <p>Publish documentation on <strong>GitHub Pages</strong>. <br>
-💻 <code>mkdocs gh-deploy</code> manually deploys the documentation files</p>
+    💻 <code>mkdocs gh-deploy</code> Manually deploys the documentation files</p>
 <div class="admonition warning">
 <p class="admonition-title">Manually deploy documentation</p>
 <p>This command overrides all manually deployed versions (mike). <br></p>
@@ -1259,30 +1259,30 @@ It is configured to be pushed to the branch <code>gh-page</code> and then deploy
 A commit on the <code>develop</code> branch starts the workflow.</p>
 <h4 id="mike">Mike<a class="headerlink" href="#mike" title="Permanent link">#</a></h4>
 <p>The package <a href="https://github.com/jimporter/mike">mike</a> is used to deploy <a href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versioning">multiple versions</a> of the documentation.<br>
-💻 <code>pip install mike</code> install mike <br>
-💻 <code>mike deploy --push --update-aliases 0.1 latest</code> deploys the latest version <br>
-💻 <code>mike set-default --push latest</code> Set the default version to latest <br>
-💻 <code>mike deploy develop --push</code> deploys the develop branch</p>
+    💻 <code>pip install mike</code> Install mike <br>
+    💻 <code>mike deploy --push --update-aliases 0.1 latest</code> Deploys the latest version <br>
+    💻 <code>mike set-default --push latest</code> Set the default version to latest <br>
+    💻 <code>mike deploy develop --push</code> Deploys the develop branch</p>
 <div class="admonition note">
 <p class="admonition-title">Mike Versions</p>
 <p>It is recommended to use only the <strong>Minor Versions</strong> (for example 0.1) and exclude the <strong>Patch Version</strong> (for example 0.1.1)!</p>
 </div>
 <p>Other useful commands are: <br>
-💻 <code>mike serve</code> test mike on <a href="http://localhost:8000"><code>http://localhost:8000</code></a> <br>
-💻 <code>mike list</code> list all versions <br>
-💻 <code>mike retitle 1.0.0 1.0.1 --push</code> rename a version <br>
-💻 <code>mike delete 0.1 --push</code> deletes a specific versions <br>
-💻 <code>mike delete --all --push</code> deletes all versions</p>
+    💻 <code>mike serve</code> Test mike on <a href="http://localhost:8000"><code>http://localhost:8000</code></a> <br>
+    💻 <code>mike list</code> List all versions <br>
+    💻 <code>mike retitle 1.0.0 1.0.1 --push</code> Rename a version <br>
+    💻 <code>mike delete 0.1 --push</code> Deletes a specific versions <br>
+    💻 <code>mike delete --all --push</code> Deletes all versions</p>
 <p>When adding older versions, load the <code>Git Tags</code> used for the releases: <br>
-💠 <code>git checkout v0.1.1</code> <br>
-💻 <code>mike deploy 0.1 --push</code> deploys the old version 0.1</p>
+    💠 <code>git checkout v0.1.1</code> <br>
+    💻 <code>mike deploy 0.1 --push</code> Deploys the old version 0.1</p>
 <p>When building mike locally, the branch <code>gh-pages</code> is modified locally. <br>
-💻 <code>error: gh-pages is unrelated to origin/gh-pages</code> <br>
-💠 <code>git branch -D gh-pages</code> delete the local documentation branch</p>
+    💻 <code>error: gh-pages is unrelated to origin/gh-pages</code> <br>
+    💠 <code>git branch -D gh-pages</code> Delete the local documentation branch</p>
 <h2 id="mkdocstrings">mkdocstrings<a class="headerlink" href="#mkdocstrings" title="Permanent link">#</a></h2>
 <p><a href="https://mkdocstrings.github.io/">mkdocstrings</a> generates automatic
 documentation (autodocs) from <a href="https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html">Google style docstrings</a>. <br>
-💻 <code>pip install mkdocstrings</code> install mkdocstrings</p>
+    💻 <code>pip install mkdocstrings</code> Install mkdocstrings</p>
 <div class="admonition note">
 <p class="admonition-title">Used Icons</p>
 <p>🐙 GitHub | 💠 git | 📝 File | 💻 Command Line</p>

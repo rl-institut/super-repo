@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../img/favicon_super-repo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -1426,10 +1426,10 @@ For more information about how 📝 <code>.gitignore</code> files work, see the 
 <p><a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">Issue Templates</a>
 offer specific functions and default configurations for new issues.</p>
 <ul>
-<li><a href="https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md">Feature Issue</a></li>
-<li><a href="https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md">Bug Issue</a></li>
-<li><a href="https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md">Release Issue</a></li>
-<li><a href="https://github.com/rl-institut/super-repository/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md">User Kudos Issue</a></li>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md">Feature Issue</a></li>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md">Bug Issue</a></li>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md">Release Issue</a></li>
+<li><a href="https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md">User Kudos Issue</a></li>
 </ul>
 <h2 id="pull-request-pr-template">Pull Request (PR) Template<a class="headerlink" href="#pull-request-pr-template" title="Permanent link">#</a></h2>
 <p>The <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository">Pull Request Template</a>
@@ -1438,9 +1438,9 @@ It includes all needed information to merge branches and release new versions.</
 <h2 id="github-labels">GitHub Labels<a class="headerlink" href="#github-labels" title="Permanent link">#</a></h2>
 <p>GitHub Labels are used to organize Issues and PR. <br>
 Colours and emoticons improve presentation, see: <br>
-📝 <a href="https://github.com/rl-institut/super-repository/blob/develop/docs/development/git/github-labels.json">github-labels.json</a></p>
+    📝 <a href="https://github.com/rl-institut/super-repo/blob/develop/docs/development/git/github-labels.json">github-labels.json</a></p>
 <h2 id="github-workflows-actions">GitHub Workflows (Actions)<a class="headerlink" href="#github-workflows-actions" title="Permanent link">#</a></h2>
-<p><a href="https://github.com/rl-institut/super-repository/actions">GitHub Actions</a>
+<p><a href="https://github.com/rl-institut/super-repo/actions">GitHub Actions</a>
 are used to automate processes of the repository. <br>
 Main use-cases are building and publishing the documentation and run automated tests.</p>
 <h2 id="pre-commit">Pre-commit<a class="headerlink" href="#pre-commit" title="Permanent link">#</a></h2>
@@ -1450,8 +1450,8 @@ See the best-practice documentation of <a href="">pre-commit</a> or the
 It is used to improve auto-format code, do linting and run tests before every commit.</p>
 <h3 id="install">Install<a class="headerlink" href="#install" title="Permanent link">#</a></h3>
 <p>Install the required package in a python environment. <br>
-💻 <code>pip install pre-commit</code> install pre-commit <br>
-💻 <code>pre-commit install</code> install pre-commit</p>
+    💻 <code>pip install pre-commit</code> Install pre-commit <br>
+    💻 <code>pre-commit install</code> Install pre-commit</p>
 <h3 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">#</a></h3>
 <p>The hooks are configured in the file 📝 <code>.pre-commit-config.yaml</code>.<br>
 List of implemented hooks:</p>
@@ -1466,16 +1466,16 @@ List of implemented hooks:</p>
 <li><a href="https://github.com/fsfe/reuse-tool">reuse</a> - License and copyright information</li>
 </ul>
 <h3 id="use">Use<a class="headerlink" href="#use" title="Permanent link">#</a></h3>
-<p>All commits will trigger the hooks automatically.<br>
-💠 <code>git commit file -m "Commit message #IssueNr"</code> to commit</p>
-<p>Commit without running the hooks.<br>
-💠 <code>git commit --no-verify file</code> to commit without hooks</p>
+<p>All commits will trigger the hooks automatically. <br>
+    💠 <code>git commit file -m "Commit message #IssueNr"</code> Commit with message</p>
+<p>Commit without running the hooks. <br>
+    💠 <code>git commit --no-verify file</code> Commit without hooks</p>
 <div class="admonition note">
 <p class="admonition-title">Line endings</p>
 <p>There can be problems with file line endings on Windows, <code>CRLF</code> is used on Windows and <code>LF</code> is used on Linux.</p>
 </div>
-<p>To run the hooks on all files in your repository use:<br>
-💻 <code>pre-commit run --all-files</code></p>
+<p>To run the hooks on all files in your repository use: <br>
+    💻 <code>pre-commit run --all-files</code> Run pre-commit hooks</p>
 <div class="admonition warning">
 <p class="admonition-title">Markdown files / Admonitions</p>
 <p>If the hook is applied to markdown files that include special formatting,
