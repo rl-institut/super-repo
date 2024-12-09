@@ -82,20 +82,22 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 - Checkout `develop` and branch with `git checkout -b release-v0.1.0`
 - Push branch with `git push --set-upstream origin release-v0.1.0`
+
+### 6. 📝 Update the version files (bump version number)
+
 - Run bumpversion 💻 `bump-my-version bump --current-version 0.1.0 minor`
-
-### 6. 📝 Update the version files
-
-- `📝CHANGELOG.md`
+  - `📝CITATION.cff`
+    - Update `version`
+    - Update `date-released`
+  - `📝pyproject.toml`
+    - Update `version`
+  - `📝uv.lock`
+    - Update `version`
+- Update the `📝CHANGELOG.md`
   - Check that all Pull Request are included
   - Rename `Unreleased` section with release title from issue
   - Follow `[0.0.0] Minor Release - Name of Release - 20YY-MM-DD`
-- `📝CITATION.cff`
-  - Update `version`
-  - Update `date-released`
-- `📝pyproject.toml`
-  - Update `version`
-  - Update `download_url` (.../v0.1.0.tar.gz)
+
 
 ▶️ Increase version numbers!
 
