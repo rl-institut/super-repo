@@ -1,12 +1,19 @@
-# SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
-# SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: 2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: 2023 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
+build
+bump-my-version
+mike
 mkdocs
 mkdocs-material
 mkdocstrings
 mkdocstrings-python-legacy
 pre-commit
 pytest
+pytest-cov
+ruff
 tox
-mike
+twine
+uv
+wheel

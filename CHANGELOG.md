@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -11,7 +11,7 @@ For each version, important additions, changes and removals are listed here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.3.0] Minor Release - Cheese Shop Opening - 2024-12-09
 
 ### Added
 
@@ -28,6 +28,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add first version of pyproject.toml [(#64)](https://github.com/rl-institut/super-repo/pull/64)
 - Add documentation for code style [(#63)](https://github.com/rl-institut/super-repo/pull/63)
 - Update REUSE [(#66)](https://github.com/rl-institut/super-repo/pull/66)
+- Add workflow with codecov [(#68)](https://github.com/rl-institut/super-repo/pull/68)
+- Add badges for publication section [(#69)](https://github.com/rl-institut/super-repo/pull/69)
+- Add year of creation to copyright info [(#71)](https://github.com/rl-institut/super-repo/pull/71)
+- Add workflow to publish releases on PyPI [(#75)](https://github.com/rl-institut/super-repo/pull/75)
 
 ### Changed
 
@@ -35,6 +39,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update documentation for mike [(#54)](https://github.com/rl-institut/super-repo/pull/54)
 - Update GitHub Action for develop branch [(#58)](https://github.com/rl-institut/super-repo/pull/58)
 - Update the sections and merge subpages of the documentation [(#62)](https://github.com/rl-institut/super-repo/pull/62)
+- Update documentation for release [(#69)](https://github.com/rl-institut/super-repo/pull/69)
+- Update documentation best-practices [(#72)](https://github.com/rl-institut/super-repo/pull/72)
+- Add workflow to publish on Test PyPI [(#73)](https://github.com/rl-institut/super-repo/pull/73)
 
 ### Removed
 
@@ -90,9 +97,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-- Remove the `src` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
+- Remove the `super_repo` folder [(#26)](https://github.com/rl-institut/super-repo/pull/26)
 
-## [0.0.0] Initial Release - Hello Super-Repo - 2022-03-03
+## [0.0.0] Initial Release - Hello Super-Repository - 2022-03-03
 
 ### Added
 

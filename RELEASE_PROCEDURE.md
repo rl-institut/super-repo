@@ -1,9 +1,9 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 
 [Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
+[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repo/releases)
 -->
 
 # Release Procedure
@@ -19,10 +19,10 @@ These symbols help with orientation:
 ## Version Numbers
 
 This software follows the [Semantic Versioning (SemVer)](https://semver.org/).<br>
-It always has the format `MAJOR.MINOR.PATCH`, e.g. `1.5.0`.
+It always has the format `MAJOR.MINOR.PATCH`, for example `1.5.0`.
 
 The data follows the [Calendar Versioning (CalVer)](https://calver.org/).<br>
-It always has the format `YYYY-MM-DD`, e.g. `2022-05-16`.
+It always has the format `YYYY-MM-DD`, for example `2022-05-16`.
 
 ## GitHub Release
 
@@ -82,20 +82,22 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 - Checkout `develop` and branch with `git checkout -b release-v0.1.0`
 - Push branch with `git push --set-upstream origin release-v0.1.0`
-- Add bump2version (❗ToDo❗)
 
-### 6. 📝 Update the version files
+### 6. 📝 Update the version files (bump version number)
 
-- `📝CHANGELOG.md`
+- Run bumpversion 💻 `bump-my-version bump --current-version 0.1.0 minor`
+  - `📝CITATION.cff`
+    - Update `version`
+    - Update `date-released`
+  - `📝pyproject.toml`
+    - Update `version`
+  - `📝uv.lock`
+    - Update `version`
+- Update the `📝CHANGELOG.md`
   - Check that all Pull Request are included
   - Rename `Unreleased` section with release title from issue
   - Follow `[0.0.0] Minor Release - Name of Release - 20YY-MM-DD`
-- `📝CITATION.cff`
-  - Update `version`
-  - Update `date-released`
-- `📝setup.py`
-  - Update `version`
-  - Update `download_url` (.../v0.1.0.tar.gz)
+
 
 ▶️ Increase version numbers!
 
@@ -172,24 +174,28 @@ If you messed up, remove tags and start again
 - Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
 - With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
   - Note: Pre-releases on Test-PyPI are only shown under `Release history` in the navigation bar.
-  - Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterwards.
+  - Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterward.
 - Once testing on Test-PyPI is done, change the release version to the final desired version with `bump2version release`
   - Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
 - Push commits to the `release-*` branch
 
 ### 1. 💻 Create and publish package on PyPI
 
-- Navigate to git folder `cd D:\git\github\GROUP\REPO\`
-- Create package using `python setup.py sdist`
-- Check that file has been created in folder `dist`
-- Activate python environment `activate release_py38`
-- Upload to PyPI using `twine upload dist/NAME_0.5.1.tar.gz`
-- Enter `name` and `password`
-- Check on PyPI if release arrived
-- Breath three times and smile
+💻 `cd D:\git\github\USER\Repository\` Navigate to git folder <br>
+💻 `activate py310` Activate conda environment <br>
+💻 `python -m build` Create package using <br>
+📝 `dist` Check that files have been created in folder <br>
+💻 `twine check dist/*` Check build <br>
+💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz` Upload to Test PyPI using <br>
+💻 `twine upload dist/NAME_0.2.0.tar.gz` Upload to PyPI using <br>
+💻 Enter `name` and `password` <br>
+🎉 Check on PyPI if release arrived, breath three times and smile!
 
 ▶️ Publish the Package
 
 ## Sources:
 
 - https://raw.githubusercontent.com/folio-org/stripes/master/doc/release-procedure.md
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

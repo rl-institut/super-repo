@@ -1,7 +1,7 @@
-# SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
-name: REUSE Compliance Check
+name: REUSE compliance check
 
 on: [push, pull_request]
 
@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: REUSE Compliance Check
+      - name: REUSE compliance check
         uses: fsfe/reuse-action@v4

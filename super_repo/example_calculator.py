@@ -1,11 +1,7 @@
-# -*- coding: utf-8 -*-
+"""Example for the calculater functionality
 
-"""Example.
-
-Examples for the calculater functionality to demonstrate TDD.
-
-SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2023 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 """
 
@@ -29,7 +25,7 @@ def subtract(a, b):
 
     :param a: The first number.
     :param b: The second number.
-    :return: The result of subtracting b from a.
+    :return: The result of subtracting `b` from `a`.
     """
     return a - b
 

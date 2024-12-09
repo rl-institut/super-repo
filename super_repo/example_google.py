@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-
-"""
-Example Google style docstrings.
+"""Example Google style docstrings.
 
 SPDX-FileCopyrightText: Copyright (c) 2007-2023 by the Sphinx team
 SPDX-License-Identifier: BSD-2-Clause
@@ -100,7 +97,7 @@ def module_level_function(param1, param2=None, *args, **kwargs):
     of each parameter is required. The type and description of each parameter
     is optional, but should be included if not obvious.
 
-    If \*args or \*\*kwargs are accepted, # noqa
+    If *args or **kwargs are accepted, # noqa
     they should be listed as ``*args`` and ``**kwargs``.
 
     The format for a parameter is::
@@ -165,7 +162,7 @@ def example_generator(n):
 
     """
     for i in range(n):
-        yield i
+        yield i * i
 
 
 class ExampleError(Exception):
@@ -195,7 +192,7 @@ class ExampleError(Exception):
         self.code = code
 
 
-class ExampleClass(object):
+class ExampleClass:
     """The summary line for a class docstring should fit on one line.
 
     If the class has public attributes, they may be documented here

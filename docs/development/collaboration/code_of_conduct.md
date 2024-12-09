@@ -4,4 +4,7 @@ This repository is following the [Contributor Covenant Code of Conduct](https://
 
 Everyone is asked to be self-reflective and always maintain a good culture
 of discussion and active participation.
-This includes written communication in this repo and direct encounters in meetings and events.
+This includes written communication in this repository and direct encounters in meetings and events.
+
+!!! note "Used Icons"
+    🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

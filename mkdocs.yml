@@ -1,5 +1,5 @@
-# SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
-# SPDX-FileCopyrightText: Jonas Huber <@jh-RLI> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: 2022 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
 # SPDX-License-Identifier: MIT
 
 # Project
@@ -51,7 +51,9 @@ markdown_extensions:
       use_pygments: true
 
 plugins:
-- mkdocstrings:
+- mkdocstrings
+- search:
+    separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
 # Customization
 extra:
@@ -60,35 +62,33 @@ extra:
     provider: mike
 
 extra_css:
-  - css/extra.css
+  - extra.css
 
 # Navigation
 nav:
   - Home: index.md
   - Development:
+    - Documentation:
+      - development/documentation/index.md
     - Collaboration:
       - development/collaboration/index.md
       - License and Citation: development/collaboration/license_and_citation.md
+      - Git: development/collaboration/git.md
       - Users: development/collaboration/users.md
       - Chat: development/collaboration/chat.md
       - Meetings: development/collaboration/meeting.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
-    - Git:
-      - development/git/index.md
-      - Gitignore: development/git/gitignore.md
-      - Pre-commit: development/git/pre-commit.md
-    - Continuous Integration:
-      - development/continuous-integration/index.md
-      - Test-Driven-Development: development/best-practice/test-driven-development-workflow.md
-    - Documentation:
-      - development/documentation/index.md
+    - Best Practices:
+      - development/best-practice/index.md
+      - Continuous Integration: development/best-practice/continuous_integration.md
+      - Test-Driven Development: development/best-practice/test_driven_development.md
+      - Pre-commit Hooks: development/best-practice/pre_commit_hooks.md
+      - Code Style: development/best-practice/code_style.md
     - Release:
       - development/release/index.md
-  - Code Documentation:
+  - User Documentation:
     - Install:
-      - code/install/index.md
-    - Code Style:
-      - code/style/index.md
+      - user_documentation/install/index.md
     - Functions:
-      - code/index.md
-      - code/code_example.md
+      - user_documentation/index.md
+      - user_documentation/code_example.md

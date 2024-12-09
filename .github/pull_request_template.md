@@ -27,6 +27,7 @@ Part of # / Closes #
 - [ ] 🐙 Follow the workflow in [CONTRIBUTING.md](https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md)
 - [ ] 📝 Update the [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/develop/CHANGELOG.md)
 - [ ] 📙 Update the documentation
+- [ ] 🐙 Assign a reviewer to the PR
 
 ### Reviewer
 

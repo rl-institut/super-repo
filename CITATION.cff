@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 # SPDX-License-Identifier: CC0-1.0
 
 cff-version: 1.2.0
@@ -17,7 +17,7 @@ authors:
 title: "Super Repo"
 type: software
 license: MIT
-version: 0.2.0
+version: 0.3.0
 doi: null
-date-released: 2023-08-11
+date-released: 2024-12-09
 url: "https://github.com/rl-institut/super-repo/"

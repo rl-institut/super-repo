@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: 2024 Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+# SPDX-License-Identifier: MIT
+
+name: Build and publish on Test PyPI
+
+on:
+  push:
+    branches:
+      - deployment-test
+      - 'release-*'
+
+jobs:
+  build-n-publish:
+    name: Build and publish on Test PyPI
+    runs-on: ubuntu-latest
+    environment: pypi-publish
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - name: Install pypa/build
+      run: >-
+        python3 -m
+        pip install
+        build
+        --user
+    - name: Build binary wheel and source tarball
+      run: >-
+        python3 -m
+        build
+        --sdist
+        --wheel
+        --outdir dist/
+    - name: Publish distribution to Test PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        password: ${{ secrets.PYPI_TEST }}
+        repository-url: https://test.pypi.org/legacy/

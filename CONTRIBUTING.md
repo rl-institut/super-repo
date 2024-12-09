@@ -1,9 +1,9 @@
 <!--
-SPDX-FileCopyrightText: Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-License-Identifier: MIT
 
 [Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repo v0.2.0](https://github.com/rl-institut/super-repo/releases)
+[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repo/releases)
 -->
 
 # Collaborative Development
@@ -118,10 +118,11 @@ Examples of branch names: `feature-42-add-new-ontology-class`, `feature-911-bran
 
 - Divide your feature into small logical units
 - Start to write the documentation or a docstring
+- Write a unit test that covers the desired outputs and possible errors
 - Don't rush, have the commit messages in mind
 - Add your changes to the CHANGELOG.md
 
-On first commit to the repo:
+On first commit to the repository:
 
 - Add your name and details to CITATION.cff
 
