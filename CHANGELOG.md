@@ -11,6 +11,15 @@ For each version, important additions, changes and removals are listed here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+### Changed
+- Update label descriptions and add time labels [(#82)](https://github.com/rl-institut/super-repo/pull/82)
+
+### Removed
+
 ## [0.3.0] Minor Release - Cheese Shop Opening - 2024-12-09
 
 ### Added
