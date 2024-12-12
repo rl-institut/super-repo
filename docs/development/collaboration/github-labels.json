@@ -16,27 +16,27 @@
   },
   {
     "color": "A7F3D5",
-    "description": "Backend component",
+    "description": "Concerns backend components",
     "name": "part: backend \ud83e\uddf1"
   },
   {
     "color": "A7F3D5",
-    "description": "Concerns the community",
+    "description": "Concerns the community or outreach",
     "name": "part: community \ud83c\udf0d"
   },
   {
     "color": "A7F3D5",
-    "description": "Improvements or additions to documentation",
+    "description": "Concerns the documentation",
     "name": "part: docu \ud83d\udcd6"
   },
   {
     "color": "A7F3D5",
-    "description": "Improvement of design or content",
+    "description": "Concerns the content or design",
     "name": "part: frontend \ud83d\udda5\ufe0f"
   },
   {
     "color": "A7F3D5",
-    "description": "Improvement of the organisation or repo",
+    "description": "Concerns the organisation of the repository on GitHub",
     "name": "part: github"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
     "color": "ECDCF8",
-    "description": "This issue or pull request already exists",
+    "description": "Already exists",
     "name": "resolution: duplicate \ud83d\udc3e"
   },
   {
     "color": "ECDCF8",
-    "description": "Issue is invalid",
+    "description": "Is invalid",
     "name": "resolution: invalid \u274c"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "color": "6EE7B7",
-    "description": "Task has been completed",
+    "description": "Has been completed",
     "name": "status: completed \u2714\ufe0f"
   },
   {
@@ -100,6 +100,21 @@
     "name": "status: discussion \ud83d\udcac"
   },
   {
+    "color": "C7DFF0",
+    "description": "Implementation is estimated to take months",
+    "name": "time: L (month) \ud83d\udcc5"
+  },
+  {
+    "color": "C7DFF0",
+    "description": "Implementation is estimated to take weeks",
+    "name": "time: M (week) \ud83d\udd57"
+  },
+  {
+    "color": "C7DFF0",
+    "description": "Implementation is estimated to take days",
+    "name": "time: S (day) \u23f3"
+  },
+  {
     "color": "FEF1C7",
     "description": "Something isn't working",
     "name": "type: bug \ud83d\udc1b"
@@ -111,17 +126,17 @@
   },
   {
     "color": "FEF1C7",
-    "description": "New feature or request",
+    "description": "Implementation of a new feature",
     "name": "type: feature \ud83d\udee0\ufe0f"
   },
   {
     "color": "FEF1C7",
-    "description": "Further information is requested",
+    "description": "Open question and further information is needed",
     "name": "type: question \u2753"
   },
   {
     "color": "FEF1C7",
-    "description": "Release procedure",
+    "description": "Part of the release procedure",
     "name": "type: release \ud83d\ude80"
   }
 ]
