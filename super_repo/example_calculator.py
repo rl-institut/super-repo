@@ -2,7 +2,7 @@
 
 SPDX-FileCopyrightText: 2023 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
 SPDX-FileCopyrightText: 2023 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: super-repo v0.3.0 <https://github.com/rl-institut/super-repo/releases>
+SPDX-FileCopyrightText: super-repo v0.3.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: MIT
 """
 
