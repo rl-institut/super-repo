@@ -1,9 +1,7 @@
 <!--
 SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: super-repo v0.3.0 <https://github.com/rl-institut/super-repo/releases>
 SPDX-License-Identifier: MIT
-
-[Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repo/releases)
 -->
 
 # Release Procedure
