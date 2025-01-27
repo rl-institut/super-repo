@@ -22,7 +22,8 @@ The majority of the development will be done in `feature` branches.
 
 This file specifies intentionally untracked files to ignore. <br>
 It is copied from [a collection of .gitignore templates](https://github.com/github/gitignore). <br>
-For more information about how 📝 `.gitignore` files work, see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the Pro Git book.
+For more information about how 📝 `.gitignore` files work, <br>
+see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the Pro Git book.
 
 ## Issue Templates
 
@@ -37,8 +38,14 @@ offer specific functions and default configurations for new issues.
 ## Pull Request (PR) Template
 
 The [Pull Request Template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
-is used for all PR, because it is only possible to create a single one.
+is used for all PR, because it is only possible to create a single one. <br>
 It includes all needed information to merge branches and release new versions.
+
+## GitHub Projects
+
+[GitHub Projects](https://github.com/rl-institut/super-repo/projects)
+help to organise and manage the issues and PR across different repositories. <br>
+It can be used for the release procedure, research projects, and complex developments.
 
 ## GitHub Labels
 
@@ -86,7 +93,7 @@ The file `tox.ini` configures tests: `pytest`, `coverage` and `ruff`.
 ## Pre-commit
 
 **Pre-commit** is a tool to easily setup and run `pre-commit hooks` for your git repository.<br>
-See the best-practice documentation of [pre-commit]() or the
+See the best-practice documentation of [pre-commit](https://github.com/pre-commit/pre-commit-hooks) or the
 [official documentation](https://pre-commit.com/) for further information.<br>
 It is used to improve auto-format code, do linting and run tests before every commit.
 
