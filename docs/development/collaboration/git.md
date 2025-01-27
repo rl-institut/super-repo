@@ -3,7 +3,8 @@
 ## Branches
 
 [Git Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
-are used to structure the developments and improvements.
+are used to structure the developments and improvements. <br>
+It is recommended to activate suitable GitHub Branch protection rules.
 
 ### Permanent Branches
 
@@ -12,11 +13,21 @@ are used to structure the developments and improvements.
 
 ### Temporary Branches
 
-- **feature** - includes the feature and improvements that will be implemented
+- **bug** - includes bugfixes and typos
+- **enhance** - includes enhancements and improvements
+- **feature** - includes a new feature that will be implemented
 - **hotfix** - includes small improvements before a release, should be branched from a release branch
 - **release** - includes the current version to be released
 
-The majority of the development will be done in `feature` branches.
+The majority of the development will be done in `enhance` and `feature` branches.
+
+### Branch protection
+
+Branch protection rules help safeguard the code by enforcing workflows and permissions on specific branches. <br>
+The level of protection should correspond to the number of active developers and the importance of the package. <br>
+The `production` branch should have <br>
+- `Require a pull request before merging` with `Require approvals` and 1 other developer.
+- `Require status checks to pass before merging`
 
 ## Gitignore
 
