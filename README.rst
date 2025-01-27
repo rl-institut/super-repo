@@ -102,9 +102,9 @@ License and Citation
     :target: https://github.com/rl-institut/super-repo/blob/develop/CONTRIBUTING.md
     :alt: contributions
 
-.. |badge_repo_counts| image:: http://hits.dwyl.com/rl-institut/super-repo.svg
-    :target: http://hits.dwyl.com/rl-institut/super-repo
-    :alt: counter
+.. |badge_repo_counts| image:: https://hits.sh/github.com/rl-institut/super-repo.svg
+    :target: https://hits.sh/github.com/rl-institut/super-repo/
+    :alt: counter (daily / total)
 
 .. |badge_contributors| image:: https://img.shields.io/github/contributors/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/graphs/contributors
