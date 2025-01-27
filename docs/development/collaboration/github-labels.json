@@ -2,37 +2,37 @@
   {
     "color": "EBF0F3",
     "description": "Provides an example",
-    "name": "other: example \ud83d\udcd0"
+    "name": "other: example 📐"
   },
   {
     "color": "EBF0F3",
     "description": "Good for newcomers",
-    "name": "other: good first issue \ud83c\udf31"
+    "name": "other: good first issue 🌱"
   },
   {
     "color": "EBF0F3",
     "description": "Help or assistance is needed",
-    "name": "other: help wanted \ud83d\ude4b"
+    "name": "other: help wanted 🙋"
   },
   {
     "color": "A7F3D5",
     "description": "Concerns backend components",
-    "name": "part: backend \ud83e\uddf1"
+    "name": "part: backend 🧱"
   },
   {
     "color": "A7F3D5",
     "description": "Concerns the community or outreach",
-    "name": "part: community \ud83c\udf0d"
+    "name": "part: community 🌍"
   },
   {
     "color": "A7F3D5",
     "description": "Concerns the documentation",
-    "name": "part: docu \ud83d\udcd6"
+    "name": "part: docu 📖"
   },
   {
     "color": "A7F3D5",
     "description": "Concerns the content or design",
-    "name": "part: frontend \ud83d\udda5\ufe0f"
+    "name": "part: frontend 🖥️"
   },
   {
     "color": "A7F3D5",
@@ -42,101 +42,101 @@
   {
     "color": "FCA5A5",
     "description": "Critical priority",
-    "name": "priority: critical \ud83d\udd25"
+    "name": "priority: critical 🔥"
   },
   {
     "color": "FDBA74",
     "description": "High priority",
-    "name": "priority: high \u26a1"
+    "name": "priority: high ⚡"
   },
   {
     "color": "FCD34D",
     "description": "Low priority",
-    "name": "priority: low \ud83e\udda5"
+    "name": "priority: low 🦥"
   },
   {
     "color": "ECDCF8",
     "description": "Already exists",
-    "name": "resolution: duplicate \ud83d\udc3e"
+    "name": "resolution: duplicate 🐾"
   },
   {
     "color": "ECDCF8",
     "description": "Is invalid",
-    "name": "resolution: invalid \u274c"
+    "name": "resolution: invalid ❌"
   },
   {
     "color": "ECDCF8",
     "description": "Resolved and released",
-    "name": "resolution: released \ud83c\udf89"
+    "name": "resolution: released 🎉"
   },
   {
     "color": "ECDCF8",
     "description": "This will not be worked on",
-    "name": "resolution: wontfix \u26d4"
+    "name": "resolution: wontfix ⛔"
   },
   {
     "color": "93C5FD",
     "description": "Work in progress",
-    "name": "status: active \ud83d\udea7"
+    "name": "status: active 🚧"
   },
   {
     "color": "F9A8D4",
     "description": "Blocked or impeded progress",
-    "name": "status: blocked \ud83d\uded1"
+    "name": "status: blocked 🛑"
   },
   {
     "color": "6EE7B7",
     "description": "Has been completed",
-    "name": "status: completed \u2714\ufe0f"
+    "name": "status: completed ✔️"
   },
   {
     "color": "F9A8D4",
     "description": "Decision is needed",
-    "name": "status: decision wanted \ud83d\uddf3\ufe0f"
+    "name": "status: decision wanted 🗳️"
   },
   {
     "color": "93C5FD",
     "description": "Discussion is ongoing",
-    "name": "status: discussion \ud83d\udcac"
+    "name": "status: discussion 💬"
   },
   {
     "color": "C7DFF0",
     "description": "Implementation is estimated to take months",
-    "name": "time: L (month) \ud83d\udcc5"
+    "name": "time: L (month) 📅"
   },
   {
     "color": "C7DFF0",
     "description": "Implementation is estimated to take weeks",
-    "name": "time: M (week) \ud83d\udd57"
+    "name": "time: M (week) 🕗"
   },
   {
     "color": "C7DFF0",
     "description": "Implementation is estimated to take days",
-    "name": "time: S (day) \u23f3"
+    "name": "time: S (day) ⏳"
   },
   {
     "color": "FEF1C7",
     "description": "Something isn't working",
-    "name": "type: bug \ud83d\udc1b"
+    "name": "type: bug 🐛"
   },
   {
     "color": "FEF1C7",
     "description": "Improvement of an existing feature",
-    "name": "type: enhancement \u2699\ufe0f"
+    "name": "type: enhancement ⚙️"
   },
   {
     "color": "FEF1C7",
     "description": "Implementation of a new feature",
-    "name": "type: feature \ud83d\udee0\ufe0f"
+    "name": "type: feature 🛠️"
   },
   {
     "color": "FEF1C7",
     "description": "Open question and further information is needed",
-    "name": "type: question \u2753"
+    "name": "type: question ❓"
   },
   {
     "color": "FEF1C7",
     "description": "Part of the release procedure",
-    "name": "type: release \ud83d\ude80"
+    "name": "type: release 🚀"
   }
 ]
