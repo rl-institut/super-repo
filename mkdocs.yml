@@ -11,6 +11,7 @@ site_description: Documentation of the Super-Repo for scientific software
 repo_name: rl-institut/super-repo
 repo_url: https://github.com/rl-institut/super-repo
 docs_dir: docs
+copyright: super-repo documentation &copy; Reiner Lemoine Institut | CC-BY-4.0
 
 # Configuration
 theme:
@@ -38,6 +39,7 @@ theme:
     - navigation.path
     - navigation.tracking
     - navigation.top
+    - navigation.footer
     - toc.follow
 
 # extensions
@@ -60,6 +62,11 @@ extra:
   generator: false
   version:
     provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rl-institut/super-repo
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@RL_Institut@wisskomm.social
 
 extra_css:
   - extra.css
