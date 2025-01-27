@@ -169,7 +169,7 @@ If you messed up, remove tags and start again
 
 ## PyPi Release
 
-### 0. 💻 Check release on Test-PyPI
+### 💻 Check release on Test-PyPI
 
 - Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
 - With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
@@ -179,7 +179,12 @@ If you messed up, remove tags and start again
   - Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
 - Push commits to the `release-*` branch
 
-### 1. 💻 Create and publish package on PyPI
+### 🐙 Automated Release with GitHub Action
+
+The GitHub release starts the automated upload to PyPI.
+🎉 Check on PyPI if release arrived!
+
+### 💻 Create and publish package on PyPI manually
 
 💻 `cd D:\git\github\USER\Repository\` Navigate to git folder <br>
 💻 `activate py310` Activate conda environment <br>

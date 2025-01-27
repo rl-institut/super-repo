@@ -52,6 +52,37 @@ Colours and emoticons improve presentation, see: <br>
 are used to automate processes of the repository. <br>
 Main use-cases are building and publishing the documentation and run automated tests.
 
+### Code coverage with codecov
+
+Codecov is a code coverage and quality test for the repository. <br>
+A login and token is needed to implement the codecov badge for the README.rst.
+
+### Documentation with gh-pages
+
+The `develop` branch is directly updated using `mike` and `mkdocs`.<br>
+The included `git fetch` ensures that the released main versions are not deleted.
+
+### Publish on Test PyPI
+
+This workflow releases the package on PyPI using `build`.<br>
+The token has to be added to the GitHUb Secrets.
+
+### Publish on PyPI
+
+This workflow releases the package on PyPI using `build`.<br>
+The token has to be added to the GitHUb Secrets.
+
+### License test with REUSE
+
+The REUSE action does a full compliance check of all files of the repository.<br>
+It uses the `REUSE.toml` and file headers and provides a badge.
+
+### Automated tests with tox
+
+Tox automates and standardizes testing for the repository.<br>
+It builds the packages with different environments and versions.<br>
+The file `tox.ini` configures tests: `pytest`, `coverage` and `ruff`.
+
 ## Pre-commit
 
 **Pre-commit** is a tool to easily setup and run `pre-commit hooks` for your git repository.<br>
