@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: super-repo v0.3.0 <https://github.com/rl-institut/super-repo>
+SPDX-License-Identifier: MIT
+-->
+
 # Security Policy
 
 ## Reporting a Vulnerability
