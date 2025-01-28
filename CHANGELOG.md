@@ -15,9 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Add SECURITY.md (GitHub)
+- Add SECURITY.md [(#85)](https://github.com/rl-institut/super-repo/pull/85)
 
 ### Changed
+- Update documentation [(#85)](https://github.com/rl-institut/super-repo/pull/85)
+- Update the copyright information with source and version number [(#85)](https://github.com/rl-institut/super-repo/pull/85)
 - Update label descriptions and add time labels [(#82)](https://github.com/rl-institut/super-repo/pull/82)
 
 ### Removed
