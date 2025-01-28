@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Add SECURITY.md (GitHub)
 
 ### Changed
 - Update label descriptions and add time labels [(#82)](https://github.com/rl-institut/super-repo/pull/82)
