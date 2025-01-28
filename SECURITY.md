@@ -19,10 +19,10 @@ To report a security vulnerability, please use the GitHub Security Advisory ["Re
 ### What to Expect
 
 - **Initial Response**: After you submit a report, the developer team will acknowledge your submission within 48 hours.
-- **Updates**: We will keep you informed of the progress toward resolving the issue, including any additional information or guidance we may need.
-- **Resolution**: Once the vulnerability is addressed, we will notify you and provide details about the fix. If the vulnerability is declined, we will explain our reasoning.
+- **Updates**: We will keep you informed of the progress toward resolving the issue.
+- **Resolution**: Once the vulnerability is addressed, we will notify you and provide details about the fix.
 
 ### Reporting Vulnerabilities in Third-Party Dependencies
 
-If you discover a security issue in a third-party module or dependency used by the project, please report it directly to the maintainers of that module. <br>
-You can also use the [PyPI Security Contact](https://pypi.org/security/)."
+If you discover a security issue in a package or third-party module, please report it directly to the maintainers of that module. <br>
+You can also use the [PyPI Security Contact](https://pypi.org/security/).
