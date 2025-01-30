@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: super-repo v0.3.0 <https://github.com/rl-institut/super-repo>
 # SPDX-License-Identifier: MIT
 
-name: codecov
+name: 🐍 Coverage tests with codecov
 
 on:
   push:
