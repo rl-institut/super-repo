@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -10,6 +11,18 @@ For each version, important additions, changes and removals are listed here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.4.0] Minor Release - FixMe baby one more time - 2025-01-30
+
+### Added
+- Add SECURITY.md [(#85)](https://github.com/rl-institut/super-repo/pull/85)
+
+### Changed
+- Update label descriptions and add time labels [(#82)](https://github.com/rl-institut/super-repo/pull/82)
+- Update documentation [(#85)](https://github.com/rl-institut/super-repo/pull/85)
+- Update the copyright information with source and version number [(#85)](https://github.com/rl-institut/super-repo/pull/85)
+- Update CONTRIBUTING and RELEASE_PROCEDURE [(#89)](https://github.com/rl-institut/super-repo/pull/89)
+- Update workflow names and user documentation [(#89)](https://github.com/rl-institut/super-repo/pull/89)
 
 ## [0.3.0] Minor Release - Cheese Shop Opening - 2024-12-09
 

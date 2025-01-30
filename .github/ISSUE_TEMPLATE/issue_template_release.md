@@ -28,9 +28,9 @@ Describe the release in as much detail as possible.
 - [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md)
 - [ ] 4. 🐙 Create a `Draft GitHub Release`
 - [ ] 5. 💠 Create a `release` branch
-- [ ] 6. 📝 Update the version files (CHANGELOG.md, CITATION.cff)
+- [ ] 6. 📝 Update the version files (bump version number)
 - [ ] 7. 🐙 Create a Release Pull Request
 - [ ] 8. 💠 Set the `Git Tag`
 - [ ] 9. 🐙 Publish `GitHub Release`
-- [ ] 10. 💻 Update the documentation
+- [ ] 10. 💻 Update the documentation with mike
 - [ ] 11. 🐙 Set up new development

@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
 # SPDX-License-Identifier: MIT
 
 version = 1
@@ -12,7 +13,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/f3/1f/1241aa3d66e8dc161
 
 [[package]]
 name = "super-repo"
-version = "0.3.0"
+version = "0.4.0"
 source = { editable = "." }
 dependencies = [
     { name = "stringcase" },

@@ -1,9 +1,7 @@
 <!--
 SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: MIT
-
-[Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repo/releases)
 -->
 
 # Release Procedure
@@ -70,13 +68,13 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ### Added
 ### Changed
 ### Removed
+
+**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)
+**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)
+**Main developers:** @Ludee @jh-RLI
 ```
 
-- Add a link to the `📝CHANGELOG.md`
-  - `**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
-- Add a link to compare versions
-  - `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)`
-- **Save draft**
+- Save draft
 
 ### 5. 💠 Create a `release` branch
 
@@ -115,16 +113,17 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 ### 8. 💠 Set the `Git Tag`
 
-- Checkout `production` branch and pull
-- Check existing tags `git tag -n`
-- Create new tag: `git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
+- Check existing tags: 💠`git tag -n`
+- Create new tag: 💠`git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
 - This commit will be the final version for the release, breath three times and check again
-- Push tag: `git push --tags`
+- Push tag: 💠`git push --tags`
 
 If you messed up, remove tags and start again
 
-- Delete local tag: `git tag -d v0.1.0`
-- Delete remote tag: `git push --delete origin v0.1.0`
+- Delete local tag: 💠`git tag -d v0.1.0`
+- Delete remote tag: 💠`git push --delete origin v0.1.0`
 
 ▶️ Git Tag for GitHub Release!
 
@@ -141,10 +140,11 @@ If you messed up, remove tags and start again
 
 ### 10. 💻 Update the documentation
 
-- Checkout `production` branch and pull
-- Activate environment and enter repository
-- Test version with `mike serve`
-- Publish new minor version `mike deploy --push --update-aliases 0.1 latest`
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
+- Activate environment and enter repository: 💻`activate py310`
+- Test version with 💻`mike serve`
+- Publish new version 💻`mike deploy --push --update-aliases 0.1 latest`
 
 ▶️ Update the documentation!
 
@@ -169,7 +169,7 @@ If you messed up, remove tags and start again
 
 ## PyPi Release
 
-### 0. 💻 Check release on Test-PyPI
+### 💻 Check release on Test-PyPI
 
 - Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
 - With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
@@ -179,16 +179,22 @@ If you messed up, remove tags and start again
   - Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
 - Push commits to the `release-*` branch
 
-### 1. 💻 Create and publish package on PyPI
+### 🐙 Automated Release with GitHub Action
 
-💻 `cd D:\git\github\USER\Repository\` Navigate to git folder <br>
-💻 `activate py310` Activate conda environment <br>
-💻 `python -m build` Create package using <br>
-📝 `dist` Check that files have been created in folder <br>
-💻 `twine check dist/*` Check build <br>
-💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz` Upload to Test PyPI using <br>
-💻 `twine upload dist/NAME_0.2.0.tar.gz` Upload to PyPI using <br>
-💻 Enter `name` and `password` <br>
+The GitHub release starts the automated upload to PyPI.
+🎉 Check on PyPI if release arrived!
+
+### 💻 Create and publish package on PyPI manually
+
+- Navigate to git folder: 💻`cd D:\git\github\USER\Repository\`
+- Activate conda environment: 💻`activate py310`
+- Create package using: 💻`python -m build`
+- Check that files have been created in folder: 📝 `dist`
+- Check build: 💻 `twine check dist/*`
+- Upload to Test PyPI using: 💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz`
+- Upload to PyPI using: 💻 `twine upload dist/NAME_0.2.0.tar.gz`
+- Enter `name` and `password`
+
 🎉 Check on PyPI if release arrived, breath three times and smile!
 
 ▶️ Publish the Package
