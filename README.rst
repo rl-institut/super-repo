@@ -1,6 +1,6 @@
 ..
   SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-  SPDX-FileCopyrightText: super-repo v0.3.0 <https://github.com/rl-institut/super-repo>
+  SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
   SPDX-License-Identifier: MIT
 
 .. figure:: https://user-images.githubusercontent.com/14353512/185425447-85dbcde9-f3a2-4f06-a2db-0dee43af2f5f.png
