@@ -113,16 +113,17 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 ### 8. 💠 Set the `Git Tag`
 
-- Checkout `production` branch and pull
-- Check existing tags `git tag -n`
-- Create new tag: `git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
+- Check existing tags: 💠`git tag -n`
+- Create new tag: 💠`git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
 - This commit will be the final version for the release, breath three times and check again
-- Push tag: `git push --tags`
+- Push tag: 💠`git push --tags`
 
 If you messed up, remove tags and start again
 
-- Delete local tag: `git tag -d v0.1.0`
-- Delete remote tag: `git push --delete origin v0.1.0`
+- Delete local tag: 💠`git tag -d v0.1.0`
+- Delete remote tag: 💠`git push --delete origin v0.1.0`
 
 ▶️ Git Tag for GitHub Release!
 
@@ -139,10 +140,11 @@ If you messed up, remove tags and start again
 
 ### 10. 💻 Update the documentation
 
-- Checkout `production` branch and pull
-- Activate environment and enter repository
-- Test version with `mike serve`
-- Publish new minor version `mike deploy --push --update-aliases 0.1 latest`
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
+- Activate environment and enter repository: 💻`activate py310`
+- Test version with 💻`mike serve`
+- Publish new version 💻`mike deploy --push --update-aliases 0.1 latest`
 
 ▶️ Update the documentation!
 
@@ -184,14 +186,15 @@ The GitHub release starts the automated upload to PyPI.
 
 ### 💻 Create and publish package on PyPI manually
 
-💻 `cd D:\git\github\USER\Repository\` Navigate to git folder <br>
-💻 `activate py310` Activate conda environment <br>
-💻 `python -m build` Create package using <br>
-📝 `dist` Check that files have been created in folder <br>
-💻 `twine check dist/*` Check build <br>
-💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz` Upload to Test PyPI using <br>
-💻 `twine upload dist/NAME_0.2.0.tar.gz` Upload to PyPI using <br>
-💻 Enter `name` and `password` <br>
+- Navigate to git folder: 💻`cd D:\git\github\USER\Repository\`
+- Activate conda environment: 💻`activate py310`
+- Create package using: 💻`python -m build`
+- Check that files have been created in folder: 📝 `dist`
+- Check build: 💻 `twine check dist/*`
+- Upload to Test PyPI using: 💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz`
+- Upload to PyPI using: 💻 `twine upload dist/NAME_0.2.0.tar.gz`
+- Enter `name` and `password`
+
 🎉 Check on PyPI if release arrived, breath three times and smile!
 
 ▶️ Publish the Package
