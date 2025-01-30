@@ -76,7 +76,7 @@ License and Citation
     :target: https://api.reuse.software/info/github.com/rl-institut/super-repo
     :alt: REUSE
 
-.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/documentation.yml?branch=develop
+.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/documentation.yml?branch=develop&label=documentation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
