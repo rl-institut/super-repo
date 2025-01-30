@@ -68,13 +68,13 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ### Added
 ### Changed
 ### Removed
+
+**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)
+**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)
+**Main developers:** @Ludee @jh-RLI
 ```
 
-- Add a link to the `📝CHANGELOG.md`
-  - `**Complete changelog:** [CHANGELOG.md](https://github.com/rl-institut/super-repo/blob/production/CHANGELOG.md)`
-- Add a link to compare versions
-  - `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/rl-institut/super-repo/compare/v0.1.0...v0.2.0)`
-- **Save draft**
+- Save draft
 
 ### 5. 💠 Create a `release` branch
 
