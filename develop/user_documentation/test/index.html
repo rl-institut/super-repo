@@ -10,28 +10,26 @@
       
       
       
-        <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/development/best-practice/pre_commit_hooks/">
+        <link rel="canonical" href="https://rl-institut.github.io/super-repo/develop/user_documentation/test/">
       
       
-        <link rel="prev" href="../test_driven_development/">
+        <link rel="prev" href="../functions/code_example/">
       
       
-        <link rel="next" href="../code_style/">
       
-      
-      <link rel="icon" href="../../../img/favicon_super-repo.png">
+      <link rel="icon" href="../../img/favicon_super-repo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>Pre-commit Hooks - Super-Repo Documentation</title>
+        <title>Tests - Super-Repo Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,11 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../../../extra.css">
+      <link rel="stylesheet" href="../../extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pre-commit-hooks" class="md-skip">
+        <a href="#tests" class="md-skip">
           Skip to content
         </a>
       
@@ -100,9 +98,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Super-Repo Documentation" class="md-header__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
+    <a href="../.." title="Super-Repo Documentation" class="md-header__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
       
-  <img src="../../../img/logo_rli_small.png" alt="logo">
+  <img src="../../img/logo_rli_small.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -119,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pre-commit Hooks
+              Tests
             
           </span>
         </div>
@@ -220,7 +218,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -229,6 +227,35 @@
 
       </a>
     </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../development/documentation/" class="md-tabs__link">
+          
+  
+    
+  
+  Development
+
+        </a>
+      </li>
+    
+  
+
+    
   
 
       
@@ -249,36 +276,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../documentation/" class="md-tabs__link">
-          
-  
-    
-  
-  Development
-
-        </a>
-      </li>
-    
-  
-
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../../user_documentation/install/" class="md-tabs__link">
+        <a href="../install/" class="md-tabs__link">
           
   
     
@@ -322,9 +320,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Super-Repo Documentation" class="md-nav__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
+    <a href="../.." title="Super-Repo Documentation" class="md-nav__button md-logo" aria-label="Super-Repo Documentation" data-md-component="logo">
       
-  <img src="../../../img/logo_rli_small.png" alt="logo">
+  <img src="../../img/logo_rli_small.png" alt="logo">
 
     </a>
     Super-Repo Documentation
@@ -351,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -368,10 +366,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -386,22 +382,19 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -412,7 +405,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Development
@@ -437,13 +430,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -452,7 +442,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../documentation/" class="md-nav__link ">
+            <a href="../../development/documentation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -511,13 +501,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -526,7 +513,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../collaboration/" class="md-nav__link ">
+            <a href="../../development/collaboration/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -537,7 +524,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -559,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../collaboration/license_and_citation/" class="md-nav__link">
+      <a href="../../development/collaboration/license_and_citation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -580,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../collaboration/git/" class="md-nav__link">
+      <a href="../../development/collaboration/git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -601,7 +588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../collaboration/users/" class="md-nav__link">
+      <a href="../../development/collaboration/users/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -622,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../collaboration/chat/" class="md-nav__link">
+      <a href="../../development/collaboration/chat/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -643,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../collaboration/meeting/" class="md-nav__link">
+      <a href="../../development/collaboration/meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -664,7 +651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../collaboration/code_of_conduct/" class="md-nav__link">
+      <a href="../../development/collaboration/code_of_conduct/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -690,8 +677,6 @@
                 
   
   
-    
-  
   
   
     
@@ -714,22 +699,19 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../development/best-practice/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -740,13 +722,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Best Practices
@@ -762,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../continuous_integration/" class="md-nav__link">
+      <a href="../../development/best-practice/continuous_integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -783,7 +765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../test_driven_development/" class="md-nav__link">
+      <a href="../../development/best-practice/test_driven_development/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -801,30 +783,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Pre-commit Hooks
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../development/best-practice/pre_commit_hooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -833,44 +795,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation-and-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation and Setup
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Usage
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -883,7 +807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../code_style/" class="md-nav__link">
+      <a href="../../development/best-practice/code_style/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -923,13 +847,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -938,7 +859,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../release/" class="md-nav__link ">
+            <a href="../../development/release/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -978,8 +899,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -992,19 +915,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1015,7 +941,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             User Documentation
@@ -1040,10 +966,13 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
@@ -1052,7 +981,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../user_documentation/install/" class="md-nav__link ">
+            <a href="../install/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1101,10 +1030,13 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
@@ -1113,7 +1045,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../user_documentation/functions/" class="md-nav__link ">
+            <a href="../functions/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1124,7 +1056,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -1146,7 +1078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../user_documentation/functions/code_example/" class="md-nav__link">
+      <a href="../functions/code_example/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1172,6 +1104,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1186,19 +1120,22 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../user_documentation/test/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -1210,7 +1147,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Tests
@@ -1261,18 +1198,72 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation-and-setup" class="md-nav__link">
+  <a href="#tox" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation and Setup
+      tox
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
+  <a href="#unit-tests" class="md-nav__link">
     <span class="md-ellipsis">
-      Usage
+      Unit Tests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test.test_example" class="md-nav__link">
+    <span class="md-ellipsis">
+      test.test_example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test.test_example.test_addition" class="md-nav__link">
+    <span class="md-ellipsis">
+      test_addition()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test.test_example.test_division" class="md-nav__link">
+    <span class="md-ellipsis">
+      test_division()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test.test_example.test_division_zero" class="md-nav__link">
+    <span class="md-ellipsis">
+      test_division_zero()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test.test_example.test_multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      test_multiplication()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test.test_example.test_subtraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      test_subtraction()
     </span>
   </a>
   
@@ -1296,25 +1287,212 @@
   
 
 
-<h1 id="pre-commit-hooks">Pre-commit Hooks<a class="headerlink" href="#pre-commit-hooks" title="Permanent link">#</a></h1>
-<p>Pre-commit hooks are tools used to enforce code quality and consistency by
-running checks or scripts before changes are committed. <br>
-These hooks help identify issues early, improving code hygiene.</p>
-<h2 id="installation-and-setup">Installation and Setup<a class="headerlink" href="#installation-and-setup" title="Permanent link">#</a></h2>
-<p>Install the package in your base environment. <br>
-   💻 <code>pip install pre-commit</code></p>
-<p>Create a 📝 <code>.pre-commit-config.yaml</code> file in your repository root. <br>
-This file defines the hooks and configurations.</p>
-<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">#</a></h2>
-<p>To run the hooks manually, use: <br>
-   💻 <code>pre-commit run --all-files</code></p>
-<p>Now, every time you commit changes, the pre-commit hooks will automatically <br>
-run the checks defined in your configuration file, ensuring code quality before
-committing.</p>
+<h1 id="tests">Tests<a class="headerlink" href="#tests" title="Permanent link">#</a></h1>
+<h2 id="tox">tox<a class="headerlink" href="#tox" title="Permanent link">#</a></h2>
+<p>Automated tests with tox:</p>
+<ul>
+<li>pytest</li>
+<li>ruff</li>
+</ul>
+<h2 id="unit-tests">Unit Tests<a class="headerlink" href="#unit-tests" title="Permanent link">#</a></h2>
 <div class="admonition note">
-<p class="admonition-title">Used Icons</p>
-<p>🐙 GitHub | 💠 git | 📝 File | 💻 Command Line</p>
+<p class="admonition-title">About the example</p>
+<p>Below you see the rendered version of the example test
+<code>test\test_example.py</code></p>
 </div>
+
+
+  <div class="doc doc-object doc-module">
+
+<a id="test.test_example"></a>
+    <div class="doc doc-contents first">
+
+      <p>Example implementation of common calculater functionality to
+demonstrate TDD.</p>
+<p>SPDX-FileCopyrightText: 2023 Jonas Huber <a href="https://github.com/jh-rli">https://github.com/jh-rli</a> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: 2023 Ludwig Hülk <a href="https://github.com/Ludee">https://github.com/Ludee</a> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: super-repo v0.3.0 <a href="https://github.com/rl-institut/super-repo">https://github.com/rl-institut/super-repo</a>
+SPDX-License-Identifier: MIT</p>
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="test.test_example.test_addition" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">test_addition</span><span class="p">()</span></code>
+
+
+<a href="#test.test_example.test_addition" class="headerlink" title="Permanent link">#</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Test addition.</p>
+<p>Test addition function.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>test/test_example.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_addition</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Test addition.</span>
+
+<span class="sd">    Test addition function.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="mi">7</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="test.test_example.test_division" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">test_division</span><span class="p">()</span></code>
+
+
+<a href="#test.test_example.test_division" class="headerlink" title="Permanent link">#</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Test division.</p>
+<p>Test division function.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>test/test_example.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_division</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Test division.</span>
+
+<span class="sd">    Test division function.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">divide</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="mi">5</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="test.test_example.test_division_zero" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">test_division_zero</span><span class="p">()</span></code>
+
+
+<a href="#test.test_example.test_division_zero" class="headerlink" title="Permanent link">#</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Test division with zero.</p>
+<p>Test division function fail.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>test/test_example.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_division_zero</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Test division with zero.</span>
+
+<span class="sd">    Test division function fail.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">raises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;Cannot divide by zero&quot;</span><span class="p">):</span>
+        <span class="n">divide</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="test.test_example.test_multiplication" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">test_multiplication</span><span class="p">()</span></code>
+
+
+<a href="#test.test_example.test_multiplication" class="headerlink" title="Permanent link">#</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Test multiplication.</p>
+<p>Test multiplication function.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>test/test_example.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_multiplication</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Test multiplication.</span>
+
+<span class="sd">    Test multiplication function.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">multiply</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="mi">12</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="test.test_example.test_subtraction" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">test_subtraction</span><span class="p">()</span></code>
+
+
+<a href="#test.test_example.test_subtraction" class="headerlink" title="Permanent link">#</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Test subtraction.</p>
+<p>Test subtraction function.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>test/test_example.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_subtraction</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Test subtraction.</span>
+
+<span class="sd">    Test subtraction function.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">subtract</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="mi">5</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
 
 
 
@@ -1350,7 +1528,7 @@ committing.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../test_driven_development/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Test-Driven Development">
+          <a href="../functions/code_example/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Code Example">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1360,27 +1538,11 @@ committing.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Test-Driven Development
+                Code Example
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../code_style/" class="md-footer__link md-footer__link--next" aria-label="Next: Code Style">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Code Style
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -1434,10 +1596,10 @@ committing.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.tracking", "navigation.top", "navigation.footer", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.tracking", "navigation.top", "navigation.footer", "toc.follow"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
     
   </body>
