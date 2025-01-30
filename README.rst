@@ -20,7 +20,9 @@ super-repo
    * - License
      - |badge_license| |badge_reuse|
    * - Documentation
-     - |badge_documentation| |badge_tox| |badge_codecov|
+     - |badge_documentation|
+   * - Tests
+     - |badge_tox| |badge_codecov|
    * - Publication
      - |badge_pypi| |badge_python| |badge_pypi_downloads|
    * - Development
@@ -49,7 +51,7 @@ Documentation
 Collaboration
 =============
 | Everyone is invited to develop this repository with good intentions.
-| Please follow the workflow described in the `CONTRIBUTING.md <https://rl-institut.github.io/super-repo/latest/development/collaboration/>`_.
+| Please follow the workflow described in the `CONTRIBUTING.md <https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md>`_.
 
 Contributors:
 
@@ -61,7 +63,7 @@ Contributors:
 License and Citation
 ====================
 | The code of this repository is licensed under the **MIT License** (MIT).
-| See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
+| See `LICENSE.txt <https://github.com/rl-institut/super-repo/blob/production/LICENSE.txt>`_ for rights and obligations.
 | See the *Cite this repository* function or `CITATION.cff <https://github.com/rl-institut/super-repo/blob/production/CITATION.cff>`_ for citation of this repository.
 | Copyright: `super-repo <https://github.com/rl-institut/super-repo/>`_ © `Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
 
@@ -78,9 +80,11 @@ License and Citation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
-.. |badge_tox| image:: https://github.com/rl-institut/super-repo/actions/workflows/tox.yml/badge.svg
-    :target: https://github.com/rl-institut/super-repo/actions/workflows/tox.yml
-    :alt: Documentation
+.. image::
+   :alt: GitHub Actions Workflow Status
+
+.. |badge_tox| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/tox.yml?label=tox
+    :alt: Tox Tests
 
 .. |badge_codecov| image:: https://codecov.io/gh/rl-institut/super-repo/graph/badge.svg?token=YYCJI3D5G5
     :target: https://codecov.io/gh/rl-institut/super-repo
