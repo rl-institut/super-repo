@@ -41,16 +41,18 @@ see the [Ignoring Files chapter](https://git-scm.com/book/en/v2/Git-Basics-Recor
 [Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 offer specific functions and default configurations for new issues.
 
-- [Feature Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
-- [Bug Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
-- [Release Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
-- [User Kudos Issue](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
+- [Feature Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_feature.md)
+- [Bug Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_bug.md)
+- [Release Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_release.md)
+- [User Kudos Issue Template](https://github.com/rl-institut/super-repo/blob/production/.github/ISSUE_TEMPLATE/issue_template_user_kudos.md)
 
 ## Pull Request (PR) Template
 
 The [Pull Request Template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 is used for all PR, because it is only possible to create a single one. <br>
-It includes all needed information to merge branches and release new versions.
+It includes all needed information to merge branches and release new versions. <br>
+
+- [Pull Request Template](https://github.com/rl-institut/super-repo/blob/production/.github/pull_request_template.md)
 
 ## GitHub Projects
 
