@@ -7,7 +7,7 @@ name: 🐍 Automated tests with tox
 
 on:
   push:
-    branches: [production, develop]
+    branches: [production]
   pull_request:
     branches: [production, develop]
 

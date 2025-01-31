@@ -9,6 +9,8 @@ on:
   push:
     branches:
       - deployment-test
+  pull_request:
+    branches:
       - 'release-*'
 
 jobs:

@@ -6,7 +6,9 @@ name: 🐍 Coverage tests with codecov
 
 on:
   push:
-    branches: [ production, develop ]
+    branches:
+      - production
+      - develop
 
 jobs:
   test:
