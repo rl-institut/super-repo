@@ -1,6 +1,6 @@
 ..
   SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-  SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
+  SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
   SPDX-License-Identifier: MIT
 
 .. figure:: https://user-images.githubusercontent.com/14353512/185425447-85dbcde9-f3a2-4f06-a2db-0dee43af2f5f.png
@@ -79,6 +79,10 @@ License and Citation
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/documentation.yml?branch=develop&label=documentation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
+
+.. |badge_mkdocs| image:: https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white
+    :target: https://squidfunk.github.io/mkdocs-material/
+    :alt: MkDocs
 
 .. |badge_tox| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/tox.yml?label=tox
     :target: https://github.com/rl-institut/super-repo/actions/workflows/tox.yml
