@@ -20,7 +20,7 @@ super-repo
    * - License
      - |badge_license| |badge_reuse|
    * - Documentation
-     - |badge_documentation|
+     - |badge_documentation| |badge_mkdocs|
    * - Tests
      - |badge_tox| |badge_codecov|
    * - Publication
