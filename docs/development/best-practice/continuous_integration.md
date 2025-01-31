@@ -1,26 +1,27 @@
-# Continuous Integration (CI) and Test Automation
+# Continuous Integration (CI) and Unit Tests
 
 Continuous Integration (CI) ensures consistent code quality through automated
-testing, reporting, and deployments. <br>
-Our setup combines `GitHub Actions` and `tox` to streamline testing across
+testing, reporting, and deployments.
+The setup combines `GitHub Actions` and `tox` to streamline testing across
 environments, making the process robust and efficient.
 
 ## GitHub Actions: Workflows
 
 GitHub Actions automates key workflows like testing, linting, and code
-quality checks. The CI pipeline includes the following tasks:  
-- **Unit Testing**: Using `pytest` to ensure comprehensive test coverage.  
-- **Code Formatting**: Validating syntax with `ruff`.  
-- **Linting**: Verifying code style and docstrings with `ruff.lint`.
-- **Import Sorting**: Organizing imports with `ruff.lint.isort`.  
+quality checks. <br>
+The CI pipeline includes the following tasks:  
+- **Unit Testing**: Using `pytest` to ensure comprehensive test coverage
+- **Code Formatting**: Validating syntax with `ruff`
+- **Linting**: Verifying code style and docstrings with `ruff.lint`
+- **Import Sorting**: Organizing imports with `ruff.lint.isort`
 
-To set up GitHub Actions workflows for the repository,
+To set up workflows for the repository,
 follow the [official GitHub guide](https://docs.github.com/en/actions/guides).<br>
-The GitHub Actions workflow is triggered on pull requests or commits to
-the `develop` or `production` branches.  
-1. **Setup**: Prepares a Python environment and installs dependencies.  
-2. **Testing**: Executes the `tox` automation suite to run the defined tests.  
-3. **Reporting**: Generates detailed failure reports for debugging.  
+The GitHub Actions are triggered on pull requests or commits to
+selected branches.  
+1. **Setup**: Prepares a Python environment and installs dependencies
+2. **Testing**: Executes the `tox` automation suite to run the defined tests
+3. **Reporting**: Generates detailed failure reports for debugging
 
 GitHub Actions also automates documentation updates, ensuring the latest
 changes from the `develop` branch are reflected. For more details, see
@@ -35,11 +36,11 @@ systems (Linux, macOS, Windows). <br>
 It enhances reproducibility and reliability by creating isolated environments
 for testing:
 
-- **Virtual Environments**: Isolates dependencies for each Python version.  
-- **Automated Testing**: Runs tests and style checks (for example, `pytest`, `ruff`).  
-- **Cross-Version/Platform Testing**: Ensures compatibility across Python versions and operating systems.  
-- **Dependency Management**: Customizes dependencies for diverse test scenarios.  
-- **Reproducibility**: Maintains consistent workflows by way of 📝 `tox.ini`.  
+- **Virtual Environments**: Isolates dependencies for each Python version
+- **Automated Testing**: Runs tests and style checks (for example, `pytest`, `ruff`)
+- **Cross-Platform Testing**: Ensures compatibility across versions and operating systems
+- **Dependency Management**: Customizes dependencies for diverse test scenarios
+- **Reproducibility**: Maintains consistent workflows by way of 📝`tox.ini`
 - **Extensibility**: Supports plugins for custom functionality.
 
 ### Install
@@ -48,12 +49,12 @@ Install the required package in a python environment. <br>
    💻 `pip install tox` Install tox <br>
    💻 `tox` Run tox locally
 
-
 ## Adding and Managing Tests
 
-New tests should be placed in the 📝 `test/` directory. For example:  
-- Add a test to validate new functionality.  
-- Use `pytest` for unit tests, or extend 📝 `tox.ini` for additional test configurations.  
+New tests should be placed in the 📝`test` directory:  
+
+- Add a test to validate new functionality
+- Use `pytest` for unit tests, or extend 📝`tox.ini` for additional test configurations
 
 By combining `tox` and GitHub Actions, our CI pipeline ensures robust,
 reproducible, and scalable testing workflows.
@@ -102,8 +103,8 @@ reproducible, and scalable testing workflows.
 
 ### Examples
 
-The file 📝 `test/test_example.py` contains basic examples for the functions in <br>
-📝 `super_repo/test_calculator.py`.
+The file 📝`test/test_example.py` contains basic examples for the functions in <br>
+📝`super_repo/test_calculator.py`.
 
 In Python, the `assert` statement is used to test if a condition is true. <br>
 If the condition is false, an AssertionError is raised, indicating the test failed.
@@ -122,7 +123,7 @@ with raises(ValueError, match=r"Cannot divide by zero"):
 ```
 
 We encourage contributions of additional tests and examples to help improve
-coverage and showcase different use cases—your input is valuable to enhancing the project!
+coverage and showcase different use cases. Your input is valuable to enhancing the project!
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line

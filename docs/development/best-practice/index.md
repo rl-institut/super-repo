@@ -15,8 +15,7 @@ high standards in a collaborative scientific software environment:
   thorough testing from the outset.
 
 - [**Pre-commit Hooks (PCH)**](https://rl-institut.github.io/super-repo/develop/development/continuous-integration/): <br>
-  Tools to enforce code
-  quality and consistency by running checks or scripts before changes are committed. <br>
+  Enforces code quality and consistency by running checks and scripts when committing. <br>
   These hooks help identify issues early, improving code hygiene and reducing technical debt.
 
 Following these practices will streamline development, reduce bugs, and foster a

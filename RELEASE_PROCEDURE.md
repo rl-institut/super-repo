@@ -1,6 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
+SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: MIT
 -->
 
@@ -50,9 +50,9 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 ### 3. 🐙 Create a `GitHub Issue`
 
-- Use `📝issue_template_release`
+- Use [`📝issue_template_release`](https://github.com/rl-institut/super-repo/issues/new?template=issue_template_release.md)
 - Name `Release - Minor Version - 0.1.0`
-- Complete the necessary details
+- Complete the necessary details from the template
 
 ▶️ This issue documents the status of the release!
 
@@ -78,12 +78,15 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 ### 5. 💠 Create a `release` branch
 
-- Checkout `develop` and branch with `git checkout -b release-v0.1.0`
-- Push branch with `git push --set-upstream origin release-v0.1.0`
+- Change to `develop` branch: 💠`git checkout develop`
+- Update with online version: 💠`git pull`
+- Run [Pre-commit Hooks](https://rl-institut.github.io/super-repo/latest/development/best-practice/pre_commit_hooks/): 💻`pre-commit run --all-files`
+- Create branch: 💠`git checkout -b release-v0.1.0`
+- Push branch: 💠`git push --set-upstream origin release-v0.1.0`
 
 ### 6. 📝 Update the version files (bump version number)
 
-- Run bumpversion 💻 `bump-my-version bump --current-version 0.1.0 minor`
+- Run bumpversion: 💻 `bump-my-version bump --current-version 0.1.0 minor`
   - `📝CITATION.cff`
     - Update `version`
     - Update `date-released`
@@ -95,7 +98,6 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
   - Check that all Pull Request are included
   - Rename `Unreleased` section with release title from issue
   - Follow `[0.0.0] Minor Release - Name of Release - 20YY-MM-DD`
-
 
 ▶️ Increase version numbers!
 
@@ -136,21 +138,30 @@ If you messed up, remove tags and start again
 - Select `Create a discussion for this release` in category `Announcements`
 - **Publish release**
 
-▶️ Release on GitHub! 🚀
+▶️ 🎉 Release on GitHub! 🚀
+
+#### 🐙 Automated Release with GitHub Action
+
+- Check [GitHub Action](https://github.com/rl-institut/super-repo/actions/workflows/publish_pypi.yml)
+- The GitHub release starts the automated upload to PyPI
+- Check on PyPI if release arrived
+- If automated released failed, release manually
+
+▶️ 🎉 Release on PyPI! 🚀
 
 ### 10. 💻 Update the documentation
 
 - Change to `production` branch: 💠`git checkout production`
 - Update with online version: 💠`git pull`
 - Activate environment and enter repository: 💻`activate py310`
-- Test version with 💻`mike serve`
-- Publish new version 💻`mike deploy --push --update-aliases 0.1 latest`
+- Test version: 💻`mike serve`
+- Publish new version: 💻`mike deploy --push --update-aliases 0.1 latest`
 
 ▶️ Update the documentation!
 
 ### 11. 🐙 Set up new development
 
-- Create a Pull Request from `production` to `develop`
+- Create a [Pull Request](https://github.com/rl-institut/super-repo/compare) from `production` to `develop`
 - Named `Set up new development after release v0.1.0`
 - Checkout `develop` branch and pull
 - Create a new **Unreleased** section in the `📝CHANGELOG.md`
@@ -165,27 +176,32 @@ If you messed up, remove tags and start again
 ### Removed
 ```
 
+- Close all solved issues and PR and set tags and status
+- Create a new [GitHub Project](https://github.com/rl-institut/super-repo/projects?query=is%3Aopen) by cloning the latest project
+
 ▶️ Continue the developments 🛠
 
 ## PyPi Release
 
-### 💻 Check release on Test-PyPI
+### 🐙 Create and publish package on Test-PyPI
 
-- Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
-- With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
-  - Note: Pre-releases on Test-PyPI are only shown under `Release history` in the navigation bar.
-  - Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterward.
-- Once testing on Test-PyPI is done, change the release version to the final desired version with `bump2version release`
-  - Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
-- Push commits to the `release-*` branch
+- Change to `develop` branch: 💠`git checkout develop`
+- Update with online version: 💠`git pull`
+- Create branch: 💠`git checkout -b deployment-test`
+- Push branch: 💠`git push --set-upstream origin deployment-test`
+- Check [GitHub Action](https://github.com/rl-institut/super-repo/actions/workflows/publish_testpypi.yml)
+- Check [Test-PyPI](https://test.pypi.org/project/super-repo/#history)
+- Delete remote branch: 💠`git branch -d origin deployment-test`
+- Delete local branch: 💠`git branch -D deployment-test`
+- Note: Each version can only be released on Test-PyPI once. If needed, increment the Patch version
+  - Run bumpversion: 💻 `bump-my-version bump --current-version 0.1.0 patch`
 
-### 🐙 Automated Release with GitHub Action
-
-The GitHub release starts the automated upload to PyPI.
-🎉 Check on PyPI if release arrived!
+▶️ 🎉 Release on TestPyPI!
 
 ### 💻 Create and publish package on PyPI manually
 
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
 - Navigate to git folder: 💻`cd D:\git\github\USER\Repository\`
 - Activate conda environment: 💻`activate py310`
 - Create package using: 💻`python -m build`
@@ -195,9 +211,7 @@ The GitHub release starts the automated upload to PyPI.
 - Upload to PyPI using: 💻 `twine upload dist/NAME_0.2.0.tar.gz`
 - Enter `name` and `password`
 
-🎉 Check on PyPI if release arrived, breath three times and smile!
-
-▶️ Publish the Package
+▶️ 🎉 Release on PyPI! 🚁
 
 ## Sources:
 
