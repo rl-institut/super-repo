@@ -1,6 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
+SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -12,14 +12,10 @@ For each version, important additions, changes and removals are listed here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-### Added
+## [0.5.0] Minor Release - Alpha-Version - 2025-01-31
 
 ### Changed
 - Update documentation [(#93)](https://github.com/rl-institut/super-repo/pull/93)
-
-### Removed
 
 ## [0.4.0] Minor Release - FixMe baby one more time - 2025-01-30
 

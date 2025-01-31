@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2024 Ludwig Hülk <@Ludee> © Reiner Lemoine Institut
 # SPDX-FileCopyrightText: 2024 Jonas Huber <https://github.com/jh-rli> © Reiner Lemoine Institut
-# SPDX-FileCopyrightText: super-repo v0.4.0 <https://github.com/rl-institut/super-repo>
+# SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
 # SPDX-License-Identifier: MIT
 
 name: 📦 Build and publish on Test PyPI
@@ -9,6 +9,8 @@ on:
   push:
     branches:
       - deployment-test
+  pull_request:
+    branches:
       - 'release-*'
 
 jobs:
