@@ -1,4 +1,4 @@
-# Continuous Integration (CI) and Test Automation
+# Continuous Integration (CI) and Unit Tests
 
 Continuous Integration (CI) ensures consistent code quality through automated
 testing, reporting, and deployments.
@@ -40,7 +40,7 @@ for testing:
 - **Automated Testing**: Runs tests and style checks (for example, `pytest`, `ruff`)
 - **Cross-Platform Testing**: Ensures compatibility across versions and operating systems
 - **Dependency Management**: Customizes dependencies for diverse test scenarios
-- **Reproducibility**: Maintains consistent workflows by way of 📝 `tox.ini`
+- **Reproducibility**: Maintains consistent workflows by way of 📝`tox.ini`
 - **Extensibility**: Supports plugins for custom functionality.
 
 ### Install
@@ -49,12 +49,12 @@ Install the required package in a python environment. <br>
    💻 `pip install tox` Install tox <br>
    💻 `tox` Run tox locally
 
-
 ## Adding and Managing Tests
 
-New tests should be placed in the 📝 `test/` directory. For example:  
-- Add a test to validate new functionality.  
-- Use `pytest` for unit tests, or extend 📝 `tox.ini` for additional test configurations.  
+New tests should be placed in the 📝`test` directory:  
+
+- Add a test to validate new functionality
+- Use `pytest` for unit tests, or extend 📝`tox.ini` for additional test configurations
 
 By combining `tox` and GitHub Actions, our CI pipeline ensures robust,
 reproducible, and scalable testing workflows.
@@ -103,8 +103,8 @@ reproducible, and scalable testing workflows.
 
 ### Examples
 
-The file 📝 `test/test_example.py` contains basic examples for the functions in <br>
-📝 `super_repo/test_calculator.py`.
+The file 📝`test/test_example.py` contains basic examples for the functions in <br>
+📝`super_repo/test_calculator.py`.
 
 In Python, the `assert` statement is used to test if a condition is true. <br>
 If the condition is false, an AssertionError is raised, indicating the test failed.
@@ -123,7 +123,7 @@ with raises(ValueError, match=r"Cannot divide by zero"):
 ```
 
 We encourage contributions of additional tests and examples to help improve
-coverage and showcase different use cases—your input is valuable to enhancing the project!
+coverage and showcase different use cases. Your input is valuable to enhancing the project!
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line
