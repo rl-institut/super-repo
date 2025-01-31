@@ -175,6 +175,9 @@ If you messed up, remove tags and start again
 ### Removed
 ```
 
+- Close all solved issues and PR and set tags and status
+- Create a new [GitHub Project](https://github.com/rl-institut/super-repo/projects?query=is%3Aopen) by cloning the latest project
+
 ▶️ Continue the developments 🛠
 
 ## PyPi Release
