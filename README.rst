@@ -28,7 +28,7 @@ super-repo
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
-     - |badge_contributing| |badge_contributors| |badge_repo_counts| |badge_matrix|
+     - |badge_contributions| |badge_contributors| |badge_repo_counts| |badge_matrix|
 
 .. contents::
     :depth: 2
@@ -69,7 +69,7 @@ License and Citation
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/rl-institut/super-repo
-    :target: LICENSES/MIT.txt
+    :target: https://github.com/rl-institut/super-repo/blob/production/LICENSE.txt
     :alt: License
 
 .. |badge_reuse| image:: https://api.reuse.software/badge/github.com/rl-institut/super-repo
@@ -80,10 +80,8 @@ License and Citation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
-.. image::
-   :alt: GitHub Actions Workflow Status
-
 .. |badge_tox| image:: https://img.shields.io/github/actions/workflow/status/rl-institut/super-repo/tox.yml?label=tox
+    :target: https://github.com/rl-institut/super-repo/actions/workflows/tox.yml
     :alt: Tox Tests
 
 .. |badge_codecov| image:: https://codecov.io/gh/rl-institut/super-repo/graph/badge.svg?token=YYCJI3D5G5
@@ -95,24 +93,12 @@ License and Citation
     :alt: PyPI Version
 
 .. |badge_python| image:: https://img.shields.io/pypi/pyversions/super-repo
-    :target: https://pypi.org/project/super-repo/
+    :target: https://github.com/rl-institut/super-repo/blob/develop/pyproject.toml
     :alt: PyPI Python Version
 
 .. |badge_pypi_downloads| image:: https://img.shields.io/pypi/dm/super-repo
     :target: https://pypi.org/project/super-repo/
     :alt: PyPI Downloads
-
-.. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-    :target: https://github.com/rl-institut/super-repo/blob/develop/CONTRIBUTING.md
-    :alt: contributions
-
-.. |badge_repo_counts| image:: https://hits.sh/github.com/rl-institut/super-repo.svg
-    :target: https://hits.sh/github.com/rl-institut/super-repo/
-    :alt: counter (daily / total)
-
-.. |badge_contributors| image:: https://img.shields.io/github/contributors/rl-institut/super-repo
-    :target: https://github.com/rl-institut/super-repo/graphs/contributors
-    :alt: contributors
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/issues
@@ -129,6 +115,18 @@ License and Citation
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/pulls?q=is%3Apr+is%3Aclosed
     :alt: closes issues
+
+.. |badge_contributions| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
+    :target: https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md
+    :alt: contributions
+
+.. |badge_contributors| image:: https://img.shields.io/github/contributors/rl-institut/super-repo
+    :target: https://github.com/rl-institut/super-repo/graphs/contributors
+    :alt: contributors
+
+.. |badge_repo_counts| image:: https://hits.sh/github.com/rl-institut/super-repo.svg
+    :target: https://hits.sh/github.com/rl-institut/super-repo/
+    :alt: hits
 
 .. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
     :target: https://app.element.io/#/room/#super-repo:matrix.org
