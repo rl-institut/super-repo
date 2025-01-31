@@ -13,22 +13,17 @@ The goal is to simplify and standardise the creation of software in GitHub repos
 ## Documentation Structure
 
 The documentation is separated into two main sections:
-**Development** and **Code Documentation**. <br>
+**Development** and **User Documentation**. <br>
 
 ### Fields for development
 
-Files and structures related to collaborative development, community processes,
-and documentation.
-
-- [Collaboration](https://rl-institut.github.io/super-repo/develop/development/collaboration/)
-- [Best-Practices](https://rl-institut.github.io/super-repo/develop/development/best-practice/)
-- [Documentation](https://rl-institut.github.io/super-repo/develop/development/documentation/)
-- [Release](https://rl-institut.github.io/super-repo/develop/development/release/)
+- [Documentation](https://rl-institut.github.io/super-repo/latest/development/documentation/)
+- [Collaboration](https://rl-institut.github.io/super-repo/latest/development/collaboration/)
+- [Best-Practices](https://rl-institut.github.io/super-repo/latest/development/best-practice/)
+- [Release](https://rl-institut.github.io/super-repo/latest/development/release/)
 
 ### Fields for code documentation
 
-Methods and functions of the module.
-
-- [Install](https://rl-institut.github.io/super-repo/develop/user_documentation/install/)
-- [Functions](https://rl-institut.github.io/super-repo/develop/user_documentation/)
-- [Code Example](https://rl-institut.github.io/super-repo/develop/user_documentation/code_example/)
+- [Install](https://rl-institut.github.io/super-repo/latest/user_documentation/install/)
+- [Functions](https://rl-institut.github.io/super-repo/latest/user_documentation/functions/)
+- [Code Example](https://rl-institut.github.io/super-repo/latest/user_documentation/test/)
