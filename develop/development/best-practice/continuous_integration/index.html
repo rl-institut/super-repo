@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../img/favicon_super-repo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.1">
     
     
       
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#continuous-integration-ci-and-test-automation" class="md-skip">
+        <a href="#continuous-integration-ci-and-unit-tests" class="md-skip">
           Skip to content
         </a>
       
@@ -356,6 +356,7 @@
   
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -406,6 +407,7 @@
   
   <span class="md-ellipsis">
     Development
+    
   </span>
   
 
@@ -457,6 +459,7 @@
   
   <span class="md-ellipsis">
     Documentation
+    
   </span>
   
 
@@ -531,6 +534,7 @@
   
   <span class="md-ellipsis">
     Collaboration
+    
   </span>
   
 
@@ -564,6 +568,7 @@
   
   <span class="md-ellipsis">
     License and Citation
+    
   </span>
   
 
@@ -585,6 +590,7 @@
   
   <span class="md-ellipsis">
     Git
+    
   </span>
   
 
@@ -606,6 +612,7 @@
   
   <span class="md-ellipsis">
     Users
+    
   </span>
   
 
@@ -627,6 +634,7 @@
   
   <span class="md-ellipsis">
     Chat
+    
   </span>
   
 
@@ -648,6 +656,7 @@
   
   <span class="md-ellipsis">
     Meetings
+    
   </span>
   
 
@@ -669,6 +678,7 @@
   
   <span class="md-ellipsis">
     Code of Conduct
+    
   </span>
   
 
@@ -734,6 +744,7 @@
   
   <span class="md-ellipsis">
     Best Practices
+    
   </span>
   
 
@@ -776,6 +787,7 @@
   
   <span class="md-ellipsis">
     Continuous Integration
+    
   </span>
   
 
@@ -787,6 +799,7 @@
   
   <span class="md-ellipsis">
     Continuous Integration
+    
   </span>
   
 
@@ -894,6 +907,7 @@
   
   <span class="md-ellipsis">
     Test-Driven Development
+    
   </span>
   
 
@@ -915,6 +929,7 @@
   
   <span class="md-ellipsis">
     Pre-commit Hooks
+    
   </span>
   
 
@@ -936,6 +951,7 @@
   
   <span class="md-ellipsis">
     Code Style
+    
   </span>
   
 
@@ -991,6 +1007,7 @@
   
   <span class="md-ellipsis">
     Release
+    
   </span>
   
 
@@ -1057,6 +1074,7 @@
   
   <span class="md-ellipsis">
     User Documentation
+    
   </span>
   
 
@@ -1105,6 +1123,7 @@
   
   <span class="md-ellipsis">
     Install
+    
   </span>
   
 
@@ -1166,6 +1185,7 @@
   
   <span class="md-ellipsis">
     Functions
+    
   </span>
   
 
@@ -1199,6 +1219,7 @@
   
   <span class="md-ellipsis">
     Code Example
+    
   </span>
   
 
@@ -1251,6 +1272,7 @@
   
   <span class="md-ellipsis">
     Tests
+    
   </span>
   
 
@@ -1388,29 +1410,31 @@
                 
                   
 
+
   
   
 
 
-<h1 id="continuous-integration-ci-and-test-automation">Continuous Integration (CI) and Test Automation<a class="headerlink" href="#continuous-integration-ci-and-test-automation" title="Permanent link">#</a></h1>
+<h1 id="continuous-integration-ci-and-unit-tests">Continuous Integration (CI) and Unit Tests<a class="headerlink" href="#continuous-integration-ci-and-unit-tests" title="Permanent link">#</a></h1>
 <p>Continuous Integration (CI) ensures consistent code quality through automated
-testing, reporting, and deployments. <br>
-Our setup combines <code>GitHub Actions</code> and <code>tox</code> to streamline testing across
+testing, reporting, and deployments.
+The setup combines <code>GitHub Actions</code> and <code>tox</code> to streamline testing across
 environments, making the process robust and efficient.</p>
 <h2 id="github-actions-workflows">GitHub Actions: Workflows<a class="headerlink" href="#github-actions-workflows" title="Permanent link">#</a></h2>
 <p>GitHub Actions automates key workflows like testing, linting, and code
-quality checks. The CI pipeline includes the following tasks:<br />
-- <strong>Unit Testing</strong>: Using <code>pytest</code> to ensure comprehensive test coverage.<br />
-- <strong>Code Formatting</strong>: Validating syntax with <code>ruff</code>.<br />
-- <strong>Linting</strong>: Verifying code style and docstrings with <code>ruff.lint</code>.
-- <strong>Import Sorting</strong>: Organizing imports with <code>ruff.lint.isort</code>.  </p>
-<p>To set up GitHub Actions workflows for the repository,
+quality checks. <br>
+The CI pipeline includes the following tasks:<br />
+- <strong>Unit Testing</strong>: Using <code>pytest</code> to ensure comprehensive test coverage
+- <strong>Code Formatting</strong>: Validating syntax with <code>ruff</code>
+- <strong>Linting</strong>: Verifying code style and docstrings with <code>ruff.lint</code>
+- <strong>Import Sorting</strong>: Organizing imports with <code>ruff.lint.isort</code></p>
+<p>To set up workflows for the repository,
 follow the <a href="https://docs.github.com/en/actions/guides">official GitHub guide</a>.<br>
-The GitHub Actions workflow is triggered on pull requests or commits to
-the <code>develop</code> or <code>production</code> branches.<br />
-1. <strong>Setup</strong>: Prepares a Python environment and installs dependencies.<br />
-2. <strong>Testing</strong>: Executes the <code>tox</code> automation suite to run the defined tests.<br />
-3. <strong>Reporting</strong>: Generates detailed failure reports for debugging.  </p>
+The GitHub Actions are triggered on pull requests or commits to
+selected branches.<br />
+1. <strong>Setup</strong>: Prepares a Python environment and installs dependencies
+2. <strong>Testing</strong>: Executes the <code>tox</code> automation suite to run the defined tests
+3. <strong>Reporting</strong>: Generates detailed failure reports for debugging</p>
 <p>GitHub Actions also automates documentation updates, ensuring the latest
 changes from the <code>develop</code> branch are reflected. For more details, see
 the <a href="https://docs.github.com/en/actions/guides">official GitHub Actions guide</a>.</p>
@@ -1421,11 +1445,11 @@ systems (Linux, macOS, Windows). <br>
 It enhances reproducibility and reliability by creating isolated environments
 for testing:</p>
 <ul>
-<li><strong>Virtual Environments</strong>: Isolates dependencies for each Python version.  </li>
-<li><strong>Automated Testing</strong>: Runs tests and style checks (for example, <code>pytest</code>, <code>ruff</code>).  </li>
-<li><strong>Cross-Version/Platform Testing</strong>: Ensures compatibility across Python versions and operating systems.  </li>
-<li><strong>Dependency Management</strong>: Customizes dependencies for diverse test scenarios.  </li>
-<li><strong>Reproducibility</strong>: Maintains consistent workflows by way of 📝 <code>tox.ini</code>.  </li>
+<li><strong>Virtual Environments</strong>: Isolates dependencies for each Python version</li>
+<li><strong>Automated Testing</strong>: Runs tests and style checks (for example, <code>pytest</code>, <code>ruff</code>)</li>
+<li><strong>Cross-Platform Testing</strong>: Ensures compatibility across versions and operating systems</li>
+<li><strong>Dependency Management</strong>: Customizes dependencies for diverse test scenarios</li>
+<li><strong>Reproducibility</strong>: Maintains consistent workflows by way of 📝<code>tox.ini</code></li>
 <li><strong>Extensibility</strong>: Supports plugins for custom functionality.</li>
 </ul>
 <h3 id="install">Install<a class="headerlink" href="#install" title="Permanent link">#</a></h3>
@@ -1433,9 +1457,11 @@ for testing:</p>
    💻 <code>pip install tox</code> Install tox <br>
    💻 <code>tox</code> Run tox locally</p>
 <h2 id="adding-and-managing-tests">Adding and Managing Tests<a class="headerlink" href="#adding-and-managing-tests" title="Permanent link">#</a></h2>
-<p>New tests should be placed in the 📝 <code>test/</code> directory. For example:<br />
-- Add a test to validate new functionality.<br />
-- Use <code>pytest</code> for unit tests, or extend 📝 <code>tox.ini</code> for additional test configurations.  </p>
+<p>New tests should be placed in the 📝<code>test</code> directory:  </p>
+<ul>
+<li>Add a test to validate new functionality</li>
+<li>Use <code>pytest</code> for unit tests, or extend 📝<code>tox.ini</code> for additional test configurations</li>
+</ul>
 <p>By combining <code>tox</code> and GitHub Actions, our CI pipeline ensures robust,
 reproducible, and scalable testing workflows.</p>
 <h3 id="test-patterns">Test Patterns<a class="headerlink" href="#test-patterns" title="Permanent link">#</a></h3>
@@ -1504,8 +1530,8 @@ reproducible, and scalable testing workflows.</p>
 </li>
 </ol>
 <h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h3>
-<p>The file 📝 <code>test/test_example.py</code> contains basic examples for the functions in <br>
-📝 <code>super_repo/test_calculator.py</code>.</p>
+<p>The file 📝<code>test/test_example.py</code> contains basic examples for the functions in <br>
+📝<code>super_repo/test_calculator.py</code>.</p>
 <p>In Python, the <code>assert</code> statement is used to test if a condition is true. <br>
 If the condition is false, an AssertionError is raised, indicating the test failed.</p>
 <div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
@@ -1517,7 +1543,7 @@ The <code>match</code> argument specifies that the error message matches the exp
     <span class="n">divide</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
 </code></pre></div>
 <p>We encourage contributions of additional tests and examples to help improve
-coverage and showcase different use cases—your input is valuable to enhancing the project!</p>
+coverage and showcase different use cases. Your input is valuable to enhancing the project!</p>
 <div class="admonition note">
 <p class="admonition-title">Used Icons</p>
 <p>🐙 GitHub | 💠 git | 📝 File | 💻 Command Line</p>
@@ -1644,7 +1670,7 @@ coverage and showcase different use cases—your input is valuable to enhancing 
     <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.tracking", "navigation.top", "navigation.footer", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.5090c770.min.js"></script>
       
     
   </body>
