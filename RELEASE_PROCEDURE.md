@@ -80,6 +80,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 - Change to `develop` branch: 💠`git checkout develop`
 - Update with online version: 💠`git pull`
+- Run [Pre-commit Hooks](https://rl-institut.github.io/super-repo/latest/development/best-practice/pre_commit_hooks/): 💻`pre-commit run --all-files`
 - Create branch: 💠`git checkout -b release-v0.1.0`
 - Push branch: 💠`git push --set-upstream origin release-v0.1.0`
 
