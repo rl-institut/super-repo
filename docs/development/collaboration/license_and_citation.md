@@ -31,7 +31,7 @@ All copyright information should follow this example:
 ```
 SPDX-FileCopyrightText: {$year_of_file_creation} {$name_of_author} <{contact}> © {$name_of_copyright_holder}
 SPDX-FileCopyrightText: {$year_of_file_creation} {$name_of_author2} <{contact2}> © {$name_of_copyright_holder2}
-
+SPDX-FileCopyrightText: {$repo-name} {$version} <{$link}>
 SPDX-License-Identifier: {$SPDX_license_name}
 ```
 

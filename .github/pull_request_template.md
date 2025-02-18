@@ -20,7 +20,7 @@ Describe the findings of the discussion in the issue or meeting.
 
 ### Automation
 
-Part of # / Closes #
+Closes # / Part of #
 
 ### PR-Assignee
 
@@ -31,5 +31,5 @@ Part of # / Closes #
 
 ### Reviewer
 
-- [ ] 🐙 Follow the [Reviewer Guidelines](https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md#40-let-someone-else-review-your-pr)
+- [ ] 🐙 Follow the [Reviewer Guidelines](https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md#40--let-someone-else-review-your-pr)
 - [ ] 🐙 Provided feedback and show sufficient appreciation for the work done

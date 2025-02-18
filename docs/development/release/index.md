@@ -8,7 +8,7 @@ The software release has four main goals:
 4. Publish a new version of the package at PyPI
 
 The 📝 [RELEASE_PROCEDURE.md](https://github.com/rl-institut/super-repo/blob/production/RELEASE_PROCEDURE.md)
-contain detailed instructions to do a release.
+contains detailed instructions to do a release.
 
 ## Automated Versioning with Bumpversion
 

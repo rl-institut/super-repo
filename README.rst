@@ -28,7 +28,7 @@ super-repo
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
-     - |badge_contributions| |badge_contributors| |badge_repo_counts| |badge_matrix|
+     - |badge_contributions| |badge_contributors| |badge_matrix| |badge_repo_counts|
 
 .. contents::
     :depth: 2
@@ -80,7 +80,7 @@ License and Citation
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
-.. |badge_mkdocs| image:: https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white
+.. |badge_mkdocs| image:: https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=flat&logo=MaterialForMkDocs&logoColor=white&color=grey
     :target: https://squidfunk.github.io/mkdocs-material/
     :alt: MkDocs
 
@@ -106,32 +106,32 @@ License and Citation
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/issues
-    :alt: open issues
+    :alt: Open Issues
 
 .. |badge_issue_closes| image:: https://img.shields.io/github/issues-closed-raw/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/issues?q=is%3Aissue+is%3Aclosed
-    :alt: closes issues
+    :alt: Closed Issues
 
 .. |badge_pr_open| image:: https://img.shields.io/github/issues-pr-raw/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/pulls
-    :alt: closes issues
+    :alt: Open PR
 
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/pulls?q=is%3Apr+is%3Aclosed
-    :alt: closes issues
+    :alt: Closed PR
 
 .. |badge_contributions| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
     :target: https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md
-    :alt: contributions
+    :alt: Contributions
 
 .. |badge_contributors| image:: https://img.shields.io/github/contributors/rl-institut/super-repo
     :target: https://github.com/rl-institut/super-repo/graphs/contributors
-    :alt: contributors
-
-.. |badge_repo_counts| image:: https://hits.sh/github.com/rl-institut/super-repo.svg
-    :target: https://hits.sh/github.com/rl-institut/super-repo/
-    :alt: hits
+    :alt: Contributors
 
 .. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
     :target: https://app.element.io/#/room/#super-repo:matrix.org
     :alt: Matrix
+
+.. |badge_repo_counts| image:: https://hits.sh/github.com/rl-institut/super-repo.svg
+    :target: https://hits.sh/github.com/rl-institut/super-repo/
+    :alt: Hits
