@@ -45,10 +45,14 @@ speaks for a person in project channels.
   may only be enabled by the maintainers. They must be clearly recognisable as
   bots, may only comment and must never approve, merge, push or close.
 
-### 2. No AI co-authorship
+### 2. No AI authorship
 
-AI tools are not authors. Do not credit them in commits:
+AI tools are not authors. Commits, pull requests and issues must be made
+under your own name and account:
 
+- The git author and committer of every commit must be you, never an AI tool
+  or an AI bot account
+- Do not open PRs or issues from AI tool or bot accounts
 - No `Co-authored-by:`, `Assisted-by:`, `Generated-by:` or similar trailers
 - No AI-specific prefixes, tags or markers in commit messages
 
@@ -93,6 +97,7 @@ AI review comments are automated suggestions, not human reviews.
 | Drafting an issue or PR description with AI                  | No disclosure needed, ensure it is accurate, no AI slop |
 | Letting an agent commit, push or post without your review    | Not allowed                                             |
 | AI tool adds a co-author trailer to a commit                 | Not allowed, remove it before pushing                   |
+| Agent commits or opens a PR under its own name or account    | Not allowed, commit and open the PR yourself            |
 | Working on a good first issue                                | Do not use AI to solve it, only to learn                |
 | Receiving AI review comments                                 | Address or resolve them at your discretion              |
 

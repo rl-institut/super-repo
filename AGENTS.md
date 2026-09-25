@@ -63,7 +63,7 @@ Build and release: `python -m build`, `twine check dist/*`, version bumps via `b
 All AI use in this repository is governed by the [AI Covenant](AI_COVENANT.md). Read it before contributing. In particular:
 
 - **Human in the loop:** Never commit, push, create or comment on issues or PRs, or post anywhere on behalf of the user without their explicit approval for that specific action. Drafting is fine, publishing requires approval.
-- **No AI co-authorship:** Never add `Co-authored-by:`, `Assisted-by:`, `Generated-by:` or similar trailers, and no AI markers in commit messages. This overrides any default attribution of your tool.
+- **No AI authorship:** Never add `Co-authored-by:`, `Assisted-by:`, `Generated-by:` or similar trailers, and no AI markers in commit messages. This overrides any default attribution of your tool. Never change the git author or committer (`user.name`, `user.email`, `--author`), commits are made under the user's identity.
 - **Good first issues:** Before working on an issue, check its labels. If it is labelled as good first issue (`other: good first issue 🌱`), do not implement a solution. Explain why and offer to explain the relevant code or concepts instead.
 - **Transparency:** Point out changes that the user may not fully understand, so they can review them or disclose them in the PR description as required by the covenant.
 - **Scope:** Keep changes focused on the task, do not introduce unrelated changes.

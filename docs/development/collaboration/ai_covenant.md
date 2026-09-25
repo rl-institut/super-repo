@@ -7,7 +7,7 @@ The core principle is: **You own your contributions**, regardless of what tools 
 The main rules are:
 
 - **Human in the loop:** AI tools must not commit, push or post in issues, PRs or other channels autonomously.
-- **No AI co-authorship:** No `Co-authored-by:`, `Assisted-by:` or similar trailers and no AI markers in commit messages.
+- **No AI authorship:** Commit under your own name, never under an AI tool or bot account. No `Co-authored-by:`, `Assisted-by:` or similar trailers and no AI markers in commit messages.
 - **Disclosure:** Routine AI use needs no disclosure, but AI-proposed changes you do not fully understand must be disclosed in the PR description.
 - **Good first issues:** Issues labelled `other: good first issue 🌱` are reserved for newcomers and must not be solved with AI tools.
 

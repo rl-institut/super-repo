@@ -129,6 +129,7 @@ Examples of branch names:
 - Add a new file: 💠`git add filename.md`
 - Commit regularly with: 💠`git commit filename.md`
 - Add REUSE license information
+- Commit under your own name, never under an AI tool or bot account
 - Do not add AI co-author or similar trailers (e.g. `Co-authored-by:`, `Assisted-by:`), see [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md)
 
 #### Write a good `commit message`
