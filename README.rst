@@ -52,6 +52,7 @@ Collaboration
 =============
 | Everyone is invited to develop this repository with good intentions.
 | Please follow the workflow described in the `CONTRIBUTING.md <https://github.com/rl-institut/super-repo/blob/production/CONTRIBUTING.md>`_.
+| AI tools may be used under the conditions of the `AI_COVENANT.md <https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md>`_.
 
 Contributors:
 

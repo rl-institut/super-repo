@@ -33,3 +33,9 @@ precedence = "override"
 SPDX-FileCopyrightText = "OEMetadata <https://github.com/OpenEnergyPlatform/oemetadata>"
 SPDX-License-Identifier = "CC0-1.0"
 SPDX-FileComment = "OEMetadata-2.0.2 licensed CC0-1.0"
+
+[[annotations]]
+path = [".agents/skills/.gitkeep", ".claude/skills/.gitkeep"]
+precedence = "override"
+SPDX-FileCopyrightText = ["2026 Jonathan Amme <https://github.com/nesnoj> © Reiner Lemoine Institut", "super-repo <https://github.com/rl-institut/super-repo>"]
+SPDX-License-Identifier = "CC0-1.0"

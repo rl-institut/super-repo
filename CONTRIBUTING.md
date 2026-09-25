@@ -40,6 +40,13 @@ You contribute and take care of the repository.
 You review and answer questions.
 You coordinate and carry out the release.
 
+## Use of AI tools
+
+AI tools may be used for contributions under the conditions of the [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md).<br>
+You own everything you contribute, regardless of what tools helped create it.
+A human is always in the loop: AI tools must not commit, push or post autonomously.<br>
+Good first issues are reserved for newcomers and must not be solved with AI tools.
+
 ## Workflow
 
 The workflow for contributing has been inspired by the workflow described by [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/).
@@ -122,6 +129,8 @@ Examples of branch names:
 - Add a new file: 💠`git add filename.md`
 - Commit regularly with: 💠`git commit filename.md`
 - Add REUSE license information
+- Commit under your own name, never under an AI tool or bot account
+- Do not add AI co-author or similar trailers (e.g. `Co-authored-by:`, `Assisted-by:`), see [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md)
 
 #### Write a good `commit message`
 
@@ -155,6 +164,7 @@ Examples of commit message: `Add function with some method #42` or `Update docum
 - The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`
 - Use the [Pull Request Template](https://github.com/rl-institut/super-repo/blob/production/.github/pull_request_template.md)
 - Check that all tests pass
+- Disclose AI-proposed changes you do not fully understand in the PR description, see [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md)
 - Assign a reviewer and get in contact
 
 #### 4.0. 🐙 Let someone else review your PR
