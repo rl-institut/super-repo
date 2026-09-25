@@ -1,3 +1,7 @@
+<!-- Remove the following note if no AI tools were used, see AI_COVENANT.md -->
+> [!NOTE]
+> AI-assisted (written with ____). <Further notes>
+
 ## Summary of the discussion
 
 Describe the findings of the discussion in the issue or meeting.
