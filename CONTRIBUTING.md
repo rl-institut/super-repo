@@ -45,7 +45,8 @@ You coordinate and carry out the release.
 AI tools may be used for contributions under the conditions of the [`📝AI_COVENANT.md`](https://github.com/rl-institut/super-repo/blob/production/AI_COVENANT.md).<br>
 You own everything you contribute, regardless of what tools helped create it.
 A human is always in the loop: AI tools must not commit, push or post autonomously.<br>
-Good first issues are reserved for newcomers and must not be solved with AI tools.
+Good first issues are reserved for newcomers and must not be solved with AI tools.<br>
+Do not share confidential data (e.g. secrets, personal data, unpublished results) with AI tools.
 
 ## Workflow
 

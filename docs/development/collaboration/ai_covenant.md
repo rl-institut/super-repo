@@ -10,6 +10,8 @@ The main rules are:
 - **No AI authorship:** Commit under your own name, never under an AI tool or bot account. No `Co-authored-by:`, `Assisted-by:` or similar trailers and no AI markers in commit messages.
 - **Disclosure:** Routine AI use needs no disclosure, but AI-proposed changes you do not fully understand must be disclosed in the PR description.
 - **Good first issues:** Issues labelled `other: good first issue 🌱` are reserved for newcomers and must not be solved with AI tools.
+- **Confidential data:** Secrets, personal data, unpublished results and other confidential data must not be shared with AI tools.
+- **AI-found bugs:** Bugs and vulnerabilities found with AI tools must be reproduced by a human before they are reported, vulnerabilities according to the Security Policy.
 
 ## Guidance for AI agents
 
