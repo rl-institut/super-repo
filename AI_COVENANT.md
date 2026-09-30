@@ -27,6 +27,8 @@ you are responsible for:
 - Ensuring it follows the project standards (see [CONTRIBUTING.md](CONTRIBUTING.md))
 - Removing unrelated changes that AI tools tend to introduce
 - Ensuring it does not violate licenses, copyrights or other rights of third parties
+- Checking that every new dependency proposed by an AI tool exists, is
+  maintained and has a compatible license
 
 Do not submit anything you cannot fully stand behind.
 
@@ -44,6 +46,7 @@ speaks for a person in project channels.
 - Automated AI tools acting on behalf of the project (e.g. AI review bots)
   may only be enabled by the maintainers. They must be clearly recognisable as
   bots, may only comment and must never approve, merge, push or close.
+  They must not get access to repository secrets on PRs from forks.
 
 ### 2. No AI authorship
 
@@ -79,6 +82,26 @@ including maintainers.
 Using AI tools to learn is fine, e.g. to explain existing code, concepts or
 error messages.
 
+### 5. Protect confidential data
+
+Do not share confidential data with AI tools, neither by pasting it nor by
+letting an agent read it. This includes:
+
+- Secrets such as passwords, tokens, keys and `.env` files
+- Personal data
+- Unpublished or embargoed research results and project data
+- Third-party data under restrictive licenses or non-disclosure agreements
+- Internal documents and documents of project partners
+
+Follow the data protection and AI policies of your organisation.
+
+### 6. Verify AI-found bugs and vulnerabilities
+
+Bugs and vulnerabilities found with AI tools must be reproduced by a human
+before they are reported. Report bugs as issues and security
+vulnerabilities as described in the [Security Policy](SECURITY.md), never
+in public issues.
+
 ## AI-Assisted Reviews
 
 AI review comments are automated suggestions, not human reviews.
@@ -99,6 +122,9 @@ AI review comments are automated suggestions, not human reviews.
 | AI tool adds a co-author trailer to a commit                 | Not allowed, remove it before pushing                   |
 | Agent commits or opens a PR under its own name or account    | Not allowed, commit and open the PR yourself            |
 | Working on a good first issue                                | Do not use AI to solve it, only to learn                |
+| AI tool proposes a new dependency                            | Check that it exists, is maintained and licensed        |
+| Asking AI about secrets, personal or unpublished data        | Not allowed, keep confidential data out of AI tools     |
+| AI tool reports a bug or vulnerability                       | Reproduce it yourself before reporting                  |
 | Receiving AI review comments                                 | Address or resolve them at your discretion              |
 
 ## Enforcement
