@@ -117,6 +117,13 @@ individual, or aggression toward or disparagement of classes of individuals.
 **Consequence**: A permanent ban from any sort of public interaction within the
 community.
 
+## Related Policies
+
+The use of AI tools in this community is governed by the
+[AI Covenant](AI_COVENANT.md). Repeated or deliberate violations of the
+AI Covenant are handled according to the [Enforcement Guidelines](#enforcement-guidelines)
+of this Code of Conduct.
+
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],

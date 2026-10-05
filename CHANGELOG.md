@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Add AI covenant, agent guidelines and skill directories [(#102)](https://github.com/rl-institut/super-repo/pull/102)
 
 ### Changed
 - Update README and documentation [(#97)](https://github.com/rl-institut/super-repo/pull/97)

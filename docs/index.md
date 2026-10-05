@@ -21,6 +21,7 @@ The documentation is separated into two main sections:
 - [Collaboration](https://rl-institut.github.io/super-repo/latest/development/collaboration/)
 - [Best-Practices](https://rl-institut.github.io/super-repo/latest/development/best-practice/)
 - [Release](https://rl-institut.github.io/super-repo/latest/development/release/)
+- [Template](https://rl-institut.github.io/super-repo/latest/development/template/)
 
 ### Fields for code documentation
 

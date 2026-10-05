@@ -86,6 +86,7 @@ nav:
       - Chat: development/collaboration/chat.md
       - Meetings: development/collaboration/meeting.md
       - Code of Conduct: development/collaboration/code_of_conduct.md
+      - AI Covenant: development/collaboration/ai_covenant.md
     - Best Practices:
       - development/best-practice/index.md
       - Continuous Integration: development/best-practice/continuous_integration.md
@@ -94,6 +95,8 @@ nav:
       - Code Style: development/best-practice/code_style.md
     - Release:
       - development/release/index.md
+    - Template:
+      - development/template/index.md
   - User Documentation:
     - Install:
       - user_documentation/install/index.md
